@@ -1,3 +1,13 @@
-# Content
-## Table of Contents
-* [Cover](#cover)
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+![UPC](Imagenes/UPC_logo.png)
+# DESARROLLO DE APLICACIONES OPEN SOURCE(SV51)
+## PROFESOR: Hugo Allan Mori Paiva
+## "INFORME AV1 DESARROLLO DE APLICACIONES OPEN SOURCE"
+## STARTUP: Telmtrix
+## NOMBRE DEL PRODUCTO: Motus
+- - -
+### INTEGRANTES
+- Santiago Israel Echevarria Lizana
+### FECHA: SEPTIEMBTE 2024
+
+- - - 
