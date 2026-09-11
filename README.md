@@ -314,3 +314,76 @@ Con un módulo de registro digital de odómetro y seguimiento de consumo de carb
 
 #### 1.2.2.4 Lean UX Canvas
 
+![LeanUXCanvas](images/chapter01/LeanUXCanvas.png)
+
+
+## 1.3 Segmentos objetivos
+
+### Segmento Objetivo 1: Encargados de Flota y Dueños de MYPES Logísticas
+
+Este segmento representa las personas con capacidad de decisión de compra y pago de la suscripción SaaS de Telemtrix.
+
+Perfil Demográfico y Geográfico:
+
+- Cargo / Rol: Propietarios, gerentes de operaciones, administradores de logística o jefes de mantenimiento.
+
+- Edad: 30 a 55 años.
+
+- Ubicación: Zonas urbanas y periurbanas con alta densidad de distribución de mercancías y servicios de última milla.
+
+- Nivel de Educación: Técnica o universitaria (Administración, Ingeniería Industrial, Logística o afines).
+
+Características Operativas:
+
+- Administran flotas compuestas por 2 a 15 vehículos de carga ligera (furgonetas, camionetas, motofurgones).
+
+- Operan con márgenes ajustados donde cualquier gasto imprevisto de taller afecta directamente la rentabilidad mensual.
+
+- Mantienen un control empírico o informal de los mantenimientos (cuadernos, hojas de cálculo en Excel o avisos verbales).
+
+- Sustento Estadístico del Sector (MYPES, PYMEs, Transporte):
+
+- Las micro y pequeñas empresas representan más del 95% del entramado empresarial en la región, concentrando una porción crítica del transporte urbano de mercancías.
+
+- Estudios del sector logístico señalan que el mantenimiento correctivo imprevisto representa hasta un 20% a 30% más de costo frente a una rutina de inspección preventiva planificada.
+
+- La falta de mantenimiento preventivo causa que hasta un 15% del tiempo operativo útil de las unidades ligeras se pierda en paradas no programadas por averías mecánicas.
+
+### Segmento Objetivo 2: Choferes y Conductores de Carga Ligera
+
+- Este segmento interactúa directamente con la aplicación móvil en el día a día operativo.
+
+Perfil Demográfico:
+
+- Cargo / Rol: Choferes repartidores, conductores de distribución local y transportistas de carga ligera.
+
+- Edad: 21 a 50 años.
+
+Nivel socioeconómico / Digital: Usuarios de smartphones gama media con conectividad a datos móviles, habituados al uso de apps de mensajería y navegación (WhatsApp, Waze, Google Maps).
+
+Características Operativas:
+
+- Cumplen jornadas intensas con múltiples paradas de entrega en ruta.
+
+- Suelen percibir la documentación de incidencias como un proceso burocrático si requiere papeleo físico.
+
+- Enfrentan el riesgo constante de quedar varados en ruta debido a fallas mecánicas no detectadas antes de salir.
+
+Sustento Estadístico del Uso:
+
+- La penetración de teléfonos inteligentes en trabajadores del sector transporte supera el 85%, lo que garantiza la viabilidad técnica del despliegue de una app móvil.
+
+- El tiempo promedio que un conductor dispone para una inspección previa al viaje no supera los 3 a 5 minutos, respaldando la necesidad de check-lists digitales ágiles y con captura fotográfica.
+
+
+
+
+
+
+
+
+
+
+
+
+
