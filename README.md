@@ -1,11 +1,11 @@
 # **Content**
 ## **Table of Contents**
 
-- [**Cover**](docs/00-cover.md)
-- [**Report Version Log**](docs/01-report-version-log.md)
-- [**Project Report Collaboration Insights**](docs/02-proyect-report-collaboration-insights.md)
-- [**Content**]
-  - [Table of Contents](docs/03-table-of-contents.md)
+- [**Cover**](docs/docs/00-cover.md)
+- [**Report Version Log**](docs/01-logs.md#report-version-log)
+- [**Project Report Collaboration Insights**](docs/02-insights.md#project-report-collaboration-insights)
+- [**Content**](docs/03-content.md#content)
+  - [Table of Contents](docs/03-content.md#table-of-contents)
 - [**Student Outcome**](docs/04-outcome.md#student-outcome)
 - [**Chapter I: Introduction**](docs/05-chapter-1.md#chapter-i-introduction)
   - [1.1. Startup Profile](docs/05-chapter-1.md#11-startup-profile)
