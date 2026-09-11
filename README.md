@@ -160,7 +160,7 @@
 
 
 
-# Capítulo 1: Introducción
+# Capítulo I: Introducción
 
 ## 1.1 Startup Profile
 
