@@ -1,7 +1,7 @@
 # **Content**
 ## **Table of Contents**
 
-- [**Cover**](docs/docs/00-cover.md)
+- [**Cover**](docs/00-cover.md)
 - [**Report Version Log**](docs/01-logs.md#report-version-log)
 - [**Project Report Collaboration Insights**](docs/02-insights.md#project-report-collaboration-insights)
 - [**Content**](docs/03-content.md#content)
