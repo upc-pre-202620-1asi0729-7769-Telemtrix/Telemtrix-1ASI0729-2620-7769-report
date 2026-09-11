@@ -10,12 +10,12 @@
   <h2>Profesor: Hugo Allan Mori Paiva</h2>
 <br>
  <h1>Informe AV1</h1>
-  <h2>Startup: IA: Telemtrix</h2>
+  <h2>Startup: Telemtrix</h2>
   <h2>Producto: Motus</h2>
 <br>
   <h2>Integrantes</h2>
 <ul style="list-style: none;">
-  <li><h3>U202222001 Echevarria Lizana Santiago Israel</h3></li>
+  <li><h3>u20241g014 Echevarria Lizana Santiago Israel</h3></li>
 </ul>
 <br>
    <h3>2026</h3>
@@ -45,7 +45,7 @@
             - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
             - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
             - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [1.3. Segmentos objetivos](#13-segmentos-objetivo)
 
 - [Capítulo II: Requirements Elicitation & Analysis](#c2)
     - [2.1. Competidores](#21-competidores)
