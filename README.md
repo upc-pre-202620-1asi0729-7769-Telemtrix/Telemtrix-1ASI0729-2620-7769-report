@@ -186,6 +186,26 @@ El servicio consiste en un software SaaS que integra la supervisión directa y l
 
 ## 1.2 Solution Profile
 
-### 1.2.1 Antecedentes y Problematica
+### 1.2.1 Antecedentes y problemática
+
+- Who (¿Quién tiene el problema?): Las micro y pequeñas empresas (MYPES) del sector de transporte y logística de carga ligera, junto con sus conductores, técnicos y gestores de flota.
+
+- What (¿Qué ocurre?): Desperfectos mecánicos imprevistos y fallas técnicas en plena ruta por falta de seguimiento preventivo del parque automotor.
+
+- Where (¿Dónde ocurre?): Durante los recorridos de transporte en ruta y en la gestión operativa del taller/flota de las empresas logísticas.
+
+- When (¿Cuándo sucede?): En medio del servicio de entrega, cuando no se detecta a tiempo el desgaste de componentes clave.
+
+- Why (¿Por qué sucede?): Por la falta de un registro centralizado del uso del vehículo, la ausencia de listas de verificación rutinarias y la dependencia de un enfoque puramente correctivo en lugar de preventivo.
+
+- How (¿Cómo impacta?): Paraliza las entregas programadas, acelera el desgaste prematuro de repuestos y sobrepasa los presupuestos operativos por reparaciones de emergencia.
+
+- How Much (¿Cuánto cuesta/afecta?): Genera sobrecostos financieros significativos frente al costo de un mantenimiento planificado, además de pérdidas económicas directas por retrasos operativos e inoperatividad de las unidades.
+
+
+### 1.2.2 Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+
 
 
