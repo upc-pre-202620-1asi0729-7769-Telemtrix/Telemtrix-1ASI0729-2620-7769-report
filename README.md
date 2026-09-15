@@ -507,11 +507,11 @@ Las fichas de User Persona que se presentan a continuación son el resultado del
 
 #### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas 
 
-
-
+![User Persona Segmento 1](images/chapter02/Carlos-Mendoza-User%20Person.png)
 
 #### Segmento 2: Choferes y Conductores de Carga Ligera 
 
+![User Persona Segmento 1](images/chapter02/Luis%20Quispe-User%20Person.png)
 
 
 #### 2.3.2. User Task Matrix.
