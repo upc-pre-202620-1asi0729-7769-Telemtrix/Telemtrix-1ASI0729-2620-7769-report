@@ -534,10 +534,17 @@ Para Telemtrix, se identificaron las principales tareas realizadas por los encar
 | Coordinar la disponibilidad de los vehículos para las rutas | Diaria | Alta | Ocasional | Media |
 | Realizar entregas y recorridos asignados | Nunca | Baja | Diaria | Alta |
 
-
-
 #### 2.3.3. User Journey Mapping.
 
+Los siguientes User Journey Maps representan el recorrido actual de los dos segmentos objetivo de T en las Motus actividades relacionadas con el mantenimiento y operación de sus vehículos.
+
+##### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas
+
+![User Journey Map - Carlos Mendoza](images/chapter02/Carlos-Mendoza-User-Journey-Map.png)
+
+##### Segmento 2: Choferes y Conductores de Carga Ligera
+
+![User Journey Map - Luis Quispe](images/chapter02/Luis-Quispe-User-Journey-Map.png)
 
 
 #### 2.3.4. Empathy Mapping.
