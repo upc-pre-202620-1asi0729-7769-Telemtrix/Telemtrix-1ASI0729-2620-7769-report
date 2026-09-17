@@ -16,6 +16,7 @@
   <h2>Integrantes</h2>
 <ul style="list-style: none;">
   <li><h3>u20241g014 Echevarria Lizana Santiago Israel</h3></li>
+  <li><h3>u20241g197 Ysidro Llashag Valeria Milagros</h3></li>
 </ul>
 <br>
    <h3>2026</h3>
@@ -515,6 +516,23 @@ Las fichas de User Persona que se presentan a continuación son el resultado del
 
 
 #### 2.3.2. User Task Matrix.
+
+Para Telemtrix, se identificaron las principales tareas realizadas por los encargados de flota y los conductores de carga ligera en la gestión, mantenimiento y operación diaria de los vehículos. La siguiente matriz compara la frecuencia e importancia de estas actividades para cada User Persona.
+
+| Tarea | Carlos Mendoza - Frecuencia | Carlos Mendoza - Importancia | Luis Quispe - Frecuencia | Luis Quispe - Importancia |
+|---|---|---|---|---|
+| Supervisar el estado general de los vehículos de la flota | Diaria | Alta | Diaria | Alta |
+| Revisar el kilometraje de los vehículos | Semanal | Alta | Diaria | Alta |
+| Verificar el estado del vehículo antes de iniciar una ruta | Ocasional | Media | Diaria | Alta |
+| Registrar o comunicar fallas mecánicas detectadas | Semanal | Alta | Ocasional | Alta |
+| Coordinar la atención de fallas mecánicas | Ocasional | Alta | Ocasional | Media |
+| Controlar las fechas de mantenimiento preventivo | Semanal | Alta | Ocasional | Media |
+| Llevar un registro del historial de mantenimiento de los vehículos | Semanal | Alta | Ocasional | Baja |
+| Controlar los gastos de mantenimiento y reparaciones | Mensual | Alta | Nunca | Baja |
+| Supervisar el consumo de combustible de los vehículos | Semanal | Alta | Diaria | Media |
+| Informar al responsable de flota sobre incidencias ocurridas en ruta | Nunca | Baja | Ocasional | Alta |
+| Coordinar la disponibilidad de los vehículos para las rutas | Diaria | Alta | Ocasional | Media |
+| Realizar entregas y recorridos asignados | Nunca | Baja | Diaria | Alta |
 
 
 
