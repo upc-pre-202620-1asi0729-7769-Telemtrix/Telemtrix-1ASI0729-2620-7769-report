@@ -138,25 +138,32 @@
 
 ## 1.1 Startup Profile
 
-### 1.1.1 Descripción de la Startup
+### 1.1.1. Descripción de la Startup
 
-Telemtrix es una solución digital enfocada en la telemetría y la gestión preventiva del mantenimiento para vehículos de transporte de carga ligera. En las micro y pequeñas empresas del sector logístico, la condición técnica de los transportes se identifica habitualmente cuando surge un desperfecto en medio del servicio. En esa instancia, la corrección mecánica deja de ser una acción planificada y se transforma en un imprevisto operativo: incrementa los presupuestos respecto a una inspección a tiempo, posterga las entregas programadas y provoca el cambio de repuestos que hubiesen extendido su vida útil mediante un seguimiento adecuado. Telemtrix surge para anticiparse a estas averías, proporcionando un historial técnico unificado y detallado sobre el uso de cada unidad.
+* **Nombre de la Startup:** Telemtrix
 
-El servicio consiste en un software SaaS que integra la supervisión directa y la administración mecánica del parque automotor. A través de la aplicación móvil, los choferes y técnicos ingresan los datos del odómetro, adjuntan fotografías para documentar incidencias y llenan listas de verificación previas a cada trayecto. Con estos insumos, la herramienta emite notificaciones programadas para intervenciones como sustitución de lubricantes, inspección del sistema de frenado y repasos preventivos según la distancia recorrida o el periodo operativo. Desde el panel web de gestión, el encargado de la flota monitorea el rendimiento térmico y mecánico de los vehículos, efectúa el seguimiento del consumo de carburante y atiende las novedades en tiempo real. La modalidad comercial se basa en una membresía mensual fijada por unidad, convirtiendo los costos de taller en una partida contable estable y disminuyendo la probabilidad de fallas imprevistas en trayecto.
+* **Descripción:**  
+  Telemtrix es una solución digital y tecnológica orientada a la telemetría vehicular y a la gestión proactiva del mantenimiento para flotas de transporte de carga ligera. En las micro y pequeñas empresas (MYPEs) del sector logístico, el estado mecánico de los vehículos suele identificarse únicamente ante fallas imprevistas en plena ruta de distribución. En ese escenario, la reparación se convierte en una urgencia reactiva que eleva sustancialmente los presupuestos operativos de taller, paraliza despachos programados y causa el reemplazo prematuro de autopartes. Telemtrix nace para mitigar este dolor operativo, centralizando historiales mecánicos continuos, registros de kilometraje y métricas de desempeño para anticipar desgastes críticos antes de que deriven en paralizaciones en vía.
 
+* **Propuesta de Valor:**  
+  Transformar la administración mecánica de flotas comerciales ligeras mediante una plataforma SaaS integral y accesible que sustituye las hojas de cálculo y registros manuales por alertas de servicio técnico automatizadas, checklists preventivos pre-viaje y monitoreo telemático en tiempo real, garantizando la continuidad operativa y la optimización de los costos de mantenimiento.
 
-### 1.1.2 Perfiles de integrantes del equipo
+* **Modelo de Negocio y Escalabilidad:**  
+  Telemtrix opera bajo un modelo de software como servicio (SaaS) B2B sustentado en suscripciones mensuales por vehículo monitoreado. La arquitectura digital se compone de una aplicación web responsiva optimizada para dispositivos móviles —a través de la cual los conductores y técnicos registran lecturas de odómetro, capturan incidencias fotográficas y completan listas de verificación antes de cada ruta— y un panel de control web centralizado para los coordinadores de operaciones. Desde este panel administrativo, los gestores auditan indicadores térmicos, consumo de carburante y órdenes de servicio preventivo (revisión de frenos, recambio de lubricantes y filtros). Este esquema garantiza un modelo de ingresos recurrentes (MRR), alta retención, bajos costos marginales de infraestructura en la nube y una fácil escalabilidad hacia flotas de diferentes envergaduras en el mercado logístico nacional y regional.
 
-| **Integrante** | **Santiago Israel Echevarria Lizana** |
-|----------------|----------------------------------|
-| **Código del Estudiante** | u20241g014 |
-| **Carrera** | Ingeniería de Software |
-| **Descripción** | Estudiante de Ingeniería de Software con interés en el área de IA y Automatización. |
-| **Foto** | |
+* **Misión:**  
+  Proporcionar a las pequeñas y medianas empresas de transporte de carga ligera una plataforma telemática accesible, intuitiva y robusta que convierta el mantenimiento reactivo en un proceso preventivo confiable, incrementando la seguridad operativa y reduciendo los sobrecostos mecánicos en cada trayecto.
 
----
+* **Visión:**  
+  Consolidarnos como la plataforma SaaS de telemetría y gestión de flotas ligeras de referencia en el Perú y Latinoamérica, reconocida por democratizar el acceso a tecnologías de monitoreo vehicular y elevar la eficiencia operativa del sector logístico.
+  
 
+### 1.1.2. Perfiles de integrantes del equipo
 
+| Foto | Biografía de los integrantes del equipo |
+| :---: | :--- |
+| | **Santiago Israel Echevarria Lizana (u20241g014)**<br><br>Estudiante de Ingeniería de Software con interés en el área de IA y Automatización. |
+| | **Patricia Valeria Mejía Poma (u202523271)**<br><br>Estudiante de Ingeniería de Software en la UPC. Cuento con conocimientos en fundamentos de programación con C++ y Java, maquetación básica con HTML y CSS, y nociones en bases de datos relacionales con SQL. Me considero una persona responsable, organizada y comprometida con el trabajo en equipo, con disposición constante para aprender y adaptarme a nuevos retos técnicos. Mis expectativas en el curso son adquirir experiencia práctica en el desarrollo de aplicaciones web, fortalecer el trabajo colaborativo con Git y GitFlow, y aportar activamente en la documentación y construcción del proyecto Telemtrix. |
 
 ## 1.2 Solution Profile
 
