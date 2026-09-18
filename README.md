@@ -165,199 +165,191 @@
 | | **Santiago Israel Echevarria Lizana (u20241g014)**<br><br>Estudiante de Ingeniería de Software con interés en el área de IA y Automatización. |
 | | **Patricia Valeria Mejía Poma (u202523271)**<br><br>Estudiante de Ingeniería de Software en la UPC. Cuento con conocimientos en fundamentos de programación con C++ y Java, maquetación básica con HTML y CSS, y nociones en bases de datos relacionales con SQL. Me considero una persona responsable, organizada y comprometida con el trabajo en equipo, con disposición constante para aprender y adaptarme a nuevos retos técnicos. Mis expectativas en el curso son adquirir experiencia práctica en el desarrollo de aplicaciones web, fortalecer el trabajo colaborativo con Git y GitFlow, y aportar activamente en la documentación y construcción del proyecto Telemtrix. |
 
+
 ## 1.2 Solution Profile
 
-### 1.2.1 Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 
-- Who (¿Quién tiene el problema?): Las micro y pequeñas empresas (MYPES) del sector de transporte y logística de carga ligera, junto con sus conductores, técnicos y gestores de flota.
+En el Perú, el sector de transporte de carga y logística urbana ha experimentado un incremento acelerado en sus niveles de demanda operativa; sin embargo, las micro y pequeñas empresas (MYPEs) enfrentan severas deficiencias estructurales en el control y la conservación técnica de sus flotas vehiculares. La mayoría de estas organizaciones opera bajo un modelo de mantenimiento puramente reactivo —interviniendo las unidades únicamente tras suscitarse averías mecánicas intempestivas en pleno servicio logístico— debido a la ausencia de herramientas digitales accesibles que permitan un seguimiento técnico continuo y automatizado.
 
-- What (¿Qué ocurre?): Desperfectos mecánicos imprevistos y fallas técnicas en plena ruta por falta de seguimiento preventivo del parque automotor.
+Esta carencia de control sistemático impacta negativamente en la rentabilidad y la continuidad del negocio. Investigaciones operativas en flotas de transporte terrestre en el contexto peruano demuestran que las desviaciones presupuestarias generadas por reparaciones mecánicas imprevistas y la inmovilización de vehículos pueden representar entre un 20% y 25% de sobrecostos operativos anuales respecto a una planificación preventiva rigurosa (Villar et al., 2025). Asimismo, se evidencia que la falta de registro del kilometraje real y el monitoreo manual de las unidades incrementa innecesariamente el consumo de combustible, lubricantes y desgaste de piezas críticas, afectando los márgenes de utilidad operativa y la puntualidad comercial (Chamochumbi & Cruz, 2026). Ante este escenario, Telemtrix propone cerrar la brecha mediante una plataforma web responsiva de telemetría y checklists digitales que optimice la trazabilidad de los vehículos y anticipe los mantenimientos periódicos.
 
-- Where (¿Dónde ocurre?): Durante los recorridos de transporte en ruta y en la gestión operativa del taller/flota de las empresas logísticas.
+A continuación, se detalla el análisis del problema bajo la técnica 5W+2H:
 
-- When (¿Cuándo sucede?): En medio del servicio de entrega, cuando no se detecta a tiempo el desgaste de componentes clave.
+* **Who (¿Quiénes experimentan el problema?):** Las micro y pequeñas empresas (MYPEs) dedicadas al transporte y distribución logística de carga ligera en el Perú. Los actores directamente impactados son los propietarios, administradores o coordinadores de flota —quienes carecen de visibilidad centralizada sobre el estado mecánico de sus unidades—, así como los choferes y técnicos de mantenimiento mecánico, sujetos a contingencias en ruta e historiales dispersos (Villar et al., 2025).
 
-- Why (¿Por qué sucede?): Por la falta de un registro centralizado del uso del vehículo, la ausencia de listas de verificación rutinarias y la dependencia de un enfoque puramente correctivo en lugar de preventivo.
+* **What (¿Qué sucede?):** Se suscitan fallas mecánicas imprevistas, desgaste prematuro de componentes esenciales (frenos, lubricantes, suspensión) y consumos anómalos de carburante durante las jornadas diarias de distribución, derivados de la inexistencia de un control riguroso de odómetro y checklists mecánicos previos al viaje.
 
-- How (¿Cómo impacta?): Paraliza las entregas programadas, acelera el desgaste prematuro de repuestos y sobrepasa los presupuestos operativos por reparaciones de emergencia.
+* **Where (¿Dónde ocurre?):** En los corredores logísticos y rutas urbanas de distribución (con especial incidencia en Lima Metropolitana por su alta densidad de tráfico), así como en las bases de despacho y talleres donde los administradores gestionan operaciones a ciegas y sin información telemática centralizada (Chamochumbi & Cruz, 2026).
 
-- How Much (¿Cuánto cuesta/afecta?): Genera sobrecostos financieros significativos frente al costo de un mantenimiento planificado, además de pérdidas económicas directas por retrasos operativos e inoperatividad de las unidades.
+* **When (¿Cuándo ocurre?):** Durante la ejecución de los despachos diarios programados, manifestándose críticamente en dos momentos: cuando un vehículo queda varado intempestivamente a mitad de la entrega al cliente, y al cierre mensual cuando se contabilizan sobrecostos por reparaciones mecánicas de emergencia.
+
+* **Why (¿Por qué sucede?):** Porque el mantenimiento vehicular se gestiona de forma empírica y reactiva, dependiendo de la memoria de los conductores o reportes verbales informales, sin un software que consolide el kilometraje recorrido ni programe notificaciones técnicas preventivas basadas en tiempo y desgaste de motor (Chamochumbi & Cruz, 2026).
+
+* **How (¿Cómo impacta / Cómo se atiende actualmente?):** Actualmente se mitiga mediante registros informales en papel, hojas de cálculo en Excel desactualizadas y llamadas telefónicas en tiempo real. Este flujo artesanal genera pérdidas de trazabilidad, demoras en las entregas pactadas y riesgos en la integridad vial de la flota y la mercancía transportada.
+
+* **How Much (¿Cuánto cuesta / afecta no resolverlo?):** Provoca sobrecostos y desviaciones operativas de hasta un 25% del presupuesto asignado a la flota por concepto de reparaciones correctivas y compras imprevistas de repuestos (Villar et al., 2025), sumado a incrementos directos de hasta 15% en consumo de combustible y lubricantes por ineficiencias de combustión y falta de control telemático de ruta (Chamochumbi & Cruz, 2026).
 
 
-### 1.2.2 Lean UX Process
+### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-El estado actual de la logística de transporte de carga ligera para micro y pequeñas empresas (MYPES) se ha centrado principalmente en flujos de trabajo de mantenimiento reactivo, donde las fallas técnicas solo se identifican cuando ocurre una avería del vehículo en pleno servicio, dependiendo de controles informales y visitas no programadas al taller.
+**English:**
+* **The current state of** light cargo logistics and fleet maintenance for micro and small enterprises (MSEs) has focused mainly on reactive maintenance workflows, paper-based inspection sheets, and unscheduled workshop visits caused by unexpected breakdowns during transit.
+* **What existing products/services fail to address is** an accessible, lightweight, and centralized SaaS solution tailored to small operations, leaving a substantial gap between expensive corporate telematics platforms and the day-to-day operational reality of drivers and mechanics who need quick pre-trip checks and mileage tracking.
+* **Our product/service will address this gap by** providing an end-to-end platform that integrates responsive web reporting (odometer readings, photographic evidence, and checklist inspections) with a real-time web management dashboard to automate preventive maintenance schedules and mechanical health alerts under a predictable per-vehicle monthly subscription model.
+* **Our initial focus will be** business owners, fleet managers, and delivery drivers of light cargo MSEs in urban logistics corridors seeking to eliminate roadside breakdowns and stabilize workshop expenditures.
+* **We'll know we are successful when we see** a daily completion rate of pre-trip inspection checklists exceeding 85%, a measurable reduction in unplanned fleet downtime during delivery routes, and sustained renewal rates for subscribed vehicles.
+
+**Español:**
+* **El estado actual de** la logística de transporte de carga ligera para micro y pequeñas empresas (MYPEs) se ha centrado principalmente en flujos de trabajo de mantenimiento reactivo, donde las fallas técnicas se identifican únicamente cuando ocurre una avería en pleno servicio, dependiendo de controles informales y visitas no programadas al taller mecánico.
+* **Lo que los productos y servicios existentes no logran resolver es** una solución de gestión telemática y preventiva accesible para operaciones pequeñas, dejando un vacío significativo entre los costosos sistemas corporativos de flotas y la rutina diaria de choferes y técnicos que requieren herramientas sencillas para registrar inspecciones previas al viaje y controlar el kilometraje.
+* **Nuestro producto y servicio abordará este vacío mediante** una solución SaaS que integra el reporte directo desde la interfaz web responsiva (captura de odómetro, fotografías de incidencias y listas de verificación previas al viaje) con un panel web de administración en tiempo real para automatizar alertas de mantenimiento preventivo (lubricantes, sistema de frenos y niveles térmicos) bajo un modelo de suscripción mensual predecible por vehículo.
+* **Nuestro enfoque inicial serán** los propietarios, coordinadores de flota y choferes de MYPEs de transporte de carga ligera en Lima Metropolitana y corredores urbanos que buscan eliminar averías intempestivas y estabilizar sus presupuestos operativos.
+* **Sabremos que tenemos éxito cuando veamos** una tasa de cumplimiento diario superior al 85% en las listas de verificación completadas por los choferes, una reducción en las horas de inactividad no planificada de los vehículos en ruta y una adopción sostenida de las órdenes de servicio preventivo en las unidades suscritas.
+
+---
+
+#### 1.2.2.2. Lean UX Assumptions
+
+**Business Assumptions:**
+* Creemos que existe un mercado desatendido de MYPEs de transporte de carga ligera dispuestas a adoptar un software de gestión telemática y mantenimiento preventivo si su estructura de costos es accesible y escalable.
+* Creemos que un modelo de suscripción mensual basado en una tarifa fija por unidad vehicular generará ingresos recurrentes, predecibles y financieramente sostenibles para la empresa.
+* Creemos que la propuesta de valor enfocada en la reducción directa de costos por reparaciones correctivas es el factor determinante para la adquisición de clientes en este segmento.
+* Creemos que el despliegue de una arquitectura de software en la nube basada en servicios RESTful y aplicaciones web permite mantener costos de infraestructura técnica reducidos y alta disponibilidad.
+* Creemos que la complejidad operativa y las tarifas elevadas de las plataformas corporativas existentes constituyen una barrera de entrada que podemos capitalizar mediante una interfaz intuitiva y ligera.
+
+**Business Outcome Assumptions:**
+* Creemos que mantendremos una tasa de cancelación mensual (*churn rate*) inferior al 5% al demostrar un ahorro tangible en gastos de taller mecánico durante los primeros tres meses de uso.
+* Creemos que reduciremos el Costo de Adquisición de Clientes (CAC) a través de recomendaciones y validación directa entre coordinadores de transporte del sector logístico.
+* Creemos que incrementaremos el valor de vida del cliente (*Lifetime Value*) a medida que las empresas asociadas expandan su flota vehicular e incorporen nuevas unidades a la plataforma.
+* Creemos que alcanzaremos el punto de equilibrio operativo en los primeros 12 meses gracias a la baja fricción en la adopción del modelo SaaS por vehículo.
+
+**User Assumptions:**
+* Creemos que el coordinador de flota o propietario de la MYPE busca visibilidad centralizada sobre la condición mecánica, kilometraje y rendimiento de sus unidades sin depender de llamadas o reportes manuales.
+* Creemos que el conductor de carga ligera está dispuesto a utilizar una interfaz web responsiva desde su dispositivo móvil para registrar lecturas de odómetro y completar listas de verificación antes de iniciar su ruta diaria.
+* Creemos que el mecánico o responsable de mantenimiento prefiere recibir alertas técnicas tempranas acompañadas de evidencia fotográfica antes de que un componente sufra un daño crítico.
+* Creemos que los usuarios de los segmentos objetivo cuentan con dispositivos móviles con acceso a navegadores web estándar y conectividad básica suficiente para interactuar con la plataforma.
+
+**User Outcome and Benefit Assumptions:**
+* Creemos que el coordinador de flota logrará una planificación presupuestaria predecible y evitará la paralización no programada de sus entregas comerciales.
+* Creemos que el chofer operará en condiciones mecánicas más seguras y evitará retrasos laborales provocados por desperfectos imprevistos en ruta.
+* Creemos que el personal técnico de taller optimizará sus tiempos de atención al contar con un historial digital unificado de mantenimiento por vehículo.
+* Creemos que la empresa cliente incrementará la vida útil de los repuestos y componentes críticos mediante revisiones e inspecciones efectuadas a tiempo.
+
+**Feature Assumptions:**
+1. Creemos que la funcionalidad de listas de verificación interactivas con carga de evidencia fotográfica optimizada para navegadores web móviles asegurará la veracidad y rigor de las inspecciones previas al recorrido.
+2. Creemos que el módulo de alertas de mantenimiento preventivo automáticas (programadas según kilometraje recorrido y tiempo operativo) garantizará el recambio oportuno de lubricantes, filtros y revisión del sistema de frenado.
+3. Creemos que un panel de control web centralizado (*dashboard*) permitirá al administrador monitorear la salud técnica global de la flota en tiempo real sin requerir capacitaciones extensas.
+4. Creemos que el módulo de registro digital de odómetro y seguimiento de consumo de carburante en la aplicación web responsiva facilitará la detección temprana de anomalías en el rendimiento del motor.
+
+---
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hypothesis 1: Responsive Checklist & Photographic Incident Module**
+* **We believe we will achieve** a reduction in unplanned roadside downtime and a customer churn rate below 5%
+* **If** fleet coordinators and light cargo delivery drivers
+* **Attain** complete pre-trip operational visibility and rapid incident reporting without causing delays in scheduled delivery windows
+* **With** an interactive, mobile-responsive pre-trip checklist feature that includes direct photo uploading and digital odometer capture.
+
+*Versión en Español:*
+* **Creemos que lograremos** una reducción en los tiempos de inactividad no planificados de los vehículos en ruta y una tasa de cancelación mensual (*churn*) inferior al 5%
+* **Si** los encargados de flota y los conductores de transporte de carga ligera de las MYPEs
+* **Consiguen** visibilidad operativa integral antes de cada viaje y un reporte de incidencias inmediato sin generar retrasos en sus itinerarios de entrega
+* **Con** una lista de verificación interactiva adaptada a navegadores web móviles que integra la captura rápida de fotografías y el registro del odómetro.
+
+---
+
+**Hypothesis 2: Automated Preventive Maintenance Alert System**
+* **We believe we will achieve** an increase in customer lifetime value and consistent subscription renewals
+* **If** fleet managers and mechanical workshop technicians
+* **Attain** timely component replacements (lubricants, brake systems, filters), thereby extending vehicle lifecycle and preventing costly engine failures
+* **With** an automated notification system configured to trigger preventive maintenance orders based on cumulative mileage and operating hours.
+
+*Versión en Español:*
+* **Creemos que lograremos** un incremento en el valor de vida del cliente (*Lifetime Value*) y la renovación continua de las suscripciones vehiculares
+* **Si** los coordinadores de flota y los mecánicos del taller
+* **Consiguen** la sustitución oportuna de componentes críticos (lubricantes, frenos, filtros), prolongando la vida útil de las unidades y previniendo averías severas
+* **Con** un sistema automatizado de notificaciones de mantenimiento preventivo configurado según la distancia recorrida y el tiempo de operación acumulado.
+
+---
+
+**Hypothesis 3: Centralized Fleet Health Web Dashboard**
+* **We believe we will achieve** lower Customer Acquisition Costs (CAC) driven by industry referrals and accelerated platform onboarding
+* **If** logistics business owners and operations coordinators
+* **Attain** predictable monthly maintenance budgets and comprehensive oversight of overall fleet status in real time
+* **With** a centralized responsive web dashboard that displays real-time vehicle status indicators, pending tasks, and mechanical health metrics.
+
+*Versión en Español:*
+* **Creemos que lograremos** una reducción en el Costo de Adquisición de Clientes (CAC) respaldada por recomendaciones del sector logístico y una adopción rápida de la plataforma
+* **Si** los propietarios y administradores de operaciones de las MYPEs
+* **Consiguen** presupuestos mensuales de mantenimiento predecibles y un control centralizado en tiempo real sobre la operatividad técnica de sus vehículos
+* **Con** un panel de control web centralizado (*dashboard*) que presenta el estado de la flota e indicadores de rendimiento mecánico y térmico en tiempo real.
+
+---
+
+**Hypothesis 4: Digital Odometer & Fuel Tracking Module**
+* **We believe we will achieve** higher daily active usage (DAU) and improved contract renewal rates
+* **If** fleet coordinators and drivers
+* **Attain** early detection of abnormal fuel consumption trends and mechanical inefficiencies before severe breakdowns occur
+* **With** a digital odometer tracking and fuel log feature integrated into the mobile-responsive web application.
+
+*Versión en Español:*
+* **Creemos que lograremos** una mayor tasa de uso activo diario de la plataforma (DAU) y mejores índices de renovación contractual
+* **Si** los coordinadores de flota y los choferes
+* **Consiguen** la detección temprana de consumos anómalos de carburante e ineficiencias de combustión antes de que deriven en fallas mayores de motor
+* **Con** un módulo de registro digital de odómetro y seguimiento de combustible integrado en la aplicación web responsiva.
 
-Lo que los productos/servicios existentes no logran resolver es una solución de gestión telemática y preventiva unificada y accesible para pequeñas operaciones, dejando un vacío entre los costosos software corporativos de flotas y la realidad operativa diaria de choferes y técnicos que carecen de herramientas sencillas para inspecciones previas al viaje y seguimiento del kilometraje.
+---
 
-Nuestro producto/servicio abordará este vacío mediante una solución SaaS que integra el reporte móvil directo (lecturas de odómetro, fotografías y listas de verificación previas al viaje realizadas por los choferes) con un panel web de gestión en tiempo real para automatizar alertas de mantenimiento preventivo (lubricantes, frenos, niveles térmicos) bajo un modelo de suscripción mensual predecible por vehículo.
+#### 1.2.2.4. Lean UX Canvas
 
-Nuestro enfoque inicial será los propietarios, encargados de flota y choferes de MYPES de transporte de carga ligera que buscan eliminar reparaciones imprevistas y estabilizar sus costos operativos.
+![Lean UX Canvas](images/chapter01/lean-UX-canvas.png)
 
-Sabremos que tenemos éxito cuando veamos una alta tasa de cumplimiento diario en la finalización de las listas de verificación por parte de los choferes, una reducción en los tiempos de inactividad no planificados de los vehículos en ruta y una adopción sostenida de las intervenciones de mantenimiento preventivo programadas en las unidades suscritas.
 
+## 1.3. Segmentos objetivo
 
-#### 1.2.2.2 Lean UX Assumption
+### Segmento Objetivo 1: Encargados de Flota y Dueños de MYPEs Logísticas
 
-### Business Assumptions
-- Creemos que existe un mercado desatendido de MYPES de transporte de carga ligera dispuestas a pagar por un software de telemetría y mantenimiento si su costo es accesible y escalable.
+Este segmento comprende a los usuarios con capacidad de decisión estratégica y disposición de pago de la suscripción SaaS de Telemtrix.
 
-- Creemos que un modelo de suscripción mensual basado en una tarifa fija por unidad vehicular generará ingresos recurrentes, predecibles y financieramente sostenibles para la empresa.
+* **Perfil Demográfico y Geográfico:**
+  * **Cargo / Rol:** Propietarios, gerentes de operaciones, administradores de logística o coordinadores de flota.
+  * **Edad:** 30 a 55 años.
+  * **Ubicación:** Zonas urbanas y corredores logísticos (Lima Metropolitana y principales ciudades comerciales) con alta densidad de distribución de mercancías y despachos de última milla (Chamochumbi & Cruz, 2026).
+  * **Nivel Educativo:** Técnica o universitaria (Administración, Ingeniería Industrial, Logística o carreras afines).
 
-- Creemos que la propuesta de valor centrada en la reducción de costos por averías correctivas es el principal argumento de conversión para los tomadores de decisión logísticos.
+* **Características Operativas:**
+  * Administran flotas compuestas por 2 a 15 vehículos de carga ligera (furgonetas, camionetas pick-up, paneles).
+  * Operan con márgenes financieros ajustados donde cualquier gasto imprevisto de taller mecánico compromete la rentabilidad operativa mensual.
+  * Mantienen un control empírico o informal de los mantenimientos vehiculares mediante registros manuales en papel o plantillas de cálculo desactualizadas.
 
-- Creemos que la infraestructura en la nube y la arquitectura SaaS actual nos permiten desplegar la plataforma con costos de operación técnica reducidos.
+* **Sustento Estadístico del Sector:**
+  * Las micro y pequeñas empresas representan más del 95% del tejido empresarial peruano, concentrando un volumen crítico del transporte urbano de distribución liviana.
+  * Investigaciones aplicadas en flotas de transporte en el Perú evidencian que las fallas mecánicas imprevistas y la inmovilización de vehículos generan sobrecostos y desviaciones de entre 20% y 25% respecto a presupuestos preventivos planificados (Villar et al., 2025).
+  * La ausencia de monitoreo preventivo continuo genera pérdidas operativas significativas debido a la inoperatividad intempestiva de unidades en plena ruta comercial (Chamochumbi & Cruz, 2026).
 
-- Creemos que la barrera de entrada de la competencia corporativa es alta para las MYPES debido a sus precios elevados y complejidad técnica, lo que nos otorga una ventaja competitiva en este segmento.
-
-### Business Outcome Assumptions 
-- Creemos que lograremos una tasa de retención mensual (churn rate menor al 5%) al demostrar un ahorro tangible en gastos de taller mecánico durante los primeros tres meses de uso.
-
-- Creemos que reduciremos el Costo de Adquisición de Clientes a través de recomendaciones boca a boca entre administradores de flotas logísticas del mismo sector.
-
-- Creemos que incrementaremos el valor de vida del cliente a medida que las empresas aumenten el número de unidades registradas en la plataforma.
-
-- Creemos que alcanzaremos el punto de equilibrio operativo en los primeros 12 meses gracias a la baja fricción en la adopción del modelo SaaS por vehículo.
-
-### User Assumptions (Supuestos del Usuario)
-- Creemos que el encargado de flota / dueño de la MYPE busca visibilidad total sobre la condición técnica y consumo de carburante de sus unidades sin depender de reportes informales.
-
-- Creemos que el chofer de carga ligera está dispuesto a usar una aplicación móvil rápida para registrar el odómetro y completar check-lists antes de iniciar su ruta.
-
-- Creemos que el mecánico / técnico del taller prefiere recibir notificaciones preventivas y reportes con evidencia fotográfica antes de que los componentes sufran daños severos.
-
-- Creemos que los usuarios del segmento MYPES poseen smartphones estándar y conocimientos digitales básicos suficientes para interactuar con la interfaz diariamente.
-
-### User Outcome and Benefit Assumptions 
-
-- Creemos que el encargado de flota logrará una planificación presupuestaria estable y evitará la paralización no programada de sus entregas.
-
-- Creemos que el chofer experimentará trayectos más seguros y reducirá la fricción operativa al evitar vararse en ruta por fallas mecánicas imprevistas.
-
-- Creemos que el mecánico optimizará sus tiempos de atención en taller al contar con un historial técnico unificado y detallado por unidad.
-
-- Creemos que la empresa cliente incrementará la vida útil de sus repuestos y componentes clave mediante intervenciones técnicas a tiempo.
-
-### Feature Assumptions 
-- Creemos que la funcionalidad de Check-lists interactivos y subida de fotos en la app móvil garantizará la veracidad de las inspecciones previas al viaje.
-
-- Creemos que el módulo de Alertas preventivas automatizadas (basadas en tiempo y kilometraje) asegurará el reemplazo oportuno de lubricantes y revisión de frenos.
-
-- Creemos que un Panel web de control dinámico (Dashboard) permitirá al administrador visualizar la salud técnica de toda la flota en tiempo real sin requerir capacitación compleja.
-
-- Creemos que el registro digital de Odómetro y seguimiento de consumo de carburante permitirá identificar anomalías de rendimiento térmico y mecánico por vehículo de forma temprana.
-
-
-#### 1.2.2.3 Lean UX Hypothesis Statements
-
-#### Hipótesis 1: Módulo de Check-lists e Incidencias Fotográficas
-
-Creemos que lograremos una reducción en los tiempos de inactividad no planificados de los vehículos en ruta y una disminución en la tasa de cancelación de clientes (churn)
-
-Si los encargados de flota y los choferes de transporte de carga ligera de las MYPES
-
-Consiguen visibilidad operativa completa antes de cada viaje y un reporte de incidencias más rápido sin retrasar sus entregas
-
-Con una lista de verificación móvil interactiva previa al viaje que incluye la subida rápida de fotografías y el registro del odómetro.
-
-#### Hipótesis 2: Sistema de Alertas Preventivas Automatizadas
-
-Creemos que lograremos un incremento en el valor de vida del cliente y la retención continua de las suscripciones
-
-Si los encargados de flota y los mecánicos del taller
-
-Consiguen la sustitución oportuna de componentes (lubricantes, frenos) extendiendo la vida útil de los repuestos y previniendo averías graves
-
-Con un sistema automatizado de notificaciones de mantenimiento preventivo configurado según la distancia recorrida y el tiempo operativo acumulado.
-
-#### Hipótesis 3: Panel Web de Gestión y Monitoreo de Flota 
-
-Creemos que lograremos un menor Costo de Adquisición de Clientes gracias a recomendaciones boca a boca y una adopción de plataforma más rápida
-
-Si los propietarios y administradores de logística de las MYPES
-
-Consiguen presupuestos mensuales de mantenimiento predecibles y un control en tiempo real sobre la salud técnica global de sus unidades
-
-Con un panel web centralizado de gestión que muestra el estado de la flota e indicadores de rendimiento térmico y mecánico en tiempo real.
-
-#### Hipótesis 4: Módulo de Seguimiento de Odómetro y Carburante
-
-Creemos que lograremos una mayor tasa de uso activo diario de la plataforma (DAU) y mejores tasas de renovación de contratos
-
-Si los encargados de flota y los choferes
-
-Consiguen la identificación temprana de consumos anómalos de combustible e ineficiencias mecánicas antes de que generen daños mayores
-
-Con un módulo de registro digital de odómetro y seguimiento de consumo de carburante integrado en la aplicación móvil.
-
-
-#### 1.2.2.4 Lean UX Canvas
-
-![LeanUXCanvas](images/chapter01/LeanUXCanvas.png)
-
-
-## 1.3 Segmentos objetivos
-
-### Segmento Objetivo 1: Encargados de Flota y Dueños de MYPES Logísticas
-
-Este segmento representa las personas con capacidad de decisión de compra y pago de la suscripción SaaS de Telemtrix.
-
-Perfil Demográfico y Geográfico:
-
-- Cargo / Rol: Propietarios, gerentes de operaciones, administradores de logística o jefes de mantenimiento.
-
-- Edad: 30 a 55 años.
-
-- Ubicación: Zonas urbanas y periurbanas con alta densidad de distribución de mercancías y servicios de última milla.
-
-- Nivel de Educación: Técnica o universitaria (Administración, Ingeniería Industrial, Logística o afines).
-
-Características Operativas:
-
-- Administran flotas compuestas por 2 a 15 vehículos de carga ligera (furgonetas, camionetas, motofurgones).
-
-- Operan con márgenes ajustados donde cualquier gasto imprevisto de taller afecta directamente la rentabilidad mensual.
-
-- Mantienen un control empírico o informal de los mantenimientos (cuadernos, hojas de cálculo en Excel o avisos verbales).
-
-- Sustento Estadístico del Sector (MYPES, PYMEs, Transporte):
-
-- Las micro y pequeñas empresas representan más del 95% del entramado empresarial en la región, concentrando una porción crítica del transporte urbano de mercancías.
-
-- Estudios del sector logístico señalan que el mantenimiento correctivo imprevisto representa hasta un 20% a 30% más de costo frente a una rutina de inspección preventiva planificada.
-
-- La falta de mantenimiento preventivo causa que hasta un 15% del tiempo operativo útil de las unidades ligeras se pierda en paradas no programadas por averías mecánicas.
+---
 
 ### Segmento Objetivo 2: Choferes y Conductores de Carga Ligera
 
-- Este segmento interactúa directamente con la aplicación móvil en el día a día operativo.
+Este segmento comprende a los usuarios finales que interactúan directamente en su rutina diaria con la aplicación web responsiva desde sus dispositivos móviles.
 
-Perfil Demográfico:
+* **Perfil Demográfico y Digital:**
+  * **Cargo / Rol:** Conductores repartidores, choferes de distribución urbana y transportistas de carga ligera.
+  * **Edad:** 21 a 50 años.
+  * **Nivel Digital:** Usuarios de smartphones de gama media con conexión a datos móviles, habituados a la navegación por internet y al uso recurrente de herramientas digitales cotidianas (WhatsApp, Waze, Google Maps).
 
-- Cargo / Rol: Choferes repartidores, conductores de distribución local y transportistas de carga ligera.
+* **Características Operativas:**
+  * Cumplen jornadas laborales extensas con múltiples paradas de reparto y ventanas de entrega ajustadas.
+  * Perciben la documentación de novedades mecánicas como una carga burocrática cuando se gestiona en formatos físicos o papeleo tradicional.
+  * Asumen el riesgo operativo y de seguridad de quedar inmovilizados en vías públicas ante desperfectos mecánicos no detectados antes de salir a ruta.
 
-- Edad: 21 a 50 años.
-
-Nivel socioeconómico / Digital: Usuarios de smartphones gama media con conectividad a datos móviles, habituados al uso de apps de mensajería y navegación (WhatsApp, Waze, Google Maps).
-
-Características Operativas:
-
-- Cumplen jornadas intensas con múltiples paradas de entrega en ruta.
-
-- Suelen percibir la documentación de incidencias como un proceso burocrático si requiere papeleo físico.
-
-- Enfrentan el riesgo constante de quedar varados en ruta debido a fallas mecánicas no detectadas antes de salir.
-
-Sustento Estadístico del Uso:
-
-- La penetración de teléfonos inteligentes en trabajadores del sector transporte supera el 85%, lo que garantiza la viabilidad técnica del despliegue de una app móvil.
-
-- El tiempo promedio que un conductor dispone para una inspección previa al viaje no supera los 3 a 5 minutos, respaldando la necesidad de check-lists digitales ágiles y con captura fotográfica.
-
-
-
+* **Sustento Operativo del Uso:**
+  * La alta penetración de smartphones en conductores urbanos garantiza la viabilidad de adopción de la aplicación web responsiva sin incurrir en costos adicionales de hardware especializado (Chamochumbi & Cruz, 2026).
+  * El tiempo regular disponible para una verificación previa a la salida oscila entre 3 y 5 minutos, justificando la necesidad de checklists interactivos ligeros con captura fotográfica inmediata y registro de odómetro para asegurar la continuidad operativa.
 
 
 ## Capítulo II: Requirements Elicitation & Analysis
