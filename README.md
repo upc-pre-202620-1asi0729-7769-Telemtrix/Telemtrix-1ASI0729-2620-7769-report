@@ -505,44 +505,50 @@ Preguntas principales:
 
 ---
 
+### 2.3. Needfinding
 
-### 2.3. Needfinding.
-#### 2.3.1. User Personas.
-Las fichas de User Persona que se presentan a continuación son el resultado del análisis de las entrevistas realizadas a los dos segmentos objetivo de Telemtrix, complementadas con la información obtenida del análisis competitivo. Estas fichas permiten humanizar los datos recolectados y sirven como guía para el diseño de la aplicación web, la comunicación y las funcionalidades del producto.
+#### 2.3.1. User Personas
 
-#### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas 
+Las fichas de User Persona presentadas a continuación sintetizan el perfil conductual, motivaciones y dolores de los dos segmentos objetivo de Telemtrix. Estas fichas humanizan los requerimientos identificados y sirven como guía fundamental para el diseño funcional de la aplicación web y la arquitectura del producto.
 
-![User Persona Segmento 1](images/chapter02/Carlos-Mendoza-User%20Person.png)
+##### Segmento 1: Encargados de Flota y Dueños de MYPEs Logísticas
 
-#### Segmento 2: Choferes y Conductores de Carga Ligera 
+![User Persona Segmento 1 - Carlos Mendoza](images/chapter02/Carlos-Mendoza-User%20Person.png)
 
-![User Persona Segmento 1](images/chapter02/Luis%20Quispe-User%20Person.png)
+##### Segmento 2: Choferes y Conductores de Carga Ligera
+
+![User Persona Segmento 2 - Luis Quispe](images/chapter02/Luis%20Quispe-User%20Person.png)
+
+---
+
+#### 2.3.2. User Task Matrix
+
+Se identificaron las principales actividades operativas y de control realizadas por los encargados de flota y los conductores de carga ligera en la gestión, mantenimiento y operación diaria de los vehículos. La siguiente matriz compara la frecuencia e importancia asignada por cada segmento objetivo para priorizar las características clave de Telemtrix:
+
+| **Task** | **Encargados de Flota y Dueños de MYPEs** <br>(Carlos Mendoza, 42 años) | | **Choferes y Conductores de Carga Ligera** <br>(Luis Quispe, 31 años) | |
+| :--- | :--- | :--- | :--- | :--- |
+| | **Frequency** | **Importance** | **Frequency** | **Importance** |
+| Supervisar el estado general de los vehículos de la flota | Always | High | Always | High |
+| Revisar el kilometraje (odómetro) de los vehículos | Often | High | Always | High |
+| Verificar el estado del vehículo antes de iniciar una ruta | Sometimes | Medium | Always | High |
+| Registrar o comunicar fallas mecánicas detectadas | Often | High | Sometimes | High |
+| Coordinar la atención de fallas mecánicas con taller | Sometimes | High | Sometimes | Medium |
+| Controlar las fechas y vencimientos de mantenimiento preventivo | Often | High | Sometimes | Medium |
+| Llevar un registro del historial técnico de los vehículos | Often | High | Sometimes | Low |
+| Controlar los gastos y presupuestos de reparaciones de taller | Often | High | Never | Low |
+| Supervisar el consumo de combustible de las unidades | Often | High | Always | Medium |
+| Informar al responsable de flota sobre incidencias en ruta | Never | Low | Sometimes | High |
+| Coordinar la disponibilidad operativa de vehículos para despachos | Always | High | Sometimes | Medium |
+| Realizar entregas de carga y recorridos asignados | Never | Low | Always | High |
+
+---
 
 
-#### 2.3.2. User Task Matrix.
+#### 2.3.3. User Journey Mapping
 
-Para Telemtrix, se identificaron las principales tareas realizadas por los encargados de flota y los conductores de carga ligera en la gestión, mantenimiento y operación diaria de los vehículos. La siguiente matriz compara la frecuencia e importancia de estas actividades para cada User Persona.
+Los siguientes User Journey Maps representan el flujo operativo actual de ambos segmentos objetivo en las actividades vinculadas al mantenimiento, detección de anomalías y operación de sus vehículos, evidenciando las fricciones previas a la adopción de Telemtrix.
 
-| Tarea | Carlos Mendoza - Frecuencia | Carlos Mendoza - Importancia | Luis Quispe - Frecuencia | Luis Quispe - Importancia |
-|---|---|---|---|---|
-| Supervisar el estado general de los vehículos de la flota | Diaria | Alta | Diaria | Alta |
-| Revisar el kilometraje de los vehículos | Semanal | Alta | Diaria | Alta |
-| Verificar el estado del vehículo antes de iniciar una ruta | Ocasional | Media | Diaria | Alta |
-| Registrar o comunicar fallas mecánicas detectadas | Semanal | Alta | Ocasional | Alta |
-| Coordinar la atención de fallas mecánicas | Ocasional | Alta | Ocasional | Media |
-| Controlar las fechas de mantenimiento preventivo | Semanal | Alta | Ocasional | Media |
-| Llevar un registro del historial de mantenimiento de los vehículos | Semanal | Alta | Ocasional | Baja |
-| Controlar los gastos de mantenimiento y reparaciones | Mensual | Alta | Nunca | Baja |
-| Supervisar el consumo de combustible de los vehículos | Semanal | Alta | Diaria | Media |
-| Informar al responsable de flota sobre incidencias ocurridas en ruta | Nunca | Baja | Ocasional | Alta |
-| Coordinar la disponibilidad de los vehículos para las rutas | Diaria | Alta | Ocasional | Media |
-| Realizar entregas y recorridos asignados | Nunca | Baja | Diaria | Alta |
-
-#### 2.3.3. User Journey Mapping.
-
-Los siguientes User Journey Maps representan el recorrido actual de los dos segmentos objetivo de T en las Motus actividades relacionadas con el mantenimiento y operación de sus vehículos.
-
-##### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas
+##### Segmento 1: Encargados de Flota y Dueños de MYPEs Logísticas
 
 ![User Journey Map - Carlos Mendoza](images/chapter02/Carlos-Mendoza-User-Journey-Map.png)
 
@@ -550,6 +556,16 @@ Los siguientes User Journey Maps representan el recorrido actual de los dos segm
 
 ![User Journey Map - Luis Quispe](images/chapter02/Luis-Quispe-User-Journey-Map.png)
 
+---
 
-#### 2.3.4. Empathy Mapping.
+#### 2.3.4. Empathy Mapping
 
+A partir del análisis de las entrevistas y la caracterización de los arquetipos de usuario, se elaboraron los mapas de empatía para ambos segmentos objetivo, permitiendo profundizar en sus pensamientos, percepciones del entorno, dolores y expectativas operativas frente a Telemtrix:
+
+##### Segmento 1: Carlos Mendoza (Encargado de Flota y Dueño de MYPE)
+
+![Empathy Map - Carlos Mendoza](images/chapter02/Carlos-Mendoza-Empathy-Map.png)
+
+##### Segmento 2: Luis Quispe (Chofer y Conductor de Carga Ligera)
+
+![Empathy Map - Luis Quispe](images/chapter02/Luis-Quispe-Empathy-Map.png)
