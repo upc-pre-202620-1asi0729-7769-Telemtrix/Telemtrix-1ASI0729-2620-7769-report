@@ -352,7 +352,7 @@ Este segmento comprende a los usuarios finales que interactúan directamente en 
   * El tiempo regular disponible para una verificación previa a la salida oscila entre 3 y 5 minutos, justificando la necesidad de checklists interactivos ligeros con captura fotográfica inmediata y registro de odómetro para asegurar la continuidad operativa.
 
 
-## Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
@@ -408,7 +408,7 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 * **Canal de soporte ágil e integrado:** Atención técnica directa y personalizada mediante mensajería instantánea en horario comercial local, evitando las mesas de ayuda automatizadas e impersonales de los proveedores tradicionales.
 
 
-### 2.2. Entrevistas.
+## 2.2. Entrevistas.
 
 #### 2.2.1. Diseño de entrevistas
 
@@ -455,7 +455,7 @@ Preguntas principales:
 15. ¿Estaría dispuesto a usar una página web sencilla desde su celular para registrar el kilometraje y una lista rápida de revisión antes de cada viaje?
 
 
-#### 2.2.2. Registro de entrevistas
+### 2.2.2. Registro de entrevistas
 
 #### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas 
 
@@ -500,14 +500,14 @@ Preguntas principales:
 | Preguntas    |             |
 
 ---
-## 2.2.3. Análisis de entrevistas
+### 2.2.3. Análisis de entrevistas
 
 
 ---
 
-### 2.3. Needfinding
+## 2.3. Needfinding
 
-#### 2.3.1. User Personas
+### 2.3.1. User Personas
 
 Las fichas de User Persona presentadas a continuación sintetizan el perfil conductual, motivaciones y dolores de los dos segmentos objetivo de Telemtrix. Estas fichas humanizan los requerimientos identificados y sirven como guía fundamental para el diseño funcional de la aplicación web y la arquitectura del producto.
 
@@ -521,7 +521,7 @@ Las fichas de User Persona presentadas a continuación sintetizan el perfil cond
 
 ---
 
-#### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix
 
 Se identificaron las principales actividades operativas y de control realizadas por los encargados de flota y los conductores de carga ligera en la gestión, mantenimiento y operación diaria de los vehículos. La siguiente matriz compara la frecuencia e importancia asignada por cada segmento objetivo para priorizar las características clave de Telemtrix:
 
@@ -544,7 +544,7 @@ Se identificaron las principales actividades operativas y de control realizadas 
 ---
 
 
-#### 2.3.3. User Journey Mapping
+### 2.3.3. User Journey Mapping
 
 Los siguientes User Journey Maps representan el flujo operativo actual de ambos segmentos objetivo en las actividades vinculadas al mantenimiento, detección de anomalías y operación de sus vehículos, evidenciando las fricciones previas a la adopción de Telemtrix.
 
@@ -558,7 +558,7 @@ Los siguientes User Journey Maps representan el flujo operativo actual de ambos 
 
 ---
 
-#### 2.3.4. Empathy Mapping
+### 2.3.4. Empathy Mapping
 
 A partir del análisis de las entrevistas y la caracterización de los arquetipos de usuario, se elaboraron los mapas de empatía para ambos segmentos objetivo, permitiendo profundizar en sus pensamientos, percepciones del entorno, dolores y expectativas operativas frente a Telemtrix:
 
@@ -569,3 +569,66 @@ A partir del análisis de las entrevistas y la caracterización de los arquetipo
 ##### Segmento 2: Luis Quispe (Chofer y Conductor de Carga Ligera)
 
 ![Empathy Map - Luis Quispe](images/chapter02/Luis-Quispe-Empathy-Map.png)
+
+---
+
+## 2.4. Big Picture Event Storming
+
+Para definir el alcance y comportamiento funcional de Telemtrix, se aplicó la dinámica de *Event Storming*. Este artefacto visual permite mapear el flujo integral del negocio sin ambigüedades, estructurando los eventos de dominio en orden cronológico (desde el alta de la MYPE hasta el cierre de una orden de taller). Además, identifica a los actores clave, los comandos desencadenantes, los sistemas externos integrados y las reglas de negocio que automatizan las alertas.
+
+El diagrama evidencia los tres flujos operativos centrales de la plataforma: el onboarding multi-tenant de empresas, la recolección diaria de datos (odómetro y checklist con soporte offline) por parte del chofer, y la gestión de mantenimiento preventivo a cargo de la administración.
+
+![Big Picture Event Storming - Telemtrix](images/chapter02/event-storming-big-picture.jpg)
+
+---
+
+## 2.5. Ubiquitous Language
+
+El Lenguaje Ubicuo establece un vocabulario estandarizado y sin ambigüedades compartido entre los involucrados del negocio logístico y el equipo de ingeniería de software. Estos términos rigen la nomenclatura del modelo de dominio, las entidades de base de datos y la arquitectura técnica de Telemtrix:
+
+| Término | Definición en el Dominio Telemtrix |
+| :--- | :--- |
+| **Flota (Fleet)** | Conjunto de vehículos comerciales de carga ligera administrados operativamente por una MYPE logística suscrita a la plataforma. |
+| **Unidad / Vehículo (Vehicle)** | Activo de transporte individual registrado en el sistema, caracterizado por su placa, marca, modelo, año y estado operativo actual. |
+| **Odómetro (Odometer)** | Valor numérico del kilometraje acumulado por un vehículo, reportado periódicamente por el chofer a través de la aplicación web responsiva. |
+| **Checklist Pre-viaje (Pre-trip Checklist)** | Formulario interactivo diario completado por el conductor antes de iniciar su recorrido, que valida el estado de neumáticos, fluidos, luces e integridad física. |
+| **Incidencia Mecánica (Mechanical Issue)** | Reporte de anomalía, avería o falla no programada detectada en ruta o inspección previa, acompañada opcionalmente de evidencia fotográfica. |
+| **Mantenimiento Preventivo (Preventive Maintenance)** | Rutina técnica planificada (cambio de lubricantes, filtros, pastillas de freno) ejecutada en función de umbrales predeterminados de kilometraje o tiempo de uso. |
+| **Mantenimiento Correctivo (Corrective Maintenance)** | Intervención mecánica de emergencia provocada por la falla o inmovilización de una unidad durante su operación comercial habitual. |
+| **Alerta de Mantenimiento (Maintenance Alert)** | Notificación automática emitida por el motor de reglas cuando el odómetro o fecha límite de una pieza se aproxima o supera el umbral de servicio. |
+| **Plan de Mantenimiento (Maintenance Schedule)** | Parámetros configurados por el administrador que dictan cada cuántos kilómetros o meses debe intervenirse un componente mecánico específico. |
+| **Historial Técnico (Technical Log)** | Registro cronológico e inmutable de todos los mantenimientos, inspecciones pre-viaje, recambios de piezas y gastos de taller asociados a un vehículo. |
+| **Estado Operativo (Operational Status)** | Clasificación técnica del vehículo en tiempo real dentro del panel web: *Disponible* (apto para ruta), *En Mantenimiento* (en taller) o *Inoperativo* (parada crítica). |
+| **Encargado de Flota (Fleet Manager)** | Usuario con privilegios de gestión que administra vehículos, aprueba intervenciones de taller, supervisa el presupuesto y monitorea el estado de la flota. |
+| **Chofer (Driver)** | Usuario operativo asignado a un vehículo que realiza el registro de odómetro inicial/final y completa la verificación física pre-viaje desde su dispositivo móvil. |
+| **Suscripción SaaS (SaaS Subscription)** | Membresía periódica basada en una tarifa fija por vehículo activo registrado, que otorga acceso a las funcionalidades y almacenamiento del sistema. |
+
+---
+
+
+# Capítulo III: Requirements Specification
+
+## 3.1. User Stories
+
+## 3.2. Impact Mapping
+
+## 3.3. Product Backlog
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
