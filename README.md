@@ -549,3 +549,9 @@ Los siguientes User Journey Maps representan el recorrido actual de los dos segm
 
 #### 2.3.4. Empathy Mapping.
 
+En esta sección, presentamos los Empathy Maps elaborados para cada uno de los User Personas. Estos mapas nos permiten comprender a profundidad las emociones, pensamientos, comportamientos y frustraciones de nuestros segmentos objetivo. 
+
+##### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas
+
+
+
