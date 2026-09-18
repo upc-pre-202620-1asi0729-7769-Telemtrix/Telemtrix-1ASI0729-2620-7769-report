@@ -306,7 +306,7 @@ A continuación, se detalla el análisis del problema bajo la técnica 5W+2H:
 
 #### 1.2.2.4. Lean UX Canvas
 
-![Lean UX Canvas](images/chapter01/lean-UX-canvas.png)
+![Lean UX Canvas](images/chapter01/lean-UX-canvas.jpg)
 
 
 ## 1.3. Segmentos objetivo
@@ -354,93 +354,58 @@ Este segmento comprende a los usuarios finales que interactúan directamente en 
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
-### 2.1. Competidores
-- Tracklink 
-Es el competidor más relevante por escala y antigüedad. Lleva 16 años en Perú y más de 25 en la región, con una tasa de crecimiento anual compuesta superior al 32% en los últimos cinco años. Su oferta evolucionó desde el rastreo GPS hacia un ecosistema completo de conectividad vehicular que incluye monitoreo inteligente, plataformas de gestión de flotas y servicios de recuperación. En 2025 vendió más de 40,000 servicios y superó los 155,000 dispositivos instalados. Además, desarrolla aplicaciones de conectividad para marcas como Toyota, Lexus y Wigo, lo que le da una ventaja en integración con la industria automotriz.
+## 2.1. Competidores
 
-- Comsatel
-Empresa peruana fundada en 1996, con más de 29 años de experiencia. Su diferenciación está en la integración de video con inteligencia artificial para monitoreo de fatiga, distracción y prevención de colisiones, además de sensores de apertura no autorizada. Gestiona mantenimientos y vencimientos documentarios, por lo que compite directamente en el segmento de flotas corporativas que requieren seguridad y control operativo.
+### ¿Por qué llevar a cabo este análisis?
 
-- PSTech Perú 
-Empresa peruana con más de 25 años de experiencia, distribuidora de MiX Telematics en el país . Su enfoque está en el transporte de carga y la minería, con soluciones de video telemática con IA que detecta fatiga, distracción, uso del teléfono y falta de cinturón. Su plataforma MiX Fleet Manager Premium recopila datos del vehículo y del conductor en tiempo real, con acceso vía web y móvil.
-
-
-
-# Análisis Competitivo Landscape
-
-### 1. Propósito del Análisis
-
-| ¿Por qué llevar a cabo este análisis? | **Objetivo:** Identificar y comparar las capacidades actuales de los principales competidores en el mercado peruano de telemetría y gestión de flotas, con el fin de validar si la propuesta de valor de Telemtrix (enfocada en micro y pequeñas empresas logísticas) realmente se diferencia de las soluciones corporativas existentes y detectar oportunidades de nicho no atendidas. |
-| :--- | :--- |
+El análisis competitivo resulta fundamental para comprender el panorama del mercado de telemática y monitoreo vehicular en el Perú. A través de esta evaluación, es posible contrastar las capacidades técnicas, modelos comerciales y alcances funcionales de los actores consolidados frente a los dolores específicos de las micro y pequeñas empresas (MYPEs) de logística de carga liviana. Este análisis permite validar la propuesta de valor de **Telemtrix**, identificando oportunidades de nicho no atendidas y fundamentando una estrategia de diferenciación basada en accesibilidad de costos, despliegue 100% web responsivo y foco en mantenimiento mecánico preventivo sin dependencia de costosos contratos de hardware.
 
 ---
 
-### 2. Matriz Comparativa
+### 2.1.1. Análisis competitivo
 
-| Categoría | Subcategoría | **Telemtrix** | **Competidor 1: Tracklink** | **Competidor 2: Comsatel** | **Competidor 3: PSTech** |
+#### Competitive Analysis Landscape
+
+| Categoría | Subcategoría | Telemtrix (Perú) | Tracklink (Perú) | Comsatel (Perú) | PSTech / MiX Telematics (Perú) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Perfil** | **Overview** | SaaS de telemetría y mantenimiento preventivo para flotas de carga ligera. Centraliza el historial técnico mediante app móvil (choferes) y panel web (gestores). | Empresa de conectividad vehicular con +16 años en Perú. Evolucionó de rastreo GPS a un ecosistema de movilidad y gestión de flotas. Alta integración con marcas automotrices. | Empresa peruana con +29 años. Especializada en seguridad y control de flotas mediante GPS, video con IA y sensores. Fuerte enfoque en prevención de riesgos. | Distribuidor peruano de MiX Telematics. Enfoque en transporte de carga pesada y minería. Soluciones robustas de telemática y video IA para operaciones corporativas. |
-| | **Ventaja competitiva (¿Qué valor ofrece a los clientes?)** | **Especialización en PyMEs:** Interfaz ligera y asequible. Transforma costos de taller imprevistos en una membresía mensual fija. Empodera al chofer en la recolección de datos. | **Escala y Ecosistema:** Gran base instalada, confiabilidad de marca y capacidad de ofrecer soluciones integrales (seguridad + gestión + conectividad de fábrica). | **Seguridad Integral:** Integración de video IA, alertas de fatiga y sensores de apertura. Cumplimiento normativo y monitoreo en tiempo real de alto nivel. | **Potencia para Operaciones Pesadas:** Plataforma robusta (MiX Fleet Manager) ideal para flotas grandes y minería. Detección avanzada de fatiga y distracción. |
-| **Perfil de Marketing** | **Mercado objetivo** | Micro y pequeñas empresas de logística y transporte de carga ligera en Perú. | Flotas corporativas medianas y grandes; empresas de transporte de pasajeros y carga. | Flotas corporativas, empresas de transporte interprovincial y operaciones que requieren altos estándares de seguridad. | Grandes flotas de transporte de carga, minería y operaciones industriales de alto riesgo. |
-| | **Estrategias de marketing** | Venta directa B2B enfocada en el ahorro operativo (ROI). Marketing digital, demostraciones gratuitas y casos de éxito en el sector PyME. | Fuerza de ventas corporativa, alianzas con concesionarios automotrices y presencia en ferias del sector transporte. | Venta consultiva B2B, enfoque en cumplimiento normativo (SUTRAN) y seguridad laboral. Alianzas con aseguradoras. | Venta directa especializada, licitaciones con grandes corporaciones y minería. Marketing enfocado en eficiencia y seguridad industrial. |
-| **Perfil de Producto** | **Productos & Servicios** | Software SaaS (Web + App Móvil). Módulos de: checklists pre-viaje, registro de odómetro, alertas de mantenimiento, historial técnico unificado y monitoreo de consumo. | Plataforma de gestión de flotas, rastreo GPS, recuperación de vehículos, aplicaciones de conectividad para OEMs (Toyota, Lexus). | Plataforma de gestión de flotas, rastreo GPS, video telemetría con IA, sensores de seguridad y gestión de mantenimiento. | MiX Fleet Manager, MiX Vision AI (cámaras), gestión de mantenimiento, reportes de rendimiento y conducción eficiente. |
-| | **Precios & Costos** | **Membresía mensual fija por unidad.** Modelo de suscripción accesible para PyMEs (Costo Operativo - OPEX). | Modelo mixto: costo de hardware + suscripción mensual por servicio. Precios escalonados según cantidad de vehículos. | Modelo mixto: inversión en hardware (GPS/cámaras) + suscripción mensual. Precios corporativos según requerimientos. | Modelo mixto: costo de hardware (equipos MiX) + licencia mensual por vehículo. Inversión inicial alta orientada a corporaciones. |
-| | **Canales de distribución (Web y/o Móvil)** | **100% Digital:** Panel Web para gestores y App Móvil para choferes/técnicos. Venta online y onboarding remoto. | Red de distribuidores autorizados, fuerza de ventas directa y canal web. App móvil para usuarios. | Fuerza de ventas directa, distribuidores regionales, canal web y app móvil. | Fuerza de ventas directa en Perú, distribuidores especializados y soporte técnico presencial. App móvil y web. |
-| **Análisis SWOT** | **Fortalezas** | - Modelo de negocio ligero y escalable.<br>- Enfoque específico en el dolor de las PyMEs.<br>- Bajo costo de entrada (sin hardware complejo).<br>- Interfaz fácil de usar para choferes. | - Marca consolidada y gran base instalada.<br>- Capacidad financiera y operativa.<br>- Alianzas estratégicas con fabricantes de autos. | - Amplia experiencia en el mercado peruano.<br>- Tecnología de video IA diferenciadora.<br>- Enfoque fuerte en seguridad y cumplimiento normativo. | - Respaldo de una marca global (MiX Telematics).<br>- Tecnología robusta y probada en ambientes exigentes.<br>- Capacidad de integración con sistemas complejos. |
-| | **Debilidades** | - Marca nueva sin reconocimiento en el mercado.<br>- Dependencia de la adopción tecnológica por parte de choferes y PyMEs.<br>- Recursos limitados frente a competidores establecidos. | - Percepción de ser una solución más costosa para microempresas.<br>- Complejidad de su ecosistema puede abrumar a PyMEs.<br>- Enfoque principal en seguridad, no en mantenimiento preventivo puro. | - Costos de hardware y suscripción pueden ser elevados para flotas pequeñas.<br>- Enfoque en video y seguridad, no en la gestión mecánica detallada. | - Solución diseñada para grandes flotas, poco adaptable a microempresas.<br>- Altos costos de inversión inicial (hardware + licencias).<br>- Proceso de venta y onboarding complejo para PyMEs. |
-| | **Oportunidades** | - Creciente digitalización de PyMEs logísticas en Perú.<br>- Necesidad no atendida de mantenimiento preventivo asequible.<br>- Alianzas con talleres mecánicos locales para ofrecer descuentos. | - Expandir su oferta de gestión de mantenimiento a su base actual de clientes.<br>- Desarrollo de nuevas integraciones con vehículos eléctricos. | - Crecimiento del mercado de videovigilancia en transporte de carga.<br>- Nuevas regulaciones de seguridad que exijan sus soluciones. | - Expansión hacia el segmento de transporte de carga ligera.<br>- Desarrollo de soluciones modulares más accesibles para PyMEs. |
-| | **Amenazas** | - Competidores establecidos bajando precios para atacar el segmento PyME.<br>- Resistencia al cambio en empresas familiares.<br>- Posible entrada de actores internacionales con modelos SaaS puros. | - Aparición de competidores ágiles y más económicos.<br>- Regulaciones que afecten la privacidad de datos telemáticos.<br>- Saturación del mercado de rastreo GPS. | - Competencia agresiva en precios de hardware.<br>- Rápida obsolescencia tecnológica en cámaras e IA.<br>- Dependencia de la regulación gubernamental. | - Competidores locales ofreciendo soluciones similares a menor costo.<br>- Cambios en las cadenas de suministro globales que afecten hardware.<br>- Nuevas tecnologías que hagan obsoletos sus equipos actuales. |
+| **Perfil** | **Overview** | Plataforma SaaS B2B de telemetría y gestión de mantenimiento preventivo para flotas comerciales ligeras mediante aplicación web responsiva. | Empresa líder de conectividad y seguridad vehicular con más de 16 años en el Perú y amplia cobertura en flotas medianas y grandes. | Corporación peruana con más de 29 años especializada en seguridad, telemática vehicular, sensores avanzados y video con IA. | Distribuidor oficial de MiX Telematics en Perú, enfocado en transporte pesado, minería e industrias de alto riesgo operativo. |
+| | **Ventaja competitiva** | **Especialización en MYPEs:** Enfoque preventivo puro, sin requerimiento de hardware propietario costoso; suscripción mensual fija y accesible por vehículo. | **Ecosistema y Marca:** Gran escala de mercado, alianzas de fábrica con concesionarios automotrices y red de respuesta de recuperación física. | **Seguridad Integral:** Integración de videotelemática con IA para monitoreo de fatiga, control de aperturas no autorizadas y normatividad. | **Robustez Industrial:** Plataforma corporativa de alta potencia (MiX Fleet Manager) diseñada para condiciones de operación extrema y minería. |
+| **Perfil de Marketing** | **Mercado objetivo** | Micro y pequeñas empresas de transporte, mensajería urbana y logística de carga ligera en Lima Metropolitana y regiones. | Empresas con flotas corporativas medianas y grandes; transporte interprovincial y flotas vehiculares comerciales. | Flotas corporativas, transporte terrestre de carga general y empresas obligadas al cumplimiento normativo estricto. | Grandes corporaciones logísticas, consorcios de transporte pesado, maquinaria de construcción y sector minero. |
+| | **Estrategia de marketing** | Venta directa B2B demostrando retorno de inversión (ahorro en taller), marketing digital de contenidos, pruebas de concepto y alianzas con gremios MYPE. | Fuerza de ventas corporativa directa, convenios comerciales con importadores y concesionarios, presencia en ferias de transporte. | Venta consultiva orientada al cumplimiento regulatorio (SUTRAN) y mitigación de riesgos de siniestralidad con aseguradoras. | Licitaciones institucionales corporativas, marketing enfocado en seguridad industrial y venta consultiva técnica de largo plazo. |
+| **Perfil de Producto** | **Productos y Servicios** | Aplicación web responsiva (checklists pre-viaje, captura de odómetro y fotos) y dashboard administrativo con alertas preventivas e historial unificado. | Sistema de gestión de flotas web, módulos de rastreo satelital GPS, telemetría estándar, recuperación ante robo y servicios de conectividad. | Plataforma web y móvil de monitoreo telemático, cámaras inteligentes en cabina, sensores de carga/combustible y control de vencimientos. | Suite MiX Fleet Manager, cámaras MiX Vision AI, módulos de conducción eficiente, telemetría satelital avanzada y analítica de ruta. |
+| | **Precios y Tarifas** | **Suscripción SaaS mensual predecible por vehículo.** Sin costo de compra ni instalación de hardware especializado (100% OPEX). | Modelo comercial mixto: cobro inicial por adquisición/instalación de hardware más renta mensual sujeta a plazos forzosos. | Modelo mixto corporativo: venta o arrendamiento de equipos telemáticos/sensores sumado a mensualidad de servicio por unidad. | Alta inversión inicial (CAPEX) en hardware importado y licencias corporativas por volumen de flota con contratos a largo plazo. |
+| | **Canales de distribución** | **100% Digital:** Plataforma web en la nube accesible desde cualquier navegador (desktop y móvil), con autoservicio y soporte remoto. | Red de oficinas a nivel nacional, ejecutivos corporativos en campo, portal web y aplicaciones de monitoreo. | Fuerza comercial directa, agencias en principales provincias, portal web de clientes y soporte centralizado 24/7. | Representantes comerciales técnicos en sedes corporativas, soporte técnico presencial en mina/taller y portales web dedicados. |
 
+---
+
+#### Análisis SWOT – Telemtrix
+
+| Dimensión | Detalle de Factores |
+| :--- | :--- |
+| **Fortalezas** | - Solución concebida específicamente para cubrir las restricciones presupuestarias y operativas de las MYPEs.<br>- Despliegue 100% web responsivo que elimina la fricción de instalar hardware propietario o aplicaciones pesadas.<br>- Propuesta de valor concentrada en mantenimiento preventivo (frenos, lubricantes, neumáticos) y mitigación de sobrecostos de taller.<br>- Curva de aprendizaje mínima para choferes y administradores logísticos. |
+| **Debilidades** | - Marca nueva en el ecosistema logístico sin historial previo ni reputación institucional.<br>- Dependencia de la disciplina operativa de los choferes para el registro diario de checklists y odómetro.<br>- Capacidad financiera y de soporte técnico acotada frente a corporaciones con centrales de monitoreo 24/7.<br>- Ausencia de telemetría automática directa al bus CAN del motor en la versión inicial. |
+| **Oportunidades** | - Más del 95% del parque empresarial logístico está compuesto por MYPEs desatendidas por el software corporativo.<br>- Creciente digitalización de la última milla y distribución comercial en Lima Metropolitana.<br>- Alianzas estratégicas con talleres mecánicos independientes para homologar programas de mantenimiento preventivo.<br>- Necesidad urgente de las pequeñas empresas de amortiguar sobrecostos de taller generados por la antigüedad de sus vehículos. |
+| **Amenazas** | - Resistencia cultural al cambio por parte de transportistas acostumbrados a la gestión manual o informal.<br>- Estrategias comerciales agresivas de competidores consolidados reduciendo tarifas en gamas de entrada.<br>- Ingreso potencial de plataformas SaaS internacionales de bajo costo a la región.<br>- Inestabilidad económica local que reduzca los márgenes operativos de las empresas de transporte urbano. |
+
+---
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-#### 1. Estrategia de diferenciación:
+#### Especialización en el dolor de las MYPEs
+* **Enfoque preventivo sobre la seguridad:** Mientras competidores corporativos como Tracklink y Comsatel centran su propuesta de valor en el rastreo antirrobo y la videovigilancia de cabina, Telemtrix se posiciona como una herramienta operativa enfocada exclusivamente en evitar la inmovilización mecánica de unidades mediante el control continuo del odómetro y piezas de desgaste crítico.
+* **Cero barreras de hardware:** La solución prescinde de instalaciones complejas o intrusivas en el sistema eléctrico del automotor. El registro de datos se efectúa a través de la aplicación web responsiva desde el navegador del dispositivo móvil del chofer, reduciendo la fricción inicial y permitiendo que la MYPE inicie operaciones de inmediato.
 
-Mientras los competidores (Tracklink, Comsatel, PSTech/MiX) compiten por flotas corporativas medianas y grandes con soluciones costosas y complejas, **Telemtrix se posicionará como la solución accesible, ligera y especializada para micro y pequeñas empresas de transporte de carga ligera**. La estrategia central es **no competir por precio ni por tecnología de punta**, sino por **especialización, simplicidad y retorno de inversión tangible** para un segmento desatendido.
+#### Simplicidad operativa y experiencia de usuario ligera
+* **Checklists pre-viaje en menos de 3 minutos:** Flujos de trabajo sintetizados y optimizados para dispositivos móviles, donde el conductor inspecciona niveles esenciales (aceite, neumáticos, refrigerante, luces), adjunta evidencia fotográfica de averías y registra el odómetro inicial de manera ágil antes de salir a ruta.
+* **Dashboard administrativo intuitivo:** Visualización unificada del estado operativo de toda la flota mediante indicadores de color (semáforo técnico: verde para condición óptima, amarillo para mantenimiento próximo y rojo para servicio vencido o crítico), prescindiendo de interfaces corporativas densas y difíciles de interpretar.
 
-## 2. Frente a las Fortalezas de los Competidores
+#### Estructura comercial accesible y sin ataduras
+* **Modelo SaaS 100% OPEX:** Esquema de suscripción mensual predecible por vehículo registrado, eliminando costos de adquisición de equipos (CAPEX), gastos de mantenimiento técnico de hardware y cláusulas de permanencia forzosa.
+* **Escalabilidad modular:** Esquemas flexibles diseñados a la medida de pequeñas operaciones que administran entre 2 y 15 vehículos, facilitando altas y bajas de unidades según la demanda logística estacional de la empresa.
 
-| Competidor | Su Fortaleza | ¿Qué hacemos nosotros? |
-| :--- | :--- | :--- |
-| **Tracklink** | Marca conocida, muchos clientes | No peleamos por sus clientes grandes. Nos dirigimos a las PyMEs que ellos no atienden bien. Hacemos alianzas con talleres locales para que nos recomienden. |
-| **Comsatel** | Video con IA y seguridad | No competimos en seguridad. Nosotros nos enfocamos en que el camión no falle. Ellos ven cámaras, nosotros vemos aceite, frenos y llantas. |
-| **MiX Telematics** | Tecnología robusta y global | Su sistema es muy complejo para una PyME. Nosotros hacemos que cualquier chofer pueda usar la aplicación web en 5 minutos. |
-
----
-
-## 3. Aprovechando las Debilidades de los Competidores
-
-| Debilidad del Competidor | ¿Qué hacemos nosotros? |
-| :--- | :--- |
-| **Cobran hardware + suscripción** | Nosotros somos 100% aplicación web. Sin equipos, sin instalación. Solo una membresía mensual fija por unidad. |
-| **Plataformas complejas** | Nuestra aplicación web es súper simple: el chofer sube el odómetro, una foto y llena un checklist. Nada más. |
-| **No se enfocan en mantenimiento** | Nosotros sí. Alertas por kilometraje, por tiempo, historial por vehículo. Somos los expertos en extender la vida del motor. |
-| **Venta complicada y lenta** | El cliente se registra solo por internet y empieza a usar la aplicación web el mismo día. Sin reuniones ni demos obligatorias. |
-
----
-
-## 4. Aprovechando las Oportunidades del Mercado
-
-| Oportunidad | ¿Qué hacemos? |
-| :--- | :--- |
-| **PyMEs se están digitalizando** | Damos charlas gratuitas y subimos tips a redes sociales sobre mantenimiento preventivo. |
-| **Nadie les ofrece mantenimiento barato** | Precio accesible por unidad. Descuento si tienen de 3 a 10 vehículos. |
-| **Talleres mecánicos locales** | Hacemos alianzas: el taller recomienda Telemtrix y recibe comisión. Nosotros le mandamos clientes. |
-| **Vehículos eléctricos** | A futuro, agregaremos un módulo para monitorear baterías de camionetas eléctricas. |
-
----
-
-## 5. Protegiéndonos de las Amenazas
-
-| Amenaza | ¿Qué hacemos? |
-| :--- | :--- |
-| **Competidores bajan precios** | No seremos los más baratos, pero sí los más fáciles de usar y con mejor soporte. |
-| **Dueños de PyMEs no quieren cambiar** | Les damos 30 días de prueba gratis y les mostramos casos de éxito de empresas parecidas. |
-| **Entran empresas extranjeras** | Nosotros conocemos el mercado peruano. Soporte por WhatsApp en horario peruano y adaptado a SUTRAN. |
-| **La tecnología cambia rápido** | Actualizamos la aplicación web cada mes con mejoras pequeñas. |
-| **Ley de protección de datos** | Cumplimos con la Ley N° 29733. Política de privacidad clara. |
-
----
+#### Validación y fidelización en el ecosistema local
+* **Periodo de evaluación guiado (30 días):** Acceso sin costo durante el primer mes de servicio para que el administrador cuantifique de forma directa la mitigación de sobrecostos de taller y la disminución de horas de inactividad vehicular antes de contratar el servicio.
+* **Canal de soporte ágil e integrado:** Atención técnica directa y personalizada mediante mensajería instantánea en horario comercial local, evitando las mesas de ayuda automatizadas e impersonales de los proveedores tradicionales.
 
 
 ### 2.2. Entrevistas.
