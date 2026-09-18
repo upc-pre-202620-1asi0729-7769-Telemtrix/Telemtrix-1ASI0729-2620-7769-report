@@ -412,54 +412,94 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 
 #### 2.2.1. Diseño de entrevistas
 
-#### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas 
+El objetivo de estas entrevistas es identificar y comprender las necesidades operativas, dificultades mecánicas y expectativas de los usuarios potenciales de Telemtrix. Para ello, se consideraron dos segmentos clave del sector de transporte y logística de carga ligera:
+* Encargados de flota y dueños de MYPEs logísticas
+* Choferes y conductores de carga ligera
 
-1. ¿Cuántos vehículos tiene actualmente en su flota?
-2. ¿Cómo le hace seguimiento al mantenimiento de sus vehículos hoy en día?
-3. ¿Cada cuánto tiempo revisa el kilometraje o el estado de sus unidades?
-4. ¿Quién se encarga de avisarle que toca cambiar aceite, frenos o hacer revisión?
-5. ¿Qué pasa cuando un vehículo se malogra en plena ruta?
-6. ¿Cuánto ha gastado en promedio en una reparación imprevista?
-7. ¿Ha tenido que retrasar entregas por fallas mecánicas? ¿Con qué frecuencia?
-8. ¿Qué es lo que más le molesta o le preocupa del mantenimiento de sus vehículos?
-9. ¿Ha intentado usar algún software o app para gestionar su flota? ¿Qué pasó?
-10. Si tuviera una herramienta que le avise cuándo hacer mantenimiento, ¿qué debería tener para que usted la use?
-11. ¿Cuánto estaría dispuesto a pagar mensualmente por vehículo por una herramienta así?
-12. ¿Qué significaría para usted reducir los gastos de taller?
-13. ¿Le gustaría tener un historial técnico de cada vehículo? ¿Para qué lo usaría?
-14. ¿Qué dispositivo usa más: celular, laptop, tablet? ¿Qué apps usa a diario?
-15. ¿Estaría dispuesto a probar una aplicación web gratis por 30 días?
+##### Segmento 1: Encargados de flota y dueños de MYPEs logísticas
 
-#### Segmento 2: Choferes y Conductores de Carga Ligera 
+Preguntas principales:
+1. ¿Cuántos vehículos conforman actualmente su flota y qué tipo de mercadería o servicio de transporte atienden con regularidad?
+2. ¿Cómo realiza hoy en día el seguimiento y control del mantenimiento de sus vehículos?
+3. ¿Cada cuánto tiempo y de qué manera revisa el kilometraje o el desgaste de sus unidades?
+4. ¿Quién es el responsable de avisar o decidir cuándo toca cambiar aceite, filtros o revisar frenos?
+5. ¿Qué pasa en su negocio cuando una unidad se malogra de forma imprevista en plena ruta de entrega?
+6. ¿Cuánto dinero calcula que ha llegado a gastar en una reparación de emergencia en el taller?
+7. ¿De qué manera las averías imprevistas le han generado retrasos en entregas o problemas con sus clientes?
+8. ¿Qué es lo que más le preocupa o molesta respecto al mantenimiento de sus vehículos?
+9. ¿Ha intentado utilizar algún sistema, software o plantilla digital para administrar su flota? ¿Cómo le fue?
+10. Si contara con un sistema web que le avise a tiempo cuándo hacer mantenimiento según el kilometraje recorrido, ¿qué funciones indispensables debería tener?
+11. ¿Cuánto consideraría razonable pagar al mes por cada vehículo registrado por un servicio de este tipo?
+12. ¿Qué impacto tendría en su negocio lograr estabilizar y reducir los gastos imprevistos de taller?
+13. ¿De qué forma le ayudaría tener un historial técnico digital de cada vehículo al momento de cambiar repuestos o programar revisiones?
+14. ¿Qué dispositivos (computadora, celular, tablet) y aplicaciones usa a diario para coordinar el trabajo de su empresa?
+15. ¿Estaría dispuesto a probar sin costo durante 30 días una plataforma web para evaluar si realmente le ayuda a ahorrar en mantenimiento?
 
-1. ¿Cuántos viajes o entregas hace al día en promedio?
-2. ¿Cuánto tiempo tiene antes de salir a ruta para revisar su vehículo?
-3. ¿Qué revisa antes de salir? ¿Llantas, aceite, frenos, luces?
-4. ¿Alguna vez ha quedado varado en ruta por una falla mecánica? ¿Qué pasó?
-5. ¿Cómo reporta una falla o incidencia hoy en día?
-6. ¿Le piden llenar algún papel o formulario antes de salir?
-7. ¿Qué es lo que más le molesta de su trabajo?
-8. ¿Qué piensa de llenar reportes o papeleo?
-9. ¿Qué le haría más fácil avisar que algo está mal en el vehículo?
-10. Si tuviera que usar una aplicación web antes de cada viaje, ¿qué debería tener para que no le moleste?
-11. ¿Le gustaría recibir avisos por WhatsApp en vez de entrar a una app?
-12. ¿Le gustaría que su jefe sepa cuándo algo está fallando antes de que sea grave?
-13. ¿Qué significaría para usted no quedar varado en ruta?
-14. ¿Se le hace fácil usar aplicaciones en el celular? ¿Cuáles usa más?
-15. ¿Estaría dispuesto a probar una aplicación web para reportar el estado de su vehículo?
+##### Segmento 2: Choferes y conductores de carga ligera
+
+Preguntas principales:
+1. ¿Cuántas entregas o vueltas realiza en promedio durante un día habitual de trabajo?
+2. ¿De cuánto tiempo dispone antes de encender el vehículo y salir a ruta para revisarlo?
+3. ¿Qué partes del vehículo suele revisar antes de salir (llantas, aceite, agua/refrigerante, luces)?
+4. ¿Le ha tocado quedarse varado en plena ruta por una falla mecánica? ¿Qué ocurrió y cómo lo solucionaron?
+5. ¿Cómo le avisa hoy en día a su jefe o al mecánico cuando nota un ruido raro o un problema en la camioneta?
+6. ¿Le piden llenar algún papel, formato o libreta antes de salir a trabajar?
+7. ¿Qué partes de su rutina de trabajo le quitan más tiempo o le resultan más incómodas?
+8. ¿Qué piensa de tener que llenar reportes manuales o papeles durante sus horas de entrega?
+9. ¿Qué mecanismo le facilitaría avisar de forma rápida y sin trámites que el vehículo presenta una falla?
+10. Si tuviera que usar una página o sistema web en su celular antes de salir, ¿qué debería tener para que sea rápida y fácil de usar?
+11. ¿Preferiría recibir recordatorios automáticos sobre revisiones preventivas en lugar de avisos verbales?
+12. ¿Cómo le ayudaría en su día a día que el encargado de flota sepa que una pieza está fallando antes de que el vehículo se pare?
+13. ¿Qué significaría para su seguridad y tranquilidad evitar quedarse botado en la calle por una avería mecánica?
+14. ¿Qué tan fácil se le hace usar aplicaciones en su celular (como WhatsApp o mapas GPS)?
+15. ¿Estaría dispuesto a usar una página web sencilla desde su celular para registrar el kilometraje y una lista rápida de revisión antes de cada viaje?
 
 
 #### 2.2.2. Registro de entrevistas
 
 #### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas 
 
+---
+
+| Campo        | Información |
+|--------------|-------------|
+| Entrevistado |             |
+| Edad         |             |
+| Distrito     |             |
+| Foto         |             |
+| Timing       |             |
+| Segmento     |             |
+| Preguntas    |             |
 
 --- 
 
 #### Segmento 2: Choferes y Conductores de Carga Ligera 
 
 
+| Campo        | Información |
+|--------------|-------------|
+| Entrevistado |             |
+| Edad         |             |
+| Distrito     |             |
+| Foto         |             |
+| Timing       |             |
+| Segmento     |             |
+| Preguntas    |             |
 
+---
+
+
+| Campo        | Información |
+|--------------|-------------|
+| Entrevistado |             |
+| Edad         |             |
+| Distrito     |             |
+| Foto         |             |
+| Timing       |             |
+| Segmento     |             |
+| Preguntas    |             |
+
+---
 ## 2.2.3. Análisis de entrevistas
 
 
