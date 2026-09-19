@@ -589,3 +589,22 @@ La siguiente paleta presenta los colores establecidos para la identidad visual d
 | Blanco | `#FFFFFF` | Fondo principal y tarjetas |
 
 Los colores de estado mantienen un significado consistente dentro de Motus: el verde identifica condiciones normales o vehículos disponibles, el ámbar señala situaciones que requieren atención, como mantenimientos próximos, y el rojo se reserva para incidencias, mantenimientos vencidos o estados críticos.
+
+#### Typography
+
+Motus utiliza **Inter** como tipografía principal debido a su legibilidad, simplicidad y adecuada visualización en interfaces digitales. Su uso permite mantener una experiencia consistente tanto en la landing page como en la aplicación web responsiva.
+
+La siguiente referencia visual establece la familia tipográfica y las principales jerarquías utilizadas por Motus:
+
+<p align="center">
+  <img src="images/chapter04/Motus-Typography.png" alt="Motus Typography" width="700">
+</p>
+
+La jerarquía tipográfica se establece de la siguiente manera:
+
+- **Inter Bold (700):** títulos principales y encabezados de mayor jerarquía.
+- **Inter SemiBold (600):** subtítulos y elementos destacados.
+- **Inter Medium (500):** botones, etiquetas y elementos de navegación.
+- **Inter Regular (400):** párrafos, descripciones y contenido general.
+
+El tamaño y peso de los textos deberán mantener una jerarquía visual clara, facilitando la lectura y evitando la saturación de información.
