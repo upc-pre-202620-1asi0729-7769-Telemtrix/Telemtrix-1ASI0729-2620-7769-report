@@ -682,6 +682,49 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 ### 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
+#### Figura 1	Wireframe – Login web 
+![Wireframe - Login](images/chapter04/wireframe-01-motus.png)
+
+
+#### Figura 2	Wireframe – Dashboard de flota
+![Wireframe - Login](images/chapter04/wireframe-02-motus.png)
+
+
+#### Figura 3	Wireframe – Listado de vehículos
+![Wireframe - Login](images/chapter04/wireframe-03-motus.png)
+
+
+#### Figura 4	Wireframe – Detalle de vehículo: Resumen
+![Wireframe - Login](images/chapter04/wireframe-04-motus.png)
+
+
+#### Figura 5	Wireframe – Alertas
+![Wireframe - Login](images/chapter04/wireframe-05-motus.png)
+
+
+#### Figura 6	Wireframe: Agendar mantenimiento
+![Wireframe - Login](images/chapter04/wireframe-06-motus.png)
+
+
+#### Figura 7	Wireframe – Reportes de flota
+![Wireframe - Login](images/chapter04/wireframe-07-motus.png)
+
+
+#### Figura 8	Wireframe – Membresía y facturación
+![Wireframe - Login](images/chapter04/wireframe-08-motus.png)
+
+
+#### Figura 9	Wireframe – Estado vacío: flota sin vehículos
+![Wireframe - Login](images/chapter04/wireframe-09-motus.png)
+
+
+#### Figura 10	Wireframe – Checklist pre-viaje
+![Wireframe - Login](images/chapter04/wireframe-10-motus.png)
+
+
+Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Sin-t%C3%ADtulo?node-id=0-1&t=HCEJkedeCIjPwFMj-1
+
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 ### 4.4.3. Web Applications Mock-ups.
