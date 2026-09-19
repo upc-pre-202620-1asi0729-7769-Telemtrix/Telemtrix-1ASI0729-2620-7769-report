@@ -742,3 +742,21 @@ Las funcionalidades se agrupan de acuerdo con el tipo de información que repres
 - Gestión de la flota
 
 Esta organización permite que los usuarios relacionen cada sección con una actividad específica y encuentren la información de forma predecible.
+### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de Motus utiliza términos breves, descriptivos y relacionados directamente con las actividades que realizan los usuarios. Se evita el uso de términos técnicos innecesarios para facilitar la comprensión tanto de los encargados de flota como de los conductores.
+
+Las etiquetas principales de la aplicación se mantienen alineadas con los conceptos utilizados dentro del dominio de Motus. Entre las principales se encuentran:
+
+- **Inicio:** acceso a la vista principal o dashboard.
+- **Vehículos:** consulta y gestión de las unidades registradas.
+- **Mantenimientos:** planificación y seguimiento del mantenimiento de los vehículos.
+- **Checklists:** registro y consulta de las inspecciones pre-viaje.
+- **Incidencias:** registro y seguimiento de fallas o problemas detectados.
+- **Alertas:** visualización de mantenimientos próximos, vencidos u otras situaciones que requieren atención.
+- **Historial:** consulta de mantenimientos, inspecciones e incidencias registradas.
+- **Mi vehículo:** acceso del conductor a la información de la unidad que tiene asignada.
+- **Registrar odómetro:** acción para ingresar el kilometraje actual del vehículo.
+- **Reportar incidencia:** acción para registrar una falla o anomalía detectada.
+
+En los botones se utilizarán etiquetas orientadas a acciones, como `Registrar`, `Guardar`, `Reportar`, `Programar`, `Ver detalle` o `Completar checklist`, permitiendo que el usuario pueda anticipar el resultado de cada interacción.
