@@ -867,9 +867,49 @@ El siguiente mapa representa la estructura de navegación propuesta para Motus y
   <img src="images/chapter04/Motus-Navigation-System-v2.png" alt="Motus Navigation System" width="900">
 </p>
 
-### 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design
+
+La landing page de Motus fue diseñada con el propósito de comunicar de manera clara la propuesta de valor del producto y presentar sus principales beneficios y funcionalidades a potenciales usuarios. Su estructura busca facilitar la comprensión de la solución mediante una navegación sencilla y una organización visual coherente con las Style Guidelines y la Information Architecture previamente definidas.
+
+El diseño considera las principales secciones de la landing page, como inicio, beneficios, funcionalidades, funcionamiento de la plataforma, tipos de usuario, planes, contacto y accesos principales. Asimismo, se desarrollaron wireframes y mock-ups para representar tanto la estructura inicial de la interfaz como su propuesta visual final.
 
 ### 4.3.1. Landing Page Wireframe
+
+Para definir la estructura y distribución de los elementos de la landing page de Motus, se desarrollaron los wireframes correspondientes a la versión Desktop. Estos permiten representar la organización del contenido, jerarquía de información, navegación y principales componentes de la interfaz antes de aplicar los elementos visuales definidos en las Style Guidelines.
+
+#### Desktop Wireframe
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-1.png" alt="Motus Landing Page Wireframe 1" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-2.png" alt="Motus Landing Page Wireframe 2" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-3.png" alt="Motus Landing Page Wireframe 3" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-4.png" alt="Motus Landing Page Wireframe 4" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-5.png" alt="Motus Landing Page Wireframe 5" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-6.png" alt="Motus Landing Page Wireframe 6" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-7.png" alt="Motus Landing Page Wireframe 7" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-8.png" alt="Motus Landing Page Wireframe 8" width="900">
+</p>
 
 ### 4.3.2. Landing Page Mock-up
 
