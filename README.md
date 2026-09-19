@@ -18,6 +18,7 @@
   <li><h3>u20241g014 Echevarria Lizana Santiago Israel</h3></li>
   <li><h3>u20241g197 Ysidro Llashag Valeria Milagros</h3></li>
   <li><h3>u202523271 Mejia Poma Patricia Valeria</h3></li>
+  <li><h3>u20241g402 Segura Guerra Alison Ariana</h3></li>
 </ul>
 <br>
    <h3>2026</h3>
@@ -659,7 +660,7 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 | 5 | EP04/US12 | Checklist Pre-viaje con Sincronización Offline | Como chofer, deseo completar la inspección física diaria (luces, fluidos, llantas) aun sin cobertura de internet, para no demorar mi salida en cocheras subterráneas o zonas remotas. | 5 |
 | 6 | EP04/US13 | Reporte Inmediato de Incidencia Mecánica | Como chofer, deseo reportar una avería o ruido anormal durante el trayecto con descripción y nivel de severidad, para alertar al encargado de flota antes de que el vehículo quede inoperativo. | 3 |
 | 7 | EP03/US08 | Configuración de Umbrales de Servicio | Como encargado de flota, deseo parametrizar el límite de kilometraje para revisiones (ej. aceite cada 5,000 km), para que la plataforma detecte automáticamente la proximidad del servicio. | 3 |
-| 8 | EP03/US09 | Registro y Liquidación de Taller | Como encargado de flota, deseo registrar los costos y repuestos cambiados al culminar un servicio mecánico, para actualizar el historial técnico e inicializar el contador de desgaste. | 5 |
+| 8 | EP03/US09 | Registro y Liquidación de Taller | Como encargado de la flota, deseo registrar los costos y repuestos cambiados al culminar un servicio mecánico, para actualizar el historial técnico e inicializar el contador de desgaste. | 5 |
 | 9 | EP03/US10 | Consulta de Historial Técnico de Unidad | Como encargado de flota, deseo consultar la cronología completa de intervenciones, checklists y gastos de una unidad, para evaluar la rentabilidad del vehículo y detectar fallas mecánicas repetitivas. | 3 |
 | 10 | EP03/US07 | Alta de Unidades Vehiculares | Como encargado de flota, deseo dar de alta vehículos con placa, marca, modelo y año, para incorporarlos al seguimiento técnico de la empresa. | 3 |
 | 11 | EP02/US05 | Pago de Membresía Mensual | Como encargado de flota, deseo afiliar un medio de pago con tarjeta, para mantener activa la suscripción y el acceso operativo de mis conductores. | 5 |
