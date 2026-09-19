@@ -864,6 +864,7 @@ El siguiente mapa representa la estructura de navegación propuesta para Motus y
 <p align="center">
   <img src="images/chapter04/Motus-Navigation-System.png" alt="Motus Navigation System" width="900">
 </p>
+
 ### 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
