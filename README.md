@@ -549,3 +549,12 @@ Los siguientes User Journey Maps representan el recorrido actual de los dos segm
 
 #### 2.3.4. Empathy Mapping.
 
+
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+
+Las Style Guidelines de Motus establecen los lineamientos visuales y de comunicación que orientarán el diseño de la landing page y de la aplicación web. Estos lineamientos permiten mantener una identidad visual consistente y facilitar una experiencia clara para los dos principales tipos de usuario: los encargados de flota y los conductores de carga ligera.
+
+La propuesta visual de Motus busca transmitir confianza, prevención, control y agilidad. Por ello, se adopta un estilo moderno y predominantemente claro, evitando interfaces excesivamente oscuras o sobrecargadas y priorizando la rápida comprensión de la información relacionada con vehículos, mantenimientos, alertas e incidencias.
+
+
