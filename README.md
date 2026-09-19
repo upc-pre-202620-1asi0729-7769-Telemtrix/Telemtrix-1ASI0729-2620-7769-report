@@ -809,3 +809,58 @@ La búsqueda de vehículos podrá realizarse mediante datos como la placa o info
 Los resultados se presentarán mediante listas, tablas o tarjetas según el tipo de información consultada. Los filtros activos deberán ser visibles y podrán eliminarse fácilmente para regresar a la vista completa de los registros.
 
 En el caso de los conductores, se priorizará el acceso directo a las funciones relacionadas con su vehículo asignado en lugar de implementar sistemas de búsqueda complejos.
+
+### 4.2.5. Navigation Systems
+
+El sistema de navegación de Motus se ha diseñado para permitir que los usuarios accedan de manera sencilla a las principales secciones de la landing page y de la aplicación web. La estructura de navegación mantiene una organización jerárquica y adapta las opciones disponibles de acuerdo con el tipo de usuario.
+
+#### Navegación de la Landing Page
+
+La landing page utiliza una navegación lineal mediante una barra superior que permite desplazarse directamente hacia las principales secciones de la página:
+
+- Inicio
+- Beneficios
+- Funcionalidades
+- Cómo funciona
+- Para quién es
+- Contacto
+- Iniciar sesión
+
+El recorrido principal sigue la secuencia:
+
+**Inicio → Beneficios → Funcionalidades → Cómo funciona → Para quién es → Contacto**
+
+#### Navegación de la Aplicación Web
+
+Después de iniciar sesión, la navegación se adapta al rol del usuario.
+
+Para el **Encargado de Flota**, las principales opciones son:
+
+- Dashboard
+- Vehículos
+- Mantenimientos
+- Incidencias
+- Alertas
+- Historial
+- Configuración
+
+Desde la sección Vehículos, el encargado puede seleccionar una unidad y consultar información específica relacionada con su estado, kilometraje, mantenimientos, incidencias e historial técnico.
+
+Para el **Conductor**, la navegación se simplifica y prioriza las tareas operativas realizadas con mayor frecuencia:
+
+- Inicio
+- Mi vehículo
+- Registrar odómetro
+- Checklist pre-viaje
+- Reportar incidencia
+- Historial
+
+En dispositivos móviles, estas opciones se adaptarán a una navegación compacta para facilitar el acceso a las principales funciones.
+
+#### Navigation System
+
+El siguiente mapa representa la estructura de navegación propuesta para Motus y las principales rutas disponibles para los visitantes, encargados de flota y conductores.
+
+<p align="center">
+  <img src="images/chapter04/Motus-Navigation-System.png" alt="Motus Navigation System" width="900">
+</p>
