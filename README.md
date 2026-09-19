@@ -792,3 +792,20 @@ Su implementación en la landing page seguirá una estructura similar a la sigui
 ```
 
 Estos metadatos buscan representar de manera directa el propósito del producto y mantener coherencia entre el contenido presentado en la landing page y los términos relacionados con su propuesta de valor.
+### 4.2.4. Searching Systems
+
+Debido a que la landing page de Motus contiene una cantidad limitada de información y utiliza una estructura de navegación directa por secciones, no se considera necesario implementar un buscador dentro de esta página.
+
+En la aplicación web, en cambio, los encargados de flota podrán gestionar una mayor cantidad de vehículos, mantenimientos e incidencias. Por este motivo, se contemplan mecanismos de búsqueda y filtrado que permitan localizar información de manera rápida.
+
+La búsqueda de vehículos podrá realizarse mediante datos como la placa o información identificativa de la unidad. Además, las vistas que contengan múltiples registros podrán incorporar filtros relacionados con:
+
+- Estado del vehículo.
+- Estado del mantenimiento.
+- Fecha.
+- Tipo de incidencia.
+- Mantenimientos próximos o vencidos.
+
+Los resultados se presentarán mediante listas, tablas o tarjetas según el tipo de información consultada. Los filtros activos deberán ser visibles y podrán eliminarse fácilmente para regresar a la vista completa de los registros.
+
+En el caso de los conductores, se priorizará el acceso directo a las funciones relacionadas con su vehículo asignado en lugar de implementar sistemas de búsqueda complejos.
