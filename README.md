@@ -557,4 +557,14 @@ Las Style Guidelines de Motus establecen los lineamientos visuales y de comunica
 
 La propuesta visual de Motus busca transmitir confianza, prevención, control y agilidad. Por ello, se adopta un estilo moderno y predominantemente claro, evitando interfaces excesivamente oscuras o sobrecargadas y priorizando la rápida comprensión de la información relacionada con vehículos, mantenimientos, alertas e incidencias.
 
+#### Branding
 
+Motus es la solución digital desarrollada por Telemtrix para facilitar la gestión y el mantenimiento preventivo de flotas de carga ligera. Su identidad visual busca representar movimiento, prevención y control, manteniendo una apariencia moderna, tecnológica y accesible.
+
+El logotipo de Motus constituye el principal identificador visual del producto. Su diseño integra el concepto de movimiento mediante la representación de una carretera dentro de la letra inicial de la marca, relacionando directamente la identidad del producto con la operación continua de los vehículos.
+
+<p align="center">
+  <img src="../assets/images/Motus-Logo.png" alt="Motus Logo" width="600">
+</p>
+
+El logotipo debe mantener sus proporciones originales y contar con suficiente espacio libre a su alrededor para conservar su legibilidad. Se priorizará su utilización sobre fondos blancos o de tonalidades claras.
