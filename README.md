@@ -872,3 +872,38 @@ El siguiente mapa representa la estructura de navegación propuesta para Motus y
 ### 4.3.1. Landing Page Wireframe
 
 ### 4.3.2. Landing Page Mock-up
+
+El mock-up de la landing page de Motus presenta la propuesta visual final de la interfaz, aplicando los lineamientos de diseño, identidad visual y arquitectura de información definidos previamente.
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Home.png" alt="Motus Landing Page Home Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Benefits.png" alt="Motus Landing Page Benefits Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Features.png" alt="Motus Landing Page Features Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-How-It-Works.png" alt="Motus Landing Page How It Work Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Audience.png" alt="Motus Landing Page Audience Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Plans.png" alt="Motus Landing Page Plans Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Contact.png" alt="Motus Landing Page Contact Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Footer.png" alt="Motus Landing Page Footer Mock-up" width="900">
+</p>
+
