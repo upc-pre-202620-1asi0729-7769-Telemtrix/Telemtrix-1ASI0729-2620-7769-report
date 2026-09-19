@@ -616,3 +616,17 @@ Motus utiliza un sistema de espaciado basado en múltiplos de 8 px, permitiendo 
 Los elementos visuales mantienen formas simples, bordes ligeramente redondeados y espacios en blanco suficientes para separar adecuadamente la información. Las tarjetas y contenedores presentan una apariencia limpia, evitando sombras excesivas o elementos decorativos que puedan distraer al usuario.
 
 La iconografía será sencilla y fácilmente reconocible, utilizando representaciones relacionadas con vehículos, mantenimiento, kilometraje, combustible, alertas, fotografías y listas de verificación.
+
+#### Communication Tone
+
+La comunicación de Motus será clara, directa y profesional. Debido a que la plataforma será utilizada durante actividades operativas, los mensajes deberán ser breves y fáciles de comprender, evitando términos técnicos innecesarios.
+
+El tono de comunicación de Motus se caracteriza por ser:
+
+- **Serio antes que divertido**, debido al contexto de mantenimiento y operación vehicular.
+- **Cercano antes que excesivamente formal**, utilizando instrucciones sencillas y comprensibles.
+- **Respetuoso**, especialmente en mensajes de error y advertencias.
+- **Calmado antes que alarmista**, comunicando claramente las incidencias y las acciones recomendadas.
+
+Por ejemplo, ante un mantenimiento vencido se priorizará un mensaje como *“El mantenimiento de frenos está vencido. Programa una revisión para mantener el vehículo disponible”*, evitando mensajes excesivamente alarmistas o difíciles de interpretar.
+
