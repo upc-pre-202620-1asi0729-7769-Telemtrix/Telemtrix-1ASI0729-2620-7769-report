@@ -702,3 +702,43 @@ La interfaz de Motus seguirá un enfoque responsive que permita su correcta util
 En pantallas pequeñas, los componentes se reorganizarán verticalmente, la navegación se simplificará y las acciones principales mantendrán un tamaño adecuado para la interacción táctil.
 
 Se priorizarán especialmente los flujos utilizados por los conductores, como el registro del odómetro, la realización del checklist pre-viaje y el reporte de incidencias, buscando reducir la cantidad de pasos necesarios para completar estas acciones.
+
+## 4.2. Information Architecture
+
+La arquitectura de información de Motus se ha definido con el objetivo de organizar el contenido de manera clara y facilitar que los usuarios encuentren rápidamente la información que necesitan. La estructura considera tanto la landing page, orientada a presentar la propuesta de valor y las principales funcionalidades del producto, como la aplicación web, donde los usuarios realizan tareas relacionadas con la gestión y mantenimiento de los vehículos.
+
+La organización de la información prioriza una navegación sencilla, etiquetas comprensibles y una jerarquía que permita acceder rápidamente a las funcionalidades más importantes de acuerdo con las necesidades de cada tipo de usuario.
+
+### 4.2.1. Organization Systems
+
+Motus emplea principalmente un sistema de organización jerárquico, complementado con una organización por audiencia y por tópicos. Esta combinación permite estructurar el contenido según su importancia y separar las funcionalidades de acuerdo con las necesidades de los encargados de flota y los conductores.
+
+#### Organización jerárquica
+
+La información se distribuye desde contenidos generales hacia contenidos más específicos. En la landing page, el usuario comienza con una presentación general de Motus y posteriormente puede conocer sus beneficios, funcionalidades, funcionamiento y opciones de acceso.
+
+En la aplicación web, la información principal se presenta inicialmente mediante un dashboard que resume el estado de la flota. Desde este punto, el encargado de flota puede acceder a información más específica relacionada con vehículos, mantenimientos, incidencias, alertas e historiales.
+
+#### Organización por audiencia
+
+La estructura considera las necesidades de los dos principales segmentos de usuario:
+
+- **Encargados de flota:** requieren acceder principalmente al estado general de los vehículos, mantenimientos, alertas, incidencias e historial técnico.
+- **Conductores:** requieren accesos rápidos al vehículo asignado, registro de odómetro, checklist pre-viaje y reporte de incidencias.
+
+Esta separación permite priorizar las funcionalidades más relevantes para cada usuario y evitar mostrar información innecesaria durante sus tareas habituales.
+
+#### Organización por tópicos
+
+Las funcionalidades se agrupan de acuerdo con el tipo de información que representan. Los principales tópicos considerados son:
+
+- Vehículos
+- Mantenimiento
+- Checklists
+- Incidencias
+- Alertas
+- Historial técnico
+- Odómetro y combustible
+- Gestión de la flota
+
+Esta organización permite que los usuarios relacionen cada sección con una actividad específica y encuentren la información de forma predecible.
