@@ -822,47 +822,49 @@ La landing page utiliza una navegación lineal mediante una barra superior que p
 - Beneficios
 - Funcionalidades
 - Cómo funciona
-- Para quién es
+- Planes
 - Contacto
 - Iniciar sesión
 
 El recorrido principal sigue la secuencia:
 
-**Inicio → Beneficios → Funcionalidades → Cómo funciona → Para quién es → Contacto**
+**Inicio → Beneficios → Funcionalidades → Cómo funciona → Planes → Contacto**
 
 #### Navegación de la Aplicación Web
 
-Después de iniciar sesión, la navegación se adapta al rol del usuario.
+Después de iniciar sesión, la navegación se adapta al rol del usuario y prioriza las funcionalidades correspondientes a las actividades que realiza dentro de Motus.
 
 Para el **Encargado de Flota**, las principales opciones son:
 
 - Dashboard
 - Vehículos
+- Conductores
 - Mantenimientos
-- Incidencias
 - Alertas
 - Historial
-- Configuración
 
-Desde la sección Vehículos, el encargado puede seleccionar una unidad y consultar información específica relacionada con su estado, kilometraje, mantenimientos, incidencias e historial técnico.
+Desde la sección **Vehículos**, el encargado puede registrar nuevas unidades y acceder a la información específica de cada vehículo. Asimismo, puede configurar los umbrales de mantenimiento según kilometraje, registrar los servicios realizados en taller y consultar el historial técnico de cada unidad.
 
-Para el **Conductor**, la navegación se simplifica y prioriza las tareas operativas realizadas con mayor frecuencia:
+La sección **Conductores** permite gestionar los usuarios asociados a la empresa y vincularlos con las unidades vehiculares correspondientes.
+
+Para el **Conductor**, la navegación se simplifica y prioriza las tareas operativas realizadas durante su jornada:
 
 - Inicio
 - Mi vehículo
 - Registrar odómetro
 - Checklist pre-viaje
 - Reportar incidencia
-- Historial
 
-En dispositivos móviles, estas opciones se adaptarán a una navegación compacta para facilitar el acceso a las principales funciones.
+El conductor puede registrar el kilometraje de su unidad, completar el checklist pre-viaje incluso cuando no dispone de conexión a Internet y reportar incidencias mecánicas detectadas durante el trayecto.
+
+En dispositivos móviles, estas opciones se adaptarán a una navegación compacta para facilitar el acceso a las funciones principales desde teléfonos móviles.
 
 #### Navigation System
 
 El siguiente mapa representa la estructura de navegación propuesta para Motus y las principales rutas disponibles para los visitantes, encargados de flota y conductores.
 
 <p align="center">
-  <img src="images/chapter04/Motus-Navigation-System.png" alt="Motus Navigation System" width="900">
+  <img src="images/chapter04/Motus-Navigation-System-v2.png" alt="Motus Navigation System" width="900">
 </p>
 
 ### 4.3. Landing Page UI Design
