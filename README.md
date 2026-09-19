@@ -760,3 +760,35 @@ Las etiquetas principales de la aplicación se mantienen alineadas con los conce
 - **Reportar incidencia:** acción para registrar una falla o anomalía detectada.
 
 En los botones se utilizarán etiquetas orientadas a acciones, como `Registrar`, `Guardar`, `Reportar`, `Programar`, `Ver detalle` o `Completar checklist`, permitiendo que el usuario pueda anticipar el resultado de cada interacción.
+### 4.2.3. SEO Tags and Meta Tags
+
+La landing page de Motus utilizará etiquetas SEO y metadatos que permitan describir correctamente el producto para los motores de búsqueda y facilitar su identificación por potenciales usuarios interesados en soluciones para gestión y mantenimiento de flotas.
+
+Se establecen inicialmente los siguientes metadatos:
+
+| Meta Tag | Contenido |
+|---|---|
+| **Title** | Motus - Gestión y mantenimiento preventivo de flotas |
+| **Description** | Motus facilita la gestión de flotas de carga ligera mediante mantenimiento preventivo, control de kilometraje, checklists, alertas y reporte de incidencias. |
+| **Keywords** | gestión de flotas, mantenimiento preventivo, flotas de vehículos, mantenimiento vehicular, control de kilometraje, logística, Motus |
+| **Author** | Telemtrix |
+
+Su implementación en la landing page seguirá una estructura similar a la siguiente:
+
+```html
+<title>Motus - Gestión y mantenimiento preventivo de flotas</title>
+
+<meta
+  name="description"
+  content="Motus facilita la gestión de flotas de carga ligera mediante mantenimiento preventivo, control de kilometraje, checklists, alertas y reporte de incidencias."
+>
+
+<meta
+  name="keywords"
+  content="gestión de flotas, mantenimiento preventivo, flotas de vehículos, mantenimiento vehicular, control de kilometraje, logística, Motus"
+>
+
+<meta name="author" content="Telemtrix">
+```
+
+Estos metadatos buscan representar de manera directa el propósito del producto y mantener coherencia entre el contenido presentado en la landing page y los términos relacionados con su propuesta de valor.
