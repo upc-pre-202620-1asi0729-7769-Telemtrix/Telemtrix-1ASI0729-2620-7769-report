@@ -608,3 +608,11 @@ La jerarquía tipográfica se establece de la siguiente manera:
 - **Inter Regular (400):** párrafos, descripciones y contenido general.
 
 El tamaño y peso de los textos deberán mantener una jerarquía visual clara, facilitando la lectura y evitando la saturación de información.
+
+#### Spacing and Visual Elements
+
+Motus utiliza un sistema de espaciado basado en múltiplos de 8 px, permitiendo mantener una distribución consistente entre textos, botones, tarjetas y demás componentes de la interfaz.
+
+Los elementos visuales mantienen formas simples, bordes ligeramente redondeados y espacios en blanco suficientes para separar adecuadamente la información. Las tarjetas y contenedores presentan una apariencia limpia, evitando sombras excesivas o elementos decorativos que puedan distraer al usuario.
+
+La iconografía será sencilla y fácilmente reconocible, utilizando representaciones relacionadas con vehículos, mantenimiento, kilometraje, combustible, alertas, fotografías y listas de verificación.
