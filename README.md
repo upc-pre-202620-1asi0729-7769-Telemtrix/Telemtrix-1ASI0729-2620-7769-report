@@ -568,3 +568,24 @@ El logotipo de Motus constituye el principal identificador visual del producto. 
 </p>
 
 El logotipo debe mantener sus proporciones originales y contar con suficiente espacio libre a su alrededor para conservar su legibilidad. Se priorizará su utilización sobre fondos blancos o de tonalidades claras.
+#### Color Palette
+
+La paleta de colores de Motus combina principalmente tonalidades azules y verdes con fondos claros. El azul representa confianza, estabilidad y control, mientras que el verde se relaciona con movimiento, disponibilidad y prevención. Adicionalmente, se incorporan colores de estado que permiten comunicar visualmente advertencias e incidencias dentro de la plataforma.
+
+La siguiente paleta presenta los colores establecidos para la identidad visual de Motus:
+<p align="center">
+<img src="../assets/images/Motus-Color-Palette.png" alt="Motus Color Palette" width="900">
+</p>
+
+| Color | Código HEX | Aplicación |
+|---|---|---|
+| Azul Motus | `#1E4D6B` | Identidad de marca, títulos y navegación |
+| Verde Motus | `#27A67A` | Acciones principales y estados positivos |
+| Verde claro | `#E8F6F1` | Fondos destacados y elementos secundarios |
+| Ámbar | `#F4A62A` | Advertencias y mantenimientos próximos |
+| Rojo | `#E05252` | Fallas, incidencias y estados críticos |
+| Gris claro | `#F5F8FA` | Fondos secundarios |
+| Gris oscuro | `#263238` | Texto principal |
+| Blanco | `#FFFFFF` | Fondo principal y tarjetas |
+
+Los colores de estado mantienen un significado consistente dentro de Motus: el verde identifica condiciones normales o vehículos disponibles, el ámbar señala situaciones que requieren atención, como mantenimientos próximos, y el rojo se reserva para incidencias, mantenimientos vencidos o estados críticos.
