@@ -888,7 +888,7 @@ El mock-up de la landing page de Motus presenta la propuesta visual final de la 
 </p>
 
 <p align="center">
-  <img src="images/chapter04/Motus-Landing-Mockup-How-It-Works.png" alt="Motus Landing Page How It Work Mock-up" width="900">
+  <img src="images/chapter04/Motus-Landing-Mockup-How-It-Work.png" alt="Motus Landing Page How It Work Mock-up" width="900">
 </p>
 
 <p align="center">
