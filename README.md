@@ -630,3 +630,12 @@ El tono de comunicación de Motus se caracteriza por ser:
 
 Por ejemplo, ante un mantenimiento vencido se priorizará un mensaje como *“El mantenimiento de frenos está vencido. Programa una revisión para mantener el vehículo disponible”*, evitando mensajes excesivamente alarmistas o difíciles de interpretar.
 
+#### Design Principles
+
+El diseño de Motus se desarrolla considerando los siguientes principios:
+
+- **Claridad:** La información relevante debe poder identificarse rápidamente, evitando interfaces sobrecargadas.
+- **Consistencia:** Los colores, componentes, iconos y estados deben conservar el mismo significado en toda la plataforma.
+- **Prevención:** La interfaz debe destacar información que permita anticipar mantenimientos y posibles incidencias.
+- **Accesibilidad:** Los elementos deben utilizar textos legibles, contraste adecuado y etiquetas comprensibles.
+- **Eficiencia:** Las acciones frecuentes, como registrar kilometraje, completar un checklist o reportar una incidencia, deben realizarse mediante flujos simples y con la menor cantidad posible de pasos.
