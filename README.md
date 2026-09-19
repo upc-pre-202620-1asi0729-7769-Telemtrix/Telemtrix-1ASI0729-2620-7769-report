@@ -564,7 +564,7 @@ Motus es la solución digital desarrollada por Telemtrix para facilitar la gesti
 El logotipo de Motus constituye el principal identificador visual del producto. Su diseño integra el concepto de movimiento mediante la representación de una carretera dentro de la letra inicial de la marca, relacionando directamente la identidad del producto con la operación continua de los vehículos.
 
 <p align="center">
-  <img src="../assets/images/Motus-Logo.png" alt="Motus Logo" width="600">
+  <img src="images/chapter04/Motus-Logo.png" alt="Motus Logo" width="600">
 </p>
 
 El logotipo debe mantener sus proporciones originales y contar con suficiente espacio libre a su alrededor para conservar su legibilidad. Se priorizará su utilización sobre fondos blancos o de tonalidades claras.
