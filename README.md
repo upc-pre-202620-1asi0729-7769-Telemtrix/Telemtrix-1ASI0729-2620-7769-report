@@ -951,6 +951,8 @@ Para la versión Mobile, la estructura de la landing page se adapta a una distri
 
 El mock-up de la landing page de Motus presenta la propuesta visual final de la interfaz, aplicando los lineamientos de diseño, identidad visual y arquitectura de información definidos previamente.
 
+#### Desktop Mock-up
+
 <p align="center">
   <img src="images/chapter04/Motus-Landing-Mockup-Home.png" alt="Motus Landing Page Home Mock-up" width="900">
 </p>
@@ -983,3 +985,38 @@ El mock-up de la landing page de Motus presenta la propuesta visual final de la 
   <img src="images/chapter04/Motus-Landing-Mockup-Footer.png" alt="Motus Landing Page Footer Mock-up" width="900">
 </p>
 
+#### Mobile Mock-up
+
+Para la versión Mobile, el diseño de la landing page de Motus se adapta a una distribución vertical, manteniendo la identidad visual, paleta de colores, tipografía y componentes definidos para la versión Desktop.
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-1.png" alt="Motus Landing Page Mobile Mock-up 1" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-2.png" alt="Motus Landing Page Mobile Mock-up 2" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-3.png" alt="Motus Landing Page Mobile Mock-up 3" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-4.png" alt="Motus Landing Page Mobile Mock-up 4" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-5.png" alt="Motus Landing Page Mobile Mock-up 5" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-6.png" alt="Motus Landing Page Mobile Mock-up 6" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-7.png" alt="Motus Landing Page Mobile Mock-up 7" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-8.png" alt="Motus Landing Page Mobile Mock-up 8" width="400">
+</p>
