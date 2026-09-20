@@ -680,7 +680,215 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 ![Product Backlog Board - Telemtrix](images/chapter03/telemtrix-product-backlog.png)
 
 
+### 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
 
+#### Wireframe – Login web 
+![Wireframe - Login](images/chapter04/wireframe-01-motus.png)
+
+
+#### Wireframe – Dashboard de flota
+![Wireframe - Dashboard](images/chapter04/wireframe-02-motus.png)
+
+
+#### Wireframe – Listado de vehículos
+![Wireframe - listado](images/chapter04/wireframe-03-motus.png)
+
+#### Wireframe – Agregar unidad
+![Wireframe - Agregar](images/chapter04/wireframe-03.1-motus.png)
+
+#### Wireframe – Unidad Agregada
+![Wireframe - Agregada](images/chapter04/wireframe-03.2-motus.png)
+
+#### Wireframe – Detalle de vehículo: Resumen
+![Wireframe - resumen](images/chapter04/wireframe-04-motus.png)
+
+#### Wireframe – Detalle de vehículo: Historial
+![Wireframe - Historial](images/chapter04/wireframe-04.1-motus.png)
+
+#### Wireframe – Alertas
+![Wireframe - alertas](images/chapter04/wireframe-05-motus.png)
+
+#### Wireframe: Agendar mantenimiento
+![Wireframe - Mantenimiento](images/chapter04/wireframe-06-motus.png)
+
+#### Wireframe: Cita agendada
+![Wireframe - agendada](images/chapter04/wireframe-06.1-motus.png)
+
+#### Wireframe: Fallo al agendar
+![Wireframe - Fallo](images/chapter04/wireframe-06.2-motus.png)
+
+#### Wireframe – Reportes de flota
+![Wireframe - Login](images/chapter04/wireframe-07-motus.png)
+
+
+#### Wireframe – Membresía y facturación
+![Wireframe - Membresía](images/chapter04/wireframe-08-motus.png)
+
+
+#### Wireframe – Estado vacío: flota sin vehículos
+![Wireframe - Flota](images/chapter04/wireframe-09-motus.png)
+
+
+#### Wireframe – Checklist pre-viaje
+![Wireframe - Checklist](images/chapter04/wireframe-10-motus.png)
+
+
+#### Wireframe – Login web chofer (Conductor)
+![Wireframe - Login](images/chapter04/motus-drive-wireframe-01.png)
+
+#### Wireframe – Inicio del chofer (Conductor)
+![Wireframe - Inicio](images/chapter04/motus-driver-wireframe-02.png)
+
+#### Wireframe – Checklist Enviado (Conductor)
+![Wireframe - Checklist](images/chapter04/motus-driver-wireframe-03.png)
+
+#### Wireframe – Checklist pre-viaje (Conductor)
+![Wireframe - Checklist](images/chapter04/motus-driver-wireframe-03.1.png)
+
+
+#### Wireframe – Registrar odómetro (Conductor)
+![Wireframe - Registrar](images/chapter04/motus-driver-wireframe-04.png)
+
+#### Wireframe – Registro exitoso (Conductor)
+![Wireframe - Registrar](images/chapter04/motus-driver-wireframe-04.1.png)
+
+#### Wireframe – Reportar incidencia (Conductor)
+![Wireframe - Reportar](images/chapter04/motus-driver-wireframe-05.png)
+
+#### Wireframe – Incidencia Enviada (Conductor)
+![Wireframe - Incidencia](images/chapter04/motus-driver-wireframe-05.1.png)
+
+#### Wireframe – Historial de registros (Conductor)
+![Wireframe - Historial](images/chapter04/motus-driver-wireframe-06.png)
+
+#### Wireframe – Perfil del chofer (Conductor)
+![Wireframe - Perfil](images/chapter04/motus-driver-wireframe-07.png)
+
+Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1 
+
+
+### 4.4.2. Web Applications Wireflow Diagrams.
+### User Goal 1:
+#### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/task-flow-01.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-01.png)
+
+
+### User Goal 2:
+#### Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.
+
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-02.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-02.png)
+
+
+### User Goal 3:
+#### Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-03.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-03.png)
+
+
+### User Goal 4:
+#### Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-04.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-04.png)
+
+### 4.4.3. Web Applications Mock-ups.
+
+#### Mockup – Login web 
+![Mockup - Login](images/chapter04/mockups/mockup-01.png)
+
+
+#### Mockup – Dashboard de flota
+![Mockup - Dashboard](images/chapter04/mockups/mockup-02.png)
+
+#### Mockup – Agregar unidad
+![Mockup - Agregar](images/chapter04/mockups/mockup-03.png)
+
+#### Mockup – Unidad Agregada
+![Mockup - Agregada](images/chapter04/mockups/mockup-04.png)
+
+#### Mockup – Detalle de vehículo: Resumen
+![Mockup - resumen](images/chapter04/mockups/mockup-05.png)
+
+#### Mockup – Detalle de vehículo: Historial
+![Mockup - Historial](images/chapter04/mockups/mockup-06.png)
+
+#### Mockup – Alertas
+![Mockup - alertas](images/chapter04/mockups/mockup-07.png)
+
+#### Mockup: Agendar mantenimiento
+![Mockup - Mantenimiento](images/chapter04/mockups/mockup-08.png)
+
+#### Mockup: Cita agendada
+![Mockup - agendada](images/chapter04/mockups/mockup-09.png)
+
+#### Mockup: Fallo al agendar
+![Mockup - Fallo](images/chapter04/mockups/mockup-10.png)
+
+#### Mockup – Reportes de flota
+![Mockup - Login](images/chapter04/mockups/mockup-11.png)
+
+
+#### Mockup – Membresía y facturación
+![Mockup - Membresía](images/chapter04/mockups/mockup-12.png)
+
+
+#### Mockup – Estado vacío: flota sin vehículos
+![Mockup - Flota](images/chapter04/mockups/mockup-13.png)
+
+
+#### Mockup – Checklist pre-viaje
+![Mockup - Checklist](images/chapter04/mockups/mockup-14.png)
+
+
+#### Mockup – Login web chofer (Conductor)
+![Mockup - Login](images/chapter04/mockups/mockup-15.png)
+
+#### Mockup – Inicio del chofer (Conductor)
+![Mockup - Inicio](images/chapter04/mockups/mockup-16.png)
+
+#### Mockup – Checklist Enviado (Conductor)
+![Mockup - Checklist](images/chapter04/mockups/mockup-17.png)
+
+#### Mockup – Checklist pre-viaje (Conductor)
+![Mockup - Checklist](images/chapter04/mockups/mockup-18.png)
+
+
+#### Mockup – Registrar odómetro (Conductor)
+![Mockup - Registrar](images/chapter04/mockups/mockup-19.png)
+
+#### Mockup – Registro exitoso (Conductor)
+![Mockup - Registrar](images/chapter04/mockups/mockup-20.png)
+
+#### Mockup – Reportar incidencia (Conductor)
+![Mockup - Reportar](images/chapter04/mockups/mockup-21.png)
+
+#### Mockup – Incidencia Enviada (Conductor)
+![Mockup - Incidencia](images/chapter04/mockups/mockup-22.png)
+
+#### Mockup – Historial de registros (Conductor)
+![Mockup - Historial](images/chapter04/mockups/mockup-23.png)
+
+#### Mockup – Perfil del chofer (Conductor)
+![Mockup - Perfil](images/chapter04/mockups/mockup-24.png)
+
+Link del Figma: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1 
+
+
+### 4.4.4. Web Applications User Flow Diagrams.
 
 
 
