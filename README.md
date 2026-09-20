@@ -166,7 +166,7 @@
 | :---: | :--- |
 | | **Santiago Israel Echevarria Lizana (u20241g014)**<br><br>Estudiante de Ingeniería de Software con interés en el área de IA y Automatización. |
 | | **Patricia Valeria Mejía Poma (u202523271)**<br><br>Estudiante de Ingeniería de Software en la UPC. Cuento con conocimientos en fundamentos de programación con C++ y Java, maquetación básica con HTML y CSS, y nociones en bases de datos relacionales con SQL. Me considero una persona responsable, organizada y comprometida con el trabajo en equipo, con disposición constante para aprender y adaptarme a nuevos retos técnicos. Mis expectativas en el curso son adquirir experiencia práctica en el desarrollo de aplicaciones web, fortalecer el trabajo colaborativo con Git y GitFlow, y aportar activamente en la documentación y construcción del proyecto Telemtrix. |
-
+| | **Ysidro Llashag, Valeria Milagros (U20241G197)**<br><br>Estudiante de Ingeniería de Software. Me considero una persona responsable, organizada y comprometida con mis objetivos académicos y profesionales. Cuento con conocimientos en programación y desarrollo de aplicaciones, y tengo especial interés en áreas como inteligencia artificial y análisis de datos. Asimismo, tengo experiencia trabajando en equipo y desarrollando proyectos académicos, lo que me ha permitido fortalecer mis habilidades de organización, comunicación y resolución de problemas. Espero aportar estos conocimientos y habilidades al desarrollo del proyecto y contribuir al cumplimiento de los objetivos del equipo. |
 
 ## 1.2 Solution Profile
 
