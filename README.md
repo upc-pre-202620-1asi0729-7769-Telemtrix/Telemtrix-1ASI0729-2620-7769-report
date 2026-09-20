@@ -28,104 +28,96 @@
 
 
 
-## Project Report Collaboration Insights *(POR MODIFICAR POR CADA ENTREGA)
-
+## Project Report Collaboration Insights
 
 
 
 ## Contenido
 
 - [Student Outcome](#student-outcome)
-
-- [Capítulo I: Introducción](#capitulo-1)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2 Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivos](#13-segmentos-objetivo)
-
-- [Capítulo II: Requirements Elicitation & Analysis](#c2)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-
-
-
-- [Capítulo III: Requirements Specification](#c3)
-    - [3.1. User Stories](#31-user-stories)
-    - [3.2. Impact Mapping](#32-impact-mapping)
-    - [3.3. Product Backlog](#33-product-backlog)
-
-
-- [Capítulo IV: Product Design](#c4)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-        - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagram](#481-database-diagram)
-
-
-- [Capítulo V: Product Implementation, Validation & Deployment](#c5)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-Validation-Interviews)
-        - [5.3.1. Diseño de Entrevistas](#531Diseño-de-Entrevistas)
-        - [5.3.2. Registro de Entrevistas](#532Registro-de-Entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](#533Evaluaciones-según-heurísticas)
-    - [5.4. Validation Interviews](#54-Validation-Interviews)
-
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagram](#481-database-diagram)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -133,13 +125,9 @@
 ## Student Outcome
 
 
-
-
-
 # Capítulo I: Introducción
 
-## 1.1 Startup Profile
-
+## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
 * **Nombre de la Startup:** Telemtrix
@@ -168,10 +156,8 @@
 | | **Patricia Valeria Mejía Poma (u202523271)**<br><br>Estudiante de Ingeniería de Software en la UPC. Cuento con conocimientos en fundamentos de programación con C++ y Java, maquetación básica con HTML y CSS, y nociones en bases de datos relacionales con SQL. Me considero una persona responsable, organizada y comprometida con el trabajo en equipo, con disposición constante para aprender y adaptarme a nuevos retos técnicos. Mis expectativas en el curso son adquirir experiencia práctica en el desarrollo de aplicaciones web, fortalecer el trabajo colaborativo con Git y GitFlow, y aportar activamente en la documentación y construcción del proyecto Telemtrix. |
 
 
-## 1.2 Solution Profile
-
+## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
-
 En el Perú, el sector de transporte de carga y logística urbana ha experimentado un incremento acelerado en sus niveles de demanda operativa; sin embargo, las micro y pequeñas empresas (MYPEs) enfrentan severas deficiencias estructurales en el control y la conservación técnica de sus flotas vehiculares. La mayoría de estas organizaciones opera bajo un modelo de mantenimiento puramente reactivo —interviniendo las unidades únicamente tras suscitarse averías mecánicas intempestivas en pleno servicio logístico— debido a la ausencia de herramientas digitales accesibles que permitan un seguimiento técnico continuo y automatizado.
 
 Esta carencia de control sistemático impacta negativamente en la rentabilidad y la continuidad del negocio. Investigaciones operativas en flotas de transporte terrestre en el contexto peruano demuestran que las desviaciones presupuestarias generadas por reparaciones mecánicas imprevistas y la inmovilización de vehículos pueden representar entre un 20% y 25% de sobrecostos operativos anuales respecto a una planificación preventiva rigurosa (Villar et al., 2025). Asimismo, se evidencia que la falta de registro del kilometraje real y el monitoreo manual de las unidades incrementa innecesariamente el consumo de combustible, lubricantes y desgaste de piezas críticas, afectando los márgenes de utilidad operativa y la puntualidad comercial (Chamochumbi & Cruz, 2026). Ante este escenario, Telemtrix propone cerrar la brecha mediante una plataforma web responsiva de telemetría y checklists digitales que optimice la trazabilidad de los vehículos y anticipe los mantenimientos periódicos.
@@ -194,7 +180,6 @@ A continuación, se detalla el análisis del problema bajo la técnica 5W+2H:
 
 
 ### 1.2.2. Lean UX Process
-
 #### 1.2.2.1. Lean UX Problem Statements
 
 **English:**
@@ -410,10 +395,8 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 * **Canal de soporte ágil e integrado:** Atención técnica directa y personalizada mediante mensajería instantánea en horario comercial local, evitando las mesas de ayuda automatizadas e impersonales de los proveedores tradicionales.
 
 
-## 2.2. Entrevistas.
-
-#### 2.2.1. Diseño de entrevistas
-
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
 El objetivo de estas entrevistas es identificar y comprender las necesidades operativas, dificultades mecánicas y expectativas de los usuarios potenciales de Telemtrix. Para ello, se consideraron dos segmentos clave del sector de transporte y logística de carga ligera:
 * Encargados de flota y dueños de MYPEs logísticas
 * Choferes y conductores de carga ligera
@@ -678,231 +661,6 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 * **Enlace Público del Product Backlog:** [https://trello.com/b/6aadcb3e/telemtrix-product-backlog](https://trello.com/b/6aadcb3e/telemtrix-product-backlog)
 * 
 ![Product Backlog Board - Telemtrix](images/chapter03/telemtrix-product-backlog.png)
-
-
-### 4.4. Web Applications UX/UI Design
-### 4.4.1. Web Applications Wireframes
-
-#### Wireframe – Login web 
-![Wireframe - Login](images/chapter04/wireframe-01-motus.png)
-
-
-#### Wireframe – Dashboard de flota
-![Wireframe - Dashboard](images/chapter04/wireframe-02-motus.png)
-
-
-#### Wireframe – Listado de vehículos
-![Wireframe - listado](images/chapter04/wireframe-03-motus.png)
-
-#### Wireframe – Agregar unidad
-![Wireframe - Agregar](images/chapter04/wireframe-03.1-motus.png)
-
-#### Wireframe – Unidad Agregada
-![Wireframe - Agregada](images/chapter04/wireframe-03.2-motus.png)
-
-#### Wireframe – Detalle de vehículo: Resumen
-![Wireframe - resumen](images/chapter04/wireframe-04-motus.png)
-
-#### Wireframe – Detalle de vehículo: Historial
-![Wireframe - Historial](images/chapter04/wireframe-04.1-motus.png)
-
-#### Wireframe – Alertas
-![Wireframe - alertas](images/chapter04/wireframe-05-motus.png)
-
-#### Wireframe: Agendar mantenimiento
-![Wireframe - Mantenimiento](images/chapter04/wireframe-06-motus.png)
-
-#### Wireframe: Cita agendada
-![Wireframe - agendada](images/chapter04/wireframe-06.1-motus.png)
-
-#### Wireframe: Fallo al agendar
-![Wireframe - Fallo](images/chapter04/wireframe-06.2-motus.png)
-
-#### Wireframe – Reportes de flota
-![Wireframe - Login](images/chapter04/wireframe-07-motus.png)
-
-
-#### Wireframe – Membresía y facturación
-![Wireframe - Membresía](images/chapter04/wireframe-08-motus.png)
-
-
-#### Wireframe – Estado vacío: flota sin vehículos
-![Wireframe - Flota](images/chapter04/wireframe-09-motus.png)
-
-
-#### Wireframe – Checklist pre-viaje
-![Wireframe - Checklist](images/chapter04/wireframe-10-motus.png)
-
-
-#### Wireframe – Login web chofer (Conductor)
-![Wireframe - Login](images/chapter04/motus-drive-wireframe-01.png)
-
-#### Wireframe – Inicio del chofer (Conductor)
-![Wireframe - Inicio](images/chapter04/motus-driver-wireframe-02.png)
-
-#### Wireframe – Checklist Enviado (Conductor)
-![Wireframe - Checklist](images/chapter04/motus-driver-wireframe-03.png)
-
-#### Wireframe – Checklist pre-viaje (Conductor)
-![Wireframe - Checklist](images/chapter04/motus-driver-wireframe-03.1.png)
-
-
-#### Wireframe – Registrar odómetro (Conductor)
-![Wireframe - Registrar](images/chapter04/motus-driver-wireframe-04.png)
-
-#### Wireframe – Registro exitoso (Conductor)
-![Wireframe - Registrar](images/chapter04/motus-driver-wireframe-04.1.png)
-
-#### Wireframe – Reportar incidencia (Conductor)
-![Wireframe - Reportar](images/chapter04/motus-driver-wireframe-05.png)
-
-#### Wireframe – Incidencia Enviada (Conductor)
-![Wireframe - Incidencia](images/chapter04/motus-driver-wireframe-05.1.png)
-
-#### Wireframe – Historial de registros (Conductor)
-![Wireframe - Historial](images/chapter04/motus-driver-wireframe-06.png)
-
-#### Wireframe – Perfil del chofer (Conductor)
-![Wireframe - Perfil](images/chapter04/motus-driver-wireframe-07.png)
-
-Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1 
-
-
-### 4.4.2. Web Applications Wireflow Diagrams.
-### User Goal 1:
-#### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
-#### Task Flow
-![taskflow1](images/chapter04/wireflow-diagrams/task-flow-01.png)
-
-#### Wire Flow
-![taskflow1](images/chapter04/wireflow-diagrams/wireflow-01.png)
-
-
-### User Goal 2:
-#### Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.
-
-#### Task Flow
-![taskflow1](images/chapter04/wireflow-diagrams/taskflow-02.png)
-
-#### Wire Flow
-![taskflow1](images/chapter04/wireflow-diagrams/wireflow-02.png)
-
-
-### User Goal 3:
-#### Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.
-#### Task Flow
-![taskflow1](images/chapter04/wireflow-diagrams/taskflow-03.png)
-
-#### Wire Flow
-![taskflow1](images/chapter04/wireflow-diagrams/wireflow-03.png)
-
-
-### User Goal 4:
-#### Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.
-#### Task Flow
-![taskflow1](images/chapter04/wireflow-diagrams/taskflow-04.png)
-
-#### Wire Flow
-![taskflow1](images/chapter04/wireflow-diagrams/wireflow-04.png)
-
-### 4.4.3. Web Applications Mock-ups.
-
-#### Mockup – Login web 
-![Mockup - Login](images/chapter04/mockups/mockup-01.png)
-
-
-#### Mockup – Dashboard de flota
-![Mockup - Dashboard](images/chapter04/mockups/mockup-02.png)
-
-#### Mockup – Agregar unidad
-![Mockup - Agregar](images/chapter04/mockups/mockup-03.png)
-
-#### Mockup – Unidad Agregada
-![Mockup - Agregada](images/chapter04/mockups/mockup-04.png)
-
-#### Mockup – Detalle de vehículo: Resumen
-![Mockup - resumen](images/chapter04/mockups/mockup-05.png)
-
-#### Mockup – Detalle de vehículo: Historial
-![Mockup - Historial](images/chapter04/mockups/mockup-06.png)
-
-#### Mockup – Alertas
-![Mockup - alertas](images/chapter04/mockups/mockup-07.png)
-
-#### Mockup: Agendar mantenimiento
-![Mockup - Mantenimiento](images/chapter04/mockups/mockup-08.png)
-
-#### Mockup: Cita agendada
-![Mockup - agendada](images/chapter04/mockups/mockup-09.png)
-
-#### Mockup: Fallo al agendar
-![Mockup - Fallo](images/chapter04/mockups/mockup-10.png)
-
-#### Mockup – Reportes de flota
-![Mockup - Login](images/chapter04/mockups/mockup-11.png)
-
-
-#### Mockup – Membresía y facturación
-![Mockup - Membresía](images/chapter04/mockups/mockup-12.png)
-
-
-#### Mockup – Estado vacío: flota sin vehículos
-![Mockup - Flota](images/chapter04/mockups/mockup-13.png)
-
-
-#### Mockup – Checklist pre-viaje
-![Mockup - Checklist](images/chapter04/mockups/mockup-14.png)
-
-
-#### Mockup – Login web chofer (Conductor)
-![Mockup - Login](images/chapter04/mockups/mockup-15.png)
-
-#### Mockup – Inicio del chofer (Conductor)
-![Mockup - Inicio](images/chapter04/mockups/mockup-16.png)
-
-#### Mockup – Checklist Enviado (Conductor)
-![Mockup - Checklist](images/chapter04/mockups/mockup-17.png)
-
-#### Mockup – Checklist pre-viaje (Conductor)
-![Mockup - Checklist](images/chapter04/mockups/mockup-18.png)
-
-
-#### Mockup – Registrar odómetro (Conductor)
-![Mockup - Registrar](images/chapter04/mockups/mockup-19.png)
-
-#### Mockup – Registro exitoso (Conductor)
-![Mockup - Registrar](images/chapter04/mockups/mockup-20.png)
-
-#### Mockup – Reportar incidencia (Conductor)
-![Mockup - Reportar](images/chapter04/mockups/mockup-21.png)
-
-#### Mockup – Incidencia Enviada (Conductor)
-![Mockup - Incidencia](images/chapter04/mockups/mockup-22.png)
-
-#### Mockup – Historial de registros (Conductor)
-![Mockup - Historial](images/chapter04/mockups/mockup-23.png)
-
-#### Mockup – Perfil del chofer (Conductor)
-![Mockup - Perfil](images/chapter04/mockups/mockup-24.png)
-
-Link del Figma: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1 
-
-
-### 4.4.4. Web Applications User Flow Diagrams.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Capítulo IV: Product Design
@@ -1375,3 +1133,213 @@ Para la versión Mobile, el diseño de la landing page de Motus se adapta a una 
 <p align="center">
   <img src="images/chapter04/Motus-Landing-Mockup-Mobile-8.png" alt="Motus Landing Page Mobile Mock-up 8" width="400">
 </p>
+
+
+## 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+
+#### Wireframe – Login web 
+![Wireframe - Login](images/chapter04/wireframe-01-motus.png)
+
+
+#### Wireframe – Dashboard de flota
+![Wireframe - Dashboard](images/chapter04/wireframe-02-motus.png)
+
+
+#### Wireframe – Listado de vehículos
+![Wireframe - listado](images/chapter04/wireframe-03-motus.png)
+
+#### Wireframe – Agregar unidad
+![Wireframe - Agregar](images/chapter04/wireframe-03.1-motus.png)
+
+#### Wireframe – Unidad Agregada
+![Wireframe - Agregada](images/chapter04/wireframe-03.2-motus.png)
+
+#### Wireframe – Detalle de vehículo: Resumen
+![Wireframe - resumen](images/chapter04/wireframe-04-motus.png)
+
+#### Wireframe – Detalle de vehículo: Historial
+![Wireframe - Historial](images/chapter04/wireframe-04.1-motus.png)
+
+#### Wireframe – Alertas
+![Wireframe - alertas](images/chapter04/wireframe-05-motus.png)
+
+#### Wireframe: Agendar mantenimiento
+![Wireframe - Mantenimiento](images/chapter04/wireframe-06-motus.png)
+
+#### Wireframe: Cita agendada
+![Wireframe - agendada](images/chapter04/wireframe-06.1-motus.png)
+
+#### Wireframe: Fallo al agendar
+![Wireframe - Fallo](images/chapter04/wireframe-06.2-motus.png)
+
+#### Wireframe – Reportes de flota
+![Wireframe - Login](images/chapter04/wireframe-07-motus.png)
+
+
+#### Wireframe – Membresía y facturación
+![Wireframe - Membresía](images/chapter04/wireframe-08-motus.png)
+
+
+#### Wireframe – Estado vacío: flota sin vehículos
+![Wireframe - Flota](images/chapter04/wireframe-09-motus.png)
+
+
+#### Wireframe – Checklist pre-viaje
+![Wireframe - Checklist](images/chapter04/wireframe-10-motus.png)
+
+
+#### Wireframe – Login web chofer (Conductor)
+![Wireframe - Login](images/chapter04/motus-drive-wireframe-01.png)
+
+#### Wireframe – Inicio del chofer (Conductor)
+![Wireframe - Inicio](images/chapter04/motus-driver-wireframe-02.png)
+
+#### Wireframe – Checklist Enviado (Conductor)
+![Wireframe - Checklist](images/chapter04/motus-driver-wireframe-03.png)
+
+#### Wireframe – Checklist pre-viaje (Conductor)
+![Wireframe - Checklist](images/chapter04/motus-driver-wireframe-03.1.png)
+
+
+#### Wireframe – Registrar odómetro (Conductor)
+![Wireframe - Registrar](images/chapter04/motus-driver-wireframe-04.png)
+
+#### Wireframe – Registro exitoso (Conductor)
+![Wireframe - Registrar](images/chapter04/motus-driver-wireframe-04.1.png)
+
+#### Wireframe – Reportar incidencia (Conductor)
+![Wireframe - Reportar](images/chapter04/motus-driver-wireframe-05.png)
+
+#### Wireframe – Incidencia Enviada (Conductor)
+![Wireframe - Incidencia](images/chapter04/motus-driver-wireframe-05.1.png)
+
+#### Wireframe – Historial de registros (Conductor)
+![Wireframe - Historial](images/chapter04/motus-driver-wireframe-06.png)
+
+#### Wireframe – Perfil del chofer (Conductor)
+![Wireframe - Perfil](images/chapter04/motus-driver-wireframe-07.png)
+
+Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1 
+
+
+### 4.4.2. Web Applications Wireflow Diagrams
+### User Goal 1:
+#### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/task-flow-01.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-01.png)
+
+
+### User Goal 2:
+#### Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.
+
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-02.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-02.png)
+
+
+### User Goal 3:
+#### Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-03.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-03.png)
+
+
+### User Goal 4:
+#### Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-04.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-04.png)
+
+### 4.4.3. Web Applications Mock-ups
+#### Mockup – Login web 
+![Mockup - Login](images/chapter04/mockups/mockup-01.png)
+
+
+#### Mockup – Dashboard de flota
+![Mockup - Dashboard](images/chapter04/mockups/mockup-02.png)
+
+#### Mockup – Agregar unidad
+![Mockup - Agregar](images/chapter04/mockups/mockup-03.png)
+
+#### Mockup – Unidad Agregada
+![Mockup - Agregada](images/chapter04/mockups/mockup-04.png)
+
+#### Mockup – Detalle de vehículo: Resumen
+![Mockup - resumen](images/chapter04/mockups/mockup-05.png)
+
+#### Mockup – Detalle de vehículo: Historial
+![Mockup - Historial](images/chapter04/mockups/mockup-06.png)
+
+#### Mockup – Alertas
+![Mockup - alertas](images/chapter04/mockups/mockup-07.png)
+
+#### Mockup: Agendar mantenimiento
+![Mockup - Mantenimiento](images/chapter04/mockups/mockup-08.png)
+
+#### Mockup: Cita agendada
+![Mockup - agendada](images/chapter04/mockups/mockup-09.png)
+
+#### Mockup: Fallo al agendar
+![Mockup - Fallo](images/chapter04/mockups/mockup-10.png)
+
+#### Mockup – Reportes de flota
+![Mockup - Login](images/chapter04/mockups/mockup-11.png)
+
+
+#### Mockup – Membresía y facturación
+![Mockup - Membresía](images/chapter04/mockups/mockup-12.png)
+
+
+#### Mockup – Estado vacío: flota sin vehículos
+![Mockup - Flota](images/chapter04/mockups/mockup-13.png)
+
+
+#### Mockup – Checklist pre-viaje
+![Mockup - Checklist](images/chapter04/mockups/mockup-14.png)
+
+
+#### Mockup – Login web chofer (Conductor)
+![Mockup - Login](images/chapter04/mockups/mockup-15.png)
+
+#### Mockup – Inicio del chofer (Conductor)
+![Mockup - Inicio](images/chapter04/mockups/mockup-16.png)
+
+#### Mockup – Checklist Enviado (Conductor)
+![Mockup - Checklist](images/chapter04/mockups/mockup-17.png)
+
+#### Mockup – Checklist pre-viaje (Conductor)
+![Mockup - Checklist](images/chapter04/mockups/mockup-18.png)
+
+
+#### Mockup – Registrar odómetro (Conductor)
+![Mockup - Registrar](images/chapter04/mockups/mockup-19.png)
+
+#### Mockup – Registro exitoso (Conductor)
+![Mockup - Registrar](images/chapter04/mockups/mockup-20.png)
+
+#### Mockup – Reportar incidencia (Conductor)
+![Mockup - Reportar](images/chapter04/mockups/mockup-21.png)
+
+#### Mockup – Incidencia Enviada (Conductor)
+![Mockup - Incidencia](images/chapter04/mockups/mockup-22.png)
+
+#### Mockup – Historial de registros (Conductor)
+![Mockup - Historial](images/chapter04/mockups/mockup-23.png)
+
+#### Mockup – Perfil del chofer (Conductor)
+![Mockup - Perfil](images/chapter04/mockups/mockup-24.png)
+
+Link del Figma: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1 
+
+
+### 4.4.4. Web Applications User Flow Diagrams
