@@ -682,45 +682,87 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 ### 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
-#### Figura 1	Wireframe – Login web 
+#### Wireframe – Login web 
 ![Wireframe - Login](images/chapter04/wireframe-01-motus.png)
 
 
-#### Figura 2	Wireframe – Dashboard de flota
-![Wireframe - Login](images/chapter04/wireframe-02-motus.png)
+#### Wireframe – Dashboard de flota
+![Wireframe - Dashboard](images/chapter04/wireframe-02-motus.png)
 
 
-#### Figura 3	Wireframe – Listado de vehículos
-![Wireframe - Login](images/chapter04/wireframe-03-motus.png)
+#### Wireframe – Listado de vehículos
+![Wireframe - listado](images/chapter04/wireframe-03-motus.png)
 
+#### Wireframe – Agregar unidad
+![Wireframe - Agregar](images/chapter04/wireframe-03.1-motus.png)
 
-#### Figura 4	Wireframe – Detalle de vehículo: Resumen
-![Wireframe - Login](images/chapter04/wireframe-04-motus.png)
+#### Wireframe – Unidad Agregada
+![Wireframe - Agregada](images/chapter04/wireframe-03.2-motus.png)
 
+#### Wireframe – Detalle de vehículo: Resumen
+![Wireframe - resumen](images/chapter04/wireframe-04-motus.png)
 
-#### Figura 5	Wireframe – Alertas
-![Wireframe - Login](images/chapter04/wireframe-05-motus.png)
+#### Wireframe – Detalle de vehículo: Historial
+![Wireframe - Historial](images/chapter04/wireframe-04.1-motus.png)
 
+#### Wireframe – Alertas
+![Wireframe - alertas](images/chapter04/wireframe-05-motus.png)
 
-#### Figura 6	Wireframe: Agendar mantenimiento
-![Wireframe - Login](images/chapter04/wireframe-06-motus.png)
+#### Wireframe: Agendar mantenimiento
+![Wireframe - Mantenimiento](images/chapter04/wireframe-06-motus.png)
 
+#### Wireframe: Cita agendada
+![Wireframe - agendada](images/chapter04/wireframe-06.1-motus.png)
 
-#### Figura 7	Wireframe – Reportes de flota
+#### Wireframe: Fallo al agendar
+![Wireframe - Fallo](images/chapter04/wireframe-06.2-motus.png)
+
+#### Wireframe – Reportes de flota
 ![Wireframe - Login](images/chapter04/wireframe-07-motus.png)
 
 
-#### Figura 8	Wireframe – Membresía y facturación
-![Wireframe - Login](images/chapter04/wireframe-08-motus.png)
+#### Wireframe – Membresía y facturación
+![Wireframe - Membresía](images/chapter04/wireframe-08-motus.png)
 
 
-#### Figura 9	Wireframe – Estado vacío: flota sin vehículos
-![Wireframe - Login](images/chapter04/wireframe-09-motus.png)
+#### Wireframe – Estado vacío: flota sin vehículos
+![Wireframe - Flota](images/chapter04/wireframe-09-motus.png)
 
 
-#### Figura 10	Wireframe – Checklist pre-viaje
-![Wireframe - Login](images/chapter04/wireframe-10-motus.png)
+#### Wireframe – Checklist pre-viaje
+![Wireframe - Checklist](images/chapter04/wireframe-10-motus.png)
 
+
+#### Wireframe – Login web chofer (Conductor)
+![Wireframe - Login](images/chapter04/motus-drive-wireframe-01.png)
+
+#### Wireframe – Inicio del chofer (Conductor)
+![Wireframe - Inicio](images/chapter04/motus-driver-wireframe-02.png)
+
+#### Wireframe – Checklist Enviado (Conductor)
+![Wireframe - Checklist](images/chapter04/motus-driver-wireframe-03.png)
+
+#### Wireframe – Checklist pre-viaje (Conductor)
+![Wireframe - Checklist](images/chapter04/motus-driver-wireframe-03.1.png)
+
+
+#### Wireframe – Registrar odómetro (Conductor)
+![Wireframe - Registrar](images/chapter04/motus-driver-wireframe-04.png)
+
+#### Wireframe – Registro exitoso (Conductor)
+![Wireframe - Registrar](images/chapter04/motus-driver-wireframe-04.1.png)
+
+#### Wireframe – Reportar incidencia (Conductor)
+![Wireframe - Reportar](images/chapter04/motus-driver-wireframe-05.png)
+
+#### Wireframe – Incidencia Enviada (Conductor)
+![Wireframe - Incidencia](images/chapter04/motus-driver-wireframe-05.1.png)
+
+#### Wireframe – Historial de registros (Conductor)
+![Wireframe - Historial](images/chapter04/motus-driver-wireframe-06.png)
+
+#### Wireframe – Perfil del chofer (Conductor)
+![Wireframe - Perfil](images/chapter04/motus-driver-wireframe-07.png)
 
 Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Sin-t%C3%ADtulo?node-id=0-1&t=HCEJkedeCIjPwFMj-1
 
