@@ -764,7 +764,7 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 #### Wireframe – Perfil del chofer (Conductor)
 ![Wireframe - Perfil](images/chapter04/motus-driver-wireframe-07.png)
 
-Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Sin-t%C3%ADtulo?node-id=0-1&t=HCEJkedeCIjPwFMj-1
+Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1 
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
@@ -883,6 +883,9 @@ Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Sin-t%C3%ADt
 
 #### Mockup – Perfil del chofer (Conductor)
 ![Mockup - Perfil](images/chapter04/mockups/mockup-24.png)
+
+Link del Figma: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1 
+
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
