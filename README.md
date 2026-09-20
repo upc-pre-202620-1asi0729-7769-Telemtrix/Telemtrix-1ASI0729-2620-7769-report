@@ -768,8 +768,125 @@ Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Sin-t%C3%ADt
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+### User Goal 1:
+#### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/task-flow-01.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-01.png)
+
+
+### User Goal 2:
+#### Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.
+
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-02.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-02.png)
+
+
+### User Goal 3:
+#### Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-03.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-03.png)
+
+
+### User Goal 4:
+#### Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.
+#### Task Flow
+![taskflow1](images/chapter04/wireflow-diagrams/taskflow-04.png)
+
+#### Wire Flow
+![taskflow1](images/chapter04/wireflow-diagrams/wireflow-04.png)
 
 ### 4.4.3. Web Applications Mock-ups.
+
+#### Mockup – Login web 
+![Mockup - Login](images/chapter04/mockups/mockup-01.png)
+
+
+#### Mockup – Dashboard de flota
+![Mockup - Dashboard](images/chapter04/mockups/mockup-02.png)
+
+
+#### Mockup – Listado de vehículos
+![Mockup - listado](images/chapter04/mockups/mockup-03.pnh)
+
+#### Mockup – Agregar unidad
+![Mockup - Agregar](images/chapter04/mockups/mockup-04.png)
+
+#### Mockup – Unidad Agregada
+![Mockup - Agregada](images/chapter04/mockups/mockup-05.png)
+
+#### Mockup – Detalle de vehículo: Resumen
+![Mockup - resumen](images/chapter04/mockups/mockup-06.png)
+
+#### Mockup – Detalle de vehículo: Historial
+![Mockup - Historial](images/chapter04/mockups/mockup-07.png)
+
+#### Mockup – Alertas
+![Mockup - alertas](images/chapter04/mockups/mockup-08.png)
+
+#### Mockup: Agendar mantenimiento
+![Mockup - Mantenimiento](images/chapter04/mockups/mockup-09.png)
+
+#### Mockup: Cita agendada
+![Mockup - agendada](images/chapter04/mockups/mockup-10.png)
+
+#### Mockup: Fallo al agendar
+![Mockup - Fallo](images/chapter04/mockups/mockup-11.png)
+
+#### Mockup – Reportes de flota
+![Mockup - Login](images/chapter04/mockups/mockup-12.png)
+
+
+#### Mockup – Membresía y facturación
+![Mockup - Membresía](images/chapter04/mockups/mockup-13.png)
+
+
+#### Mockup – Estado vacío: flota sin vehículos
+![Mockup - Flota](images/chapter04/mockups/mockup-14.png)
+
+
+#### Mockup – Checklist pre-viaje
+![Mockup - Checklist](images/chapter04/mockups/mockup-15.png)
+
+
+#### Mockup – Login web chofer (Conductor)
+![Mockup - Login](images/chapter04/mockups/mockup-16.png)
+
+#### Mockup – Inicio del chofer (Conductor)
+![Mockup - Inicio](images/chapter04/mockups/mockup-17.png)
+
+#### Mockup – Checklist Enviado (Conductor)
+![Mockup - Checklist](images/chapter04/mockups/mockup-18.png)
+
+#### Mockup – Checklist pre-viaje (Conductor)
+![Mockup - Checklist](images/chapter04/mockups/mockup-19.png)
+
+
+#### Mockup – Registrar odómetro (Conductor)
+![Mockup - Registrar](images/chapter04/mockups/mockup-20.png)
+
+#### Mockup – Registro exitoso (Conductor)
+![Mockup - Registrar](images/chapter04/mockups/mockup-21.png)
+
+#### Mockup – Reportar incidencia (Conductor)
+![Mockup - Reportar](images/chapter04/mockups/mockup-22.png)
+
+#### Mockup – Incidencia Enviada (Conductor)
+![Mockup - Incidencia](images/chapter04/mockups/mockup-23.png)
+
+#### Mockup – Historial de registros (Conductor)
+![Mockup - Historial](images/chapter04/mockups/mockup-24.png)
+
+#### Mockup – Perfil del chofer (Conductor)
+![Mockup - Perfil](images/chapter04/mockups/mockup-25.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
