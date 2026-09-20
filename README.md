@@ -123,6 +123,14 @@
 
 
 ## Student Outcome
+El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 3.
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+| Criterio Específico | Acciones realizadas | Conclusiones|
+|--------------|-------------|-------------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | Santiago Israel Echevarria Lizana<br></br> AV1: Expliqué oralmente ante mis compañeros los User Personas, Wireframes y Mockups que elaboré. Justifiqué las decisiones de diseño y respondí las consultas del equipo para que todos entendieran la propuesta visual y funcional del proyecto. | Este informe permitió al equipo desarrollar habilidades de comunicación oral mediante reuniones constantes, exposiciones de avances y discusiones técnicas. Se concluyó que la comunicación efectiva entre los integrantes fue fundamental para coordinar tareas, resolver dudas y mantener una visión compartida del producto.  |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Santiago Israel Echevarria Lizana <br></br>AV1: Elaboré los User Personas, Wireframes y Mockups del proyecto. Dejé la estructura, los flujos y la propuesta visual para que mis compañeros pudieran revisarlos y usarlos como base en el desarrollo. | A lo largo de este AV se elaboraron diversos documentos técnicos y de diseño, e informes de sprint. Se concluyó que la comunicación escrita clara y estructurada fue esencial para documentar decisiones, dejar registro de los avances y permitir que todos los miembros del equipo trabajaran de forma coordinada. |
+
 
 
 # Capítulo I: Introducción
@@ -152,7 +160,7 @@
 
 | Foto | Biografía de los integrantes del equipo |
 | :---: | :--- |
-| | **Santiago Israel Echevarria Lizana (u20241g014)**<br><br>Estudiante de Ingeniería de Software con interés en el área de IA y Automatización. |
+| ![foto](images/chapter01/equipo-fotos/santiago-echevarria.jpg) | **Santiago Israel Echevarria Lizana (u20241g014)**<br><br>Estudiante de Ingeniería de Software de la UPC. Me interesa la tecnología y disfruto aprender sobre desarrollo de software, diseño de soluciones y nuevas herramientas que me permitan seguir mejorando mis habilidades. Tengo conocimientos en HTML, CSS, SQLServer, MongoDB. |
 | | **Patricia Valeria Mejía Poma (u202523271)**<br><br>Estudiante de Ingeniería de Software en la UPC. Cuento con conocimientos en fundamentos de programación con C++ y Java, maquetación básica con HTML y CSS, y nociones en bases de datos relacionales con SQL. Me considero una persona responsable, organizada y comprometida con el trabajo en equipo, con disposición constante para aprender y adaptarme a nuevos retos técnicos. Mis expectativas en el curso son adquirir experiencia práctica en el desarrollo de aplicaciones web, fortalecer el trabajo colaborativo con Git y GitFlow, y aportar activamente en la documentación y construcción del proyecto Telemtrix. |
 
 
