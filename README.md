@@ -479,13 +479,13 @@ Preguntas principales:
 
 | Campo        | Información |
 |--------------|-------------|
-| Entrevistado |             |
-| Edad         |             |
-| Distrito     |             |
-| Foto         |             |
-| Timing       |             |
-| Segmento     |             |
-| Preguntas    |             |
+| Segmento | Choferes y Conductores de Carga Ligera|
+| Entrevistado |  Junior Quispe |
+| Edad     |  23 años |
+| Distrito | Los Olivos            |
+| Foto | ![entrevista](images/chapter02/entrevistas-foto/entrevista-segmento-02.png) |
+| Timing |  6:25 min|
+| Link | https://youtu.be/sB9HQMniJHk |
 
 ---
 
