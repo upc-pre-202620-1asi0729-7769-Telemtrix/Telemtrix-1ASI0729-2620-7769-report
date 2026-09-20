@@ -468,7 +468,7 @@ Preguntas principales:
 | Entrevistado | Aracely Paucar Huayta |
 | Edad | 30 años |
 | Distrito | Lima |
-| Foto | <img src="images/chapter02/Motus-Interview-Aracely-Paucar.png" alt="Entrevista a Aracely Paucar Huayta" width="300"> |
+| Foto | ![Entrevista a Aracely Paucar Huayta](images/chapter02/Motus-Interview-Aracely-Paucar.png) |
 | Timing | 7:21 min |
 | Link | https://youtu.be/YNINC8JcV5Y |
 
