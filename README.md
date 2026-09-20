@@ -813,80 +813,76 @@ Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Sin-t%C3%ADt
 #### Mockup – Dashboard de flota
 ![Mockup - Dashboard](images/chapter04/mockups/mockup-02.png)
 
-
-#### Mockup – Listado de vehículos
-![Mockup - listado](images/chapter04/mockups/mockup-03.pnh)
-
 #### Mockup – Agregar unidad
-![Mockup - Agregar](images/chapter04/mockups/mockup-04.png)
+![Mockup - Agregar](images/chapter04/mockups/mockup-03.png)
 
 #### Mockup – Unidad Agregada
-![Mockup - Agregada](images/chapter04/mockups/mockup-05.png)
+![Mockup - Agregada](images/chapter04/mockups/mockup-04.png)
 
 #### Mockup – Detalle de vehículo: Resumen
-![Mockup - resumen](images/chapter04/mockups/mockup-06.png)
+![Mockup - resumen](images/chapter04/mockups/mockup-05.png)
 
 #### Mockup – Detalle de vehículo: Historial
-![Mockup - Historial](images/chapter04/mockups/mockup-07.png)
+![Mockup - Historial](images/chapter04/mockups/mockup-06.png)
 
 #### Mockup – Alertas
-![Mockup - alertas](images/chapter04/mockups/mockup-08.png)
+![Mockup - alertas](images/chapter04/mockups/mockup-07.png)
 
 #### Mockup: Agendar mantenimiento
-![Mockup - Mantenimiento](images/chapter04/mockups/mockup-09.png)
+![Mockup - Mantenimiento](images/chapter04/mockups/mockup-08.png)
 
 #### Mockup: Cita agendada
-![Mockup - agendada](images/chapter04/mockups/mockup-10.png)
+![Mockup - agendada](images/chapter04/mockups/mockup-09.png)
 
 #### Mockup: Fallo al agendar
-![Mockup - Fallo](images/chapter04/mockups/mockup-11.png)
+![Mockup - Fallo](images/chapter04/mockups/mockup-10.png)
 
 #### Mockup – Reportes de flota
-![Mockup - Login](images/chapter04/mockups/mockup-12.png)
+![Mockup - Login](images/chapter04/mockups/mockup-11.png)
 
 
 #### Mockup – Membresía y facturación
-![Mockup - Membresía](images/chapter04/mockups/mockup-13.png)
+![Mockup - Membresía](images/chapter04/mockups/mockup-12.png)
 
 
 #### Mockup – Estado vacío: flota sin vehículos
-![Mockup - Flota](images/chapter04/mockups/mockup-14.png)
+![Mockup - Flota](images/chapter04/mockups/mockup-13.png)
 
 
 #### Mockup – Checklist pre-viaje
-![Mockup - Checklist](images/chapter04/mockups/mockup-15.png)
+![Mockup - Checklist](images/chapter04/mockups/mockup-14.png)
 
 
 #### Mockup – Login web chofer (Conductor)
-![Mockup - Login](images/chapter04/mockups/mockup-16.png)
+![Mockup - Login](images/chapter04/mockups/mockup-15.png)
 
 #### Mockup – Inicio del chofer (Conductor)
-![Mockup - Inicio](images/chapter04/mockups/mockup-17.png)
+![Mockup - Inicio](images/chapter04/mockups/mockup-16.png)
 
 #### Mockup – Checklist Enviado (Conductor)
-![Mockup - Checklist](images/chapter04/mockups/mockup-18.png)
+![Mockup - Checklist](images/chapter04/mockups/mockup-17.png)
 
 #### Mockup – Checklist pre-viaje (Conductor)
-![Mockup - Checklist](images/chapter04/mockups/mockup-19.png)
+![Mockup - Checklist](images/chapter04/mockups/mockup-18.png)
 
 
 #### Mockup – Registrar odómetro (Conductor)
-![Mockup - Registrar](images/chapter04/mockups/mockup-20.png)
+![Mockup - Registrar](images/chapter04/mockups/mockup-19.png)
 
 #### Mockup – Registro exitoso (Conductor)
-![Mockup - Registrar](images/chapter04/mockups/mockup-21.png)
+![Mockup - Registrar](images/chapter04/mockups/mockup-20.png)
 
 #### Mockup – Reportar incidencia (Conductor)
-![Mockup - Reportar](images/chapter04/mockups/mockup-22.png)
+![Mockup - Reportar](images/chapter04/mockups/mockup-21.png)
 
 #### Mockup – Incidencia Enviada (Conductor)
-![Mockup - Incidencia](images/chapter04/mockups/mockup-23.png)
+![Mockup - Incidencia](images/chapter04/mockups/mockup-22.png)
 
 #### Mockup – Historial de registros (Conductor)
-![Mockup - Historial](images/chapter04/mockups/mockup-24.png)
+![Mockup - Historial](images/chapter04/mockups/mockup-23.png)
 
 #### Mockup – Perfil del chofer (Conductor)
-![Mockup - Perfil](images/chapter04/mockups/mockup-25.png)
+![Mockup - Perfil](images/chapter04/mockups/mockup-24.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
