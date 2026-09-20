@@ -456,24 +456,23 @@ Preguntas principales:
 14. ¿Qué tan fácil se le hace usar aplicaciones en su celular (como WhatsApp o mapas GPS)?
 15. ¿Estaría dispuesto a usar una página web sencilla desde su celular para registrar el kilometraje y una lista rápida de revisión antes de cada viaje?
 
-
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas 
+#### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas
 
 ---
 
-| Campo        | Información |
-|--------------|-------------|
-| Entrevistado |             |
-| Edad         |             |
-| Distrito     |             |
-| Foto         |             |
-| Timing       |             |
-| Segmento     |             |
-| Preguntas    |             |
+| Campo | Información |
+|---|---|
+| Segmento | Encargados de Flota y Dueños de MYPES Logísticas |
+| Entrevistado | Aracely Paucar Huayta |
+| Edad | 30 años |
+| Distrito | Lima |
+| Foto | <img src="images/chapter02/Motus-Interview-Aracely-Paucar.png" alt="Entrevista a Aracely Paucar Huayta" width="300"> |
+| Timing | 7:21 min |
+| Link | https://youtu.be/YNINC8JcV5Y |
 
---- 
+---
 
 #### Segmento 2: Choferes y Conductores de Carga Ligera 
 
