@@ -1541,9 +1541,9 @@ El proyecto seguirá las convenciones del flujo de trabajo establecido por el mo
 
 Repositorio de GitHub:
 
-- Enlace para acceder a la organización en GitHub: https://github.com/Telemtrix-1ASI0729-2620-7769
-- Enlace para acceder al repositorio de la landing Page: https://github.com/Telemtrix-1ASI0729-2620-7769
-- Enlace para acceder al repositorio del reporte: https://github.com/Telemtrix-1ASI0729-2620-7769/Motus-report
+- Enlace para acceder a la organización en GitHub: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
+- Enlace para acceder al repositorio de la landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+- Enlace para acceder al repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
 
 Flujo de trabajo GitFlow
 
@@ -1761,4 +1761,27 @@ Durante este Sprint, las actividades de implementación se desarrollaron de mane
 Se promovió la revisión cruzada de avances, el registro de commits detallados y la documentación de los cambios realizados. Las reuniones periódicas permitieron resolver dudas, ajustar prioridades y asegurar que todos los miembros estuvieran alineados con los objetivos del Sprint. Esta dinámica facilitó la integración continua y la entrega oportuna de los resultados esperados.
 
 ---
+
+### Conclusiones
+Telemtrix propone una solución enfocada en centralizar la gestión de vehículos, checklists, incidencias, mantenimientos preventivos, kilometraje y consumo de combustible, permitiendo que la información técnica de la flota se encuentre organizada, unificada y sea más fácil de consultar por parte de los encargados y choferes.
+
+El desarrollo del Sprint 1 permitió definir la base funcional y visual del producto mediante investigación con usuarios, historias de usuario, arquitectura de software, diseño UX/UI y la primera versión de la aplicación móvil y el panel web, manteniendo coherencia entre las necesidades identificadas en las micro y pequeñas empresas del sector logístico y la solución propuesta.
+
+Asimismo, la definición de la arquitectura basada en bounded contexts y el modelo de datos relacional permitió establecer una base sólida para escalar el producto, facilitar el mantenimiento del código y asegurar el aislamiento multi-tenant entre las empresas clientes.
+
+
+### Bibliografía 
+Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley. https://domainlanguage.com/ddd/
+Vernon, V. (2013). Implementing domain-driven design. Addison-Wesley. https://www.oreilly.com/library/view/implementing-domain-driven/9780133039900/
+Brown, S. (2020). The C4 model for visualising software architecture. https://c4model.com
+
+### Anexos
+
+Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
+Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
+Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+Despliegue de la landing en GitHub Pages: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/ 
+Link del Figma MockUp: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1
+Link del Figma WireFrames: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1
+
 
