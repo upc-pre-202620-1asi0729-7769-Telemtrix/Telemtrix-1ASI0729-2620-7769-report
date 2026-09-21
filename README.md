@@ -1464,3 +1464,21 @@ El Fleet Management Context administra las empresas, vehículos y planes de mant
 El Maintenance Context gestiona los planes, ejecuciones y repuestos del mantenimiento preventivo. Consume eventos del contexto de telemetría para calcular cuándo corresponde el próximo servicio y programa las intervenciones. Es el contexto que transforma los datos en acciones planificadas y reduce los imprevistos operativos.
 ![diagram](images/chapter04/domain-driven/component-diagram-03.png)
 
+
+
+### 4.7. Software Object-Oriented Design
+
+#### 4.7.1. Class Diagrams
+El diagrama de clases representa la estructura estática del sistema Telemtrix mediante entidades, atributos, métodos y relaciones.
+![diagrama-clases](images/chapter04/diagramas/diagrama-de-clases.png)
+
+
+### 4.8. Database Design
+
+#### 4.8.1. Database Diagram
+
+El diagrama de base de datos muestra el modelo entidad-relación que sustenta a Telemtrix. Define las tablas, columnas, tipos de datos, claves primarias, claves foráneas y cardinalidades entre entidades. 
+![diagrama-bd](images/chapter04/diagramas/diagrama-bd.png)
+
+
+
