@@ -457,17 +457,19 @@ Preguntas principales:
 
 ---
 **Entrevista 2:**
+
 | Campo | Información |
 |---|---|
 | Segmento | Encargados de Flota y Dueños de MYPES Logísticas |
 | Entrevistado | Anthony Segura |
 | Edad | 32 años |
 | Distrito | Ate, Lima |
-| Foto | ![Captura entrevista02](images/chapter02/report/Entrevista02.png)
- |
-| Timing | 6.20 |
-| Link | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBlRVbxPDKmQ7_1NTxNbb7NAU3OqT4uyFrSFxuxQtmHwuU?e=J27GNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBlRVbxPDKmQ7_1NTxNbb7NAU3OqT4uyFrSFxuxQtmHwuU?e=J27GNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-**Resumen:** 
+| Foto | ![Captura entrevista02](images/chapter02/report/Entrevista%2002.png) |
+| Timing | 6:20 min |
+| Link | [Ver entrevista en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBlRVbxPDKmQ7_1NTxNbb7NAU3OqT4uyFrSFxuxQtmHwuU?e=J27GNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+**Resumen:**
+Anthony Segura, de 32 años, es propietario de una empresa de transporte de carga ligera en Ate y cuenta con una flota de 8 vehículos. Actualmente gestiona el mantenimiento de forma manual, lo que puede ocasionar fallas inesperadas, retrasos y gastos de reparación. Considera útil una herramienta sencilla que registre el kilometraje, envíe alertas de mantenimiento y permita reportar problemas desde el celular. Estaría dispuesto a pagar entre S/20 y S/30 mensuales por vehículo y probar una aplicación web gratuita durante 30 días.
 
 
 #### Segmento 2: Choferes y Conductores de Carga Ligera 
