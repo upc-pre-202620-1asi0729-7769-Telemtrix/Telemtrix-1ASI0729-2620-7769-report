@@ -27,10 +27,21 @@
 
 ## Registro de Versiones del Informe
 
-
+| Versión | Fecha      | Autor               | Descripción de modificación                                     |
+|---------|------------|----------------------|-----------------------------------------------------------------|
+| 1.0.1     | 08/09/2026 | Santiago Israel Echevarria Lizana        | Desarrollo los user persona, diagrama de clases, diagrama de base datos, wireframes, mockups, landing page. |                  
+| 1.0.2     | 10/09/2026 | Alison Ariana Segura Guerra | Desarrollo del Capítulo 3|
+| 1.0.3     | 10/09/2026 | Patricia Valeria Mejia Poma | Definio historias de usuario, además se elaboró un mapa de impacto para relacionar los objetivos del negocio con los usuarios y las funcionalidades del sistema. |
+| 1.0.4     | 10/09/2026 | Valeria Milagros Ysidro Llashag | Desarrollo el User Task Matrix, los User Journey Maps, los Style Guidelines, la Information Architecture y los Landing Page Wireframes y Mock-ups.   |
+| 1.0.5     | 11/09/2026 | Alejandro Franklin, Mendoza Vergara | Desarrollo del Capítulo 5  |
 
 ## Project Report Collaboration Insights
 
+- Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
+- Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
+- Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+
+![Reporte](images/reporte/participacion.jpeg)
 
 
 ## Contenido
