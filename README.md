@@ -463,7 +463,8 @@ Preguntas principales:
 | Entrevistado | Anthony Segura |
 | Edad | 32 años |
 | Distrito | Ate, Lima |
-| Foto | <img src="images/chapter02/report/Entrevista02.png" alt="Entrevista a Anthony Segura" width="300"> |
+| Foto | ![Captura entrevista02](images/chapter02/report/Entrevista02.png)
+ |
 | Timing | 6.20 |
 | Link | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBlRVbxPDKmQ7_1NTxNbb7NAU3OqT4uyFrSFxuxQtmHwuU?e=J27GNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBlRVbxPDKmQ7_1NTxNbb7NAU3OqT4uyFrSFxuxQtmHwuU?e=J27GNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 **Resumen:** 
