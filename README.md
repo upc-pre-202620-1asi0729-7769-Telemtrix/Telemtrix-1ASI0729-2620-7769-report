@@ -464,7 +464,7 @@ Preguntas principales:
 | Entrevistado | Anthony Segura |
 | Edad | 32 años |
 | Distrito | Ate, Lima |
-| Foto | ![Captura entrevista02](images/chapter02/report/Entrevista%2002.png) |
+| Foto | ![Captura entrevista02](images/chapter02/Entrevist02.png) |
 | Timing | 6:20 min |
 | Link | [Ver entrevista en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBlRVbxPDKmQ7_1NTxNbb7NAU3OqT4uyFrSFxuxQtmHwuU?e=J27GNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
