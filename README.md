@@ -19,6 +19,7 @@
   <li><h3>u20241g197 Ysidro Llashag Valeria Milagros</h3></li>
   <li><h3>u202523271 Mejia Poma Patricia Valeria</h3></li>
   <li><h3>u20241g402 Segura Guerra Alison Ariana</h3></li>
+  <li><h3>u202312343 Mendoza Vergara Alejandro Franklin</h3></li>
 </ul>
 <br>
    <h3>2026</h3>
@@ -26,10 +27,21 @@
 
 ## Registro de Versiones del Informe
 
-
+| Versión | Fecha      | Autor               | Descripción de modificación                                     |
+|---------|------------|----------------------|-----------------------------------------------------------------|
+| 1.0.1     | 08/09/2026 | Santiago Israel Echevarria Lizana        | Desarrollo los user persona, diagrama de clases, diagrama de base datos, wireframes, mockups, landing page. |                  
+| 1.0.2     | 10/09/2026 | Alison Ariana Segura Guerra | Desarrollo del Capítulo 3|
+| 1.0.3     | 10/09/2026 | Patricia Valeria Mejia Poma | Definio historias de usuario, además se elaboró un mapa de impacto para relacionar los objetivos del negocio con los usuarios y las funcionalidades del sistema. |
+| 1.0.4     | 10/09/2026 | Valeria Milagros Ysidro Llashag | Desarrollo el User Task Matrix, los User Journey Maps, los Style Guidelines, la Information Architecture y los Landing Page Wireframes y Mock-ups.   |
+| 1.0.5     | 11/09/2026 | Alejandro Franklin, Mendoza Vergara | Desarrollo del Capítulo 5  |
 
 ## Project Report Collaboration Insights
 
+- Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
+- Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
+- Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+
+![Reporte](images/reporte/participacion.jpeg)
 
 
 ## Contenido
@@ -122,7 +134,16 @@
 - [Anexos](#anexos)
 
 
-## Student Outcome
+## Student Outcome 
+
+El curso contribuye al cumplimiento del Student Outcome ABET: ABET – EAC - Student Outcome 3. 
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3. 
+ 
+| Criterio Específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones | 
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------| 
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Expliqué oralmente ante mis compañeros los User Personas, Wireframes y Mockups que elaboré. Justifiqué las decisiones de diseño y respondí las consultas del equipo para que todos entendieran la propuesta visual y funcional del proyecto.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Realicé una entrevista a un representante del segmento objetivo para conocer sus necesidades y problemas relacionados con la gestión y mantenimiento de vehículos. Asimismo, comuniqué al equipo los principales hallazgos obtenidos y expliqué cómo estos aportaron al User Journey Mapping y a las decisiones de diseño de la propuesta.<br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Me comuniqué con mis compañeros para entender cada herramienta que usaremos para el trabajo de la aplicación web, además de cómo aportará en solucionar la problemática <br> | Este informe permitió al equipo desarrollar habilidades de comunicación oral mediante reuniones constantes, exposiciones de avances y discusiones técnicas. Se concluyó que la comunicación efectiva entre los integrantes fue fundamental para coordinar tareas, resolver dudas y mantener una visión compartida del producto. | 
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Elaboré los User Personas, Wireframes y Mockups del proyecto. Dejé la estructura, los flujos y la propuesta visual para que mis compañeros pudieran revisarlos y usarlos como base en el desarrollo.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Documenté los Style Guidelines y la Information Architecture de Motus, definiendo lineamientos visuales, organización, etiquetado, navegación y elementos SEO. Además, elaboré los Wireframes y Mock-ups del Landing Page, documentando la propuesta visual y la estructura de la información para facilitar su comprensión y posterior implementación por parte del equipo. <br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Para este AV1 realice el software configuration managemente que conllevan parte como el code management y el deployment configuration, para que se sepa que usamos en el proyecto | A lo largo de este AV se elaboraron diversos documentos técnicos y de diseño, e informes de sprint. Se concluyó que la comunicación escrita clara y estructurada fue esencial para documentar decisiones, dejar registro de los avances y permitir que todos los miembros del equipo trabajaran de forma coordinada. |
+
 
 
 # Capítulo I: Introducción
@@ -150,11 +171,13 @@
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto | Biografía de los integrantes del equipo |
-| :---: | :--- |
-| | **Santiago Israel Echevarria Lizana (u20241g014)**<br><br>Estudiante de Ingeniería de Software con interés en el área de IA y Automatización. |
-| | **Patricia Valeria Mejía Poma (u202523271)**<br><br>Estudiante de Ingeniería de Software en la UPC. Cuento con conocimientos en fundamentos de programación con C++ y Java, maquetación básica con HTML y CSS, y nociones en bases de datos relacionales con SQL. Me considero una persona responsable, organizada y comprometida con el trabajo en equipo, con disposición constante para aprender y adaptarme a nuevos retos técnicos. Mis expectativas en el curso son adquirir experiencia práctica en el desarrollo de aplicaciones web, fortalecer el trabajo colaborativo con Git y GitFlow, y aportar activamente en la documentación y construcción del proyecto Telemtrix. |
-
+|                                 Foto                                 | Biografía de los integrantes del equipo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|:--------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|    ![foto](images/chapter01/equipo-fotos/santiago-echevarria.jpg)    | **Santiago Israel Echevarria Lizana (u20241g014)**<br><br>Estudiante de Ingeniería de Software de la UPC. Me interesa la tecnología y disfruto aprender sobre desarrollo de software, diseño de soluciones y nuevas herramientas que me permitan seguir mejorando mis habilidades. Tengo conocimientos en HTML, CSS, SQLServer, MongoDB.                                                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                      | **Patricia Valeria Mejía Poma (u202523271)**<br><br>Estudiante de Ingeniería de Software en la UPC. Cuento con conocimientos en fundamentos de programación con C++ y Java, maquetación básica con HTML y CSS, y nociones en bases de datos relacionales con SQL. Me considero una persona responsable, organizada y comprometida con el trabajo en equipo, con disposición constante para aprender y adaptarme a nuevos retos técnicos. Mis expectativas en el curso son adquirir experiencia práctica en el desarrollo de aplicaciones web, fortalecer el trabajo colaborativo con Git y GitFlow, y aportar activamente en la documentación y construcción del proyecto Telemtrix.                                     |
+|    ![foto](images/chapter01/equipo-fotos/Valeria_Ysidro_foto.png)    | **Valeria Milagros Ysidro Llashag (U20241G197)**<br><br>Estudiante de Ingeniería de Software en la UPC. Me considero una persona responsable, organizada y comprometida con mis objetivos académicos y profesionales. Cuento con conocimientos en programación y desarrollo de aplicaciones, y tengo especial interés en áreas como inteligencia artificial y análisis de datos. Asimismo, tengo experiencia trabajando en equipo y desarrollando proyectos académicos, lo que me ha permitido fortalecer mis habilidades de organización, comunicación y resolución de problemas. Espero aportar estos conocimientos y habilidades al desarrollo del proyecto y contribuir al cumplimiento de los objetivos del equipo. |
+| ![foto](images/chapter01/equipo-fotos/Segura-Guerra-Alison-Foto.png) | **Alison Ariana Segura Guerra (U20241G402)**<br><br>Estudiante de Ingeniería de Software en la UPC. Me considero una persona responsable, organizada y comprometida con los proyectos que realizo. Cuento con conocimientos en programación. También tengo interés por el diseño de interfaces y la creación de soluciones digitales, lo que me permite combinar aspectos técnicos y creativos en mis proyectos. Asimismo, tengo experiencia trabajando en equipo y organizando ideas, habilidades que espero aportar al desarrollo y documentación del proyecto.                                                                                                                                                        |
+|             ![foto](images/chapter01/equipo-fotos/alejandro.png)             | **Alejandro Franklin Mendoza Vergara (U202312343)**<br><br>Estudiante de Ingeniería de Software en la UPC. Mi nombre es Alejandro Mendoza y soy estudiante de la carrera de Ingeniería de Software. Actualmente tengo experiencia en C++ y Python. Estoy interesado en seguir aprendiendo sobre diferentes lenguajes de programación y en la creación de distintas aplicaciones web y móviles, por lo que intento dar todo de mí para tener buenos resultados.                                                                                                                                                                                                                                                           |
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -451,24 +474,39 @@ Preguntas principales:
 | Entrevistado | Aracely Paucar Huayta |
 | Edad | 30 años |
 | Distrito | Lima |
-| Foto | <img src="images/chapter02/Motus-Interview-Aracely-Paucar.png" alt="Entrevista a Aracely Paucar Huayta" width="300"> |
+| Foto | ![Entrevista a Aracely Paucar Huayta](images/chapter02/Motus-Interview-Aracely-Paucar.png) |
 | Timing | 7:21 min |
 | Link | https://youtu.be/YNINC8JcV5Y |
 
 ---
+**Entrevista 2:**
+
+| Campo | Información |
+|---|---|
+| Segmento | Encargados de Flota y Dueños de MYPES Logísticas |
+| Entrevistado | Anthony Segura |
+| Edad | 32 años |
+| Distrito | Ate, Lima |
+| Foto | ![Captura entrevista02](images/chapter02/Entrevist02.png) |
+| Timing | 6:20 min |
+| Link | [Ver entrevista en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241g402_upc_edu_pe/IQBlRVbxPDKmQ7_1NTxNbb7NAU3OqT4uyFrSFxuxQtmHwuU?e=J27GNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+
+**Resumen:**
+Anthony Segura, de 32 años, es propietario de una empresa de transporte de carga ligera en Ate y cuenta con una flota de 8 vehículos. Actualmente gestiona el mantenimiento de forma manual, lo que puede ocasionar fallas inesperadas, retrasos y gastos de reparación. Considera útil una herramienta sencilla que registre el kilometraje, envíe alertas de mantenimiento y permita reportar problemas desde el celular. Estaría dispuesto a pagar entre S/20 y S/30 mensuales por vehículo y probar una aplicación web gratuita durante 30 días.
+
 
 #### Segmento 2: Choferes y Conductores de Carga Ligera 
 
 
 | Campo        | Información |
 |--------------|-------------|
-| Entrevistado |             |
-| Edad         |             |
-| Distrito     |             |
-| Foto         |             |
-| Timing       |             |
-| Segmento     |             |
-| Preguntas    |             |
+| Segmento | Choferes y Conductores de Carga Ligera|
+| Entrevistado |  Junior Quispe |
+| Edad     |  23 años |
+| Distrito | Los Olivos            |
+| Foto | ![entrevista](images/chapter02/entrevistas-foto/entrevista-segmento-02.png) |
+| Timing |  6:25 min|
+| Link | https://youtu.be/sB9HQMniJHk |
 
 ---
 
@@ -486,7 +524,71 @@ Preguntas principales:
 ---
 ### 2.2.3. Análisis de entrevistas
 
+#### Segmento 1: Jefe de flota
 
+Características
+- Edad: entre 38 y 42 años.
+- Ubicación: Lima, Perú.
+- Roles: jefes de flota, administradores o propietarios de pequeñas empresas dedicadas al transporte y la distribución.
+- Tamaño de flota: flotas reducidas de vehículos de carga ligera.
+- Dispositivos: smartphone y computadora.
+- Herramientas digitales: Excel, WhatsApp, documentos compartidos y herramientas básicas para organizar información.
+- Uso de tecnología: emplean herramientas digitales a diario, aunque buena parte de la información de la flota todavía se registra y consolida de forma manual.
+
+Objetivos comunes
+
+- Mantener los vehículos disponibles y en buen estado para cumplir con las operaciones planificadas.
+- Reunir en un solo lugar la información de kilometraje, mantenimientos, combustible e incidencias de cada vehículo.
+- Ejecutar los mantenimientos preventivos en el momento oportuno y evitar demoras en su programación.
+- Detectar con rapidez los vehículos que presentan fallas o incidencias pendientes.
+- Consultar el historial de cada vehículo para tomar mejores decisiones sobre su mantenimiento y operación.
+
+Motivaciones comunes
+
+- Disminuir la probabilidad de fallas imprevistas durante las operaciones de transporte.
+Evitar retrasos en las entregas causados por vehículos no disponibles.
+- Tener un mayor control sobre los mantenimientos y los gastos de cada vehículo.
+- Recibir información y alertas que permitan anticipar los próximos mantenimientos.
+- Contar con una visión general de la flota sin necesidad de revisar varios archivos, mensajes o documentos.
+- 
+Frustraciones comunes
+- Información repartida entre hojas de cálculo, mensajes de WhatsApp y documentos físicos.
+- Dificultad para mantener al día el kilometraje y el estado de todos los vehículos.
+- Mantenimientos que terminan realizándose después de la fecha o el kilometraje recomendado.
+- Dificultad para consultar con rapidez los gastos, incidencias e historial de mantenimiento de un vehículo.
+- Fallas inesperadas que pueden provocar retrasos y obligar a reorganizar las operaciones.
+
+
+#### Segmento 2: Conductor de carga ligera
+Características
+- Edad: adultos en edad laboral con experiencia como conductores de vehículos de carga ligera.
+- Ubicación: Lima, Perú.
+- Roles: conductores de vehículos de carga ligera vinculados directamente con la operación diaria de las unidades.
+- Experiencia: experiencia práctica en conducción, inspección básica y operación de vehículos de carga ligera.
+- Dispositivos: principalmente smartphone durante la jornada de trabajo.
+- Herramientas digitales: WhatsApp, aplicaciones de ubicación y otras herramientas móviles usadas durante las operaciones.
+- Uso de tecnología: utilizan herramientas móviles con frecuencia y necesitan registrar información de manera rápida debido a las características de su trabajo.
+
+Objetivos comunes
+- Mantener los vehículos en condiciones adecuadas y detectar posibles problemas antes de iniciar una ruta.
+- Registrar con rapidez el kilometraje, las inspecciones y las incidencias encontradas.
+- Comunicar con claridad las fallas detectadas al responsable de la flota.
+- Consultar información sobre mantenimientos o problemas anteriores de un vehículo cuando sea necesario.
+- Contar con un proceso simple para registrar las actividades realizadas sobre cada unidad.
+
+Motivaciones comunes
+- Detectar problemas mecánicos antes de que provoquen una falla durante una operación.
+- Realizar inspecciones mediante checklists sencillos que permitan verificar los principales componentes del vehículo.
+- Reportar incidencias usando fotografías y descripciones que faciliten la evaluación del problema.
+- Tener acceso al historial del vehículo para conocer los trabajos realizados previamente.
+- Utilizar una herramienta que pueda manejarse rápidamente desde un smartphone durante la jornada laboral.
+
+Frustraciones comunes
+- Reportes de fallas e incidencias que quedan dispersos entre distintas conversaciones de WhatsApp.
+- Dificultad para consultar después fotografías, observaciones o reportes hechos anteriormente.
+- Falta de un historial centralizado sobre los mantenimientos realizados a cada vehículo.
+- Necesidad de revisar documentos, mensajes o preguntar a otras personas para conocer trabajos anteriores.
+- Formularios o procesos extensos que podrían dificultar el registro de información durante una jornada de trabajo.
 ---
 
 ## 2.3. Needfinding
@@ -1341,4 +1443,383 @@ Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---
 Link del Figma: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1 
 
 
-### 4.4.4. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams.
+
+### User Goal 1:
+#### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
+![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-01.png)
+
+
+
+### User Goal 2:
+#### Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.
+![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-02.png)
+
+
+### User Goal 3:
+#### Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.
+![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-03.png)
+
+
+
+### User Goal 4:
+#### Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.
+![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-04.png)
+
+
+
+### 4.5. Web Applications Prototyping 
+
+A continuación se presenta el prototipo de la aplicación de Motus, el cual permite a los usuarios observar como sería el producto.
+https://www.figma.com/proto/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=2001-2&t=Z4IdwUdU355jJLP3-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 
+
+
+### 4.6 Domain Driven Software Architecture
+
+#### 4.6.1. Software Architecture Context Diagram
+El Context Diagram es el primer nivel del modelo C4 y muestra el sistema como una caja negra. Su propósito es delimitar el alcance de Telemtrix y responder: ¿qué es el sistema, quién lo usa y con qué sistemas externos se comunica? No muestra detalles internos, solo las fronteras y las relaciones de alto nivel.
+![diagram](images/chapter04/domain-driven/context-diagram.png)
+
+
+#### 4.6.2. Software Architecture Container Diagrams
+El Container Diagram es el segundo nivel del modelo C4 y abre la caja negra del sistema. Muestra cómo Telemtrix se descompone en contenedores desplegables e independientes: la app móvil, el panel web, el API Gateway, los microservicios de dominio, la base de datos, la caché y el broker de mensajes. Indica qué tecnología usa cada contenedor y cómo se comunican entre sí.
+![diagram](images/chapter04/domain-driven/container-diagrams.png)
+
+
+#### 4.6.3. Software Architecture Components Diagram
+El Component Diagram es el tercer nivel del modelo C4 y abre cada contenedor para mostrar sus componentes internos. Debido a que Telemtrix sigue un enfoque de Domain-Driven Design (DDD), este diagrama se elabora por bounded context, y cada uno incluye sus controllers, servicios de dominio, repositorios, adaptadores y publicadores/consumidores de eventos. Así se evidencia la separación de responsabilidades y la arquitectura hexagonal. <br></br>
+
+##### Identity & Access Context
+El Identity & Access Context gestiona la identidad de los usuarios y el control de acceso a la plataforma. Se encarga del registro, autenticación mediante JWT, asignación de roles (administrador, encargado de flota, chofer, técnico) y permisos. Es un contexto transversal, ya que todos los demás servicios validan la identidad antes de ejecutar operaciones.
+![diagram](images/chapter04/domain-driven/component-diagram-01.png)
+
+
+##### Fleet Management Context
+El Fleet Management Context administra las empresas, vehículos y planes de mantenimiento. Es el núcleo del modelo de negocio: define qué vehículos pertenecen a cada empresa, su estado operativo y qué planes preventivos tienen asignados. Publica eventos cuando un vehículo cambia de estado o se registra uno nuevo.
+![diagram](images/chapter04/domain-driven/component-diagram-02.png)
+
+##### Maintenance Context
+El Maintenance Context gestiona los planes, ejecuciones y repuestos del mantenimiento preventivo. Consume eventos del contexto de telemetría para calcular cuándo corresponde el próximo servicio y programa las intervenciones. Es el contexto que transforma los datos en acciones planificadas y reduce los imprevistos operativos.
+![diagram](images/chapter04/domain-driven/component-diagram-03.png)
+
+### Capítulo V: Product Implementation
+
+## 5.1. Software Configuration Management
+
+A continuación, presentaremos el proceso por el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de este proyecto.
+
+### 5.1.1. Software Development Environment Configuration
+
+Requirements Management
+
+1. Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente basados en marcos de
+   trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario
+   pertenecientes al sprint a desarrollar.  
+   Ruta de referencia: https://trello.com/es
+
+Product UX/UI Design
+
+1. Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizado para el diseño digital. En el
+   caso del proyecto, será utilizado para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser.
+
+   Ruta de referencia: https://www.figma.com/login
+
+2. Lucidchart: Aplicación para diagramar flujos. Será empleado para el diseño de wireflows, user-flows y el diagrama de
+   clases asociado a la aplicación.
+
+   Ruta de referencia: https://www.lucidchart.com/
+
+Software Development
+
+1. IntellijIdea: Entorno de desarrollo integrado elegido por su soporte completo para tecnologías web como TypeScript, HTML, CSS y frameworks como React y Angular. Ofrece refactorización avanzada, depuración, integración con Git y la posibilidad de agregar plugins. Es compatible con varios sistemas operativos, facilitando la colaboración en equipo.
+
+   Ruta de referencia: https://www.jetbrains.com/intellijidea/
+   <br>
+
+2. HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será
+   empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
+
+   Ruta de referencia: https://www.w3schools.com/html/html5_syntax.asp  
+   <br>
+
+3. CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano
+   con HTML.
+
+   Ruta de referencia: https://google.github.io/styleguide/htmlcssguide.html
+   <br>
+   <br>
+
+4. JavaScript: Es un lenguaje de programación interpretado y orientado a objetos. Se utilizará para elaborar la interfaz de
+   usuario dentro de la aplicación.
+
+   Ruta de referencia: https://developer.mozilla.org/es/docs/Web/JavaScript
+<br>
+5. Git: Una herramienta de control de versiones que facilita el registro y la gestión de las distintas versiones del programa. Su propósito es mantener un historial de cambios y simplificar la corrección de errores. Los integrantes del equipo
+   accederán a través de la línea de comandos en sus sistemas locales.
+
+Ruta de referencia: https://git-scm.com/
+<br>
+<br>
+Software Documentation and Project Management 6. Github: Una plataforma en la nube que hospedará los repositorios de código del proyecto. Permitirá la colaboración en
+tiempo real y la revisión de contribuciones de cada miembro del equipo. Los integrantes del equipo podrán acceder a través de sus navegadores web.
+
+Ruta de referencia: https://github.com/
+
+<br>
+
+Software Deployment
+
+1. Github Pages: GitHub Pages es un servicio de alojamiento web que permite a los usuarios crear y publicar sitios web estáticos directamente desde sus repositorios de GitHub. Es especialmente útil para proyectos personales, portafolios, documentación de proyectos o blogs.
+
+Ruta de referencia: https://pages.github.com/
+
+### 5.1.2. Source Code Management
+
+El proyecto seguirá las convenciones del flujo de trabajo establecido por el modelo GitFlow para el control de versiones, empleando GitHub como plataforma y sistema de control de versiones. A continuación, se describirá la implementación de GitFlow como un flujo de trabajo para el control de versiones, junto con el enlace del Landing Page.
+
+Repositorio de GitHub:
+
+- Enlace para acceder a la organización en GitHub: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
+- Enlace para acceder al repositorio de la landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+- Enlace para acceder al repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
+
+Flujo de trabajo GitFlow
+
+El flujo de trabajo a ser implementado para el desarrollo del proyecto se basará en el modelo propuesto por Vincent Driessen en "A successful Git branching model".
+
+
+Estructura de branches (Ramas):
+
+1. Main branch (Rama principal): Esta rama servirá como la principal para la aplicación, alojando versiones estables y finales del desarrollo. Únicamente se aceptarán cambios que hayan sido previamente probados y verificados en los features y de ahí en Developer.
+2. Develop branch (Rama de desarrollo): El propósito de esta rama es facilitar los avances del proyecto en equipo y mantener los archivos centrales del desarrollo continuo.
+3. Feature branch(Ramas de funcionalidad): Cada capitulo desarrollado por el equipo, o separada del enfoque actual del desarrollo, tendrá su propia rama. Una vez que una funcionalidad esté completamente trabajada, se fusionará con la rama de desarrollo del proyecto. Las convenciones para nombrar las ramas de funcionalidad seguirán un patrón descriptivo y único, por ejemplo, "feature/chapter-#".
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+#### HTML
+
+Algunas de las prácticas que deben seguirse para alcanzar un código coherente, sostenible y ordenado son las siguientes:
+
+1. Cerrar todos los elementos HTML: Por ejemplo, `<p>Esto es un párrafo.</p>`.
+2. Siempre declarar el tipo de documento en la primera línea del documento, para HTML es `<!DOCTYPE html>`.
+3. Escribir en una línea los comentarios cortos.
+4. Utilizar comillas en caso de que los atributos contengan espacios entre sí.
+5. Procurar especificar el texto `alt` y las dimensiones `width` y `height` de las imágenes, ya que de esta manera se facilitará la disponibilidad del contenido. Por ejemplo:
+6. Se nos recomienda no usar el espacio al momento de utilizar los signos porque es más fácil de leerlo de esta forma.
+
+Referencia: [HTML5 Syntax](https://www.w3schools.com/html/html5_syntax.asp)
+
+#### CSS
+
+Entre las prácticas empleadas se menciona:
+
+1. Se nos recomienda tener una sangría por 2 espacios a la vez, no debemos utilizar tabulaciones ni mezclarlas tabulaciones con espacios para la sangría.
+2. Todo el código debe estar en minúscula.
+3. Eliminar los espacios en blanco.
+4. Usar comentarios para explicar el código.
+5. Utilizar nombres de clase significativos o genéricos, nombres que reflejen el propósito de su elemento.
+
+Referencia: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+
+#### TypeScript
+
+Algunas de las mejores prácticas para programar incluyen:
+
+1. Utilizar nombres de variables claros: Es importante que los nombres reflejen el propósito de la variable.
+2. Ser consistente con las comillas: Elegir entre comillas simples o dobles y mantener esa elección a lo largo del código.
+3. Incluir comentarios explicativos: Usar comentarios para aclarar bloques de código, especialmente en secciones complejas, facilita la comprensión.
+4. Minimizar el uso de variables globales: Limitar el ámbito de las variables para evitar conflictos y mejorar la mantenibilidad del código.
+5. Encapsular lógica en funciones: Mantener el código modular y reutilizable mediante el uso de funciones.
+6. Seguir un estilo de codificación uniforme: Mantener un formato consistente mejora la legibilidad del código.
+
+Referencia: [JavaScript Best Practices](https://www.w3schools.com/js/DEFAULT.asp)
+
+#### Angular
+
+Para asegurar que el código en Angular sea claro y eficiente, se recomiendan las siguientes prácticas:
+
+1. Estructura de carpetas organizada: Mantener una estructura clara para components, pages, models y services.
+2. Crear componentes reutilizables: Diseñar componentes que puedan ser utilizados en diversas partes de la aplicación.
+3. Separar lógica de negocio de la vista: Utilizar servicios y propiedades computadas para mantener la lógica separada de la presentación.
+4. Emplear Angular Router para la navegación: Usar Angular Router para gestionar eficazmente la navegación entre vistas.
+5. Documentar componentes: Incluir comentarios y documentación sobre inputs, outputs y métodos dentro de los componentes.
+
+Referencia: [Angular Guide](https://angular.dev/overview)
+
+#### Java (Domain-Driven Design)
+
+Para asegurar que el código en Java siga los principios de Domain-Driven Design (DDD), se recomiendan las siguientes prácticas:
+
+1. Utilizar nombres de dominio significativos: Los nombres de las clases, métodos y variables deben reflejar el lenguaje del dominio.
+2. Mantener la lógica de negocio en el dominio: La lógica de negocio debe residir en el modelo de dominio y no en la infraestructura o en la interfaz de usuario.
+3. Usar agregados para gestionar la consistencia: Los agregados son entidades que se agrupan para garantizar la consistencia de los cambios en el modelo.
+4. Implementar repositorios para el acceso a datos: Los repositorios son responsables de la persistencia y recuperación de los agregados.
+5. Aplicar patrones de diseño adecuados: Utilizar patrones de diseño como CQRS, Event Sourcing y DDD para estructurar el código de manera efectiva.
+   Referencia: [Domain-Driven Design](https://www.domainlanguage.com/ddd/reference/)
+
+### 5.1.4. Software Deployment Configuration
+
+#### Landing Page Deployment
+
+La landing page del proyecto se ha desplegado utilizando GitHub Pages, lo que permite alojar el sitio web de manera gratuita y sencilla directamente desde el repositorio de GitHub:
+
+
+Ruta de referencia: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/
+
+#### Web Application Deployment
+
+la aplicación web del proyecto se ha desplegado utilizando netlify, lo que permite alojar el sitio web de manera gratuita y sencilla directamente desde el repositorio de GitHub:
+
+Ruta de referencia: 
+
+## 5.2. Landing Page, Services & Applications Implementation.
+### 5.2.1. Sprint 1
+
+En esta sección, se documentará y explicará, en términos de producto y colaboración, el primer sprint de trabajo.
+
+### 5.2.1.1. Sprint Planning 1.
+Esta sección presenta los detalles de la primera reunión de planificación de Sprint del equipo. Durante esta sesión, se definieron los objetivos principales del Sprint, la capacidad del equipo y las tareas a abordar. Al ser el primer Sprint del proyecto, no se incluyen resúmenes de revisión ni retrospectiva previos. El enfoque principal fue la implementación de la landing page, con el objetivo de validar el interés del público en la propuesta de negocio. A continuación, se detallan los aspectos clave discutidos durante la reunión:
+
+| **Sprint #**                  | Sprint 1                                                                                                                                                                            |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                     |
+| **Date**                       | 15 de septiembre del 2026                                                                                                                                                           |
+| **Time**                       | 18:00 horas                                                                                                                                                                         |
+| **Location**                   | Modalidad remota a través de Whatsapp                                                                                                                                               |
+| **Prepared By**                | Todos los integrantes del equipo TelemTrix                                                                                                                                          |
+| **Attendees (to planning meeting)** | Todos los integrantes del equipo Telemtrix                                                                                                                                          |
+| **Sprint 0 Review Summary**    | Dado que es nuestro primer sprint de desarrollo, aún no se ha realizado un resumen del sprint anterior.                                                                             |
+| **Sprint 0 Retrospective Summary** | No se identificaron mejoras ya que es el primer sprint.                                                                                                                             |
+| **Sprint Goal & User Stories** | US01, US02, US03, US04, US05                                                                                                                                                        |
+| **Sprint 1 Goal**              | En este sprint, nuestro enfoque está en describir nuestra startup y en construir la estructura de la Landing Page, realizar las entrevisas, y tener definidos nuestros user stories |
+| **Sprint 1 Velocity**          | 5                                                                                                                                                                                   |
+| **Sum of Story Points**        | 5                                                                                                                                                                                   |
+
+
+### 5.2.1.2. Aspect Leaders and Collaborators.
+
+En este apartado se detallan los principales aspectos considerados en el Sprint 1 y la asignación de responsabilidades dentro del equipo. Para este primer sprint, se priorizó la definición y desarrollo de los siguientes aspectos clave:
+
+- Elaboración y refinamiento de las User Stories fundamentales para la plataforma.
+- Diseño y construcción de la estructura inicial de la Landing Page.
+- Descripción y desarrollo de los primeros capítulos del informe, asegurando una base sólida para el proyecto.
+
+Cada uno de estos aspectos fue liderado o apoyado por diferentes miembros del equipo, promoviendo la colaboración y el aprendizaje conjunto. La siguiente tabla muestra la distribución de roles y responsabilidades para cada aspecto relevante del Sprint:
+
+ | Github Username | Elaboracion de User Stories Leader (L), Collaborator (C) | Desarrollo del landing page Leader (L), Collaborator (C) | Descripcion y desarrollo de los primeros capitulos Leader (L), Collaborator (C) |
+ |-----------------| ------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------- |
+       | AlexBoo578      | (C)                                                     | (C)                                                            | (C)                                                |
+        | veniku08        | (L)                                                     | (C)                                                            | (C)                                                |
+       | patriciavmp     | (C)                                                     | (L)                                                            | (C)                                                |
+ | vysidrol        | (C)                                                     | (L)                                                            | (C)                                                |
+ | Nox010111       | (C)                                                     | (L)                                                            | (C)                                                |
+
+
+### 5.2.1.3. Sprint Backlog 1.
+
+En esta sección se detalla el Sprint Backlog correspondiente al Sprint 1, el cual incluye todas las historias de usuario priorizadas, así como las tareas específicas asociadas a cada una. Cada tarea contiene su respectiva descripción, estimación en horas, asignación de responsable y estado de avance. 
+
+
+
+| Sprint # | Sprint 1 | | | | |
+|----------|------|-|--|--|-----|
+| | **User Story** | | | | |
+| **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| EP01/US01 | Visualizar Propuesta de Valor y Beneficios | Como visitante del segmento encargado de flota, deseo visualizar los beneficios y características de Telemtrix, para evaluar si resuelve los sobrecostos de mantenimiento de mi empresa. | | | |
+| | - Diseñar sección de propuesta de valor y beneficios | Definir estructura visual de la sección de beneficios clave (ahorro preventivo, inspección digital, sin hardware). | 2 | Santiago Echevarria | Done |
+| | - Implementar sección de beneficios responsive | Maquetar y programar la sección asegurando correcta visualización en desktop y móvil. | 3 | Santiago Echevarria | Done |
+| | - Implementar botón CTA "Iniciar Prueba Gratuita" | Programar la redirección del botón hacia el formulario de registro de la aplicación web. | 2 | Valeria Ysidro | Done |
+| EP01/US02 | Consultar Planes y Tarifas SaaS | Como visitante corporativo, deseo revisar la tabla comparativa de precios por vehículo, para calcular el presupuesto mensual requerido para mi flota. | | | |
+| | - Diseñar tabla comparativa de planes y tarifas | Definir estructura y contenido de los planes SaaS disponibles por vehículo. | 2 | Valeria Ysidro | Done |
+| | - Implementar sección de planes con enlace a suscripción | Maquetar la sección y programar la redirección al flujo de suscripción con el plan preseleccionado. | 3 | Patricia Mejía | Done |
+| EP01/US03 | Envío de Formulario de Contacto Comercial | Como visitante interesado en una solución corporativa, deseo enviar mis datos mediante un formulario de contacto, para solicitar una demostración guiada y asesoría técnica. | | | |
+| | - Diseñar formulario de contacto comercial | Definir los campos requeridos (nombre, correo corporativo, teléfono, tamaño de flota). | 2 | Patricia Mejía | Done |
+| | - Implementar validación de campos obligatorios | Programar validaciones para bloquear el envío ante campos incompletos. | 2 | Alison Segura | Done |
+| | - Integrar envío y confirmación del formulario | Programar el almacenamiento del prospecto y el mensaje de confirmación de envío. | 2 | Alison Segura | Done |
+
+### 5.2.1.4. Development Evidence for Sprint Review.
+
+Durante este Sprint, el equipo logró avances significativos en la implementación del proyecto. Se completó la estructura y diseño de la landing page, integrando las secciones principales como navegación, testimonios, funcionalidades, planes premium, formulario de contacto, redes sociales y servicios. Además, se documentaron los commits y ramas utilizados, asegurando trazabilidad y colaboración efectiva entre los miembros del equipo. A continuación, se presenta la evidencia de los principales entregables y contribuciones realizadas durante el Sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|--------------------|--------------------|
+| Telemtrix-Report | Chapter1 | a1b2c3d | docs(chapter-1): "add format of team member profiles" | Added structured format for team member profiles including personal information, skills, and role descriptions for each team member in the startup profile section | 07/09/2026 |
+| Telemtrix-Report | Chapter1 | e4f5g6h | docs(chapter-1): "add 5W2H problem analysis and Lean UX Problem Statements" | Implemented the 5W+2H problem breakdown and the Lean UX Problem Statements in English and Spanish, detailing the maintenance pain points of light cargo fleet MSEs | 09/09/2026 |
+| Telemtrix-Report | Chapter1 | i7j8k9l | docs(chapter-1): "add Lean UX Assumptions, Hypothesis Statements and target segments" | Added business, user and feature assumptions, the four Lean UX hypothesis statements, and the description of the two target segments (fleet managers and drivers) | 11/09/2026 |
+| Telemtrix-Report | Chapter2 | m0n1o2p | docs(chapter-2): "add Competitive Analysis Landscape and SWOT" | Added the competitive analysis table against Tracklink, Comsatel and PSTech/MiX Telematics, along with the SWOT analysis and strategies against competitors | 12/09/2026 |
+| Telemtrix-Report | Chapter2 | q3r4s5t | docs(chapter-2): "add interview design for both target segments" | Added the semi-structured interview questions for fleet managers/owners and for light cargo drivers, covering maintenance habits, pain points and digital tool adoption | 13/09/2026 |
+| Telemtrix-Report | Chapter2 | u6v7w8x | fix(interviews): "fix interview record table and add video evidence" | Fixed the interview record table structure and embedded the video link and photo evidence for the first fleet manager interview (Aracely Paucar) | 14/09/2026 |
+| Telemtrix-Report | Chapter2 | y9z0a1b | feat: "add User Personas, User Task Matrix and Ubiquitous Language" | Added the User Persona sheets for both segments, the User Task Matrix comparing frequency and importance of tasks, and the full domain glossary (Ubiquitous Language) | 16/09/2026 |
+| Telemtrix-Report | Chapter3 | c2d3e4f | feat: "restructure user stories to Gherkin format" | Restructured user stories to follow the Given-When-Then Gherkin syntax for acceptance criteria, covering Landing Page, Onboarding, Fleet Management and Driver Operations epics | 17/09/2026 |
+| Telemtrix-Report | Chapter3 | g5h6i7j | docs(chapter-3): "add Impact Mapping and Product Backlog with Fibonacci estimation" | Added the Impact Mapping diagram linking business goals to user segments, and prioritized the Product Backlog using Fibonacci story points with the Trello board link | 18/09/2026 |
+| Telemtrix-Report | Chapter5 | k8l9m0n | feat: "add Software Configuration Management and Sprint 1 backlog" | Added the tools used for requirements, design and development, the GitFlow branching strategy, and the Sprint 1 backlog with tasks, estimations and assigned collaborators | 19/09/2026 |
+### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En este Sprint se logró desplegar la primera versión funcional de la landing page del proyecto, cumpliendo con los objetivos planteados en el backlog. El equipo trabajó de manera colaborativa para implementar y publicar las principales secciones, asegurando una experiencia de usuario coherente y alineada con los requerimientos iniciales. A continuación, se presenta la evidencia visual y el enlace de acceso a la landing page desplegada:
+
+Enlace de la Landing Page: <br>
+https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/
+### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+Para esta entrega no se han empleado APIS, por lo cuál no se he requerido hacer una documentación sobre servicios implementados durante el Sprint
+
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint, el equipo realizó el despliegue exitoso de la landing page utilizando GitHub Pages. El objetivo fue asegurar que la solución estuviera disponible en línea para su revisión y validación, cumpliendo con los estándares de entrega continua y visibilidad del avance del proyecto.
+
+**Pasos realizados durante el despliegue:**
+1. Se verificó que el repositorio de la landing page contara con un archivo `index.html` en la raíz, listo para ser publicado.
+2. Se accedió a la sección Settings > Pages del repositorio de la landing page en GitHub.
+3. Se configuró la rama principal (`main`) del repositorio como fuente de despliegue automático.
+4. Se seleccionó la carpeta raíz (`/root`) como origen de los archivos estáticos a publicar.
+5. Se realizó el primer despliegue, verificando que la landing page estuviera accesible públicamente y funcionando correctamente.
+6. Se validó el acceso desde diferentes dispositivos y navegadores para garantizar la experiencia de usuario.
+7. Se documentó la URL de acceso (`https://usuario.github.io/nombre-del-repo/`) y se compartió con el equipo para revisión y feedback.
+
+### Design
+Para realizar el diseño de los wireframes y mockups de la Landing Page para este Sprint, se hizo uso de la plataforma Figma. Para utilizar la plataforma:
+
+1. Se accede a través de la página oficial de Figma: https://www.figma.com/login
+
+2. Luego, se crea un Draft que nos servirá como base para el proyecto colaborativo.
+
+**Deployment Para la landing page, se utilizará GitHub Pages para el despliegue de la página.**
+### Deployment
+Para la landing page, se utilizará GitHub Pages para el despliegue de la página.
+
+Para nuestro proyecto se crearon 2 repositorios, el cuál fue:
+
+Documentación | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report : Este repositorio contiene el informe de nuestro proyecto. <br> Motus Landing Page | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page: Este repositorio se usa para realizar el desarrollo de la landing page de manera continua y desplegarla mediante GitHub Pages.
+
+
+### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante este Sprint, las actividades de implementación se desarrollaron de manera colaborativa y organizada. El equipo utilizó herramientas como GitHub para la gestión de versiones y asignación de tareas, y WhatsApp para la comunicación y coordinación diaria. Cada integrante asumió responsabilidades específicas según el backlog y los aspectos definidos en la planificación, participando activamente en el desarrollo, revisión de código y validación de entregables.
+
+Se promovió la revisión cruzada de avances, el registro de commits detallados y la documentación de los cambios realizados. Las reuniones periódicas permitieron resolver dudas, ajustar prioridades y asegurar que todos los miembros estuvieran alineados con los objetivos del Sprint. Esta dinámica facilitó la integración continua y la entrega oportuna de los resultados esperados.
+
+---
+
+### Conclusiones
+Telemtrix propone una solución enfocada en centralizar la gestión de vehículos, checklists, incidencias, mantenimientos preventivos, kilometraje y consumo de combustible, permitiendo que la información técnica de la flota se encuentre organizada, unificada y sea más fácil de consultar por parte de los encargados y choferes.
+
+El desarrollo del Sprint 1 permitió definir la base funcional y visual del producto mediante investigación con usuarios, historias de usuario, arquitectura de software, diseño UX/UI y la primera versión de la aplicación móvil y el panel web, manteniendo coherencia entre las necesidades identificadas en las micro y pequeñas empresas del sector logístico y la solución propuesta.
+
+Asimismo, la definición de la arquitectura basada en bounded contexts y el modelo de datos relacional permitió establecer una base sólida para escalar el producto, facilitar el mantenimiento del código y asegurar el aislamiento multi-tenant entre las empresas clientes.
+
+
+### Bibliografía 
+- Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley. https://domainlanguage.com/ddd/
+- Vernon, V. (2013). Implementing domain-driven design. Addison-Wesley. https://www.oreilly.com/library/view/implementing-domain-driven/9780133039900/
+- Brown, S. (2020). The C4 model for visualising software architecture. https://c4model.com
+
+### Anexos
+
+- Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
+- Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
+- Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+- Despliegue de la landing en GitHub Pages: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/ 
+- Link del Figma MockUp: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1
+- Link del Figma WireFrames: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1
+
+
