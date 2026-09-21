@@ -18,6 +18,7 @@
   <li><h3>u20241g014 Echevarria Lizana Santiago Israel</h3></li>
   <li><h3>u20241g197 Ysidro Llashag Valeria Milagros</h3></li>
   <li><h3>u202523271 Mejia Poma Patricia Valeria</h3></li>
+  <li><h3>u20241g402 Segura Guerra Alison Ariana</h3></li>
 </ul>
 <br>
    <h3>2026</h3>
@@ -27,104 +28,96 @@
 
 
 
-## Project Report Collaboration Insights *(POR MODIFICAR POR CADA ENTREGA)
-
+## Project Report Collaboration Insights
 
 
 
 ## Contenido
 
 - [Student Outcome](#student-outcome)
-
-- [Capítulo I: Introducción](#capitulo-1)
-    - [1.1. Startup Profile](#11-startup-profile)
-        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-    - [1.2. Solution Profile](#12-solution-profile)
-        - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-        - [1.2.2 Lean UX Process](#122-lean-ux-process)
-            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-    - [1.3. Segmentos objetivos](#13-segmentos-objetivo)
-
-- [Capítulo II: Requirements Elicitation & Analysis](#c2)
-    - [2.1. Competidores](#21-competidores)
-        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas](#22-entrevistas)
-        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-        - [2.3.1. User Personas](#231-user-personas)
-        - [2.3.2. User Task Matrix](#232-user-task-matrix)
-        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-
-
-
-- [Capítulo III: Requirements Specification](#c3)
-    - [3.1. User Stories](#31-user-stories)
-    - [3.2. Impact Mapping](#32-impact-mapping)
-    - [3.3. Product Backlog](#33-product-backlog)
-
-
-- [Capítulo IV: Product Design](#c4)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-        - [4.2.1. Organization Systems](#421-organization-systems)
-        - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [4.2.4. Searching Systems](#424-searching-systems)
-        - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-        - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-        - [4.7.1. Class Diagrams](#471-class-diagrams)
-    - [4.8. Database Design](#48-database-design)
-        - [4.8.1. Database Diagram](#481-database-diagram)
-
-
-- [Capítulo V: Product Implementation, Validation & Deployment](#c5)
-    - [5.1. Software Configuration Management](#51-software-configuration-management)
-        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-        - [5.1.2. Source Code Management](#512-source-code-management)
-        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-        - [5.2.1. Sprint 1](#521-sprint-1)
-            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-Validation-Interviews)
-        - [5.3.1. Diseño de Entrevistas](#531Diseño-de-Entrevistas)
-        - [5.3.2. Registro de Entrevistas](#532Registro-de-Entrevistas)
-        - [5.3.3. Evaluaciones según heurísticas](#533Evaluaciones-según-heurísticas)
-    - [5.4. Validation Interviews](#54-Validation-Interviews)
-
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. User Stories](#31-user-stories)
+  - [3.2. Impact Mapping](#32-impact-mapping)
+  - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2. Information Architecture](#42-information-architecture)
+    - [4.2.1. Organization Systems](#421-organization-systems)
+    - [4.2.2. Labeling Systems](#422-labeling-systems)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems](#424-searching-systems)
+    - [4.2.5. Navigation Systems](#425-navigation-systems)
+  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagram](#481-database-diagram)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -132,13 +125,9 @@
 ## Student Outcome
 
 
-
-
-
 # Capítulo I: Introducción
 
-## 1.1 Startup Profile
-
+## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
 * **Nombre de la Startup:** Telemtrix
@@ -167,10 +156,8 @@
 | | **Patricia Valeria Mejía Poma (u202523271)**<br><br>Estudiante de Ingeniería de Software en la UPC. Cuento con conocimientos en fundamentos de programación con C++ y Java, maquetación básica con HTML y CSS, y nociones en bases de datos relacionales con SQL. Me considero una persona responsable, organizada y comprometida con el trabajo en equipo, con disposición constante para aprender y adaptarme a nuevos retos técnicos. Mis expectativas en el curso son adquirir experiencia práctica en el desarrollo de aplicaciones web, fortalecer el trabajo colaborativo con Git y GitFlow, y aportar activamente en la documentación y construcción del proyecto Telemtrix. |
 
 
-## 1.2 Solution Profile
-
+## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
-
 En el Perú, el sector de transporte de carga y logística urbana ha experimentado un incremento acelerado en sus niveles de demanda operativa; sin embargo, las micro y pequeñas empresas (MYPEs) enfrentan severas deficiencias estructurales en el control y la conservación técnica de sus flotas vehiculares. La mayoría de estas organizaciones opera bajo un modelo de mantenimiento puramente reactivo —interviniendo las unidades únicamente tras suscitarse averías mecánicas intempestivas en pleno servicio logístico— debido a la ausencia de herramientas digitales accesibles que permitan un seguimiento técnico continuo y automatizado.
 
 Esta carencia de control sistemático impacta negativamente en la rentabilidad y la continuidad del negocio. Investigaciones operativas en flotas de transporte terrestre en el contexto peruano demuestran que las desviaciones presupuestarias generadas por reparaciones mecánicas imprevistas y la inmovilización de vehículos pueden representar entre un 20% y 25% de sobrecostos operativos anuales respecto a una planificación preventiva rigurosa (Villar et al., 2025). Asimismo, se evidencia que la falta de registro del kilometraje real y el monitoreo manual de las unidades incrementa innecesariamente el consumo de combustible, lubricantes y desgaste de piezas críticas, afectando los márgenes de utilidad operativa y la puntualidad comercial (Chamochumbi & Cruz, 2026). Ante este escenario, Telemtrix propone cerrar la brecha mediante una plataforma web responsiva de telemetría y checklists digitales que optimice la trazabilidad de los vehículos y anticipe los mantenimientos periódicos.
@@ -193,7 +180,6 @@ A continuación, se detalla el análisis del problema bajo la técnica 5W+2H:
 
 
 ### 1.2.2. Lean UX Process
-
 #### 1.2.2.1. Lean UX Problem Statements
 
 **English:**
@@ -409,10 +395,8 @@ El análisis competitivo resulta fundamental para comprender el panorama del mer
 * **Canal de soporte ágil e integrado:** Atención técnica directa y personalizada mediante mensajería instantánea en horario comercial local, evitando las mesas de ayuda automatizadas e impersonales de los proveedores tradicionales.
 
 
-## 2.2. Entrevistas.
-
-#### 2.2.1. Diseño de entrevistas
-
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
 El objetivo de estas entrevistas es identificar y comprender las necesidades operativas, dificultades mecánicas y expectativas de los usuarios potenciales de Telemtrix. Para ello, se consideraron dos segmentos clave del sector de transporte y logística de carga ligera:
 * Encargados de flota y dueños de MYPEs logísticas
 * Choferes y conductores de carga ligera
@@ -455,24 +439,23 @@ Preguntas principales:
 14. ¿Qué tan fácil se le hace usar aplicaciones en su celular (como WhatsApp o mapas GPS)?
 15. ¿Estaría dispuesto a usar una página web sencilla desde su celular para registrar el kilometraje y una lista rápida de revisión antes de cada viaje?
 
-
 ### 2.2.2. Registro de entrevistas
 
-#### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas 
+#### Segmento 1: Encargados de Flota y Dueños de MYPES Logísticas
 
 ---
 
-| Campo        | Información |
-|--------------|-------------|
-| Entrevistado |             |
-| Edad         |             |
-| Distrito     |             |
-| Foto         |             |
-| Timing       |             |
-| Segmento     |             |
-| Preguntas    |             |
+| Campo | Información |
+|---|---|
+| Segmento | Encargados de Flota y Dueños de MYPES Logísticas |
+| Entrevistado | Aracely Paucar Huayta |
+| Edad | 30 años |
+| Distrito | Lima |
+| Foto | <img src="images/chapter02/Motus-Interview-Aracely-Paucar.png" alt="Entrevista a Aracely Paucar Huayta" width="300"> |
+| Timing | 7:21 min |
+| Link | https://youtu.be/YNINC8JcV5Y |
 
---- 
+---
 
 #### Segmento 2: Choferes y Conductores de Carga Ligera 
 
@@ -659,7 +642,7 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 | 5 | EP04/US12 | Checklist Pre-viaje con Sincronización Offline | Como chofer, deseo completar la inspección física diaria (luces, fluidos, llantas) aun sin cobertura de internet, para no demorar mi salida en cocheras subterráneas o zonas remotas. | 5 |
 | 6 | EP04/US13 | Reporte Inmediato de Incidencia Mecánica | Como chofer, deseo reportar una avería o ruido anormal durante el trayecto con descripción y nivel de severidad, para alertar al encargado de flota antes de que el vehículo quede inoperativo. | 3 |
 | 7 | EP03/US08 | Configuración de Umbrales de Servicio | Como encargado de flota, deseo parametrizar el límite de kilometraje para revisiones (ej. aceite cada 5,000 km), para que la plataforma detecte automáticamente la proximidad del servicio. | 3 |
-| 8 | EP03/US09 | Registro y Liquidación de Taller | Como encargado de flota, deseo registrar los costos y repuestos cambiados al culminar un servicio mecánico, para actualizar el historial técnico e inicializar el contador de desgaste. | 5 |
+| 8 | EP03/US09 | Registro y Liquidación de Taller | Como encargado de la flota, deseo registrar los costos y repuestos cambiados al culminar un servicio mecánico, para actualizar el historial técnico e inicializar el contador de desgaste. | 5 |
 | 9 | EP03/US10 | Consulta de Historial Técnico de Unidad | Como encargado de flota, deseo consultar la cronología completa de intervenciones, checklists y gastos de una unidad, para evaluar la rentabilidad del vehículo y detectar fallas mecánicas repetitivas. | 3 |
 | 10 | EP03/US07 | Alta de Unidades Vehiculares | Como encargado de flota, deseo dar de alta vehículos con placa, marca, modelo y año, para incorporarlos al seguimiento técnico de la empresa. | 3 |
 | 11 | EP02/US05 | Pago de Membresía Mensual | Como encargado de flota, deseo afiliar un medio de pago con tarjeta, para mantener activa la suscripción y el acceso operativo de mis conductores. | 5 |
@@ -679,7 +662,479 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 ![Product Backlog Board - Telemtrix](images/chapter03/telemtrix-product-backlog.png)
 
 
-### 4.4. Web Applications UX/UI Design
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+
+Las Style Guidelines de Motus establecen los lineamientos visuales y de comunicación que orientarán el diseño de la landing page y de la aplicación web. Estos lineamientos permiten mantener una identidad visual consistente y facilitar una experiencia clara para los dos principales tipos de usuario: los encargados de flota y los conductores de carga ligera.
+
+La propuesta visual de Motus busca transmitir confianza, prevención, control y agilidad. Por ello, se adopta un estilo moderno y predominantemente claro, evitando interfaces excesivamente oscuras o sobrecargadas y priorizando la rápida comprensión de la información relacionada con vehículos, mantenimientos, alertas e incidencias.
+
+### 4.1.1. General Style Guidelines
+#### Branding
+
+Motus es la solución digital desarrollada por Telemtrix para facilitar la gestión y el mantenimiento preventivo de flotas de carga ligera. Su identidad visual busca representar movimiento, prevención y control, manteniendo una apariencia moderna, tecnológica y accesible.
+
+El logotipo de Motus constituye el principal identificador visual del producto. Su diseño integra el concepto de movimiento mediante la representación de una carretera dentro de la letra inicial de la marca, relacionando directamente la identidad del producto con la operación continua de los vehículos.
+
+<p align="center">
+  <img src="images/chapter04/Motus-Logo.png" alt="Motus Logo" width="600">
+</p>
+
+El logotipo debe mantener sus proporciones originales y contar con suficiente espacio libre a su alrededor para conservar su legibilidad. Se priorizará su utilización sobre fondos blancos o de tonalidades claras.
+#### Color Palette
+
+La paleta de colores de Motus combina principalmente tonalidades azules y verdes con fondos claros. El azul representa confianza, estabilidad y control, mientras que el verde se relaciona con movimiento, disponibilidad y prevención. Adicionalmente, se incorporan colores de estado que permiten comunicar visualmente advertencias e incidencias dentro de la plataforma.
+
+La siguiente paleta presenta los colores establecidos para la identidad visual de Motus:
+<p align="center">
+  <img src="images/chapter04/Motus-Color-Palette.png" alt="Motus Color Palette" width="900">
+</p>
+
+| Color | Código HEX | Aplicación |
+|---|---|---|
+| Azul Motus | `#1E4D6B` | Identidad de marca, títulos y navegación |
+| Verde Motus | `#27A67A` | Acciones principales y estados positivos |
+| Verde claro | `#E8F6F1` | Fondos destacados y elementos secundarios |
+| Ámbar | `#F4A62A` | Advertencias y mantenimientos próximos |
+| Rojo | `#E05252` | Fallas, incidencias y estados críticos |
+| Gris claro | `#F5F8FA` | Fondos secundarios |
+| Gris oscuro | `#263238` | Texto principal |
+| Blanco | `#FFFFFF` | Fondo principal y tarjetas |
+
+Los colores de estado mantienen un significado consistente dentro de Motus: el verde identifica condiciones normales o vehículos disponibles, el ámbar señala situaciones que requieren atención, como mantenimientos próximos, y el rojo se reserva para incidencias, mantenimientos vencidos o estados críticos.
+
+#### Typography
+
+Motus utiliza **Inter** como tipografía principal debido a su legibilidad, simplicidad y adecuada visualización en interfaces digitales. Su uso permite mantener una experiencia consistente tanto en la landing page como en la aplicación web responsiva.
+
+La siguiente referencia visual establece la familia tipográfica y las principales jerarquías utilizadas por Motus:
+
+<p align="center">
+  <img src="images/chapter04/Motus-Typography.png" alt="Motus Typography" width="700">
+</p>
+
+La jerarquía tipográfica se establece de la siguiente manera:
+
+- **Inter Bold (700):** títulos principales y encabezados de mayor jerarquía.
+- **Inter SemiBold (600):** subtítulos y elementos destacados.
+- **Inter Medium (500):** botones, etiquetas y elementos de navegación.
+- **Inter Regular (400):** párrafos, descripciones y contenido general.
+
+El tamaño y peso de los textos deberán mantener una jerarquía visual clara, facilitando la lectura y evitando la saturación de información.
+
+#### Spacing and Visual Elements
+
+Motus utiliza un sistema de espaciado basado en múltiplos de 8 px, permitiendo mantener una distribución consistente entre textos, botones, tarjetas y demás componentes de la interfaz.
+
+Los elementos visuales mantienen formas simples, bordes ligeramente redondeados y espacios en blanco suficientes para separar adecuadamente la información. Las tarjetas y contenedores presentan una apariencia limpia, evitando sombras excesivas o elementos decorativos que puedan distraer al usuario.
+
+La iconografía será sencilla y fácilmente reconocible, utilizando representaciones relacionadas con vehículos, mantenimiento, kilometraje, combustible, alertas, fotografías y listas de verificación.
+
+#### Communication Tone
+
+La comunicación de Motus será clara, directa y profesional. Debido a que la plataforma será utilizada durante actividades operativas, los mensajes deberán ser breves y fáciles de comprender, evitando términos técnicos innecesarios.
+
+El tono de comunicación de Motus se caracteriza por ser:
+
+- **Serio antes que divertido**, debido al contexto de mantenimiento y operación vehicular.
+- **Cercano antes que excesivamente formal**, utilizando instrucciones sencillas y comprensibles.
+- **Respetuoso**, especialmente en mensajes de error y advertencias.
+- **Calmado antes que alarmista**, comunicando claramente las incidencias y las acciones recomendadas.
+
+Por ejemplo, ante un mantenimiento vencido se priorizará un mensaje como *“El mantenimiento de frenos está vencido. Programa una revisión para mantener el vehículo disponible”*, evitando mensajes excesivamente alarmistas o difíciles de interpretar.
+
+#### Design Principles
+
+El diseño de Motus se desarrolla considerando los siguientes principios:
+
+- **Claridad:** La información relevante debe poder identificarse rápidamente, evitando interfaces sobrecargadas.
+- **Consistencia:** Los colores, componentes, iconos y estados deben conservar el mismo significado en toda la plataforma.
+- **Prevención:** La interfaz debe destacar información que permita anticipar mantenimientos y posibles incidencias.
+- **Accesibilidad:** Los elementos deben utilizar textos legibles, contraste adecuado y etiquetas comprensibles.
+- **Eficiencia:** Las acciones frecuentes, como registrar kilometraje, completar un checklist o reportar una incidencia, deben realizarse mediante flujos simples y con la menor cantidad posible de pasos.
+
+### 4.1.2. Web Style Guidelines
+
+Las Web Style Guidelines de Motus establecen los criterios visuales y de interacción que se aplicarán tanto en la landing page como en la aplicación web responsiva. Su objetivo es mantener una experiencia consistente, intuitiva y adaptable a diferentes tamaños de pantalla.
+
+La interfaz seguirá un enfoque predominantemente claro y minimalista, utilizando espacios en blanco, jerarquías visuales definidas y componentes fácilmente reconocibles. Debido a que Motus será utilizado tanto por encargados de flota desde computadoras como por conductores desde dispositivos móviles, se priorizará un diseño responsive y una navegación sencilla.
+
+#### Navigation
+
+La navegación utilizará una estructura simple y fácilmente reconocible. En la landing page se empleará una barra de navegación horizontal en escritorio, mientras que en dispositivos móviles se adaptará a un menú compacto.
+
+El logotipo de Motus se ubicará en la parte izquierda de la navegación y los principales accesos se distribuirán de manera ordenada, destacando visualmente las acciones principales mediante el color Verde Motus.
+
+#### Buttons
+
+Los botones tendrán un diseño simple, bordes ligeramente redondeados y textos breves que indiquen claramente la acción que realizará el usuario.
+
+Se utilizarán tres variantes principales:
+
+- **Primary Button:** fondo Verde Motus (#27A67A) y texto blanco. Se utilizará para acciones principales.
+- **Secondary Button:** fondo blanco, borde Azul Motus (#1E4D6B) y texto del mismo color.
+- **Destructive Button:** color rojo (#E05252) para acciones que requieran especial atención, como eliminar o cancelar determinados registros.
+
+Los botones deberán presentar cambios visuales en estados como *hover*, *focus* y *disabled*, permitiendo que el usuario identifique fácilmente si un elemento es interactivo.
+
+#### Cards and Containers
+
+Las tarjetas se utilizarán para organizar información relacionada con vehículos, mantenimientos, incidencias, alertas y otros elementos relevantes del sistema.
+
+Estas utilizarán fondos blancos, bordes suaves, esquinas ligeramente redondeadas y sombras discretas. La información más importante deberá ocupar una posición visual destacada, evitando incorporar contenido innecesario dentro de una misma tarjeta.
+
+#### Forms and Inputs
+
+Los formularios mantendrán una estructura sencilla y ordenada. Cada campo contará con una etiqueta visible que indique claramente la información requerida.
+
+Los campos de entrada utilizarán fondos claros, bordes definidos y estados visuales diferenciados para indicar selección, error o deshabilitación. Los mensajes de validación serán breves y explicarán al usuario cómo corregir la información ingresada.
+
+En dispositivos móviles, los campos y controles tendrán dimensiones adecuadas para facilitar la interacción táctil.
+
+#### Alerts and Status
+
+Las alertas y estados utilizarán tanto colores como textos e iconos para comunicar su significado, evitando depender exclusivamente del color.
+
+- **Verde:** vehículo disponible o condición normal.
+- **Ámbar:** mantenimiento próximo o situación que requiere atención.
+- **Rojo:** incidencia crítica, mantenimiento vencido o vehículo inoperativo.
+
+Las alertas deberán presentar información breve y, cuando corresponda, indicar claramente la acción que puede realizar el usuario.
+
+#### Icons
+
+La iconografía mantendrá un estilo simple y consistente. Se utilizarán iconos reconocibles para representar acciones y conceptos como vehículos, mantenimiento, kilometraje, combustible, checklist, fotografías, notificaciones e incidencias.
+
+Siempre que sea necesario, los iconos estarán acompañados por etiquetas de texto para evitar ambigüedades.
+
+#### Responsive Design
+
+La interfaz de Motus seguirá un enfoque responsive que permita su correcta utilización en computadoras, tablets y dispositivos móviles.
+
+En pantallas pequeñas, los componentes se reorganizarán verticalmente, la navegación se simplificará y las acciones principales mantendrán un tamaño adecuado para la interacción táctil.
+
+Se priorizarán especialmente los flujos utilizados por los conductores, como el registro del odómetro, la realización del checklist pre-viaje y el reporte de incidencias, buscando reducir la cantidad de pasos necesarios para completar estas acciones.
+
+## 4.2. Information Architecture
+
+La arquitectura de información de Motus se ha definido con el objetivo de organizar el contenido de manera clara y facilitar que los usuarios encuentren rápidamente la información que necesitan. La estructura considera tanto la landing page, orientada a presentar la propuesta de valor y las principales funcionalidades del producto, como la aplicación web, donde los usuarios realizan tareas relacionadas con la gestión y mantenimiento de los vehículos.
+
+La organización de la información prioriza una navegación sencilla, etiquetas comprensibles y una jerarquía que permita acceder rápidamente a las funcionalidades más importantes de acuerdo con las necesidades de cada tipo de usuario.
+
+### 4.2.1. Organization Systems
+
+Motus emplea principalmente un sistema de organización jerárquico, complementado con una organización por audiencia y por tópicos. Esta combinación permite estructurar el contenido según su importancia y separar las funcionalidades de acuerdo con las necesidades de los encargados de flota y los conductores.
+
+#### Organización jerárquica
+
+La información se distribuye desde contenidos generales hacia contenidos más específicos. En la landing page, el usuario comienza con una presentación general de Motus y posteriormente puede conocer sus beneficios, funcionalidades, funcionamiento y opciones de acceso.
+
+En la aplicación web, la información principal se presenta inicialmente mediante un dashboard que resume el estado de la flota. Desde este punto, el encargado de flota puede acceder a información más específica relacionada con vehículos, mantenimientos, incidencias, alertas e historiales.
+
+#### Organización por audiencia
+
+La estructura considera las necesidades de los dos principales segmentos de usuario:
+
+- **Encargados de flota:** requieren acceder principalmente al estado general de los vehículos, mantenimientos, alertas, incidencias e historial técnico.
+- **Conductores:** requieren accesos rápidos al vehículo asignado, registro de odómetro, checklist pre-viaje y reporte de incidencias.
+
+Esta separación permite priorizar las funcionalidades más relevantes para cada usuario y evitar mostrar información innecesaria durante sus tareas habituales.
+
+#### Organización por tópicos
+
+Las funcionalidades se agrupan de acuerdo con el tipo de información que representan. Los principales tópicos considerados son:
+
+- Vehículos
+- Mantenimiento
+- Checklists
+- Incidencias
+- Alertas
+- Historial técnico
+- Odómetro y combustible
+- Gestión de la flota
+
+Esta organización permite que los usuarios relacionen cada sección con una actividad específica y encuentren la información de forma predecible.
+### 4.2.2. Labeling Systems
+
+El sistema de etiquetado de Motus utiliza términos breves, descriptivos y relacionados directamente con las actividades que realizan los usuarios. Se evita el uso de términos técnicos innecesarios para facilitar la comprensión tanto de los encargados de flota como de los conductores.
+
+Las etiquetas principales de la aplicación se mantienen alineadas con los conceptos utilizados dentro del dominio de Motus. Entre las principales se encuentran:
+
+- **Inicio:** acceso a la vista principal o dashboard.
+- **Vehículos:** consulta y gestión de las unidades registradas.
+- **Mantenimientos:** planificación y seguimiento del mantenimiento de los vehículos.
+- **Checklists:** registro y consulta de las inspecciones pre-viaje.
+- **Incidencias:** registro y seguimiento de fallas o problemas detectados.
+- **Alertas:** visualización de mantenimientos próximos, vencidos u otras situaciones que requieren atención.
+- **Historial:** consulta de mantenimientos, inspecciones e incidencias registradas.
+- **Mi vehículo:** acceso del conductor a la información de la unidad que tiene asignada.
+- **Registrar odómetro:** acción para ingresar el kilometraje actual del vehículo.
+- **Reportar incidencia:** acción para registrar una falla o anomalía detectada.
+
+En los botones se utilizarán etiquetas orientadas a acciones, como `Registrar`, `Guardar`, `Reportar`, `Programar`, `Ver detalle` o `Completar checklist`, permitiendo que el usuario pueda anticipar el resultado de cada interacción.
+### 4.2.3. SEO Tags and Meta Tags
+
+La landing page de Motus utilizará etiquetas SEO y metadatos que permitan describir correctamente el producto para los motores de búsqueda y facilitar su identificación por potenciales usuarios interesados en soluciones para gestión y mantenimiento de flotas.
+
+Se establecen inicialmente los siguientes metadatos:
+
+| Meta Tag | Contenido |
+|---|---|
+| **Title** | Motus - Gestión y mantenimiento preventivo de flotas |
+| **Description** | Motus facilita la gestión de flotas de carga ligera mediante mantenimiento preventivo, control de kilometraje, checklists, alertas y reporte de incidencias. |
+| **Keywords** | gestión de flotas, mantenimiento preventivo, flotas de vehículos, mantenimiento vehicular, control de kilometraje, logística, Motus |
+| **Author** | Telemtrix |
+
+Su implementación en la landing page seguirá una estructura similar a la siguiente:
+
+```html
+<title>Motus - Gestión y mantenimiento preventivo de flotas</title>
+
+<meta
+  name="description"
+  content="Motus facilita la gestión de flotas de carga ligera mediante mantenimiento preventivo, control de kilometraje, checklists, alertas y reporte de incidencias."
+>
+
+<meta
+  name="keywords"
+  content="gestión de flotas, mantenimiento preventivo, flotas de vehículos, mantenimiento vehicular, control de kilometraje, logística, Motus"
+>
+
+<meta name="author" content="Telemtrix">
+```
+
+Estos metadatos buscan representar de manera directa el propósito del producto y mantener coherencia entre el contenido presentado en la landing page y los términos relacionados con su propuesta de valor.
+### 4.2.4. Searching Systems
+
+Debido a que la landing page de Motus contiene una cantidad limitada de información y utiliza una estructura de navegación directa por secciones, no se considera necesario implementar un buscador dentro de esta página.
+
+En la aplicación web, en cambio, los encargados de flota podrán gestionar una mayor cantidad de vehículos, mantenimientos e incidencias. Por este motivo, se contemplan mecanismos de búsqueda y filtrado que permitan localizar información de manera rápida.
+
+La búsqueda de vehículos podrá realizarse mediante datos como la placa o información identificativa de la unidad. Además, las vistas que contengan múltiples registros podrán incorporar filtros relacionados con:
+
+- Estado del vehículo.
+- Estado del mantenimiento.
+- Fecha.
+- Tipo de incidencia.
+- Mantenimientos próximos o vencidos.
+
+Los resultados se presentarán mediante listas, tablas o tarjetas según el tipo de información consultada. Los filtros activos deberán ser visibles y podrán eliminarse fácilmente para regresar a la vista completa de los registros.
+
+En el caso de los conductores, se priorizará el acceso directo a las funciones relacionadas con su vehículo asignado en lugar de implementar sistemas de búsqueda complejos.
+
+### 4.2.5. Navigation Systems
+
+El sistema de navegación de Motus se ha diseñado para permitir que los usuarios accedan de manera sencilla a las principales secciones de la landing page y de la aplicación web. La estructura de navegación mantiene una organización jerárquica y adapta las opciones disponibles de acuerdo con el tipo de usuario.
+
+#### Navegación de la Landing Page
+
+La landing page utiliza una navegación lineal mediante una barra superior que permite desplazarse directamente hacia las principales secciones de la página:
+
+- Inicio
+- Beneficios
+- Funcionalidades
+- Cómo funciona
+- Planes
+- Contacto
+- Iniciar sesión
+
+El recorrido principal sigue la secuencia:
+
+**Inicio → Beneficios → Funcionalidades → Cómo funciona → Planes → Contacto**
+
+#### Navegación de la Aplicación Web
+
+Después de iniciar sesión, la navegación se adapta al rol del usuario y prioriza las funcionalidades correspondientes a las actividades que realiza dentro de Motus.
+
+Para el **Encargado de Flota**, las principales opciones son:
+
+- Dashboard
+- Vehículos
+- Conductores
+- Mantenimientos
+- Alertas
+- Historial
+
+Desde la sección **Vehículos**, el encargado puede registrar nuevas unidades y acceder a la información específica de cada vehículo. Asimismo, puede configurar los umbrales de mantenimiento según kilometraje, registrar los servicios realizados en taller y consultar el historial técnico de cada unidad.
+
+La sección **Conductores** permite gestionar los usuarios asociados a la empresa y vincularlos con las unidades vehiculares correspondientes.
+
+Para el **Conductor**, la navegación se simplifica y prioriza las tareas operativas realizadas durante su jornada:
+
+- Inicio
+- Mi vehículo
+- Registrar odómetro
+- Checklist pre-viaje
+- Reportar incidencia
+
+El conductor puede registrar el kilometraje de su unidad, completar el checklist pre-viaje incluso cuando no dispone de conexión a Internet y reportar incidencias mecánicas detectadas durante el trayecto.
+
+En dispositivos móviles, estas opciones se adaptarán a una navegación compacta para facilitar el acceso a las funciones principales desde teléfonos móviles.
+
+#### Navigation System
+
+El siguiente mapa representa la estructura de navegación propuesta para Motus y las principales rutas disponibles para los visitantes, encargados de flota y conductores.
+
+<p align="center">
+  <img src="images/chapter04/Motus-Navigation-System-v2.png" alt="Motus Navigation System" width="900">
+</p>
+
+## 4.3. Landing Page UI Design
+
+La landing page de Motus fue diseñada con el propósito de comunicar de manera clara la propuesta de valor del producto y presentar sus principales beneficios y funcionalidades a potenciales usuarios. Su estructura busca facilitar la comprensión de la solución mediante una navegación sencilla y una organización visual coherente con las Style Guidelines y la Information Architecture previamente definidas.
+
+El diseño considera las principales secciones de la landing page, como inicio, beneficios, funcionalidades, funcionamiento de la plataforma, tipos de usuario, planes, contacto y accesos principales. Asimismo, se desarrollaron wireframes y mock-ups para representar tanto la estructura inicial de la interfaz como su propuesta visual final.
+
+### 4.3.1. Landing Page Wireframe
+
+Para definir la estructura y distribución de los elementos de la landing page de Motus, se desarrollaron los wireframes correspondientes a la versión Desktop. Estos permiten representar la organización del contenido, jerarquía de información, navegación y principales componentes de la interfaz antes de aplicar los elementos visuales definidos en las Style Guidelines.
+
+#### Desktop Wireframe
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-1.png" alt="Motus Landing Page Wireframe 1" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-2.png" alt="Motus Landing Page Wireframe 2" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-3.png" alt="Motus Landing Page Wireframe 3" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-4.png" alt="Motus Landing Page Wireframe 4" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-5.png" alt="Motus Landing Page Wireframe 5" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-6.png" alt="Motus Landing Page Wireframe 6" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-7.png" alt="Motus Landing Page Wireframe 7" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-8.png" alt="Motus Landing Page Wireframe 8" width="900">
+</p>
+
+#### Mobile Wireframe
+
+Para la versión Mobile, la estructura de la landing page se adapta a una distribución vertical, manteniendo la jerarquía de contenidos y facilitando la navegación desde dispositivos móviles.
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-Mobile-1.png" alt="Motus Landing Page Mobile Wireframe 1" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-Mobile-2.png" alt="Motus Landing Page Mobile Wireframe 2" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-Mobile-3.png" alt="Motus Landing Page Mobile Wireframe 3" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-Mobile-4.png" alt="Motus Landing Page Mobile Wireframe 4" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-Mobile-5.png" alt="Motus Landing Page Mobile Wireframe 5" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-Mobile-6.png" alt="Motus Landing Page Mobile Wireframe 6" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-Mobile-7.png" alt="Motus Landing Page Mobile Wireframe 7" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Wireframe-Mobile-8.png" alt="Motus Landing Page Mobile Wireframe 8" width="400">
+</p>
+
+### 4.3.2. Landing Page Mock-up
+
+El mock-up de la landing page de Motus presenta la propuesta visual final de la interfaz, aplicando los lineamientos de diseño, identidad visual y arquitectura de información definidos previamente.
+
+#### Desktop Mock-up
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Home.png" alt="Motus Landing Page Home Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Benefits.png" alt="Motus Landing Page Benefits Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Features.png" alt="Motus Landing Page Features Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-How-It-Work.png" alt="Motus Landing Page How It Work Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Audience.png" alt="Motus Landing Page Audience Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Plans.png" alt="Motus Landing Page Plans Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Contact.png" alt="Motus Landing Page Contact Mock-up" width="900">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Footer.png" alt="Motus Landing Page Footer Mock-up" width="900">
+</p>
+
+#### Mobile Mock-up
+
+Para la versión Mobile, el diseño de la landing page de Motus se adapta a una distribución vertical, manteniendo la identidad visual, paleta de colores, tipografía y componentes definidos para la versión Desktop.
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-1.png" alt="Motus Landing Page Mobile Mock-up 1" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-2.png" alt="Motus Landing Page Mobile Mock-up 2" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-3.png" alt="Motus Landing Page Mobile Mock-up 3" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-4.png" alt="Motus Landing Page Mobile Mock-up 4" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-5.png" alt="Motus Landing Page Mobile Mock-up 5" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-6.png" alt="Motus Landing Page Mobile Mock-up 6" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-7.png" alt="Motus Landing Page Mobile Mock-up 7" width="400">
+</p>
+
+<p align="center">
+  <img src="images/chapter04/Motus-Landing-Mockup-Mobile-8.png" alt="Motus Landing Page Mobile Mock-up 8" width="400">
+</p>
+
+
+## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 
 #### Wireframe – Login web 
@@ -767,7 +1222,7 @@ La estimación de esfuerzo se realizó mediante la escala estándar de Fibonacci
 Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1 
 
 
-### 4.4.2. Web Applications Wireflow Diagrams.
+### 4.4.2. Web Applications Wireflow Diagrams
 ### User Goal 1:
 #### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
 #### Task Flow
@@ -804,8 +1259,7 @@ Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---
 #### Wire Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/wireflow-04.png)
 
-### 4.4.3. Web Applications Mock-ups.
-
+### 4.4.3. Web Applications Mock-ups
 #### Mockup – Login web 
 ![Mockup - Login](images/chapter04/mockups/mockup-01.png)
 
