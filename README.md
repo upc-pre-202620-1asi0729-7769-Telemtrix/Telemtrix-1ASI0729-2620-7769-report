@@ -503,7 +503,71 @@ Preguntas principales:
 ---
 ### 2.2.3. Análisis de entrevistas
 
+#### Segmento 1: Jefe de flota
 
+Características
+- Edad: entre 38 y 42 años.
+- Ubicación: Lima, Perú.
+- Roles: jefes de flota, administradores o propietarios de pequeñas empresas dedicadas al transporte y la distribución.
+- Tamaño de flota: flotas reducidas de vehículos de carga ligera.
+- Dispositivos: smartphone y computadora.
+- Herramientas digitales: Excel, WhatsApp, documentos compartidos y herramientas básicas para organizar información.
+- Uso de tecnología: emplean herramientas digitales a diario, aunque buena parte de la información de la flota todavía se registra y consolida de forma manual.
+
+Objetivos comunes
+
+- Mantener los vehículos disponibles y en buen estado para cumplir con las operaciones planificadas.
+- Reunir en un solo lugar la información de kilometraje, mantenimientos, combustible e incidencias de cada vehículo.
+- Ejecutar los mantenimientos preventivos en el momento oportuno y evitar demoras en su programación.
+- Detectar con rapidez los vehículos que presentan fallas o incidencias pendientes.
+- Consultar el historial de cada vehículo para tomar mejores decisiones sobre su mantenimiento y operación.
+
+Motivaciones comunes
+
+- Disminuir la probabilidad de fallas imprevistas durante las operaciones de transporte.
+Evitar retrasos en las entregas causados por vehículos no disponibles.
+- Tener un mayor control sobre los mantenimientos y los gastos de cada vehículo.
+- Recibir información y alertas que permitan anticipar los próximos mantenimientos.
+- Contar con una visión general de la flota sin necesidad de revisar varios archivos, mensajes o documentos.
+- 
+Frustraciones comunes
+- Información repartida entre hojas de cálculo, mensajes de WhatsApp y documentos físicos.
+- Dificultad para mantener al día el kilometraje y el estado de todos los vehículos.
+- Mantenimientos que terminan realizándose después de la fecha o el kilometraje recomendado.
+- Dificultad para consultar con rapidez los gastos, incidencias e historial de mantenimiento de un vehículo.
+- Fallas inesperadas que pueden provocar retrasos y obligar a reorganizar las operaciones.
+
+
+#### Segmento 2: Conductor de carga ligera
+Características
+- Edad: adultos en edad laboral con experiencia como conductores de vehículos de carga ligera.
+- Ubicación: Lima, Perú.
+- Roles: conductores de vehículos de carga ligera vinculados directamente con la operación diaria de las unidades.
+- Experiencia: experiencia práctica en conducción, inspección básica y operación de vehículos de carga ligera.
+- Dispositivos: principalmente smartphone durante la jornada de trabajo.
+- Herramientas digitales: WhatsApp, aplicaciones de ubicación y otras herramientas móviles usadas durante las operaciones.
+- Uso de tecnología: utilizan herramientas móviles con frecuencia y necesitan registrar información de manera rápida debido a las características de su trabajo.
+
+Objetivos comunes
+- Mantener los vehículos en condiciones adecuadas y detectar posibles problemas antes de iniciar una ruta.
+- Registrar con rapidez el kilometraje, las inspecciones y las incidencias encontradas.
+- Comunicar con claridad las fallas detectadas al responsable de la flota.
+- Consultar información sobre mantenimientos o problemas anteriores de un vehículo cuando sea necesario.
+- Contar con un proceso simple para registrar las actividades realizadas sobre cada unidad.
+
+Motivaciones comunes
+- Detectar problemas mecánicos antes de que provoquen una falla durante una operación.
+- Realizar inspecciones mediante checklists sencillos que permitan verificar los principales componentes del vehículo.
+- Reportar incidencias usando fotografías y descripciones que faciliten la evaluación del problema.
+- Tener acceso al historial del vehículo para conocer los trabajos realizados previamente.
+- Utilizar una herramienta que pueda manejarse rápidamente desde un smartphone durante la jornada laboral.
+
+Frustraciones comunes
+- Reportes de fallas e incidencias que quedan dispersos entre distintas conversaciones de WhatsApp.
+- Dificultad para consultar después fotografías, observaciones o reportes hechos anteriormente.
+- Falta de un historial centralizado sobre los mantenimientos realizados a cada vehículo.
+- Necesidad de revisar documentos, mensajes o preguntar a otras personas para conocer trabajos anteriores.
+- Formularios o procesos extensos que podrían dificultar el registro de información durante una jornada de trabajo.
 ---
 
 ## 2.3. Needfinding
