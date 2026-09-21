@@ -36,11 +36,11 @@
 
 ## Project Report Collaboration Insights
 
-Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
-Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
-Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+- Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
+- Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
+- Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
 
-![Lean UX Canvas](images/reporte/participacion.jpeg)
+![Reporte](images/reporte/participacion.jpeg)
 
 
 ## Contenido
