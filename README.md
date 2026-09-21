@@ -1798,17 +1798,17 @@ Asimismo, la definición de la arquitectura basada en bounded contexts y el mode
 
 
 ### Bibliografía 
-Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley. https://domainlanguage.com/ddd/
-Vernon, V. (2013). Implementing domain-driven design. Addison-Wesley. https://www.oreilly.com/library/view/implementing-domain-driven/9780133039900/
-Brown, S. (2020). The C4 model for visualising software architecture. https://c4model.com
+- Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley. https://domainlanguage.com/ddd/
+- Vernon, V. (2013). Implementing domain-driven design. Addison-Wesley. https://www.oreilly.com/library/view/implementing-domain-driven/9780133039900/
+- Brown, S. (2020). The C4 model for visualising software architecture. https://c4model.com
 
 ### Anexos
 
-Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
-Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
-Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
-Despliegue de la landing en GitHub Pages: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/ 
-Link del Figma MockUp: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1
-Link del Figma WireFrames: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1
+- Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
+- Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
+- Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+- Despliegue de la landing en GitHub Pages: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/ 
+- Link del Figma MockUp: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1
+- Link del Figma WireFrames: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1
 
 
