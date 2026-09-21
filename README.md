@@ -1405,4 +1405,43 @@ Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---
 Link del Figma: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1 
 
 
-### 4.4.4. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams.
+
+### User Goal 1:
+#### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
+![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-01.png)
+
+
+
+### User Goal 2:
+#### Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.
+![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-02.png)
+
+
+### User Goal 3:
+#### Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.
+![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-03.png)
+
+
+
+### User Goal 4:
+#### Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.
+![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-04.png)
+
+
+
+### 4.5. Web Applications Prototyping 
+
+A continuación se presenta el prototipo de la aplicación de Motus, el cual permite a los usuarios observar como sería el producto.
+https://www.figma.com/proto/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=2001-2&t=Z4IdwUdU355jJLP3-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 
+
+
+
+
+
+
+
+
+
+
+
