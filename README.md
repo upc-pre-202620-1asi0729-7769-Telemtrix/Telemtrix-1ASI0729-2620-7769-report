@@ -1436,12 +1436,31 @@ A continuación se presenta el prototipo de la aplicación de Motus, el cual per
 https://www.figma.com/proto/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=2001-2&t=Z4IdwUdU355jJLP3-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 
 
 
+### 4.6 Domain Driven Software Architecture
+
+#### 4.6.1. Software Architecture Context Diagram
+El Context Diagram es el primer nivel del modelo C4 y muestra el sistema como una caja negra. Su propósito es delimitar el alcance de Telemtrix y responder: ¿qué es el sistema, quién lo usa y con qué sistemas externos se comunica? No muestra detalles internos, solo las fronteras y las relaciones de alto nivel.
+![diagram](images/chapter04/domain-driven/context-diagram.png)
 
 
+#### 4.6.2. Software Architecture Container Diagrams
+El Container Diagram es el segundo nivel del modelo C4 y abre la caja negra del sistema. Muestra cómo Telemtrix se descompone en contenedores desplegables e independientes: la app móvil, el panel web, el API Gateway, los microservicios de dominio, la base de datos, la caché y el broker de mensajes. Indica qué tecnología usa cada contenedor y cómo se comunican entre sí.
+![diagram](images/chapter04/domain-driven/container-diagrams.png)
 
 
+#### 4.6.3. Software Architecture Components Diagram
+El Component Diagram es el tercer nivel del modelo C4 y abre cada contenedor para mostrar sus componentes internos. Debido a que Telemtrix sigue un enfoque de Domain-Driven Design (DDD), este diagrama se elabora por bounded context, y cada uno incluye sus controllers, servicios de dominio, repositorios, adaptadores y publicadores/consumidores de eventos. Así se evidencia la separación de responsabilidades y la arquitectura hexagonal. <br></br>
+
+##### Identity & Access Context
+El Identity & Access Context gestiona la identidad de los usuarios y el control de acceso a la plataforma. Se encarga del registro, autenticación mediante JWT, asignación de roles (administrador, encargado de flota, chofer, técnico) y permisos. Es un contexto transversal, ya que todos los demás servicios validan la identidad antes de ejecutar operaciones.
+![diagram](images/chapter04/domain-driven/component-diagram-01.png)
 
 
+##### Fleet Management Context
+El Fleet Management Context administra las empresas, vehículos y planes de mantenimiento. Es el núcleo del modelo de negocio: define qué vehículos pertenecen a cada empresa, su estado operativo y qué planes preventivos tienen asignados. Publica eventos cuando un vehículo cambia de estado o se registra uno nuevo.
+![diagram](images/chapter04/domain-driven/component-diagram-02.png)
 
-
+##### Maintenance Context
+El Maintenance Context gestiona los planes, ejecuciones y repuestos del mantenimiento preventivo. Consume eventos del contexto de telemetría para calcular cuándo corresponde el próximo servicio y programa las intervenciones. Es el contexto que transforma los datos en acciones planificadas y reduce los imprevistos operativos.
+![diagram](images/chapter04/domain-driven/component-diagram-03.png)
 
