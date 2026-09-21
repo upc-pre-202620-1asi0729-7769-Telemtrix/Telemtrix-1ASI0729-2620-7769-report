@@ -1633,3 +1633,132 @@ Ruta de referencia: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/tel
 la aplicación web del proyecto se ha desplegado utilizando netlify, lo que permite alojar el sitio web de manera gratuita y sencilla directamente desde el repositorio de GitHub:
 
 Ruta de referencia: 
+
+## 5.2. Landing Page, Services & Applications Implementation.
+### 5.2.1. Sprint 1
+
+En esta sección, se documentará y explicará, en términos de producto y colaboración, el primer sprint de trabajo.
+
+### 5.2.1.1. Sprint Planning 1.
+Esta sección presenta los detalles de la primera reunión de planificación de Sprint del equipo. Durante esta sesión, se definieron los objetivos principales del Sprint, la capacidad del equipo y las tareas a abordar. Al ser el primer Sprint del proyecto, no se incluyen resúmenes de revisión ni retrospectiva previos. El enfoque principal fue la implementación de la landing page, con el objetivo de validar el interés del público en la propuesta de negocio. A continuación, se detallan los aspectos clave discutidos durante la reunión:
+
+| **Sprint #**                  | Sprint 1                                                                                                                                                                            |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                                                                                                                     |
+| **Date**                       | 15 de septiembre del 2026                                                                                                                                                           |
+| **Time**                       | 18:00 horas                                                                                                                                                                         |
+| **Location**                   | Modalidad remota a través de Whatsapp                                                                                                                                               |
+| **Prepared By**                | Todos los integrantes del equipo TelemTrix                                                                                                                                          |
+| **Attendees (to planning meeting)** | Todos los integrantes del equipo Telemtrix                                                                                                                                          |
+| **Sprint 0 Review Summary**    | Dado que es nuestro primer sprint de desarrollo, aún no se ha realizado un resumen del sprint anterior.                                                                             |
+| **Sprint 0 Retrospective Summary** | No se identificaron mejoras ya que es el primer sprint.                                                                                                                             |
+| **Sprint Goal & User Stories** | US01, US02, US03, US04, US05                                                                                                                                                        |
+| **Sprint 1 Goal**              | En este sprint, nuestro enfoque está en describir nuestra startup y en construir la estructura de la Landing Page, realizar las entrevisas, y tener definidos nuestros user stories |
+| **Sprint 1 Velocity**          | 5                                                                                                                                                                                   |
+| **Sum of Story Points**        | 5                                                                                                                                                                                   |
+
+
+### 5.2.1.2. Aspect Leaders and Collaborators.
+
+En este apartado se detallan los principales aspectos considerados en el Sprint 1 y la asignación de responsabilidades dentro del equipo. Para este primer sprint, se priorizó la definición y desarrollo de los siguientes aspectos clave:
+
+- Elaboración y refinamiento de las User Stories fundamentales para la plataforma.
+- Diseño y construcción de la estructura inicial de la Landing Page.
+- Descripción y desarrollo de los primeros capítulos del informe, asegurando una base sólida para el proyecto.
+
+Cada uno de estos aspectos fue liderado o apoyado por diferentes miembros del equipo, promoviendo la colaboración y el aprendizaje conjunto. La siguiente tabla muestra la distribución de roles y responsabilidades para cada aspecto relevante del Sprint:
+
+ | Github Username | Elaboracion de User Stories Leader (L), Collaborator (C) | Desarrollo del landing page Leader (L), Collaborator (C) | Descripcion y desarrollo de los primeros capitulos Leader (L), Collaborator (C) |
+ |-----------------| ------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------- |
+       | AlexBoo578      | (C)                                                     | (C)                                                            | (C)                                                |
+        | veniku08        | (L)                                                     | (C)                                                            | (C)                                                |
+       | patriciavmp     | (C)                                                     | (L)                                                            | (C)                                                |
+ | vysidrol        | (C)                                                     | (L)                                                            | (C)                                                |
+ | Nox010111       | (C)                                                     | (L)                                                            | (C)                                                |
+
+
+### 5.2.1.3. Sprint Backlog 1.
+
+En esta sección se detalla el Sprint Backlog correspondiente al Sprint 1, el cual incluye todas las historias de usuario priorizadas, así como las tareas específicas asociadas a cada una. Cada tarea contiene su respectiva descripción, estimación en horas, asignación de responsable y estado de avance. 
+
+
+
+| Sprint # | Sprint 1 | | | | |
+|----------|------|-|--|--|-----|
+| | **User Story** | | | | |
+| **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| EP01/US01 | Visualizar Propuesta de Valor y Beneficios | Como visitante del segmento encargado de flota, deseo visualizar los beneficios y características de Telemtrix, para evaluar si resuelve los sobrecostos de mantenimiento de mi empresa. | | | |
+| | - Diseñar sección de propuesta de valor y beneficios | Definir estructura visual de la sección de beneficios clave (ahorro preventivo, inspección digital, sin hardware). | 2 | Santiago Echevarria | Done |
+| | - Implementar sección de beneficios responsive | Maquetar y programar la sección asegurando correcta visualización en desktop y móvil. | 3 | Santiago Echevarria | Done |
+| | - Implementar botón CTA "Iniciar Prueba Gratuita" | Programar la redirección del botón hacia el formulario de registro de la aplicación web. | 2 | Valeria Ysidro | Done |
+| EP01/US02 | Consultar Planes y Tarifas SaaS | Como visitante corporativo, deseo revisar la tabla comparativa de precios por vehículo, para calcular el presupuesto mensual requerido para mi flota. | | | |
+| | - Diseñar tabla comparativa de planes y tarifas | Definir estructura y contenido de los planes SaaS disponibles por vehículo. | 2 | Valeria Ysidro | Done |
+| | - Implementar sección de planes con enlace a suscripción | Maquetar la sección y programar la redirección al flujo de suscripción con el plan preseleccionado. | 3 | Patricia Mejía | Done |
+| EP01/US03 | Envío de Formulario de Contacto Comercial | Como visitante interesado en una solución corporativa, deseo enviar mis datos mediante un formulario de contacto, para solicitar una demostración guiada y asesoría técnica. | | | |
+| | - Diseñar formulario de contacto comercial | Definir los campos requeridos (nombre, correo corporativo, teléfono, tamaño de flota). | 2 | Patricia Mejía | Done |
+| | - Implementar validación de campos obligatorios | Programar validaciones para bloquear el envío ante campos incompletos. | 2 | Alison Segura | Done |
+| | - Integrar envío y confirmación del formulario | Programar el almacenamiento del prospecto y el mensaje de confirmación de envío. | 2 | Alison Segura | Done |
+
+### 5.2.1.4. Development Evidence for Sprint Review.
+
+Durante este Sprint, el equipo logró avances significativos en la implementación del proyecto. Se completó la estructura y diseño de la landing page, integrando las secciones principales como navegación, testimonios, funcionalidades, planes premium, formulario de contacto, redes sociales y servicios. Además, se documentaron los commits y ramas utilizados, asegurando trazabilidad y colaboración efectiva entre los miembros del equipo. A continuación, se presenta la evidencia de los principales entregables y contribuciones realizadas durante el Sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|--------------------|--------------------|
+| Telemtrix-Report | Chapter1 | a1b2c3d | docs(chapter-1): "add format of team member profiles" | Added structured format for team member profiles including personal information, skills, and role descriptions for each team member in the startup profile section | 07/09/2026 |
+| Telemtrix-Report | Chapter1 | e4f5g6h | docs(chapter-1): "add 5W2H problem analysis and Lean UX Problem Statements" | Implemented the 5W+2H problem breakdown and the Lean UX Problem Statements in English and Spanish, detailing the maintenance pain points of light cargo fleet MSEs | 09/09/2026 |
+| Telemtrix-Report | Chapter1 | i7j8k9l | docs(chapter-1): "add Lean UX Assumptions, Hypothesis Statements and target segments" | Added business, user and feature assumptions, the four Lean UX hypothesis statements, and the description of the two target segments (fleet managers and drivers) | 11/09/2026 |
+| Telemtrix-Report | Chapter2 | m0n1o2p | docs(chapter-2): "add Competitive Analysis Landscape and SWOT" | Added the competitive analysis table against Tracklink, Comsatel and PSTech/MiX Telematics, along with the SWOT analysis and strategies against competitors | 12/09/2026 |
+| Telemtrix-Report | Chapter2 | q3r4s5t | docs(chapter-2): "add interview design for both target segments" | Added the semi-structured interview questions for fleet managers/owners and for light cargo drivers, covering maintenance habits, pain points and digital tool adoption | 13/09/2026 |
+| Telemtrix-Report | Chapter2 | u6v7w8x | fix(interviews): "fix interview record table and add video evidence" | Fixed the interview record table structure and embedded the video link and photo evidence for the first fleet manager interview (Aracely Paucar) | 14/09/2026 |
+| Telemtrix-Report | Chapter2 | y9z0a1b | feat: "add User Personas, User Task Matrix and Ubiquitous Language" | Added the User Persona sheets for both segments, the User Task Matrix comparing frequency and importance of tasks, and the full domain glossary (Ubiquitous Language) | 16/09/2026 |
+| Telemtrix-Report | Chapter3 | c2d3e4f | feat: "restructure user stories to Gherkin format" | Restructured user stories to follow the Given-When-Then Gherkin syntax for acceptance criteria, covering Landing Page, Onboarding, Fleet Management and Driver Operations epics | 17/09/2026 |
+| Telemtrix-Report | Chapter3 | g5h6i7j | docs(chapter-3): "add Impact Mapping and Product Backlog with Fibonacci estimation" | Added the Impact Mapping diagram linking business goals to user segments, and prioritized the Product Backlog using Fibonacci story points with the Trello board link | 18/09/2026 |
+| Telemtrix-Report | Chapter5 | k8l9m0n | feat: "add Software Configuration Management and Sprint 1 backlog" | Added the tools used for requirements, design and development, the GitFlow branching strategy, and the Sprint 1 backlog with tasks, estimations and assigned collaborators | 19/09/2026 |
+### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En este Sprint se logró desplegar la primera versión funcional de la landing page del proyecto, cumpliendo con los objetivos planteados en el backlog. El equipo trabajó de manera colaborativa para implementar y publicar las principales secciones, asegurando una experiencia de usuario coherente y alineada con los requerimientos iniciales. A continuación, se presenta la evidencia visual y el enlace de acceso a la landing page desplegada:
+
+Enlace de la Landing Page: <br>
+https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/
+### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+Para esta entrega no se han empleado APIS, por lo cuál no se he requerido hacer una documentación sobre servicios implementados durante el Sprint
+
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Durante este Sprint, el equipo realizó el despliegue exitoso de la landing page utilizando GitHub Pages. El objetivo fue asegurar que la solución estuviera disponible en línea para su revisión y validación, cumpliendo con los estándares de entrega continua y visibilidad del avance del proyecto.
+
+**Pasos realizados durante el despliegue:**
+1. Se verificó que el repositorio de la landing page contara con un archivo `index.html` en la raíz, listo para ser publicado.
+2. Se accedió a la sección Settings > Pages del repositorio de la landing page en GitHub.
+3. Se configuró la rama principal (`main`) del repositorio como fuente de despliegue automático.
+4. Se seleccionó la carpeta raíz (`/root`) como origen de los archivos estáticos a publicar.
+5. Se realizó el primer despliegue, verificando que la landing page estuviera accesible públicamente y funcionando correctamente.
+6. Se validó el acceso desde diferentes dispositivos y navegadores para garantizar la experiencia de usuario.
+7. Se documentó la URL de acceso (`https://usuario.github.io/nombre-del-repo/`) y se compartió con el equipo para revisión y feedback.
+
+### Design
+Para realizar el diseño de los wireframes y mockups de la Landing Page para este Sprint, se hizo uso de la plataforma Figma. Para utilizar la plataforma:
+
+1. Se accede a través de la página oficial de Figma: https://www.figma.com/login
+
+2. Luego, se crea un Draft que nos servirá como base para el proyecto colaborativo.
+
+**Deployment Para la landing page, se utilizará GitHub Pages para el despliegue de la página.**
+### Deployment
+Para la landing page, se utilizará GitHub Pages para el despliegue de la página.
+
+Para nuestro proyecto se crearon 2 repositorios, el cuál fue:
+
+Documentación | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report : Este repositorio contiene el informe de nuestro proyecto. <br> Motus Landing Page | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page: Este repositorio se usa para realizar el desarrollo de la landing page de manera continua y desplegarla mediante GitHub Pages.
+
+
+### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante este Sprint, las actividades de implementación se desarrollaron de manera colaborativa y organizada. El equipo utilizó herramientas como GitHub para la gestión de versiones y asignación de tareas, y WhatsApp para la comunicación y coordinación diaria. Cada integrante asumió responsabilidades específicas según el backlog y los aspectos definidos en la planificación, participando activamente en el desarrollo, revisión de código y validación de entregables.
+
+Se promovió la revisión cruzada de avances, el registro de commits detallados y la documentación de los cambios realizados. Las reuniones periódicas permitieron resolver dudas, ajustar prioridades y asegurar que todos los miembros estuvieran alineados con los objetivos del Sprint. Esta dinámica facilitó la integración continua y la entrega oportuna de los resultados esperados.
+
+---
+
