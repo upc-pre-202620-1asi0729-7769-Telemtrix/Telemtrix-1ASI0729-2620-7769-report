@@ -1746,14 +1746,14 @@ Durante este Sprint, el equipo logr처 avances significativos en la implementaci�
 
 En este Sprint se logr처 desplegar la primera versi처n funcional de la landing page del proyecto, cumpliendo con los objetivos planteados en el backlog. El equipo trabaj처 de manera colaborativa para implementar y publicar las principales secciones, asegurando una experiencia de usuario coherente y alineada con los requerimientos iniciales. A continuaci처n, se presenta la evidencia visual y el enlace de acceso a la landing page desplegada:
 
-<img src="landing-motus-1.jpg" alt="Landing Page Motus" width="600">
-<img src="landing-motus-2.jpg" alt="Landing Page Motus" width="600">
-<img src="landing-motus-3.jpg" alt="Landing Page Motus" width="600">
-<img src="landing-motus-4.jpg" alt="Landing Page Motus" width="600">
-<img src="landing-motus-5.jpg" alt="Landing Page Motus" width="600">
-<img src="landing-motus-6.jpg" alt="Landing Page Motus" width="600">
-<img src="landing-motus-7.jpg" alt="Landing Page Motus" width="600">
-<img src="landing-motus-8.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-1.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-2.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-3.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-4.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-5.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-6.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-7.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-8.jpg" alt="Landing Page Motus" width="600">
 
 Enlace de la Landing Page: <br>
 https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/
