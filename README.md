@@ -1799,6 +1799,8 @@ Durante este Sprint, las actividades de implementación se desarrollaron de mane
 
 Se promovió la revisión cruzada de avances, el registro de commits detallados y la documentación de los cambios realizados. Las reuniones periódicas permitieron resolver dudas, ajustar prioridades y asegurar que todos los miembros estuvieran alineados con los objetivos del Sprint. Esta dinámica facilitó la integración continua y la entrega oportuna de los resultados esperados.
 
+<img src="images/chapter05/insights-sprint1.jpg" alt="Insights Sprint 1" width="600">
+
 ---
 
 ### Conclusiones
