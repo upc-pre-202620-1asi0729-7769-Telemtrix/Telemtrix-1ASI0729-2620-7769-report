@@ -1765,6 +1765,9 @@ Para esta entrega no se han empleado APIS, por lo cuál no se he requerido hacer
 
 Durante este Sprint, el equipo realizó el despliegue exitoso de la landing page utilizando GitHub Pages. El objetivo fue asegurar que la solución estuviera disponible en línea para su revisión y validación, cumpliendo con los estándares de entrega continua y visibilidad del avance del proyecto.
 
+<img src="images/chapter05/deployment-motus-evidence.jpg" alt="Landing Page Motus" width="600">
+
+
 **Pasos realizados durante el despliegue:**
 1. Se verificó que el repositorio de la landing page contara con un archivo `index.html` en la raíz, listo para ser publicado.
 2. Se accedió a la sección Settings > Pages del repositorio de la landing page en GitHub.
