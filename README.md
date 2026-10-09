@@ -122,6 +122,15 @@
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -141,8 +150,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
  
 | Criterio Específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones | 
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------| 
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Expliqué oralmente ante mis compañeros los User Personas, Wireframes y Mockups que elaboré. Justifiqué las decisiones de diseño y respondí las consultas del equipo para que todos entendieran la propuesta visual y funcional del proyecto.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Realicé una entrevista a un representante del segmento objetivo para conocer sus necesidades y problemas relacionados con la gestión y mantenimiento de vehículos. Asimismo, comuniqué al equipo los principales hallazgos obtenidos y expliqué cómo estos aportaron al User Journey Mapping y a las decisiones de diseño de la propuesta.<br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Me comuniqué con mis compañeros para entender cada herramienta que usaremos para el trabajo de la aplicación web, además de cómo aportará en solucionar la problemática <br> | Este informe permitió al equipo desarrollar habilidades de comunicación oral mediante reuniones constantes, exposiciones de avances y discusiones técnicas. Se concluyó que la comunicación efectiva entre los integrantes fue fundamental para coordinar tareas, resolver dudas y mantener una visión compartida del producto. | 
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Elaboré los User Personas, Wireframes y Mockups del proyecto. Dejé la estructura, los flujos y la propuesta visual para que mis compañeros pudieran revisarlos y usarlos como base en el desarrollo.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Documenté los Style Guidelines y la Information Architecture de Motus, definiendo lineamientos visuales, organización, etiquetado, navegación y elementos SEO. Además, elaboré los Wireframes y Mock-ups del Landing Page, documentando la propuesta visual y la estructura de la información para facilitar su comprensión y posterior implementación por parte del equipo. <br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Para este AV1 realice el software configuration managemente que conllevan parte como el code management y el deployment configuration, para que se sepa que usamos en el proyecto | A lo largo de este AV se elaboraron diversos documentos técnicos y de diseño, e informes de sprint. Se concluyó que la comunicación escrita clara y estructurada fue esencial para documentar decisiones, dejar registro de los avances y permitir que todos los miembros del equipo trabajaran de forma coordinada. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Expliqué oralmente ante mis compañeros los User Personas, Wireframes y Mockups que elaboré. Justifiqué las decisiones de diseño y respondí las consultas del equipo para que todos entendieran la propuesta visual y funcional del proyecto.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Realicé una entrevista a un representante del segmento objetivo para conocer sus necesidades y problemas relacionados con la gestión y mantenimiento de vehículos. Asimismo, comuniqué al equipo los principales hallazgos obtenidos y expliqué cómo estos aportaron al User Journey Mapping y a las decisiones de diseño de la propuesta.<br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Me comuniqué con mis compañeros para entender cada herramienta que usaremos para el trabajo de la aplicación web, además de cómo aportará en solucionar la problemática<br><br>**Patricia V. (patriciavmp)**<br></br>TB1: Comuniqué las decisiones arquitectónicas para la configuración base de la aplicación Angular y Angular Material, explicando al equipo el flujo de GitFlow y el uso del Mock API. <br> | Este informe permitió al equipo desarrollar habilidades de comunicación oral mediante reuniones constantes, exposiciones de avances y discusiones técnicas. Se concluyó que la comunicación efectiva entre los integrantes fue fundamental para coordinar tareas, resolver dudas y mantener una visión compartida del producto durante el AV1 y TB1. | 
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Elaboré los User Personas, Wireframes y Mockups del proyecto. Dejé la estructura, los flujos y la propuesta visual para que mis compañeros pudieran revisarlos y usarlos como base en el desarrollo.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Documenté los Style Guidelines y la Information Architecture de Motus, definiendo lineamientos visuales, organización, etiquetado, navegación y elementos SEO. Además, elaboré los Wireframes y Mock-ups del Landing Page, documentando la propuesta visual y la estructura de la información para facilitar su comprensión y posterior implementación por parte del equipo. <br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Para este AV1 realice el software configuration managemente que conllevan parte como el code management y el deployment configuration, para que se sepa que usamos en el proyecto<br><br>**Patricia V. (patriciavmp)**<br></br>TB1: Redacté y estructuré los mensajes de los Conventional Commits para el repositorio Frontend, así como también colaboré en la redacción detallada del reporte para el Sprint 2 de la entrega TB1. | A lo largo de este proyecto se elaboraron diversos documentos técnicos y de diseño, e informes de sprint. Se concluyó que la comunicación escrita clara y estructurada fue esencial para documentar decisiones, dejar registro de los avances (commits, reportes de Sprint) y permitir que todos los miembros del equipo trabajaran de forma coordinada. |
 
 
 
@@ -1581,6 +1590,7 @@ Repositorio de GitHub:
 
 - Enlace para acceder a la organización en GitHub: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
 - Enlace para acceder al repositorio de la landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+- Enlace para acceder al repositorio del Frontend Web Application: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-FrontEnd
 - Enlace para acceder al repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
 
 Flujo de trabajo GitFlow
@@ -1797,6 +1807,115 @@ Documentación | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telem
 Durante este Sprint, las actividades de implementación se desarrollaron de manera colaborativa y organizada. El equipo utilizó herramientas como GitHub para la gestión de versiones y asignación de tareas, y WhatsApp para la comunicación y coordinación diaria. Cada integrante asumió responsabilidades específicas según el backlog y los aspectos definidos en la planificación, participando activamente en el desarrollo, revisión de código y validación de entregables.
 
 Se promovió la revisión cruzada de avances, el registro de commits detallados y la documentación de los cambios realizados. Las reuniones periódicas permitieron resolver dudas, ajustar prioridades y asegurar que todos los miembros estuvieran alineados con los objetivos del Sprint. Esta dinámica facilitó la integración continua y la entrega oportuna de los resultados esperados.
+
+### 5.2.2. Sprint 2
+
+En el segundo Sprint, nuestro enfoque principal fue la implementación de la primera versión del Frontend Web Application de Telemtrix, construyendo la plataforma central para nuestros segmentos objetivos empleando el framework Angular 18 con diseño de Angular Material, e integrando los flujos funcionales de gestión de flota.
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** | |
+| Date | 2026-10-02 |
+| Time | 19:00 PM |
+| Location | Microsoft Teams (Reunión Virtual) |
+| Prepared By | Jiménez Rosas, Arturo Eduardo |
+| Attendees (to planning meeting) | Todos los miembros del equipo |
+| Sprint n – 1 Review Summary | En el Sprint 1 se logró exitosamente la definición estructural, el marco de trabajo, los artefactos UX/UI y el landing page. El Product Owner aprobó el diseño base. |
+| Sprint n – 1 Retrospective Summary | El equipo mejoró en la comunicación mediante canales de mensajería instantánea. Se acordó aplicar una revisión de código cruzada más rigurosa para el Frontend en el Sprint 2 y automatizar los despliegues. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | **Our focus is on** implementing the core functional modules for fleet, maintenance and incident management on a responsive web app. **We believe it delivers** a unified and intuitive web experience to fleet managers and drivers. **This will be confirmed when** users can successfully interact with vehicle listings, incident reports, inspection checklists, and monitor telemetry data via the deployed Angular web application. |
+| Sprint 2 Velocity | 26 Story Points |
+| Sum of Story Points | 26 |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Shared & Config (L/C) | Incident Mgmt (L/C) | Fleet & Vehicle Ops (L/C) | Maintenance & Inspection (L/C) |
+|---|---|---|---|---|---|
+| Patricia V. | patriciavmp | L | C | L | C |
+| Jiménez Rosas, Arturo Eduardo | ajimenezrosas | C | C | C | L |
+| Rodríguez Peña, Jorge Andrés | Japr91 | C | L | C | C |
+| Llashag, Valeria Milagros | vllashag | C | C | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+Durante el Sprint Planning, descompusimos las User Stories en tareas técnicas.
+
+![Sprint 2 Backlog](images/chapter05/sprint2-backlog.png)
+*Enlace público al Board de Trello*: [https://trello.com/b/6aadcb3e/telemtrix-product-backlog](https://trello.com/b/6aadcb3e/telemtrix-product-backlog)
+
+| Sprint # | Sprint 2 | | | | | | |
+|---|---|---|---|---|---|---|---|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US05 | Listado de vehículos | TK2-01 | Setup Angular 18 | Scaffolding del proyecto Angular 18 con Angular Material, routing e i18n support. | 3 | Patricia V. | Done |
+| US05 | Listado de vehículos | TK2-02 | Módulo de flota | Implementar vistas de fleet-management con tabla de unidades vehiculares y forms. | 5 | Patricia V. | Done |
+| US07 | Registrar incidencias | TK2-03 | Módulo de incidentes | Implementar vistas incident-management para reporte de averías e incidencias. | 4 | Jorge Rodríguez | Done |
+| US08 | Completar inspección | TK2-04 | Módulo de inspección | Construir interfaces de checklists de inspección pre-ruta (inspection-management). | 4 | Arturo Jiménez | Done |
+| US10 | Ver mantenimientos | TK2-05 | Módulo de mantenimientos | Crear vistas para la administración y seguimiento de maintenance-orders. | 5 | Arturo Jiménez | Done |
+| US11 | Monitoreo telemétrico | TK2-06 | Integración de telemetría | Implementar módulo de vehicle-operations y configurar json-server mock API. | 5 | Patricia V. | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+La implementación de la aplicación web fue documentada en el repositorio remoto de GitHub utilizando Conventional Commits y la estrategia GitFlow.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| Telemtrix-FrontEnd | develop | 0b45671 | chore: initial project scaffold with Angular 22, Angular Material and i18n support | Configuración base del proyecto, dependencias NPM esenciales y archivos root. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 5e5c9a7 | feat(shared): add base entity, base API service, layout component, dialog and language-switcher | Módulo compartido con layout, diálogos modales genéricos y soporte multi-idioma. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 4486735 | feat(fleet-management): add vehicle entity, API endpoint, vehicle-list view and vehicle-form | Listado de unidades vehiculares y registro de las mismas para los gestores. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | f2ec426 | feat(incident-management): add incident entity, API endpoint, incident-list view and incident-form | Interfaces para reportar averías mecánicas y darles seguimiento. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | f38db5b | feat(inspection-management): add inspection entity, API endpoint, inspection-list view | Desarrollo de interfaces de checklists para evaluación técnica rápida del vehículo. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 825d17b | feat(maintenance-management): add maintenance-order entity, API endpoint, maintenance-list | Vistas para órdenes de mantenimiento preventivo y correctivo en talleres. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | a5f0883 | feat(vehicle-operations): add telemetry-record entity, API endpoint, telemetry-list view | Monitor de métricas operativas vehiculares y registros de telemetría. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 8177cbd | feat(server): add json-server mock API with db.json, routes.json and start script | Configuración del mock API backend local para agilizar el desarrollo frontend. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 046890f | ci: add GitHub Actions workflow for automated deployment to GitHub Pages | Integración Continua (CI/CD) para compilar y desplegar a GitHub Pages en merge a main. | 09/10/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+A continuación, se muestran capturas de las principales vistas de nuestra Frontend Web Application implementada en este Sprint:
+
+![Vista de Gestión de Vehículos](images/chapter05/sprint2-fleet.png)
+*Listado de gestión de vehículos (Fleet Management)*
+
+![Vista de Gestión de Mantenimientos](images/chapter05/sprint2-maintenance.png)
+*Gestión de Órdenes de Mantenimiento Preventivo y Correctivo*
+
+![Vista de Telemetría](images/chapter05/sprint2-telemetry.png)
+*Monitor de datos telemétricos simulados de los vehículos*
+
+*(Enlace al video explicativo de visualización y navegación de este Sprint: [Video de Demostración del Frontend - MS Stream](#))*
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Dado que el desarrollo completo del RESTful Web API de Telemtrix corresponde a otro componente arquitectónico, en este Sprint implementamos y consumimos un Mock API estructurado con `json-server` (`db.json` y `routes.json`) que estandariza las respuestas para nuestro cliente Angular.
+
+| Endpoint | Acción | Verbo HTTP | Request Path | Posibles Parámetros | Ejemplo Response (200 OK) |
+|---|---|---|---|---|---|
+| **Vehicles** | Obtener vehículos | GET | `/api/v1/vehicles` | `?status=AVAILABLE` | `[{ "id": 1, "plate": "ABC-123", "status": "AVAILABLE" }]` |
+| **Incidents** | Registrar avería | POST | `/api/v1/incidents` | `{ "vehicleId", "description" }` | `{ "id": 1, "vehicleId": 2, "status": "REPORTED" }` |
+| **Inspections**| Obtener checklist | GET | `/api/v1/inspections`| `?vehicleId=2` | `[{ "id": 1, "passed": true, "date": "2026-10-09" }]` |
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El proceso de despliegue se automatizó en su totalidad empleando **GitHub Actions** para CI/CD.
+
+* **Frontend Web Application:** Se estructuró un workflow (`deploy.yml`) que compila la aplicación Angular para producción en cada push a `main` y expone los artefactos a **GitHub Pages**.
+
+**Enlaces operativos:**
+* **Frontend Web Application Deploy:** [https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/](https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/)
+* **Landing Page Deploy:** [https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/](https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/)
+
+![Frontend Deployment Pipeline](images/chapter05/sprint2-deploy.png)
+*Configuración exitosa de GitHub Actions Deployment Pipeline*
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, la carga de trabajo en la aplicación Frontend se dividió de acuerdo a los Bounded Contexts. Hubo una alta colaboración mediante Pull Requests en GitHub y code reviews ágiles. La adopción temprana de CI/CD permitió detectar fallos de compilación instantáneamente.
+
+![GitHub Insights Sprint 2](images/chapter05/sprint2-insights.png)
+*Gráficos de contribución del repositorio Telemtrix-FrontEnd.*
 
 ---
 
