@@ -2,14 +2,15 @@
  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
  <img style="height: 200px" src=https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png?    utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original>
   
+  <h2>Facultad de Ingeniería</h2>
   <h2>Carrera: Ingeniería de Software</h2>
   <h2>Ciclo: 2026-20</h2>
 <br>
   <h2>Curso: 1ASI0729 Desarrollo de Aplicaciones Open Source</h2>
-  <h2>Sección: 7769</h2>
+  <h2>NRC: 7769</h2>
   <h2>Profesor: Hugo Allan Mori Paiva</h2>
 <br>
- <h1>Informe AV1</h1>
+ <h1>Informe de Trabajo Final</h1>
   <h2>Startup: Telemtrix</h2>
   <h2>Producto: Motus</h2>
 <br>
@@ -22,7 +23,7 @@
   <li><h3>u202312343 Mendoza Vergara Alejandro Franklin</h3></li>
 </ul>
 <br>
-   <h3>2026</h3>
+   <h3>Octubre 2026</h3>
 </div>
 
 ## Registro de Versiones del Informe
@@ -34,12 +35,22 @@
 | 1.0.3     | 10/09/2026 | Patricia Valeria Mejia Poma | Definio historias de usuario, además se elaboró un mapa de impacto para relacionar los objetivos del negocio con los usuarios y las funcionalidades del sistema. |
 | 1.0.4     | 10/09/2026 | Valeria Milagros Ysidro Llashag | Desarrollo el User Task Matrix, los User Journey Maps, los Style Guidelines, la Information Architecture y los Landing Page Wireframes y Mock-ups.   |
 | 1.0.5     | 11/09/2026 | Alejandro Franklin, Mendoza Vergara | Desarrollo del Capítulo 5  |
+| 1.1.0     | 09/10/2026 | Santiago Israel Echevarria Lizana | Desarrollo de la primera versión del Frontend Web Application de Motus, organizada por bounded contexts. |
+| 1.1.1     | 09/10/2026 | Patricia Valeria Mejia Poma | Publicación del Frontend Web Application en el repositorio, configuración del Mock API y del despliegue automático con GitHub Actions. |
+| 1.1.2     | 09/10/2026 | Valeria Milagros Ysidro Llashag | Nueva versión del Landing Page: traducción al inglés y al español, validación del formulario de contacto, navegación móvil, términos y condiciones y enlace a la aplicación web. Corrección del formato del informe. |
+| 1.1.3     | 09/10/2026 | Alejandro Franklin Mendoza Vergara | Evidencias con imágenes del Sprint 1 y documentación del Sprint 2 en el Capítulo V. |
+| 1.1.4     | 09/10/2026 | Alison Ariana Segura Guerra | Revisión del informe y elaboración de la presentación de la entrega TB1. |
 
 ## Project Report Collaboration Insights
 
 - Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
 - Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
-- Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+- Url del repositorio del Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
+- Url del repositorio del Frontend Web Application: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-FrontEnd
+- Url del Landing Page desplegado: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/
+- Url del Frontend Web Application desplegado: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/
+
+El informe se elabora de forma colaborativa en el repositorio del reporte, aplicando GitFlow y Conventional Commits. La siguiente imagen muestra la participación de los integrantes en dicho repositorio.
 
 ![Reporte](images/reporte/participacion.jpeg)
 
@@ -98,7 +109,6 @@
     - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
   - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
   - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
     - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
     - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
     - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
@@ -131,14 +141,7 @@
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
 
@@ -150,8 +153,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
  
 | Criterio Específico | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Conclusiones | 
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------| 
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Expliqué oralmente ante mis compañeros los User Personas, Wireframes y Mockups que elaboré. Justifiqué las decisiones de diseño y respondí las consultas del equipo para que todos entendieran la propuesta visual y funcional del proyecto.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Realicé una entrevista a un representante del segmento objetivo para conocer sus necesidades y problemas relacionados con la gestión y mantenimiento de vehículos. Asimismo, comuniqué al equipo los principales hallazgos obtenidos y expliqué cómo estos aportaron al User Journey Mapping y a las decisiones de diseño de la propuesta.<br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Me comuniqué con mis compañeros para entender cada herramienta que usaremos para el trabajo de la aplicación web, además de cómo aportará en solucionar la problemática<br><br>**Patricia V. (patriciavmp)**<br></br>TB1: Comuniqué las decisiones arquitectónicas para la configuración base de la aplicación Angular y Angular Material, explicando al equipo el flujo de GitFlow y el uso del Mock API. <br> | Este informe permitió al equipo desarrollar habilidades de comunicación oral mediante reuniones constantes, exposiciones de avances y discusiones técnicas. Se concluyó que la comunicación efectiva entre los integrantes fue fundamental para coordinar tareas, resolver dudas y mantener una visión compartida del producto durante el AV1 y TB1. | 
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Elaboré los User Personas, Wireframes y Mockups del proyecto. Dejé la estructura, los flujos y la propuesta visual para que mis compañeros pudieran revisarlos y usarlos como base en el desarrollo.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Documenté los Style Guidelines y la Information Architecture de Motus, definiendo lineamientos visuales, organización, etiquetado, navegación y elementos SEO. Además, elaboré los Wireframes y Mock-ups del Landing Page, documentando la propuesta visual y la estructura de la información para facilitar su comprensión y posterior implementación por parte del equipo. <br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Para este AV1 realice el software configuration managemente que conllevan parte como el code management y el deployment configuration, para que se sepa que usamos en el proyecto<br><br>**Patricia V. (patriciavmp)**<br></br>TB1: Redacté y estructuré los mensajes de los Conventional Commits para el repositorio Frontend, así como también colaboré en la redacción detallada del reporte para el Sprint 2 de la entrega TB1. | A lo largo de este proyecto se elaboraron diversos documentos técnicos y de diseño, e informes de sprint. Se concluyó que la comunicación escrita clara y estructurada fue esencial para documentar decisiones, dejar registro de los avances (commits, reportes de Sprint) y permitir que todos los miembros del equipo trabajaran de forma coordinada. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Expliqué oralmente ante mis compañeros los User Personas, Wireframes y Mockups que elaboré. Justifiqué las decisiones de diseño y respondí las consultas del equipo para que todos entendieran la propuesta visual y funcional del proyecto.<br></br>TB1: Presenté al equipo la primera versión de la aplicación web de Motus, explicando cómo ejecutarla y cómo está organizada por bounded contexts, para que mis compañeros pudieran revisarla y documentarla.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Realicé una entrevista a un representante del segmento objetivo para conocer sus necesidades y problemas relacionados con la gestión y mantenimiento de vehículos. Asimismo, comuniqué al equipo los principales hallazgos obtenidos y expliqué cómo estos aportaron al User Journey Mapping y a las decisiones de diseño de la propuesta.<br></br>TB1: Expliqué al equipo los cambios de la nueva versión del Landing Page (traducción, validación del formulario y términos y condiciones) y coordiné con mis compañeros el enlace entre el Landing Page y la aplicación web desplegada.<br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Me comuniqué con mis compañeros para entender cada herramienta que usaremos para el trabajo de la aplicación web, además de cómo aportará en solucionar la problemática.<br></br>TB1: Coordiné con mis compañeros qué evidencias del Sprint 1 y del Sprint 2 debían incorporarse al capítulo V y les expliqué cómo quedó organizada la documentación de cada Sprint.<br><br>**Mejia Poma, Patricia Valeria**<br></br>AV1: Expliqué al equipo las historias de usuario, el impact mapping y el product backlog que elaboré, para acordar la prioridad de las funcionalidades del producto.<br></br>TB1: Comuniqué las decisiones arquitectónicas para la configuración base de la aplicación Angular y Angular Material, explicando al equipo el flujo de GitFlow y el uso del Mock API.<br><br>**Segura Guerra, Alison Ariana**<br></br>AV1: Realicé una entrevista al propietario de una empresa de transporte de carga ligera para conocer cómo gestiona el mantenimiento de su flota, y compartí con el equipo los hallazgos obtenidos.<br></br>TB1: Coordiné con el equipo el contenido de la presentación de la entrega TB1, acordando qué artefactos y avances del Sprint 2 debía exponer cada integrante. | Este informe permitió al equipo desarrollar habilidades de comunicación oral mediante reuniones constantes, exposiciones de avances y discusiones técnicas. Se concluyó que la comunicación efectiva entre los integrantes fue fundamental para coordinar tareas, resolver dudas y mantener una visión compartida del producto durante el AV1 y TB1. | 
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Santiago Israel Echevarria Lizana**<br></br>AV1: Elaboré los User Personas, Wireframes y Mockups del proyecto. Dejé la estructura, los flujos y la propuesta visual para que mis compañeros pudieran revisarlos y usarlos como base en el desarrollo.<br></br>TB1: Desarrollé las vistas de la aplicación web de Motus y redacté los textos de la interfaz en inglés y en español mediante los archivos de internacionalización.<br><br>**Ysidro Llashag, Valeria Milagros**<br></br>AV1: Documenté los Style Guidelines y la Information Architecture de Motus, definiendo lineamientos visuales, organización, etiquetado, navegación y elementos SEO. Además, elaboré los Wireframes y Mock-ups del Landing Page, documentando la propuesta visual y la estructura de la información para facilitar su comprensión y posterior implementación por parte del equipo.<br></br>TB1: Redacté los textos del Landing Page en inglés y en español y la página de términos y condiciones, documenté mis cambios con Conventional Commits y pull requests, y actualicé en el informe la carátula, el registro de versiones y la documentación del Landing Page en el Sprint 2.<br><br>**Alejandro Franklin, Mendoza Vergara**<br></br>AV1: Para este AV1 realice el software configuration managemente que conllevan parte como el code management y el deployment configuration, para que se sepa que usamos en el proyecto.<br></br>TB1: Documenté en el capítulo V las evidencias del Sprint 1 con capturas y la sección del Sprint 2: planificación, backlog, commits, despliegue y colaboración del equipo.<br><br>**Mejia Poma, Patricia Valeria**<br></br>AV1: Redacté las historias de usuario con criterios de aceptación en formato Gherkin, el impact mapping y el product backlog, además de los artefactos de needfinding del capítulo II.<br></br>TB1: Redacté y estructuré los mensajes de los Conventional Commits para el repositorio Frontend, así como también colaboré en la redacción detallada del reporte para el Sprint 2 de la entrega TB1.<br><br>**Segura Guerra, Alison Ariana**<br></br>AV1: Registré en el informe la entrevista que realicé, con su resumen, y colaboré en la redacción del capítulo III.<br></br>TB1: Revisé la redacción del informe y elaboré la presentación de la entrega TB1, resumiendo los avances del Sprint 2. | A lo largo de este proyecto se elaboraron diversos documentos técnicos y de diseño, e informes de sprint. Se concluyó que la comunicación escrita clara y estructurada fue esencial para documentar decisiones, dejar registro de los avances (commits, reportes de Sprint) y permitir que todos los miembros del equipo trabajaran de forma coordinada. |
 
 
 
@@ -520,17 +523,6 @@ Anthony Segura, de 32 años, es propietario de una empresa de transporte de carg
 ---
 
 
-| Campo        | Información |
-|--------------|-------------|
-| Entrevistado |             |
-| Edad         |             |
-| Distrito     |             |
-| Foto         |             |
-| Timing       |             |
-| Segmento     |             |
-| Preguntas    |             |
-
----
 ### 2.2.3. Análisis de entrevistas
 
 #### Segmento 1: Jefe de flota
@@ -705,30 +697,30 @@ El Lenguaje Ubicuo establece un vocabulario estandarizado y sin ambigüedades co
 
 ## 3.1. User Stories
 
-En esta sección se especifican los requisitos funcionales del sistema mediante un conjunto estructurado de Épicas (Epics), Historias de Usuario (User Stories) e Historias Técnicas (Technical Stories). Las historias cubren el sitio web estático (Landing Page), la aplicación web responsiva y los servicios web (RESTful API), integrando criterios de aceptación verificables bajo la sintaxis Gherkin (Scenario, Given-When-Then)[cite: 10].
+En esta sección se especifican los requisitos funcionales del sistema mediante un conjunto estructurado de Épicas (Epics), Historias de Usuario (User Stories) e Historias Técnicas (Technical Stories). Las historias cubren el sitio web estático (Landing Page), la aplicación web responsiva y los servicios web (RESTful API), integrando criterios de aceptación verificables bajo la sintaxis Gherkin (Scenario, Given-When-Then).
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | :--- | :--- | :--- | :--- | :--- |
-| **EP01** | Landing Page y Captación | Proveer un sitio web estático que presente el modelo de negocio, planes de suscripción y capture prospectos comerciales[cite: 10]. | N/A (Contenedor de requisitos de captación web)[cite: 10] | N/A |
-| **EP01/US01** | Visualizar Propuesta de Valor y Beneficios | **Como** visitante del segmento encargado de flota,<br>**deseo** visualizar los beneficios y características de Telemtrix,<br>**para** evaluar si resuelve los sobrecostos de mantenimiento de mi empresa[cite: 10]. | **Escenario 1: Navegación por beneficios clave**<br>**Dado que** el visitante ingresa a la página principal,<br>**cuando** se desplaza por la sección de características,<br>**entonces** visualiza la propuesta de ahorro preventivo, inspección digital y sin inversión en hardware.<br><br>**Escenario 2: Redirección hacia registro**<br>**Dado que** el visitante revisa la sección principal,<br>**cuando** presiona el botón de llamada a la acción (CTA) "Iniciar Prueba Gratuita",<br>**entonces** el navegador lo redirige al formulario de registro de la aplicación web[cite: 10]. | EP01 |
-| **EP01/US02** | Consultar Planes y Tarifas SaaS | **Como** visitante corporativo,<br>**deseo** revisar la tabla comparativa de precios por vehículo,<br>**para** calcular el presupuesto mensual requerido para mi flota[cite: 10]. | **Escenario 1: Consulta de tarifas vigentes**<br>**Dado que** el visitante navega hasta la sección de precios,<br>**cuando** observa los planes disponibles,<br>**entonces** visualiza el costo mensual por vehículo y las funciones incluidas en cada nivel.<br><br>**Escenario 2: Enlace a suscripción**<br>**Dado que** el visitante selecciona un plan tarifario,<br>**cuando** hace clic en "Elegir Plan",<br>**entonces** es derivado a la vista de suscripción con el plan preseleccionado[cite: 10]. | EP01 |
+| **EP01** | Landing Page y Captación | Proveer un sitio web estático que presente el modelo de negocio, planes de suscripción y capture prospectos comerciales. | N/A (Contenedor de requisitos de captación web) | N/A |
+| **EP01/US01** | Visualizar Propuesta de Valor y Beneficios | **Como** visitante del segmento encargado de flota,<br>**deseo** visualizar los beneficios y características de Telemtrix,<br>**para** evaluar si resuelve los sobrecostos de mantenimiento de mi empresa. | **Escenario 1: Navegación por beneficios clave**<br>**Dado que** el visitante ingresa a la página principal,<br>**cuando** se desplaza por la sección de características,<br>**entonces** visualiza la propuesta de ahorro preventivo, inspección digital y sin inversión en hardware.<br><br>**Escenario 2: Redirección hacia registro**<br>**Dado que** el visitante revisa la sección principal,<br>**cuando** presiona el botón de llamada a la acción (CTA) "Iniciar Prueba Gratuita",<br>**entonces** el navegador lo redirige al formulario de registro de la aplicación web. | EP01 |
+| **EP01/US02** | Consultar Planes y Tarifas SaaS | **Como** visitante corporativo,<br>**deseo** revisar la tabla comparativa de precios por vehículo,<br>**para** calcular el presupuesto mensual requerido para mi flota. | **Escenario 1: Consulta de tarifas vigentes**<br>**Dado que** el visitante navega hasta la sección de precios,<br>**cuando** observa los planes disponibles,<br>**entonces** visualiza el costo mensual por vehículo y las funciones incluidas en cada nivel.<br><br>**Escenario 2: Enlace a suscripción**<br>**Dado que** el visitante selecciona un plan tarifario,<br>**cuando** hace clic en "Elegir Plan",<br>**entonces** es derivado a la vista de suscripción con el plan preseleccionado. | EP01 |
 | **EP01/US03** | Envío de Formulario de Contacto Comercial | **Como** visitante interesado en una solución corporativa,<br>**deseo** enviar mis datos mediante un formulario de contacto,<br>**para** solicitar una demostración guiada y asesoría técnica. | **Escenario 1: Envío exitoso de consulta**<br>**Dado que** el visitante ingresa su nombre, correo corporativo, teléfono y tamaño de flota en el formulario,<br>**cuando** presiona el botón "Solicitar Asesoría",<br>**entonces** el sistema almacena el prospecto y muestra un mensaje de confirmación de envío.<br><br>**Escenario 2: Campos obligatorios incompletos**<br>**Dado que** el visitante omite el correo o teléfono de contacto,<br>**cuando** intenta enviar el formulario,<br>**entonces** el sistema bloquea el envío y resalta en rojo los campos obligatorios faltantes. | EP01 |
-| **EP02** | Onboarding B2B y Suscripción | Gestionar el alta de empresas de transporte bajo una arquitectura multi-tenant y la activación de membresías de servicio[cite: 10]. | N/A (Contenedor de requisitos de afiliación SaaS)[cite: 10] | N/A |
-| **EP02/US04** | Registro de Organización MYPE | **Como** encargado de flota,<br>**deseo** registrar los datos de mi empresa en la plataforma,<br>**para** disponer de un espacio de trabajo aislado (tenant) y gestionar mis vehículos[cite: 10]. | **Escenario 1: Registro exitoso de cuenta**<br>**Dado que** el usuario ingresa RUC válido, razón social, correo y contraseña segura,<br>**cuando** confirma el envío del formulario,<br>**entonces** el sistema crea la cuenta de la organización y solicita la activación del plan.<br><br>**Escenario 2: RUC o correo duplicado**<br>**Dado que** el usuario introduce un RUC o correo previamente registrado,<br>**cuando** intenta crear la cuenta,<br>**entonces** el sistema rechaza la operación y muestra una notificación de duplicidad sin crear el registro[cite: 10]. | EP02 |
-| **EP02/US05** | Pago de Membresía Mensual | **Como** encargado de flota,<br>**deseo** afiliar un medio de pago con tarjeta,<br>**para** mantener activa la suscripción y el acceso operativo de mis conductores[cite: 10]. | **Escenario 1: Transacción exitosa**<br>**Dado que** el usuario ingresa datos válidos de tarjeta de crédito/débito en la pasarela,<br>**cuando** procesa el pago del periodo,<br>**entonces** el sistema registra el cobro, actualiza la membresía a "Activa" y emite el comprobante digital.<br><br>**Escenario 2: Fondos insuficientes o tarjeta rechazada**<br>**Dado que** la pasarela de pagos rechaza la transacción bancaria,<br>**cuando** se intenta efectuar el cobro,<br>**entonces** el sistema mantiene la cuenta en estado "Pendiente de Pago" e informa el motivo del rechazo[cite: 10]. | EP02 |
+| **EP02** | Onboarding B2B y Suscripción | Gestionar el alta de empresas de transporte bajo una arquitectura multi-tenant y la activación de membresías de servicio. | N/A (Contenedor de requisitos de afiliación SaaS) | N/A |
+| **EP02/US04** | Registro de Organización MYPE | **Como** encargado de flota,<br>**deseo** registrar los datos de mi empresa en la plataforma,<br>**para** disponer de un espacio de trabajo aislado (tenant) y gestionar mis vehículos. | **Escenario 1: Registro exitoso de cuenta**<br>**Dado que** el usuario ingresa RUC válido, razón social, correo y contraseña segura,<br>**cuando** confirma el envío del formulario,<br>**entonces** el sistema crea la cuenta de la organización y solicita la activación del plan.<br><br>**Escenario 2: RUC o correo duplicado**<br>**Dado que** el usuario introduce un RUC o correo previamente registrado,<br>**cuando** intenta crear la cuenta,<br>**entonces** el sistema rechaza la operación y muestra una notificación de duplicidad sin crear el registro. | EP02 |
+| **EP02/US05** | Pago de Membresía Mensual | **Como** encargado de flota,<br>**deseo** afiliar un medio de pago con tarjeta,<br>**para** mantener activa la suscripción y el acceso operativo de mis conductores. | **Escenario 1: Transacción exitosa**<br>**Dado que** el usuario ingresa datos válidos de tarjeta de crédito/débito en la pasarela,<br>**cuando** procesa el pago del periodo,<br>**entonces** el sistema registra el cobro, actualiza la membresía a "Activa" y emite el comprobante digital.<br><br>**Escenario 2: Fondos insuficientes o tarjeta rechazada**<br>**Dado que** la pasarela de pagos rechaza la transacción bancaria,<br>**cuando** se intenta efectuar el cobro,<br>**entonces** el sistema mantiene la cuenta en estado "Pendiente de Pago" e informa el motivo del rechazo. | EP02 |
 | **EP02/US06** | Gestión de Usuarios Conductores | **Como** encargado de flota,<br>**deseo** crear accesos y credenciales para mis conductores asociados a la empresa,<br>**para** que puedan identificarse en la aplicación web responsiva desde sus teléfonos móviles. | **Escenario 1: Alta de chofer exitosa**<br>**Dado que** el encargado completa los nombres, apellidos, número de brevete y teléfono del chofer,<br>**cuando** confirma la creación del usuario,<br>**entonces** el sistema genera un PIN/credencial de acceso y vincula al chofer con la empresa.<br><br>**Escenario 2: Asignación de unidad vehicular**<br>**Dado que** el chofer ya está dado de alta,<br>**cuando** el encargado lo asocia a una placa vehicular específica,<br>**entonces** el chofer visualiza dicha unidad preseleccionada al iniciar sesión. | EP02 |
-| **EP03** | Gestión de Flota y Mantenimiento Preventivo | Proveer herramientas administrativas para dar de alta unidades, definir reglas de kilometraje y registrar órdenes de taller[cite: 10]. | N/A (Contenedor de administración de flota)[cite: 10] | N/A |
-| **EP03/US07** | Alta de Unidades Vehiculares | **Como** encargado de flota,<br>**deseo** dar de alta vehículos con placa, marca, modelo y año,<br>**para** incorporarlos al seguimiento técnico de la empresa[cite: 10]. | **Escenario 1: Creación de unidad**<br>**Dado que** el usuario completa los datos obligatorios de la unidad,<br>**cuando** guarda el registro,<br>**entonces** el vehículo se almacena en el sistema con estado operativo inicial "Disponible".<br><br>**Escenario 2: Placa vehicular duplicada**<br>**Dado que** se ingresa una placa ya existente dentro de la misma organización,<br>**cuando** se solicita el registro,<br>**entonces** el sistema impide el guardado y exige corregir el dato[cite: 10]. | EP03 |
-| **EP03/US08** | Configuración de Umbrales de Servicio | **Como** encargado de flota,<br>**deseo** parametrizar el límite de kilometraje para revisiones (ej. aceite cada 5,000 km),<br>**para** que la plataforma detecte automáticamente la proximidad del servicio[cite: 10]. | **Escenario 1: Definición de plan de mantenimiento**<br>**Dado que** el usuario selecciona un vehículo y un componente mecánico,<br>**cuando** asigna el intervalo de kilometraje y guarda los cambios,<br>**entonces** el motor de monitoreo asocia dicha regla al historial de la unidad.<br><br>**Escenario 2: Valor de intervalo no numérico o negativo**<br>**Dado que** se ingresa un valor de intervalo menor o igual a cero,<br>**cuando** se intenta guardar la regla,<br>**entonces** el sistema invalida el formulario y solicita un kilometraje positivo válido[cite: 10]. | EP03 |
-| **EP03/US09** | Registro y Liquidación de Taller | **Como** encargado de flota,<br>**deseo** registrar los costos y repuestos cambiados al culminar un servicio mecánico,<br>**para** actualizar el historial técnico e inicializar el contador de desgaste[cite: 10]. | **Escenario 1: Cierre de orden preventiva**<br>**Dado que** un vehículo concluye su atención en el taller mecánico,<br>**cuando** el encargado registra el costo, factura y detalle de servicios efectuados,<br>**entonces** la unidad retorna a estado "Disponible" y el kilometraje de referencia se actualiza a la lectura actual.<br><br>**Escenario 2: Historial técnico inmutable**<br>**Dado que** se liquida la orden de trabajo,<br>**cuando** se consulta la ficha del vehículo,<br>**entonces** el nuevo mantenimiento figura listado cronológicamente en el historial técnico histórico[cite: 10]. | EP03 |
+| **EP03** | Gestión de Flota y Mantenimiento Preventivo | Proveer herramientas administrativas para dar de alta unidades, definir reglas de kilometraje y registrar órdenes de taller. | N/A (Contenedor de administración de flota) | N/A |
+| **EP03/US07** | Alta de Unidades Vehiculares | **Como** encargado de flota,<br>**deseo** dar de alta vehículos con placa, marca, modelo y año,<br>**para** incorporarlos al seguimiento técnico de la empresa. | **Escenario 1: Creación de unidad**<br>**Dado que** el usuario completa los datos obligatorios de la unidad,<br>**cuando** guarda el registro,<br>**entonces** el vehículo se almacena en el sistema con estado operativo inicial "Disponible".<br><br>**Escenario 2: Placa vehicular duplicada**<br>**Dado que** se ingresa una placa ya existente dentro de la misma organización,<br>**cuando** se solicita el registro,<br>**entonces** el sistema impide el guardado y exige corregir el dato. | EP03 |
+| **EP03/US08** | Configuración de Umbrales de Servicio | **Como** encargado de flota,<br>**deseo** parametrizar el límite de kilometraje para revisiones (ej. aceite cada 5,000 km),<br>**para** que la plataforma detecte automáticamente la proximidad del servicio. | **Escenario 1: Definición de plan de mantenimiento**<br>**Dado que** el usuario selecciona un vehículo y un componente mecánico,<br>**cuando** asigna el intervalo de kilometraje y guarda los cambios,<br>**entonces** el motor de monitoreo asocia dicha regla al historial de la unidad.<br><br>**Escenario 2: Valor de intervalo no numérico o negativo**<br>**Dado que** se ingresa un valor de intervalo menor o igual a cero,<br>**cuando** se intenta guardar la regla,<br>**entonces** el sistema invalida el formulario y solicita un kilometraje positivo válido. | EP03 |
+| **EP03/US09** | Registro y Liquidación de Taller | **Como** encargado de flota,<br>**deseo** registrar los costos y repuestos cambiados al culminar un servicio mecánico,<br>**para** actualizar el historial técnico e inicializar el contador de desgaste. | **Escenario 1: Cierre de orden preventiva**<br>**Dado que** un vehículo concluye su atención en el taller mecánico,<br>**cuando** el encargado registra el costo, factura y detalle de servicios efectuados,<br>**entonces** la unidad retorna a estado "Disponible" y el kilometraje de referencia se actualiza a la lectura actual.<br><br>**Escenario 2: Historial técnico inmutable**<br>**Dado que** se liquida la orden de trabajo,<br>**cuando** se consulta la ficha del vehículo,<br>**entonces** el nuevo mantenimiento figura listado cronológicamente en el historial técnico histórico. | EP03 |
 | **EP03/US10** | Consulta de Historial Técnico de Unidad | **Como** encargado de flota,<br>**deseo** consultar la cronología completa de intervenciones, checklists y gastos de una unidad,<br>**para** evaluar la rentabilidad del vehículo y detectar fallas mecánicas repetitivas. | **Escenario 1: Filtrado de intervenciones históricas**<br>**Dado que** el usuario selecciona una placa vehicular,<br>**cuando** abre la pestaña de historial técnico,<br>**entonces** visualiza la lista en orden descendente de mantenimientos, fechas, talleres y costos asociados.<br><br>**Escenario 2: Descarga de reporte consolidado**<br>**Dado que** el vehículo cuenta con registros de taller,<br>**cuando** el usuario presiona "Exportar Resumen",<br>**entonces** el sistema genera un archivo estructurado con el balance acumulado de gastos técnicos. | EP03 |
-| **EP04** | Operación en Ruta y Verificación Diaria | Proveer a los choferes interfaces web responsivas para ingresar el odómetro e inspeccionar la unidad con tolerancia a fallos de red[cite: 10]. | N/A (Contenedor de operación de conductores)[cite: 10] | N/A |
-| **EP04/US11** | Registro Diario de Odómetro | **Como** chofer,<br>**deseo** registrar la lectura del kilometraje antes de iniciar mi ruta,<br>**para** mantener informado al sistema sobre el uso acumulado del vehículo[cite: 10]. | **Escenario 1: Lectura de kilometraje válida**<br>**Dado que** el chofer selecciona su unidad asignada,<br>**cuando** digita un kilometraje mayor o igual al último registrado y confirma,<br>**entonces** el sistema almacena la lectura y actualiza el contador de la flota.<br><br>**Escenario 2: Lectura incoherente (menor a la previa)**<br>**Dado que** el chofer ingresa un kilometraje inferior al último valor histórico guardado,<br>**cuando** presiona confirmar,<br>**entonces** el sistema emite una advertencia de inconsistencia y solicita corroborar el número[cite: 10]. | EP04 |
-| **EP04/US12** | Checklist Pre-viaje con Sincronización Offline | **Como** chofer,<br>**deseo** completar la inspección física diaria (luces, fluidos, llantas) aun sin cobertura de internet,<br>**para** no demorar mi salida en cocheras subterráneas o zonas remotas[cite: 10]. | **Escenario 1: Inspección completada sin conexión**<br>**Dado que** el dispositivo se encuentra sin acceso a red de datos,<br>**cuando** el chofer llena el formulario y presiona "Finalizar Inspección",<br>**entonces** los datos se guardan localmente en el almacenamiento del navegador.<br><br>**Escenario 2: Sincronización automática de datos**<br>**Dado que** existen inspecciones almacenadas localmente en el dispositivo,<br>**cuando** el navegador recupera la conexión a internet,<br>**entonces** la aplicación envía los registros pendientes al servidor en segundo plano sin intervención del usuario[cite: 10]. | EP04 |
+| **EP04** | Operación en Ruta y Verificación Diaria | Proveer a los choferes interfaces web responsivas para ingresar el odómetro e inspeccionar la unidad con tolerancia a fallos de red. | N/A (Contenedor de operación de conductores) | N/A |
+| **EP04/US11** | Registro Diario de Odómetro | **Como** chofer,<br>**deseo** registrar la lectura del kilometraje antes de iniciar mi ruta,<br>**para** mantener informado al sistema sobre el uso acumulado del vehículo. | **Escenario 1: Lectura de kilometraje válida**<br>**Dado que** el chofer selecciona su unidad asignada,<br>**cuando** digita un kilometraje mayor o igual al último registrado y confirma,<br>**entonces** el sistema almacena la lectura y actualiza el contador de la flota.<br><br>**Escenario 2: Lectura incoherente (menor a la previa)**<br>**Dado que** el chofer ingresa un kilometraje inferior al último valor histórico guardado,<br>**cuando** presiona confirmar,<br>**entonces** el sistema emite una advertencia de inconsistencia y solicita corroborar el número. | EP04 |
+| **EP04/US12** | Checklist Pre-viaje con Sincronización Offline | **Como** chofer,<br>**deseo** completar la inspección física diaria (luces, fluidos, llantas) aun sin cobertura de internet,<br>**para** no demorar mi salida en cocheras subterráneas o zonas remotas. | **Escenario 1: Inspección completada sin conexión**<br>**Dado que** el dispositivo se encuentra sin acceso a red de datos,<br>**cuando** el chofer llena el formulario y presiona "Finalizar Inspección",<br>**entonces** los datos se guardan localmente en el almacenamiento del navegador.<br><br>**Escenario 2: Sincronización automática de datos**<br>**Dado que** existen inspecciones almacenadas localmente en el dispositivo,<br>**cuando** el navegador recupera la conexión a internet,<br>**entonces** la aplicación envía los registros pendientes al servidor en segundo plano sin intervención del usuario. | EP04 |
 | **EP04/US13** | Reporte Inmediato de Incidencia Mecánica | **Como** chofer,<br>**deseo** reportar una avería o ruido anormal durante el trayecto con descripción y nivel de severidad,<br>**para** alertar al encargado de flota antes de que el vehículo quede inoperativo. | **Escenario 1: Envío de reporte de falla en ruta**<br>**Dado que** el chofer detecta un desperfecto durante su jornada,<br>**cuando** selecciona la categoría de la falla (frenos, motor, eléctrico) y confirma el envío,<br>**entonces** el sistema cambia la unidad a "Estado de Advertencia" y notifica al encargado.<br><br>**Escenario 2: Falla crítica con inmovilización**<br>**Dado que** la avería impide el desplazamiento del camión,<br>**cuando** el chofer marca el reporte como "Crítico / Varado",<br>**entonces** el vehículo pasa de inmediato a estado "Inoperativo" en el panel central. | EP04 |
-| **EP05** | RESTful API y Servicios de Backend | Proveer servicios web RESTful seguros y desacoplados para la persistencia, consulta y lógica de negocio de Telemtrix[cite: 10]. | N/A (Contenedor de endpoints y lógica técnica)[cite: 10] | N/A |
-| **EP05/TS01** | Endpoint de Registro de Lectura de Odómetro | **Como** Developer,<br>**deseo** exponer un endpoint RESTful seguro `POST /api/v1/vehicles/{id}/odometer-records`,<br>**para** que la aplicación cliente envíe y valide las mediciones de kilometraje[cite: 10]. | **Escenario 1: Petición con datos válidos (HTTP 201 Created)**<br>**Dado que** el cliente envía una solicitud `POST` con un token JWT válido y un payload JSON con kilometraje consistente,<br>**cuando** el servicio procesa la solicitud,<br>**entonces** persiste el registro en base de datos y retorna un código de respuesta `201 Created` con el ID generado.<br><br>**Escenario 2: Carga útil inválida o kilometraje inconsistente (HTTP 400 Bad Request)**<br>**Dado que** la solicitud contiene un valor de kilometraje inferior al registro previo,<br>**cuando** el controlador valida las reglas de negocio,<br>**entonces** rechaza la persistencia y retorna un código `400 Bad Request` detallando el error en formato JSON[cite: 10]. | EP05 |
-| **EP05/TS02** | Endpoint del Motor de Evaluación de Alertas | **Como** Developer,<br>**deseo** proveer un endpoint `GET /api/v1/fleets/{id}/maintenance-alerts`,<br>**para** consultar las unidades vehiculares que alcanzaron el umbral de servicio[cite: 10]. | **Escenario 1: Consulta de alertas pendientes (HTTP 200 OK)**<br>**Dado que** el cliente envía una solicitud `GET` autenticada con el identificador de flota,<br>**cuando** el servicio ejecuta el cálculo comparativo entre odómetro actual y plan preventivo,<br>**entonces** devuelve un código `200 OK` junto con la lista serializada de vehículos que requieren mantenimiento.<br><br>**Escenario 2: Solicitud no autenticada (HTTP 401 Unauthorized)**<br>**Dado que** la solicitud carece de encabezado `Authorization` con token válido,<br>**cuando** el filtro de seguridad intercepta la petición,<br>**entonces** rechaza el acceso retornando un código de error `401 Unauthorized`[cite: 10]. | EP05 |
+| **EP05** | RESTful API y Servicios de Backend | Proveer servicios web RESTful seguros y desacoplados para la persistencia, consulta y lógica de negocio de Telemtrix. | N/A (Contenedor de endpoints y lógica técnica) | N/A |
+| **EP05/TS01** | Endpoint de Registro de Lectura de Odómetro | **Como** Developer,<br>**deseo** exponer un endpoint RESTful seguro `POST /api/v1/vehicles/{id}/odometer-records`,<br>**para** que la aplicación cliente envíe y valide las mediciones de kilometraje. | **Escenario 1: Petición con datos válidos (HTTP 201 Created)**<br>**Dado que** el cliente envía una solicitud `POST` con un token JWT válido y un payload JSON con kilometraje consistente,<br>**cuando** el servicio procesa la solicitud,<br>**entonces** persiste el registro en base de datos y retorna un código de respuesta `201 Created` con el ID generado.<br><br>**Escenario 2: Carga útil inválida o kilometraje inconsistente (HTTP 400 Bad Request)**<br>**Dado que** la solicitud contiene un valor de kilometraje inferior al registro previo,<br>**cuando** el controlador valida las reglas de negocio,<br>**entonces** rechaza la persistencia y retorna un código `400 Bad Request` detallando el error en formato JSON. | EP05 |
+| **EP05/TS02** | Endpoint del Motor de Evaluación de Alertas | **Como** Developer,<br>**deseo** proveer un endpoint `GET /api/v1/fleets/{id}/maintenance-alerts`,<br>**para** consultar las unidades vehiculares que alcanzaron el umbral de servicio. | **Escenario 1: Consulta de alertas pendientes (HTTP 200 OK)**<br>**Dado que** el cliente envía una solicitud `GET` autenticada con el identificador de flota,<br>**cuando** el servicio ejecuta el cálculo comparativo entre odómetro actual y plan preventivo,<br>**entonces** devuelve un código `200 OK` junto con la lista serializada de vehículos que requieren mantenimiento.<br><br>**Escenario 2: Solicitud no autenticada (HTTP 401 Unauthorized)**<br>**Dado que** la solicitud carece de encabezado `Authorization` con token válido,<br>**cuando** el filtro de seguridad intercepta la petición,<br>**entonces** rechaza el acceso retornando un código de error `401 Unauthorized`. | EP05 |
 | **EP05/TS03** | Endpoint de Persistencia de Checklists Pre-viaje | **Como** Developer,<br>**deseo** exponer el endpoint `POST /api/v1/inspections`,<br>**para** registrar las verificaciones pre-viaje procesadas desde el cliente web. | **Escenario 1: Registro de inspección (HTTP 201 Created)**<br>**Dado que** la petición incluye los ítems inspeccionados y el identificador de la unidad,<br>**cuando** el servicio valida la estructura del payload JSON,<br>**entonces** persiste la inspección y responde con estado `201 Created`.<br><br>**Escenario 2: Formato de inspección no válido (HTTP 422 Unprocessable Entity)**<br>**Dado que** faltan parámetros requeridos de validación física,<br>**cuando** el modelo de datos ejecuta la validación de campos,<br>**entonces** devuelve un código `422 Unprocessable Entity`. | EP05 |
 
 ## 3.2. Impact Mapping
@@ -1334,40 +1326,44 @@ Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-### User Goal 1:
-#### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
-#### Task Flow
+#### User Goal 1
+
+*Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.*
+##### Task Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/task-flow-01.png)
 
-#### Wire Flow
+##### Wire Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/wireflow-01.png)
 
 
-### User Goal 2:
-#### Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.
+#### User Goal 2
 
-#### Task Flow
+*Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.*
+
+##### Task Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/taskflow-02.png)
 
-#### Wire Flow
+##### Wire Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/wireflow-02.png)
 
 
-### User Goal 3:
-#### Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.
-#### Task Flow
+#### User Goal 3
+
+*Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.*
+##### Task Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/taskflow-03.png)
 
-#### Wire Flow
+##### Wire Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/wireflow-03.png)
 
 
-### User Goal 4:
-#### Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.
-#### Task Flow
+#### User Goal 4
+
+*Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.*
+##### Task Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/taskflow-04.png)
 
-#### Wire Flow
+##### Wire Flow
 ![taskflow1](images/chapter04/wireflow-diagrams/wireflow-04.png)
 
 ### 4.4.3. Web Applications Mock-ups
@@ -1452,66 +1448,86 @@ Link del Figma: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---
 Link del Figma: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1 
 
 
-### 4.4.4. Web Applications User Flow Diagrams.
+### 4.4.4. Web Applications User Flow Diagrams
 
-### User Goal 1:
-#### Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.
+#### User Goal 1
+
+*Como encargado de flota de una MYPE logística quiero monitorear el estado general de todas las unidades registradas para detectar riesgos operativos a tiempo.*
 ![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-01.png)
 
 
 
-### User Goal 2:
-#### Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.
+#### User Goal 2
+
+*Como encargado de flota quiero revisar el historial técnico completo de una unidad específica para verificar su estado antes de tomar decisiones de mantenimiento.*
 ![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-02.png)
 
 
-### User Goal 3:
-#### Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.
+#### User Goal 3
+
+*Como chofer de una unidad de carga ligera quiero completar el checklist pre-viaje antes de cada trayecto para asegurar que el vehículo esté en condiciones óptimas.*
 ![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-03.png)
 
 
 
-### User Goal 4:
-#### Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.
+#### User Goal 4
+
+*Como chofer quiero registrar el kilometraje del vehículo al inicio o fin del viaje con evidencia fotográfica para llevar un control preciso del uso.*
 ![user-flow](images/chapter04/user-flow-diagrams/user-flow-diagram-04.png)
 
 
 
-### 4.5. Web Applications Prototyping 
+## 4.5. Web Applications Prototyping
 
 A continuación se presenta el prototipo de la aplicación de Motus, el cual permite a los usuarios observar como sería el producto.
 https://www.figma.com/proto/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=2001-2&t=Z4IdwUdU355jJLP3-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1 
 
 
-### 4.6 Domain Driven Software Architecture
+## 4.6. Domain-Driven Software Architecture
 
-#### 4.6.1. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram
 El Context Diagram es el primer nivel del modelo C4 y muestra el sistema como una caja negra. Su propósito es delimitar el alcance de Telemtrix y responder: ¿qué es el sistema, quién lo usa y con qué sistemas externos se comunica? No muestra detalles internos, solo las fronteras y las relaciones de alto nivel.
 ![diagram](images/chapter04/domain-driven/context-diagram.png)
 
 
-#### 4.6.2. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagrams
 El Container Diagram es el segundo nivel del modelo C4 y abre la caja negra del sistema. Muestra cómo Telemtrix se descompone en contenedores desplegables e independientes: la app móvil, el panel web, el API Gateway, los microservicios de dominio, la base de datos, la caché y el broker de mensajes. Indica qué tecnología usa cada contenedor y cómo se comunican entre sí.
 ![diagram](images/chapter04/domain-driven/container-diagrams.png)
 
 
-#### 4.6.3. Software Architecture Components Diagram
+### 4.6.4. Software Architecture Components Diagrams
 El Component Diagram es el tercer nivel del modelo C4 y abre cada contenedor para mostrar sus componentes internos. Debido a que Telemtrix sigue un enfoque de Domain-Driven Design (DDD), este diagrama se elabora por bounded context, y cada uno incluye sus controllers, servicios de dominio, repositorios, adaptadores y publicadores/consumidores de eventos. Así se evidencia la separación de responsabilidades y la arquitectura hexagonal. <br></br>
 
-##### Identity & Access Context
+#### Identity & Access Context
 El Identity & Access Context gestiona la identidad de los usuarios y el control de acceso a la plataforma. Se encarga del registro, autenticación mediante JWT, asignación de roles (administrador, encargado de flota, chofer, técnico) y permisos. Es un contexto transversal, ya que todos los demás servicios validan la identidad antes de ejecutar operaciones.
 ![diagram](images/chapter04/domain-driven/component-diagram-01.png)
 
 
-##### Fleet Management Context
+#### Fleet Management Context
 El Fleet Management Context administra las empresas, vehículos y planes de mantenimiento. Es el núcleo del modelo de negocio: define qué vehículos pertenecen a cada empresa, su estado operativo y qué planes preventivos tienen asignados. Publica eventos cuando un vehículo cambia de estado o se registra uno nuevo.
 ![diagram](images/chapter04/domain-driven/component-diagram-02.png)
 
-##### Maintenance Context
+#### Maintenance Context
 El Maintenance Context gestiona los planes, ejecuciones y repuestos del mantenimiento preventivo. Consume eventos del contexto de telemetría para calcular cuándo corresponde el próximo servicio y programa las intervenciones. Es el contexto que transforma los datos en acciones planificadas y reduce los imprevistos operativos.
 ![diagram](images/chapter04/domain-driven/component-diagram-03.png)
 
-### Capítulo V: Product Implementation
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+El diagrama de clases representa la estructura estática del sistema Telemtrix mediante entidades, atributos, métodos y relaciones.
+
+![diagrama-clases](images/chapter04/diagramas/diagrama-de-clases.png)
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagram
+
+El diagrama de base de datos muestra el modelo entidad-relación que sustenta a Telemtrix. Define las tablas, columnas, tipos de datos, claves primarias, claves foráneas y cardinalidades entre entidades.
+
+![diagrama-bd](images/chapter04/diagramas/diagrama-bd.png)
+
+# Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
 
@@ -1678,16 +1694,16 @@ Ruta de referencia: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/tel
 
 #### Web Application Deployment
 
-la aplicación web del proyecto se ha desplegado utilizando netlify, lo que permite alojar el sitio web de manera gratuita y sencilla directamente desde el repositorio de GitHub:
+La aplicación web del proyecto se despliega en GitHub Pages mediante un workflow de GitHub Actions (`.github/workflows/deploy.yml`) que se ejecuta en cada push a la rama `main` del repositorio. El workflow instala las dependencias, compila la aplicación Angular para producción y publica el resultado.
 
-Ruta de referencia: 
+Ruta de referencia: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/
 
-## 5.2. Landing Page, Services & Applications Implementation.
+## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 
 En esta sección, se documentará y explicará, en términos de producto y colaboración, el primer sprint de trabajo.
 
-### 5.2.1.1. Sprint Planning 1.
+#### 5.2.1.1. Sprint Planning 1
 Esta sección presenta los detalles de la primera reunión de planificación de Sprint del equipo. Durante esta sesión, se definieron los objetivos principales del Sprint, la capacidad del equipo y las tareas a abordar. Al ser el primer Sprint del proyecto, no se incluyen resúmenes de revisión ni retrospectiva previos. El enfoque principal fue la implementación de la landing page, con el objetivo de validar el interés del público en la propuesta de negocio. A continuación, se detallan los aspectos clave discutidos durante la reunión:
 
 | **Sprint #**                  | Sprint 1                                                                                                                                                                            |
@@ -1706,7 +1722,7 @@ Esta sección presenta los detalles de la primera reunión de planificación de 
 | **Sum of Story Points**        | 5                                                                                                                                                                                   |
 
 
-### 5.2.1.2. Aspect Leaders and Collaborators.
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
 En este apartado se detallan los principales aspectos considerados en el Sprint 1 y la asignación de responsabilidades dentro del equipo. Para este primer sprint, se priorizó la definición y desarrollo de los siguientes aspectos clave:
 
@@ -1725,7 +1741,7 @@ Cada uno de estos aspectos fue liderado o apoyado por diferentes miembros del eq
  | Nox010111       | (C)                                                     | (L)                                                            | (C)                                                |
 
 
-### 5.2.1.3. Sprint Backlog 1.
+#### 5.2.1.3. Sprint Backlog 1
 
 En esta sección se detalla el Sprint Backlog correspondiente al Sprint 1, el cual incluye todas las historias de usuario priorizadas, así como las tareas específicas asociadas a cada una. Cada tarea contiene su respectiva descripción, estimación en horas, asignación de responsable y estado de avance. 
 
@@ -1747,197 +1763,250 @@ En esta sección se detalla el Sprint Backlog correspondiente al Sprint 1, el cu
 | | - Implementar validación de campos obligatorios | Programar validaciones para bloquear el envío ante campos incompletos. | 2 | Alison Segura | Done |
 | | - Integrar envío y confirmación del formulario | Programar el almacenamiento del prospecto y el mensaje de confirmación de envío. | 2 | Alison Segura | Done |
 
-### 5.2.1.4. Development Evidence for Sprint Review.
+#### 5.2.1.4. Development Evidence for Sprint Review
 
-Durante este Sprint, el equipo logró avances significativos en la implementación del proyecto. Se completó la estructura y diseño de la landing page, integrando las secciones principales como navegación, testimonios, funcionalidades, planes premium, formulario de contacto, redes sociales y servicios. Además, se documentaron los commits y ramas utilizados, asegurando trazabilidad y colaboración efectiva entre los miembros del equipo. A continuación, se presenta la evidencia de los principales entregables y contribuciones realizadas durante el Sprint.
+Durante este Sprint, el equipo logró avances significativos en la implementación del proyecto. Se completó la estructura y diseño de la landing page, integrando las secciones principales como navegación, testimonios, funcionalidades, planes premium, formulario de contacto, redes sociales y servicios. Además, se documentaron los commits y ramas utilizados, asegurando trazabilidad y colaboración efectiva entre los miembros del equipo. A continuación, se presentan los commits de los repositorios del informe y del Landing Page realizados durante el Sprint. Los commits no incluyen cuerpo de mensaje.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |------------|--------|-----------|----------------|--------------------|--------------------|
-| Telemtrix-Report | Chapter1 | a1b2c3d | docs(chapter-1): "add format of team member profiles" | Added structured format for team member profiles including personal information, skills, and role descriptions for each team member in the startup profile section | 07/09/2026 |
-| Telemtrix-Report | Chapter1 | e4f5g6h | docs(chapter-1): "add 5W2H problem analysis and Lean UX Problem Statements" | Implemented the 5W+2H problem breakdown and the Lean UX Problem Statements in English and Spanish, detailing the maintenance pain points of light cargo fleet MSEs | 09/09/2026 |
-| Telemtrix-Report | Chapter1 | i7j8k9l | docs(chapter-1): "add Lean UX Assumptions, Hypothesis Statements and target segments" | Added business, user and feature assumptions, the four Lean UX hypothesis statements, and the description of the two target segments (fleet managers and drivers) | 11/09/2026 |
-| Telemtrix-Report | Chapter2 | m0n1o2p | docs(chapter-2): "add Competitive Analysis Landscape and SWOT" | Added the competitive analysis table against Tracklink, Comsatel and PSTech/MiX Telematics, along with the SWOT analysis and strategies against competitors | 12/09/2026 |
-| Telemtrix-Report | Chapter2 | q3r4s5t | docs(chapter-2): "add interview design for both target segments" | Added the semi-structured interview questions for fleet managers/owners and for light cargo drivers, covering maintenance habits, pain points and digital tool adoption | 13/09/2026 |
-| Telemtrix-Report | Chapter2 | u6v7w8x | fix(interviews): "fix interview record table and add video evidence" | Fixed the interview record table structure and embedded the video link and photo evidence for the first fleet manager interview (Aracely Paucar) | 14/09/2026 |
-| Telemtrix-Report | Chapter2 | y9z0a1b | feat: "add User Personas, User Task Matrix and Ubiquitous Language" | Added the User Persona sheets for both segments, the User Task Matrix comparing frequency and importance of tasks, and the full domain glossary (Ubiquitous Language) | 16/09/2026 |
-| Telemtrix-Report | Chapter3 | c2d3e4f | feat: "restructure user stories to Gherkin format" | Restructured user stories to follow the Given-When-Then Gherkin syntax for acceptance criteria, covering Landing Page, Onboarding, Fleet Management and Driver Operations epics | 17/09/2026 |
-| Telemtrix-Report | Chapter3 | g5h6i7j | docs(chapter-3): "add Impact Mapping and Product Backlog with Fibonacci estimation" | Added the Impact Mapping diagram linking business goals to user segments, and prioritized the Product Backlog using Fibonacci story points with the Trello board link | 18/09/2026 |
-| Telemtrix-Report | Chapter5 | k8l9m0n | feat: "add Software Configuration Management and Sprint 1 backlog" | Added the tools used for requirements, design and development, the GitFlow branching strategy, and the Sprint 1 backlog with tasks, estimations and assigned collaborators | 19/09/2026 |
-### 5.2.1.5. Execution Evidence for Sprint Review.
+| Telemtrix-1ASI0729-2620-7769-report | develop | 4fc587d | docs(chapter02): add 2.2.1 interview question design for target segments | — | 17/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | develop | 8cbef6b | docs(chapter02): complete needfinding artifacts, personas, task matrix, and journey-empathy maps | — | 17/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | develop | 0e8d5c4 | docs(chapter02): add big picture event storming and ubiquitous language | — | 18/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | develop | 21b1482 | docs(chapter03): complete requirements specification with user stories, impact mapping and product backlog | — | 18/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | feature/chapter04-design-valeria | 701f2f6 | docs: add mobile landing page mockup section | — | 19/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | feature/chapter04-wireframes-santiago | 08a47d6 | Update wireframe titles and images in README | — | 20/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | feature/chapter02-interview-valeria | f800e15 | docs: add Aracely Paucar interview record | — | 20/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | feature/student-outcome | b564fb1 | docs: add Valeria Ysidro student outcome | — | 20/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | feature/student-outcome | 5b7cc0b | add foto profile | — | 20/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | chapter05 | 55f5014 | docs: feat chapter 5.1.1. | — | 20/09/2026 |
+| Telemtrix-1ASI0729-2620-7769-report | chapter05 | 53a1c4d | docs: feat chapter 5.2 | — | 20/09/2026 |
+| telemtrix-landing-page | main | 16cec1e | Initial commit | — | 20/09/2026 |
+| telemtrix-landing-page | main | e1a2901 | Add files via upload | — | 20/09/2026 |
+| telemtrix-landing-page | main | 59da70b | Add files via upload | — | 20/09/2026 |
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
 En este Sprint se logró desplegar la primera versión funcional de la landing page del proyecto, cumpliendo con los objetivos planteados en el backlog. El equipo trabajó de manera colaborativa para implementar y publicar las principales secciones, asegurando una experiencia de usuario coherente y alineada con los requerimientos iniciales. A continuación, se presenta la evidencia visual y el enlace de acceso a la landing page desplegada:
 
+<img src="images/chapter05/landing-motus-1.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-2.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-3.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-4.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-5.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-6.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-7.jpg" alt="Landing Page Motus" width="600">
+<img src="images/chapter05/landing-motus-8.jpg" alt="Landing Page Motus" width="600">
+
 Enlace de la Landing Page: <br>
 https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/
-### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Para esta entrega no se han empleado APIS, por lo cuál no se he requerido hacer una documentación sobre servicios implementados durante el Sprint
 
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 Durante este Sprint, el equipo realizó el despliegue exitoso de la landing page utilizando GitHub Pages. El objetivo fue asegurar que la solución estuviera disponible en línea para su revisión y validación, cumpliendo con los estándares de entrega continua y visibilidad del avance del proyecto.
+
+<img src="images/chapter05/deployment-motus-evidence.jpg" alt="Landing Page Motus" width="600">
+
 
 **Pasos realizados durante el despliegue:**
 1. Se verificó que el repositorio de la landing page contara con un archivo `index.html` en la raíz, listo para ser publicado.
 2. Se accedió a la sección Settings > Pages del repositorio de la landing page en GitHub.
 3. Se configuró la rama principal (`main`) del repositorio como fuente de despliegue automático.
-4. Se seleccionó la carpeta raíz (`/root`) como origen de los archivos estáticos a publicar.
+4. Se seleccionó la carpeta raíz (`/ (root)`) como origen de los archivos estáticos a publicar.
 5. Se realizó el primer despliegue, verificando que la landing page estuviera accesible públicamente y funcionando correctamente.
 6. Se validó el acceso desde diferentes dispositivos y navegadores para garantizar la experiencia de usuario.
-7. Se documentó la URL de acceso (`https://usuario.github.io/nombre-del-repo/`) y se compartió con el equipo para revisión y feedback.
+7. Se documentó la URL de acceso (`https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/`) y se compartió con el equipo para revisión y feedback.
 
-### Design
-Para realizar el diseño de los wireframes y mockups de la Landing Page para este Sprint, se hizo uso de la plataforma Figma. Para utilizar la plataforma:
+**Diseño.** Para el diseño de los wireframes y mock-ups del Landing Page de este Sprint se utilizó Figma (https://www.figma.com/), en un archivo colaborativo compartido por el equipo.
 
-1. Se accede a través de la página oficial de Figma: https://www.figma.com/login
+**Repositorios.** Para este Sprint se crearon dos repositorios en la organización de GitHub:
 
-2. Luego, se crea un Draft que nos servirá como base para el proyecto colaborativo.
-
-**Deployment Para la landing page, se utilizará GitHub Pages para el despliegue de la página.**
-### Deployment
-Para la landing page, se utilizará GitHub Pages para el despliegue de la página.
-
-Para nuestro proyecto se crearon 2 repositorios, el cuál fue:
-
-Documentación | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report : Este repositorio contiene el informe de nuestro proyecto. <br> Motus Landing Page | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page: Este repositorio se usa para realizar el desarrollo de la landing page de manera continua y desplegarla mediante GitHub Pages.
+| Repositorio | Enlace | Uso |
+|---|---|---|
+| Informe | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report | Contiene el informe del proyecto. |
+| Landing Page | https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page | Contiene el código del Landing Page, que se despliega mediante GitHub Pages. |
 
 
-### 5.2.1.8. Team Collaboration Insights during Sprint.
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante este Sprint, las actividades de implementación se desarrollaron de manera colaborativa y organizada. El equipo utilizó herramientas como GitHub para la gestión de versiones y asignación de tareas, y WhatsApp para la comunicación y coordinación diaria. Cada integrante asumió responsabilidades específicas según el backlog y los aspectos definidos en la planificación, participando activamente en el desarrollo, revisión de código y validación de entregables.
 
 Se promovió la revisión cruzada de avances, el registro de commits detallados y la documentación de los cambios realizados. Las reuniones periódicas permitieron resolver dudas, ajustar prioridades y asegurar que todos los miembros estuvieran alineados con los objetivos del Sprint. Esta dinámica facilitó la integración continua y la entrega oportuna de los resultados esperados.
 
+<img src="images/chapter05/insights-sprint1.jpg" alt="Insights Sprint 1" width="600">
+
 ### 5.2.2. Sprint 2
 
-En el segundo Sprint, nuestro enfoque principal fue la implementación de la primera versión del Frontend Web Application de Telemtrix, construyendo la plataforma central para nuestros segmentos objetivos empleando el framework Angular 18 con diseño de Angular Material, e integrando los flujos funcionales de gestión de flota.
+En el segundo Sprint, el equipo se centró en la implementación de la primera versión del **Frontend Web Application** de Motus, el producto de Telemtrix. La aplicación se desarrolló con **Angular 22**, con soporte de internacionalización (i18n) en Español e Inglés, y se organizó por *bounded contexts*: Shared, Fleet Management, Incident Management, Inspection Management, Maintenance Management y Vehicle Operations. En esta versión, la aplicación consume un **Mock API** construido con `json-server`, lo que permitió validar la experiencia de usuario antes de contar con el backend RESTful definitivo. Las vistas cubren los flujos de ambos segmentos objetivo: el encargado de flota (listado de vehículos, mantenimientos, telemetría) y el chofer (checklist pre-viaje, reporte de incidencias y registro de odómetro). Además, se publicó una nueva versión del **Landing Page**, que atiende las observaciones de la entrega anterior e incorpora la traducción al inglés y al español.
 
 #### 5.2.2.1. Sprint Planning 2
 
-| Sprint # | Sprint 2 |
-|---|---|
+| **Sprint #** | Sprint 2 |
+| --- | --- |
 | **Sprint Planning Background** | |
-| Date | 2026-10-02 |
-| Time | 19:00 PM |
-| Location | Microsoft Teams (Reunión Virtual) |
-| Prepared By | Jiménez Rosas, Arturo Eduardo |
-| Attendees (to planning meeting) | Todos los miembros del equipo |
-| Sprint n – 1 Review Summary | En el Sprint 1 se logró exitosamente la definición estructural, el marco de trabajo, los artefactos UX/UI y el landing page. El Product Owner aprobó el diseño base. |
-| Sprint n – 1 Retrospective Summary | El equipo mejoró en la comunicación mediante canales de mensajería instantánea. Se acordó aplicar una revisión de código cruzada más rigurosa para el Frontend en el Sprint 2 y automatizar los despliegues. |
-| **Sprint Goal & User Stories** | |
-| Sprint 2 Goal | **Our focus is on** implementing the core functional modules for fleet, maintenance and incident management on a responsive web app. **We believe it delivers** a unified and intuitive web experience to fleet managers and drivers. **This will be confirmed when** users can successfully interact with vehicle listings, incident reports, inspection checklists, and monitor telemetry data via the deployed Angular web application. |
-| Sprint 2 Velocity | 26 Story Points |
-| Sum of Story Points | 26 |
+| **Date** | 2026-10-02 |
+| **Time** | 07:00 PM |
+| **Location** | Modalidad remota a través de WhatsApp |
+| **Prepared By** | Todos los integrantes del equipo Telemtrix |
+| **Attendees (to planning meeting)** | Echevarria Lizana Santiago Israel, Ysidro Llashag Valeria Milagros, Mejia Poma Patricia Valeria, Segura Guerra Alison Ariana, Mendoza Vergara Alejandro Franklin |
+| **Sprint 1 Review Summary** | En el Sprint 1 se logró definir la base estructural del proyecto: la descripción de la startup, la investigación con usuarios, las historias de usuario, los artefactos UX/UI y la primera versión desplegada de la landing page en GitHub Pages. Los entregables fueron revisados y aprobados como base para iniciar el desarrollo de la aplicación web. En la revisión de la entrega, el docente observó el formato del entregable, la falta de imágenes y texto en las evidencias y la ausencia de traducción en el Landing Page; estas observaciones se atendieron durante el Sprint 2. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó mejoras en la comunicación a través de mensajería instantánea y en la revisión cruzada de avances. Se acordó reforzar el uso obligatorio de GitFlow y Conventional Commits, aplicar una revisión de código más rigurosa en el repositorio Frontend y automatizar los despliegues mediante CI/CD. |
+| **Sprint Goal & User Stories** | EP03/US07, EP03/US09, EP03/US10, EP04/US11, EP04/US12, EP04/US13 |
+| **Sprint 2 Goal** | **Our focus is on** implementing the core modules of the responsive Angular web application for fleet, incident, inspection, maintenance and telemetry management. **We believe it delivers** a unified and intuitive web experience for fleet managers and drivers. **This will be confirmed when** users can navigate the deployed web application, list and register vehicles, report incidents, complete pre-trip checklists, follow maintenance orders and monitor telemetry records. |
+| **Sprint 2 Velocity** | 22 Story Points |
+| **Sum of Story Points** | 22 |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
-| Team Member (Last Name, First Name) | GitHub Username | Shared & Config (L/C) | Incident Mgmt (L/C) | Fleet & Vehicle Ops (L/C) | Maintenance & Inspection (L/C) |
-|---|---|---|---|---|---|
-| Patricia V. | patriciavmp | L | C | L | C |
-| Jiménez Rosas, Arturo Eduardo | ajimenezrosas | C | C | C | L |
-| Rodríguez Peña, Jorge Andrés | Japr91 | C | L | C | C |
-| Llashag, Valeria Milagros | vllashag | C | C | C | C |
+A continuación se presenta la matriz de liderazgo (L) y colaboración (C) del Sprint 2, organizada por los *bounded contexts* implementados en el frontend y por la nueva versión del Landing Page.
+
+| Team Member (Last Name, First Name) | GitHub Username | Shared & Config | Fleet Management | Incident Management | Inspection Management | Maintenance Management | Vehicle Operations | Landing Page |
+| --- | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Echevarria Lizana, Santiago Israel | veniku08 | C | C | C | C | L | C | C |
+| Ysidro Llashag, Valeria Milagros | vysidrol | C | C | C | L | C | C | L |
+| Mejia Poma, Patricia Valeria | patriciavmp | L | L | C | C | C | C | C |
+| Segura Guerra, Alison Ariana | Nox010111 | C | C | L | C | C | C | C |
+| Mendoza Vergara, Alejandro Franklin | AlexBoo578 | C | C | C | C | C | L | C |
 
 #### 5.2.2.3. Sprint Backlog 2
 
-Durante el Sprint Planning, descompusimos las User Stories en tareas técnicas.
+El Sprint Backlog 2 se enfoca en la construcción del frontend de Motus y en la nueva versión del Landing Page. Las historias de usuario del Product Backlog se descompusieron en tareas técnicas, con su estimación en horas, responsable y estado de avance. Las interfaces consumen un Mock API local (`json-server`) para simular los servicios que luego serán provistos por el backend.
 
-![Sprint 2 Backlog](images/chapter05/sprint2-backlog.png)
-*Enlace público al Board de Trello*: [https://trello.com/b/6aadcb3e/telemtrix-product-backlog](https://trello.com/b/6aadcb3e/telemtrix-product-backlog)
 
-| Sprint # | Sprint 2 | | | | | | |
-|---|---|---|---|---|---|---|---|
-| **User Story** | | **Work-Item / Task** | | | | | |
-| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| US05 | Listado de vehículos | TK2-01 | Setup Angular 18 | Scaffolding del proyecto Angular 18 con Angular Material, routing e i18n support. | 3 | Patricia V. | Done |
-| US05 | Listado de vehículos | TK2-02 | Módulo de flota | Implementar vistas de fleet-management con tabla de unidades vehiculares y forms. | 5 | Patricia V. | Done |
-| US07 | Registrar incidencias | TK2-03 | Módulo de incidentes | Implementar vistas incident-management para reporte de averías e incidencias. | 4 | Jorge Rodríguez | Done |
-| US08 | Completar inspección | TK2-04 | Módulo de inspección | Construir interfaces de checklists de inspección pre-ruta (inspection-management). | 4 | Arturo Jiménez | Done |
-| US10 | Ver mantenimientos | TK2-05 | Módulo de mantenimientos | Crear vistas para la administración y seguimiento de maintenance-orders. | 5 | Arturo Jiménez | Done |
-| US11 | Monitoreo telemétrico | TK2-06 | Integración de telemetría | Implementar módulo de vehicle-operations y configurar json-server mock API. | 5 | Patricia V. | Done |
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| --- | --- | --- | --- | --- | :---: | --- | --- |
+| — | Configuración base del frontend | TK2-01 | Setup del proyecto Angular | Scaffolding del proyecto con Angular Material, routing, layout compartido, selector de idioma e i18n (ES/EN). | 3 | Patricia Mejía | Done |
+| EP03/US07 | Alta de Unidades Vehiculares | TK2-02 | Módulo Fleet Management | Implementar la entidad vehículo, el endpoint de API, la vista de listado de unidades y el formulario de registro (placa, marca, modelo, año). | 5 | Patricia Mejía | Done |
+| EP04/US13 | Reporte Inmediato de Incidencia Mecánica | TK2-03 | Módulo Incident Management | Implementar la entidad incidencia, el endpoint de API, la vista de listado y el formulario de reporte con categoría y severidad. | 4 | Alison Segura | Done |
+| EP04/US12 | Checklist Pre-viaje | TK2-04 | Módulo Inspection Management | Construir la entidad inspección, el endpoint de API y las interfaces del checklist pre-viaje y su listado. | 4 | Valeria Ysidro | Done |
+| EP03/US09 | Registro y Liquidación de Taller | TK2-05 | Módulo Maintenance Management | Crear las vistas para la administración y seguimiento de órdenes de mantenimiento preventivo y correctivo. | 5 | Santiago Echevarria | Done |
+| EP04/US11 | Registro Diario de Odómetro | TK2-06 | Módulo Vehicle Operations | Implementar la entidad de registro de telemetría y odómetro, el endpoint de API y la vista de listado. | 4 | Alejandro Mendoza | Done |
+| EP03/US10 | Consulta de Historial Técnico de Unidad | TK2-07 | Historial técnico de la unidad | Mostrar en el detalle del vehículo la cronología de inspecciones, mantenimientos e incidencias asociadas. | 3 | Santiago Echevarria | To-do |
+| — | Mock API | TK2-08 | Configuración de json-server | Configurar el Mock API local con `db.json`, `routes.json` y el script de arranque para el desarrollo del frontend. | 3 | Alejandro Mendoza | Done |
+| — | CI/CD | TK2-09 | Workflow de despliegue | Configurar el workflow de GitHub Actions para compilar y desplegar automáticamente a GitHub Pages. | 3 | Patricia Mejía | Done |
+| EP01/US01 | Visualizar Propuesta de Valor y Beneficios | TK2-10 | Traducción del Landing Page | Incorporar el selector de idioma inglés/español, con inglés como idioma por defecto (i18n). | 4 | Valeria Ysidro | Done |
+| EP01/US01 | Visualizar Propuesta de Valor y Beneficios | TK2-11 | Enlace a la aplicación web | Redirigir los botones "Log in" y "Start Free Trial" al Frontend Web Application desplegado. | 1 | Valeria Ysidro | Done |
+| EP01/US03 | Envío de Formulario de Contacto Comercial | TK2-12 | Validación del formulario de contacto | Validar nombre, correo y teléfono, mostrando mensajes de error y de confirmación. | 2 | Valeria Ysidro | Done |
+| — | Landing Page | TK2-13 | Navegación móvil y términos y condiciones | Implementar el menú de navegación para pantallas pequeñas y la página de términos y condiciones enlazada desde el footer. | 3 | Valeria Ysidro | Done |
+
+Enlace público al tablero de Trello: [https://trello.com/b/6aadcb3e/telemtrix-product-backlog](https://trello.com/b/6aadcb3e/telemtrix-product-backlog)
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-La implementación de la aplicación web fue documentada en el repositorio remoto de GitHub utilizando Conventional Commits y la estrategia GitFlow.
+La implementación de la aplicación web fue documentada en el repositorio **Telemtrix-FrontEnd** de GitHub, siguiendo la estrategia GitFlow y la convención de Conventional Commits. Los siguientes commits evidencian el desarrollo de los módulos implementados durante el Sprint 2, así como la nueva versión del Landing Page en el repositorio **telemtrix-landing-page**.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-|---|---|---|---|---|---|
-| Telemtrix-FrontEnd | develop | 0b45671 | chore: initial project scaffold with Angular 22, Angular Material and i18n support | Configuración base del proyecto, dependencias NPM esenciales y archivos root. | 09/10/2026 |
+| --- | --- | --- | --- | --- | --- |
+| Telemtrix-FrontEnd | develop | 0b45671 | chore: initial project scaffold with Angular 22, Angular Material and i18n support | Configuración base del proyecto, dependencias NPM esenciales y archivos raíz. | 09/10/2026 |
 | Telemtrix-FrontEnd | develop | 5e5c9a7 | feat(shared): add base entity, base API service, layout component, dialog and language-switcher | Módulo compartido con layout, diálogos modales genéricos y soporte multi-idioma. | 09/10/2026 |
-| Telemtrix-FrontEnd | develop | 4486735 | feat(fleet-management): add vehicle entity, API endpoint, vehicle-list view and vehicle-form | Listado de unidades vehiculares y registro de las mismas para los gestores. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 4486735 | feat(fleet-management): add vehicle entity, API endpoint, vehicle-list view and vehicle-form | Listado de unidades vehiculares y formulario de registro para los encargados de flota. | 09/10/2026 |
 | Telemtrix-FrontEnd | develop | f2ec426 | feat(incident-management): add incident entity, API endpoint, incident-list view and incident-form | Interfaces para reportar averías mecánicas y darles seguimiento. | 09/10/2026 |
-| Telemtrix-FrontEnd | develop | f38db5b | feat(inspection-management): add inspection entity, API endpoint, inspection-list view | Desarrollo de interfaces de checklists para evaluación técnica rápida del vehículo. | 09/10/2026 |
-| Telemtrix-FrontEnd | develop | 825d17b | feat(maintenance-management): add maintenance-order entity, API endpoint, maintenance-list | Vistas para órdenes de mantenimiento preventivo y correctivo en talleres. | 09/10/2026 |
-| Telemtrix-FrontEnd | develop | a5f0883 | feat(vehicle-operations): add telemetry-record entity, API endpoint, telemetry-list view | Monitor de métricas operativas vehiculares y registros de telemetría. | 09/10/2026 |
-| Telemtrix-FrontEnd | develop | 8177cbd | feat(server): add json-server mock API with db.json, routes.json and start script | Configuración del mock API backend local para agilizar el desarrollo frontend. | 09/10/2026 |
-| Telemtrix-FrontEnd | develop | 046890f | ci: add GitHub Actions workflow for automated deployment to GitHub Pages | Integración Continua (CI/CD) para compilar y desplegar a GitHub Pages en merge a main. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | f38db5b | feat(inspection-management): add inspection entity, API endpoint, inspection-list view | Interfaces de checklists para la evaluación técnica rápida del vehículo. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 825d17b | feat(maintenance-management): add maintenance-order entity, API endpoint, maintenance-list | Vistas para órdenes de mantenimiento preventivo y correctivo. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | a5f0883 | feat(vehicle-operations): add telemetry-record entity, API endpoint, telemetry-list view | Monitor de métricas operativas y registros de telemetría de los vehículos. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 8177cbd | feat(server): add json-server mock API with db.json, routes.json and start script | Mock API local para agilizar el desarrollo del frontend. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 046890f | ci: add GitHub Actions workflow for automated deployment to GitHub Pages | Integración continua para compilar y desplegar a GitHub Pages en cada merge a `main`. | 09/10/2026 |
+| telemtrix-landing-page | feature/landing-translation | f440b6c | feat(i18n): add English translation with ES/EN language switch | — | 09/10/2026 |
+| telemtrix-landing-page | feature/landing-improvements | 0c288bb | feat(i18n): set English as the default language | — | 09/10/2026 |
+| telemtrix-landing-page | feature/landing-improvements | e95337a | feat(landing): add form validation, mobile menu, terms page and web application links | — | 09/10/2026 |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-A continuación, se muestran capturas de las principales vistas de nuestra Frontend Web Application implementada en este Sprint:
+Durante el Sprint 2 se implementó la primera versión funcional de la aplicación web de Motus. Se desarrollaron los módulos de gestión de flota, incidencias, inspecciones, mantenimientos y telemetría, junto con la navegación entre módulos mediante Angular Router, componentes reutilizables (layout, diálogos y selector de idioma) y soporte multilenguaje (ES/EN). La aplicación consume los datos del Mock API y mantiene la separación por *bounded contexts* definida en la arquitectura del proyecto.
 
-![Vista de Gestión de Vehículos](images/chapter05/sprint2-fleet.png)
-*Listado de gestión de vehículos (Fleet Management)*
+A continuación se presenta la evidencia visual de las principales vistas implementadas.
 
-![Vista de Gestión de Mantenimientos](images/chapter05/sprint2-maintenance.png)
-*Gestión de Órdenes de Mantenimiento Preventivo y Correctivo*
+<img src="images/chapter05/sprint2-evidence-motus-1.jpg" alt="Motus Web Application - Fleet Management" width="600">
+<img src="images/chapter05/sprint2-evidence-motus-2.jpg" alt="Motus Web Application - Fleet Management" width="600">
+<img src="images/chapter05/sprint2-evidence-motus-3.jpg" alt="Motus Web Application - Fleet Management" width="600">
+<img src="images/chapter05/sprint2-evidence-motus-4.jpg" alt="Motus Web Application - Fleet Management" width="600">
+<img src="images/chapter05/sprint2-evidence-motus-5.jpg" alt="Motus Web Application - Fleet Management" width="600">
 
-![Vista de Telemetría](images/chapter05/sprint2-telemetry.png)
-*Monitor de datos telemétricos simulados de los vehículos*
+En el Landing Page se publicó una nueva versión que incorpora la traducción al inglés y al español (con inglés como idioma por defecto), la validación del formulario de contacto, el menú de navegación para pantallas pequeñas, la página de términos y condiciones y el enlace hacia la aplicación web.
 
-*(Enlace al video explicativo de visualización y navegación de este Sprint: [Video de Demostración del Frontend - MS Stream](#))*
+<img src="images/chapter05/sprint2-landing-i18n.png" alt="Landing Page - Language switch" width="600">
+<img src="images/chapter05/sprint2-landing-form.png" alt="Landing Page - Contact form validation" width="600">
+<img src="images/chapter05/sprint2-landing-terms.png" alt="Landing Page - Terms and conditions" width="600">
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Dado que el desarrollo completo del RESTful Web API de Telemtrix corresponde a otro componente arquitectónico, en este Sprint implementamos y consumimos un Mock API estructurado con `json-server` (`db.json` y `routes.json`) que estandariza las respuestas para nuestro cliente Angular.
+En este Sprint no se consumió el RESTful Web API definitivo de Telemtrix, ya que su desarrollo corresponde a otro componente de la arquitectura. En su lugar, la aplicación Angular consume un **Mock API** implementado con `json-server`, cuyos datos se definen en `db.json` y cuyas rutas se estandarizan en `routes.json`. De esta forma, el cliente trabaja con la misma estructura de endpoints que luego expondrá el backend.
 
-| Endpoint | Acción | Verbo HTTP | Request Path | Posibles Parámetros | Ejemplo Response (200 OK) |
-|---|---|---|---|---|---|
-| **Vehicles** | Obtener vehículos | GET | `/api/v1/vehicles` | `?status=AVAILABLE` | `[{ "id": 1, "plate": "ABC-123", "status": "AVAILABLE" }]` |
-| **Incidents** | Registrar avería | POST | `/api/v1/incidents` | `{ "vehicleId", "description" }` | `{ "id": 1, "vehicleId": 2, "status": "REPORTED" }` |
-| **Inspections**| Obtener checklist | GET | `/api/v1/inspections`| `?vehicleId=2` | `[{ "id": 1, "passed": true, "date": "2026-10-09" }]` |
+La URL base de los servicios está definida en el servicio compartido `BaseApi` de la aplicación (`http://localhost:3000` en el entorno local). En la siguiente tabla dicha base se referencia como `{apiUrl}`.
+
+| Contexto / Módulo | Recurso (Endpoint Base) | Acciones Implementadas | Ejemplo de uso |
+| --- | --- | --- | --- |
+| Fleet Management | `{apiUrl}/api/v1/vehicles` | GET, POST, PUT, DELETE | `GET /api/v1/vehicles?status=AVAILABLE` |
+| Incident Management | `{apiUrl}/api/v1/incidents` | GET, POST | `POST /api/v1/incidents` con `{ "vehicleId", "description" }` |
+| Inspection Management | `{apiUrl}/api/v1/inspections` | GET, POST | `GET /api/v1/inspections?vehicleId=2` |
+| Maintenance Management | `{apiUrl}/api/v1/maintenance-orders` | GET, POST, PUT | `GET /api/v1/maintenance-orders` |
+| Vehicle Operations | `{apiUrl}/api/v1/telemetry` | GET, POST | `GET /api/v1/telemetry?vehicleId=2` |
+
+**Ejemplo de respuesta (200 OK) para `GET /api/v1/vehicles`:**
+
+```json
+[
+  { "id": 1, "plate": "ABC-123", "status": "AVAILABLE" }
+]
+```
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-El proceso de despliegue se automatizó en su totalidad empleando **GitHub Actions** para CI/CD.
+El despliegue de la aplicación web se automatizó con **GitHub Actions**. Se configuró un workflow (`deploy.yml`) que, en cada push a la rama `main`, compila la aplicación Angular en modo producción y publica los artefactos en **GitHub Pages**.
 
-* **Frontend Web Application:** Se estructuró un workflow (`deploy.yml`) que compila la aplicación Angular para producción en cada push a `main` y expone los artefactos a **GitHub Pages**.
+**Pasos realizados:**
 
-**Enlaces operativos:**
-* **Frontend Web Application Deploy:** [https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/](https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/)
-* **Landing Page Deploy:** [https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/](https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/)
+1. Se creó el workflow de GitHub Actions en el repositorio `Telemtrix-FrontEnd`.
+2. Se configuró la compilación de producción de la aplicación Angular en el pipeline.
+3. Se habilitó GitHub Pages en el repositorio, usando como fuente el resultado del workflow.
+4. Se validó que la aplicación estuviera accesible públicamente y funcionara correctamente en distintos dispositivos y navegadores.
 
-![Frontend Deployment Pipeline](images/chapter05/sprint2-deploy.png)
-*Configuración exitosa de GitHub Actions Deployment Pipeline*
+**Landing Page.** La nueva versión del Landing Page se publicó en GitHub Pages desde la rama `main` de su repositorio. Los cambios se integraron mediante pull requests de la rama de funcionalidad hacia `develop` y de `develop` hacia `main`.
+
+**Enlaces de despliegue:**
+
+* **Frontend Web Application:** [https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/](https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/)
+* **Landing Page:** [https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/](https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/)
+
+<img src="images/chapter05/deployment-evidence-sprint2.jpg" alt="Motus Web Application Deployment" width="600">
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-Durante el Sprint 2, la carga de trabajo en la aplicación Frontend se dividió de acuerdo a los Bounded Contexts. Hubo una alta colaboración mediante Pull Requests en GitHub y code reviews ágiles. La adopción temprana de CI/CD permitió detectar fallos de compilación instantáneamente.
+Durante el Sprint 2, los integrantes del equipo participaron en la implementación del frontend, dividiendo el trabajo según los *bounded contexts* de la aplicación. La coordinación se realizó mediante WhatsApp. En el repositorio del Landing Page, los cambios se integraron a través de ramas de funcionalidad y Pull Requests hacia `develop` y `main`. La adopción temprana de CI/CD permitió detectar errores de compilación de forma inmediata. La participación de cada integrante se evidencia en los reportes de actividad del repositorio.
 
-![GitHub Insights Sprint 2](images/chapter05/sprint2-insights.png)
-*Gráficos de contribución del repositorio Telemtrix-FrontEnd.*
+<img src="images/chapter05/sprint2-insight.jpg" alt="Motus Web Application Team Collaboration" width="600">
 
 ---
 
-### Conclusiones
+# Conclusiones
 Telemtrix propone una solución enfocada en centralizar la gestión de vehículos, checklists, incidencias, mantenimientos preventivos, kilometraje y consumo de combustible, permitiendo que la información técnica de la flota se encuentre organizada, unificada y sea más fácil de consultar por parte de los encargados y choferes.
 
-El desarrollo del Sprint 1 permitió definir la base funcional y visual del producto mediante investigación con usuarios, historias de usuario, arquitectura de software, diseño UX/UI y la primera versión de la aplicación móvil y el panel web, manteniendo coherencia entre las necesidades identificadas en las micro y pequeñas empresas del sector logístico y la solución propuesta.
+El desarrollo del Sprint 1 permitió definir la base funcional y visual del producto mediante investigación con usuarios, historias de usuario, arquitectura de software, diseño UX/UI y el Landing Page, manteniendo coherencia entre las necesidades identificadas en las micro y pequeñas empresas del sector logístico y la solución propuesta.
 
 Asimismo, la definición de la arquitectura basada en bounded contexts y el modelo de datos relacional permitió establecer una base sólida para escalar el producto, facilitar el mantenimiento del código y asegurar el aislamiento multi-tenant entre las empresas clientes.
 
+En el Sprint 2 se desplegó la primera versión del Frontend Web Application y una nueva versión del Landing Page, enlazadas entre sí. Trabajar con un Mock API permitió avanzar en las interfaces sin depender del backend, y aplicar GitFlow, Conventional Commits y despliegue automatizado dio trazabilidad al trabajo del equipo.
 
-### Bibliografía 
+
+# Bibliografía
 - Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley. https://domainlanguage.com/ddd/
 - Vernon, V. (2013). Implementing domain-driven design. Addison-Wesley. https://www.oreilly.com/library/view/implementing-domain-driven/9780133039900/
 - Brown, S. (2020). The C4 model for visualising software architecture. https://c4model.com
+- Conventional Commits. (s. f.). Conventional Commits 1.0.0. https://www.conventionalcommits.org/en/v1.0.0/
+- Driessen, V. (2010). A successful Git branching model. https://nvie.com/posts/a-successful-git-branching-model/
+- Google. (s. f.). Angular. https://angular.dev/
+- Google. (s. f.). Google HTML/CSS style guide. https://google.github.io/styleguide/htmlcssguide.html
+- Preston-Werner, T. (s. f.). Semantic Versioning 2.0.0. https://semver.org/
 
-### Anexos
+# Anexos
 
 - Url de la Organización: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix
 - Url del Repositorio del reporte: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report 
 - Url de la Landing Page: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/telemtrix-landing-page
 - Despliegue de la landing en GitHub Pages: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/ 
+- Url del repositorio del Frontend Web Application: https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-FrontEnd
+- Despliegue del Frontend Web Application en GitHub Pages: https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/
 - Link del Figma MockUp: https://www.figma.com/design/TslvLgCKKlpcxui3YkztKh/MockUps--Motus?node-id=0-1&t=Wa6m0Ri9nFV5BK9n-1
 - Link del Figma WireFrames: https://www.figma.com/design/d7ZBQLVuOW0bolEI9JEaG3/Wireframe---Motus?node-id=0-1&t=wOngJ3zArkuQ0l82-1
 
