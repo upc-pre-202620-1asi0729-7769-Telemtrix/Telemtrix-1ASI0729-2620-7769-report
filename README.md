@@ -1801,6 +1801,132 @@ Se promovió la revisión cruzada de avances, el registro de commits detallados 
 
 <img src="images/chapter05/insights-sprint1.jpg" alt="Insights Sprint 1" width="600">
 
+### 5.2.2. Sprint 2
+
+En el segundo Sprint, el equipo se centró en la implementación de la primera versión del **Frontend Web Application** de Motus, el producto de Telemtrix. La aplicación se desarrolló con **Angular** y **Angular Material**, con soporte de internacionalización (i18n) en Español e Inglés, y se organizó por *bounded contexts*: Shared, Fleet Management, Incident Management, Inspection Management, Maintenance Management y Vehicle Operations. En esta versión, la aplicación consume un **Mock API** construido con `json-server`, lo que permitió validar la experiencia de usuario antes de contar con el backend RESTful definitivo. Las vistas cubren los flujos de ambos segmentos objetivo: el encargado de flota (listado de vehículos, mantenimientos, telemetría) y el chofer (checklist pre-viaje, reporte de incidencias y registro de odómetro).
+
+#### 5.2.2.1. Sprint Planning 2
+
+| **Sprint #** | Sprint 2 |
+| --- | --- |
+| **Sprint Planning Background** | |
+| **Date** | 2 de octubre del 2026 |
+| **Time** | 19:00 horas |
+| **Location** | Reunión virtual (Microsoft Teams) |
+| **Prepared By** | Todos los integrantes del equipo Telemtrix |
+| **Attendees (to planning meeting)** | Echevarria Lizana Santiago Israel, Ysidro Llashag Valeria Milagros, Mejia Poma Patricia Valeria, Segura Guerra Alison Ariana, Mendoza Vergara Alejandro Franklin |
+| **Sprint 1 Review Summary** | En el Sprint 1 se logró definir la base estructural del proyecto: la descripción de la startup, la investigación con usuarios, las historias de usuario, los artefactos UX/UI y la primera versión desplegada de la landing page en GitHub Pages. Los entregables fueron revisados y aprobados como base para iniciar el desarrollo de la aplicación web. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó mejoras en la comunicación a través de mensajería instantánea y en la revisión cruzada de avances. Se acordó reforzar el uso obligatorio de GitFlow y Conventional Commits, aplicar una revisión de código más rigurosa en el repositorio Frontend y automatizar los despliegues mediante CI/CD. |
+| **Sprint Goal & User Stories** | EP03/US07, EP03/US09, EP03/US10, EP04/US11, EP04/US12, EP04/US13 |
+| **Sprint 2 Goal** | **Our focus is on** implementing the core modules of the responsive Angular web application for fleet, incident, inspection, maintenance and telemetry management. **We believe it delivers** a unified and intuitive web experience for fleet managers and drivers. **This will be confirmed when** users can navigate the deployed web application, list and register vehicles, report incidents, complete pre-trip checklists, follow maintenance orders and monitor telemetry records. |
+| **Sprint 2 Velocity** | 22 Story Points |
+| **Sum of Story Points** | 22 |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+A continuación se presenta la matriz de liderazgo (L) y colaboración (C) del Sprint 2, organizada por los *bounded contexts* implementados en el frontend.
+
+| Team Member (Last Name, First Name) | GitHub Username | Shared & Config | Fleet Management | Incident Management | Inspection Management | Maintenance Management | Vehicle Operations |
+| --- | --- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Echevarria Lizana, Santiago Israel | `<usuario>` | C | C | C | C | L | C |
+| Ysidro Llashag, Valeria Milagros | vysidrol | C | C | C | L | C | C |
+| Mejia Poma, Patricia Valeria | patriciavmp | L | L | C | C | C | C |
+| Segura Guerra, Alison Ariana | `<usuario>` | C | C | L | C | C | C |
+| Mendoza Vergara, Alejandro Franklin | AlexBoo578 | C | C | C | C | C | L |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El Sprint Backlog 2 se enfoca en la construcción del frontend de Motus. Las historias de usuario del Product Backlog se descompusieron en tareas técnicas, con su estimación en horas, responsable y estado de avance. Las interfaces consumen un Mock API local (`json-server`) para simular los servicios que luego serán provistos por el backend.
+
+
+| User Story Id | User Story Title | Work-Item / Task Id | Work-Item / Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| --- | --- | --- | --- | --- | :---: | --- | --- |
+| — | Configuración base del frontend | TK2-01 | Setup del proyecto Angular | Scaffolding del proyecto con Angular Material, routing, layout compartido, selector de idioma e i18n (ES/EN). | 3 | Patricia Mejía | Done |
+| EP03/US07 | Alta de Unidades Vehiculares | TK2-02 | Módulo Fleet Management | Implementar la entidad vehículo, el endpoint de API, la vista de listado de unidades y el formulario de registro (placa, marca, modelo, año). | 5 | Patricia Mejía | Done |
+| EP04/US13 | Reporte Inmediato de Incidencia Mecánica | TK2-03 | Módulo Incident Management | Implementar la entidad incidencia, el endpoint de API, la vista de listado y el formulario de reporte con categoría y severidad. | 4 | Alison Segura | Done |
+| EP04/US12 | Checklist Pre-viaje | TK2-04 | Módulo Inspection Management | Construir la entidad inspección, el endpoint de API y las interfaces del checklist pre-viaje y su listado. | 4 | Valeria Ysidro | Done |
+| EP03/US09 | Registro y Liquidación de Taller | TK2-05 | Módulo Maintenance Management | Crear las vistas para la administración y seguimiento de órdenes de mantenimiento preventivo y correctivo. | 5 | Santiago Echevarria | Done |
+| EP04/US11 | Registro Diario de Odómetro | TK2-06 | Módulo Vehicle Operations | Implementar la entidad de registro de telemetría y odómetro, el endpoint de API y la vista de listado. | 4 | Alejandro Mendoza | Done |
+| EP03/US10 | Consulta de Historial Técnico de Unidad | TK2-07 | Historial técnico de la unidad | Mostrar en el detalle del vehículo la cronología de inspecciones, mantenimientos e incidencias asociadas. | 3 | Santiago Echevarria | Done |
+| — | Mock API | TK2-08 | Configuración de json-server | Configurar el Mock API local con `db.json`, `routes.json` y el script de arranque para el desarrollo del frontend. | 3 | Alejandro Mendoza | Done |
+| — | CI/CD | TK2-09 | Workflow de despliegue | Configurar el workflow de GitHub Actions para compilar y desplegar automáticamente a GitHub Pages. | 3 | Patricia Mejía | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+La implementación de la aplicación web fue documentada en el repositorio **Telemtrix-FrontEnd** de GitHub, siguiendo la estrategia GitFlow y la convención de Conventional Commits. Los siguientes commits evidencian el desarrollo de los módulos implementados durante el Sprint 2.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| Telemtrix-FrontEnd | develop | 0b45671 | chore: initial project scaffold with Angular, Angular Material and i18n support | Configuración base del proyecto, dependencias NPM esenciales y archivos raíz. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 5e5c9a7 | feat(shared): add base entity, base API service, layout component, dialog and language-switcher | Módulo compartido con layout, diálogos modales genéricos y soporte multi-idioma. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 4486735 | feat(fleet-management): add vehicle entity, API endpoint, vehicle-list view and vehicle-form | Listado de unidades vehiculares y formulario de registro para los encargados de flota. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | f2ec426 | feat(incident-management): add incident entity, API endpoint, incident-list view and incident-form | Interfaces para reportar averías mecánicas y darles seguimiento. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | f38db5b | feat(inspection-management): add inspection entity, API endpoint, inspection-list view | Interfaces de checklists para la evaluación técnica rápida del vehículo. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 825d17b | feat(maintenance-management): add maintenance-order entity, API endpoint, maintenance-list | Vistas para órdenes de mantenimiento preventivo y correctivo. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | a5f0883 | feat(vehicle-operations): add telemetry-record entity, API endpoint, telemetry-list view | Monitor de métricas operativas y registros de telemetría de los vehículos. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 8177cbd | feat(server): add json-server mock API with db.json, routes.json and start script | Mock API local para agilizar el desarrollo del frontend. | 09/10/2026 |
+| Telemtrix-FrontEnd | develop | 046890f | ci: add GitHub Actions workflow for automated deployment to GitHub Pages | Integración continua para compilar y desplegar a GitHub Pages en cada merge a `main`. | 09/10/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 2 se implementó la primera versión funcional de la aplicación web de Motus. Se desarrollaron los módulos de gestión de flota, incidencias, inspecciones, mantenimientos y telemetría, junto con la navegación entre módulos mediante Angular Router, componentes reutilizables (layout, diálogos y selector de idioma) y soporte multilenguaje (ES/EN). La aplicación consume los datos del Mock API y mantiene la separación por *bounded contexts* definida en la arquitectura del proyecto.
+
+A continuación se presenta la evidencia visual de las principales vistas implementadas.
+
+<img src="images/chapter05/sprint2-evidence-motus-1.jpg" alt="Motus Web Application - Fleet Management" width="600">
+<img src="images/chapter05/sprint2-evidence-motus-2.jpg" alt="Motus Web Application - Fleet Management" width="600">
+<img src="images/chapter05/sprint2-evidence-motus-3.jpg" alt="Motus Web Application - Fleet Management" width="600">
+<img src="images/chapter05/sprint2-evidence-motus-4.jpg" alt="Motus Web Application - Fleet Management" width="600">
+<img src="images/chapter05/sprint2-evidence-motus-5.jpg" alt="Motus Web Application - Fleet Management" width="600">
+
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint no se consumió el RESTful Web API definitivo de Telemtrix, ya que su desarrollo corresponde a otro componente de la arquitectura. En su lugar, la aplicación Angular consume un **Mock API** implementado con `json-server`, cuyos datos se definen en `db.json` y cuyas rutas se estandarizan en `routes.json`. De esta forma, el cliente trabaja con la misma estructura de endpoints que luego expondrá el backend.
+
+La URL base de los servicios se resuelve desde el archivo de entorno (*environment*) de la aplicación. En la siguiente tabla dicha base se referencia como `{apiUrl}`.
+
+| Contexto / Módulo | Recurso (Endpoint Base) | Acciones Implementadas | Ejemplo de uso |
+| --- | --- | --- | --- |
+| Fleet Management | `{apiUrl}/api/v1/vehicles` | GET, POST, PUT, DELETE | `GET /api/v1/vehicles?status=AVAILABLE` |
+| Incident Management | `{apiUrl}/api/v1/incidents` | GET, POST | `POST /api/v1/incidents` con `{ "vehicleId", "description" }` |
+| Inspection Management | `{apiUrl}/api/v1/inspections` | GET, POST | `GET /api/v1/inspections?vehicleId=2` |
+| Maintenance Management | `{apiUrl}/api/v1/maintenance-orders` | GET, POST, PUT | `GET /api/v1/maintenance-orders` |
+| Vehicle Operations | `{apiUrl}/api/v1/telemetry-records` | GET, POST | `GET /api/v1/telemetry-records?vehicleId=2` |
+
+**Ejemplo de respuesta (200 OK) para `GET /api/v1/vehicles`:**
+
+```json
+[
+  { "id": 1, "plate": "ABC-123", "status": "AVAILABLE" }
+]
+```
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El despliegue de la aplicación web se automatizó con **GitHub Actions**. Se configuró un workflow (`deploy.yml`) que, en cada push a la rama `main`, compila la aplicación Angular en modo producción y publica los artefactos en **GitHub Pages**.
+
+**Pasos realizados:**
+
+1. Se creó el workflow de GitHub Actions en el repositorio `Telemtrix-FrontEnd`.
+2. Se configuró la compilación de producción de la aplicación Angular en el pipeline.
+3. Se habilitó GitHub Pages en el repositorio, usando como fuente el resultado del workflow.
+4. Se validó que la aplicación estuviera accesible públicamente y funcionara correctamente en distintos dispositivos y navegadores.
+
+**Enlaces de despliegue:**
+
+* **Frontend Web Application:** [https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/](https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/Telemtrix-FrontEnd/)
+* **Landing Page:** [https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/](https://upc-pre-202620-1asi0729-7769-telemtrix.github.io/telemtrix-landing-page/)
+
+<img src="images/chapter05/deployment-evidence-sprint2.jpg" alt="Motus Web Application Deployment" width="600">
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, los integrantes del equipo participaron en la implementación del frontend, dividiendo el trabajo según los *bounded contexts* de la aplicación. La coordinación se realizó mediante mensajería instantánea y reuniones virtuales, y los cambios se integraron a través de ramas de funcionalidad, Pull Requests y revisiones de código entre compañeros. La adopción temprana de CI/CD permitió detectar errores de compilación de forma inmediata. La participación de cada integrante se evidencia en los reportes de actividad del repositorio.
+
+<img src="images/chapter05/sprint2-insight.jpg" alt="Motus Web Application Team Collaboration" width="600">
+
 ---
 
 ### Conclusiones
