@@ -1979,6 +1979,226 @@ Durante el Sprint 2, los integrantes del equipo participaron en la implementaci�
 
 ---
 
+### 5.2.3. Sprint 3
+Durante la planificación de Sprint 3, Telemtrix estableció como objetivo implementar la capa backend real de Motus, reemplazando progresivamente los servicios simulados utilizados durante Sprint 2 por APIs REST desarrolladas con Spring Boot y persistencia mediante Spring Data JPA.
+
+### 5.2.3.1. Sprint Planning 3
+
+Durante la planificación de Sprint 3, Telemtrix estableció como objetivo implementar la capa backend real de Motus, reemplazando progresivamente los servicios simulados utilizados durante Sprint 2 por APIs REST desarrolladas con Spring Boot y persistencia mediante Spring Data JPA.
+
+Para ello, se retomaron 37 User Stories previamente abordadas desde el frontend. La inclusión de estas historias no representa una repetición del trabajo realizado durante Sprint 2, debido a que en la iteración anterior el alcance estuvo concentrado en la Web Application y en el consumo de información proporcionada mediante JSON Server.
+
+En Sprint 3, las mismas funcionalidades son implementadas desde la perspectiva del backend, incorporando endpoints REST, Commands y Queries, lógica de aplicación, repositorios y persistencia en base de datos.
+
+La implementación se organizó de acuerdo con los cinco Bounded Contexts principales de Motus, permitiendo distribuir las responsabilidades entre los integrantes del equipo y mantener correspondencia entre la arquitectura del frontend y la nueva capa de servicios.
+
+| Sprint Planning Background | |
+|---|---|
+| **Sprint #** | 3 |
+| **Date** | 01/11/2026 |
+| **Time** | 8 PM |
+| **Location** | Reunión virtual por Google Meet |
+| **Prepared By** | Telemtrix |
+| **Attendees** | Telemtrix Members |
+| **Sprint 3 Review Summary** | El Sprint se orientó a la construcción del backend de Motus. Se avanzó con la implementación de los servicios REST para los principales Bounded Contexts del producto, incorporando lógica de aplicación, persistencia y acceso a datos para reemplazar progresivamente el uso de JSON Server empleado durante Sprint 2. |
+| **Sprint 3 Retrospective Summary** | El desarrollo permitió trasladar las funcionalidades previamente validadas desde el frontend hacia una arquitectura backend organizada por Bounded Contexts. Durante la iteración se reforzó la importancia de mantener consistencia entre los contratos REST utilizados por la Web Application, las entidades del dominio, la estructura de persistencia y el modelo de datos. |
+| **Sprint 3 Goal** | Implementar los servicios backend reales de Motus para los principales Bounded Contexts de negocio, incorporando APIs REST, lógica de aplicación y persistencia de datos que permitan sustituir progresivamente los servicios simulados utilizados durante Sprint 2. |
+| **Sprint 3 Velocity** | 24 Story Points |
+| **Sum of Story Points** | **117 Story Points** |
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+Durante Sprint 3, las responsabilidades del equipo se organizaron considerando los cinco Bounded Contexts principales del backend de Motus. Cada integrante mantuvo responsabilidad principal sobre un contexto funcional, mientras que el equipo colaboró en actividades transversales relacionadas con arquitectura, persistencia, integración y documentación.
+
+La distribución permitió mantener correspondencia con los módulos desarrollados en la Web Application durante Sprint 2 y facilitar la implementación de los servicios backend requeridos por cada área funcional.
+
+**L:** Leader  
+**C:** Collaborator
+
+| Miembro del equipo | Código | Fleet Management | Inspection Management | Incident Management | Maintenance Management | Vehicle Operations | Project Report |
+|---|---|---:|---:|---:|---:|---:|---:|
+| Santiago Echevarria | SE | **L** | **L** | C | C | C | C |
+
+---
+
+### **5.2.1.3. Sprint Backlog 3**
+
+Sprint Backlog 3 reúne las User Stories seleccionadas para implementar el backend de los principales Bounded Contexts de Motus.
+
+Estas User Stories también estuvieron presentes durante Sprint 2; sin embargo, su alcance en aquella iteración estuvo orientado principalmente al desarrollo de la Web Application y a la validación funcional mediante JSON Server.
+
+Durante Sprint 3 las historias son retomadas para implementar la infraestructura backend real necesaria para soportar dichas funcionalidades. Las tareas consideran la implementación de endpoints REST, Commands, Queries, servicios de aplicación, repositorios y mecanismos de persistencia según las necesidades de cada funcionalidad.
+
+### Fleet Management
+
+| ID de User Story | Título | ID de tarea | Tarea | Descripción | Asignado | Estado |
+|---|---|---|---|---|---|---|
+| US01 | Registrar vehículo | T01 | Implementar API de registro de vehículo | Implementar el servicio backend necesario para registrar y persistir un vehículo dentro de una flota. | Santiago Echevarria | Completado |
+| US02 | Consultar vehículos de la flota | T02 | Implementar API de consulta de vehículos | Implementar el servicio backend para obtener los vehículos registrados de una flota. | Santiago Echevarria | Completado |
+
+### Inspection Management
+
+| ID de User Story | Título | ID de tarea | Tarea | Descripción | Asignado | Estado |
+|---|---|---|---|---|---|---|
+| US08 | Iniciar inspección preoperacional | T08 | Implementar API de inicio de inspección | Implementar el servicio backend para crear una inspección preoperacional asociada a un vehículo. | Santiago Echevarria | Completado |
+| US09 | Completar lista de verificación | T09 | Implementar persistencia de checklist | Implementar el registro backend de los resultados correspondientes a los elementos del checklist. | Santiago Echevarria | Completado |
+| US10 | Registrar observación de inspección | T10 | Implementar registro de observaciones | Implementar la persistencia de observaciones asociadas a resultados no conformes de una inspección. | Santiago Echevarria | Completado |
+| US12 | Finalizar inspección preoperacional | T11 | Implementar cierre de inspección | Implementar la lógica backend necesaria para finalizar una inspección y registrar su resultado. | Santiago Echevarria | En progreso |
+| US13 | Consultar historial de inspecciones | T12 | Implementar API de historial de inspecciones | Implementar la consulta backend de inspecciones registradas para un vehículo. | Santiago Echevarria | Completado |
+| US14 | Consultar detalle de inspección | T13 | Implementar API de detalle de inspección | Implementar la consulta backend de resultados, observaciones y datos asociados a una inspección. | Santiago Echevarria | En progreso |
+| US15 | Consultar inspecciones con observaciones | T14 | Implementar consulta de inspecciones con observaciones | Implementar la consulta backend de inspecciones que contienen resultados no conformes u observaciones. | Santiago Echevarria | En progreso |
+
+### Incident Management
+
+| ID de User Story | Título | ID de tarea | Tarea | Descripción | Asignado | Estado |
+|---|---|---|---|---|---|---|
+| US22 | Registrar resolución de incidencia | T14 | Implementar registro de resolución | Implementar la persistencia de la solución registrada al resolver una incidencia. | Santiago Echevarria | Completado |
+| US23 | Consultar historial de incidencias | T15 | Implementar historial de incidencias | Implementar la consulta backend de incidencias anteriores asociadas a un vehículo. | Santiago Echevarria | En progreso |
+
+### Maintenance Management
+
+| ID de User Story | Título | ID de tarea | Tarea | Descripción | Asignado | Estado |
+|---|---|---|---|---|---|---|
+| US27 | Identificar mantenimientos vencidos | T16 | Implementar consulta de mantenimientos vencidos | Implementar la lógica backend para identificar mantenimientos que superaron sus criterios programados. | Matthias Romero | En progreso |
+| US28 | Registrar mantenimiento realizado | T17 | Implementar registro de mantenimiento | Implementar el servicio backend para persistir un mantenimiento realizado sobre un vehículo. | Santiago Echevarria | Completado |
+| US29 | Registrar trabajos de mantenimiento | T18 | Implementar registro de trabajos | Implementar la persistencia de los trabajos realizados durante un mantenimiento. | Santiago Echevarria | En progreso |
+
+
+### Vehicle Operations Management
+
+| ID de User Story | Título | ID de tarea | Tarea | Descripción | Asignado | Estado |
+|---|---|---|---|---|---|---|
+| US35 | Consultar historial de kilometraje | T32 | Implementar historial de kilometraje | Implementar la consulta backend de los registros cronológicos de kilometraje de un vehículo. | Santiago Echevarria | En progreso |
+| US37 | Registrar abastecimiento de combustible | T33 | Implementar API de registro de combustible | Implementar el servicio backend para registrar un abastecimiento de combustible. | Santiago Echevarria | Completado |
+
+---
+
+### **5.2.3.4. Development Evidence for Sprint Review**
+
+Esta sección presenta las evidencias de desarrollo correspondientes a Sprint 3. Durante esta iteración, los cambios se concentraron principalmente en la construcción del backend de Motus y en la implementación de los servicios correspondientes a los cinco Bounded Contexts principales del producto.
+
+La solución backend fue organizada manteniendo separación de responsabilidades entre las capas Application, Domain, Infrastructure e Interfaces. Asimismo, se utilizaron Commands y Queries para representar las operaciones de escritura y lectura, servicios de aplicación para coordinar la lógica de los casos de uso, repositorios para abstraer el acceso a los datos y **Spring Data JPA / Hibernate** como mecanismo de persistencia.
+
+<p align="center">
+  <strong>Backend Repository:</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-backend">
+    https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-backend
+  </a>
+</p>
+
+<p align="center">
+  <strong>Project Report Repository:</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report">
+    https://github.com/upc-pre-202620-1asi0729-7769-Telemtrix/Telemtrix-1ASI0729-2620-7769-report
+  </a>
+</p>
+
+| Repository | Branch | User | Commit Id | Commit Message | 
+|---|---|---|---|---|
+| motus-backend | main | veniku08 | `cac391a` | feat: add Backend |
+
+
+<p align="center">
+  <img src="images/reporte/contribuitors.jpg" alt="Contribuitors" width="600">
+</p>
+
+---
+
+### **5.2.3.5. Execution Evidence for Sprint Review**
+
+Como evidencia de ejecución de Sprint 3 se presenta el backend de Motus.
+
+Durante esta iteración se implementaron servicios correspondientes a Fleet Management, Inspection Management, Incident Management, Maintenance Management y Vehicle Operations Management.
+
+<p align="center">
+  <img src="images/reporte/backend-evidence.jpg" alt="backend-evidence" width="600">
+</p>
+
+---
+
+### **5.2.3.6. Services Documentation Evidence for Sprint Review**
+
+Web Application
+→ HTTP Request
+→ REST Controller
+→ Command / Query
+→ Application Service
+→ Repository
+→ Spring Data JPA / Hibernate
+→ Database (MySQL / H2)
+
+BoundedContext
+├── Application
+├── Domain
+├── Infrastructure
+└── Interfaces
+
+---
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+---
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+Durante Sprint 3, los integrantes de TeamTrack trabajaron colaborativamente en la construcción del backend de Motus. Las actividades fueron distribuidas considerando los cinco Bounded Contexts principales del producto y la correspondencia existente con las funcionalidades desarrolladas previamente en la Web Application.
+
+## 5.3. Validation Interviews
+### 5.3.1. Diseño de Entrevistas
+Con el objetivo de validar la propuesta de solución de Motus, se elaboró una guía de entrevistas enfocada en los principales módulos de la Web Application. Las preguntas fueron diseñadas para identificar posibles problemas relacionados con comprensión de la información, consistencia visual, prevención de errores, eficiencia de uso, claridad de los estados del sistema y facilidad de aprendizaje.
+
+#### Sección 1: Acceso y navegación general
+Al ingresar a Motus, ¿te resulta sencillo identificar las principales opciones disponibles y comprender cómo navegar entre los diferentes módulos de la plataforma?
+Si utilizas Motus por primera vez, ¿los nombres de las secciones y opciones del menú te permiten comprender rápidamente para qué sirve cada funcionalidad?
+
+#### Sección 2: Fleet Management
+Al revisar la lista de vehículos de la flota, ¿consideras que la información mostrada, como placa, marca, modelo y estado operativo, permite identificar fácilmente cada vehículo?
+Al observar estados como Operacional, En Mantenimiento o Fuera de Servicio, ¿te resulta claro qué representa cada uno y cómo afecta la disponibilidad del vehículo?
+Si necesitas localizar rápidamente un vehículo específico, ¿consideras que la búsqueda por placa y los filtros por estado operativo son fáciles de utilizar?
+
+#### Sección 3: Inspection Management
+Al iniciar una inspección preoperacional, ¿te resulta claro qué vehículo estás inspeccionando y qué elementos debes revisar antes de finalizarla?
+Al registrar un elemento como conforme o no conforme, ¿consideras que el sistema comunica claramente el resultado seleccionado?
+Si encuentras una condición no conforme, ¿te resulta sencillo comprender dónde debes registrar una observación relacionada con el problema detectado?
+Antes de finalizar una inspección, ¿consideras que el sistema debería advertirte claramente si existen elementos que todavía no han sido revisados?
+
+#### Sección 4: Incident Management
+Al reportar una incidencia, ¿consideras claros los campos necesarios para describir el problema, como vehículo, tipo de problema, severidad y descripción?
+Al consultar una incidencia registrada, ¿te resulta sencillo identificar su estado actual y comprender si se encuentra reportada, en atención o resuelta?
+Cuando una incidencia cambia de estado, ¿consideras importante que el sistema muestre claramente que la actualización fue realizada correctamente?
+Al consultar el historial de incidencias de un vehículo, ¿la información presentada te permite comprender fácilmente qué problemas se presentaron anteriormente?
+
+#### Sección 5: Maintenance Management
+Al programar un mantenimiento, ¿te resulta clara la diferencia entre programarlo por una fecha objetivo y programarlo por kilometraje?
+Al consultar los mantenimientos próximos o vencidos, ¿consideras que la información mostrada permite identificar rápidamente qué vehículos requieren atención?
+Cuando se registra un mantenimiento realizado, ¿te parece clara la forma en que se presentan los trabajos efectuados, repuestos utilizados y costos asociados?
+Al revisar el historial de mantenimiento de un vehículo, ¿consideras que la información disponible es suficiente para comprender las intervenciones realizadas anteriormente?
+
+#### Sección 6: Vehicle Operations Management
+Al registrar el kilometraje diario de un vehículo, ¿consideras claro qué valor debe ingresarse y a qué vehículo corresponde el registro?
+Al registrar un abastecimiento de combustible, ¿los campos de fecha, litros, costo y kilometraje resultan fáciles de comprender y completar?
+Al consultar el historial de kilometraje o combustible, ¿consideras que la organización de los registros permite revisar fácilmente la evolución del vehículo?
+Al observar indicadores como gasto o rendimiento de combustible, ¿te resulta claro qué representan y cómo podrían ayudarte en la gestión de la flota?
+
+#### Sección 7: Experiencia general
+¿Existe alguna funcionalidad de Motus que te haya resultado difícil de encontrar o comprender durante la navegación?
+¿Consideras que Motus presenta suficiente información para que un jefe de flota pueda identificar rápidamente vehículos que requieren atención?
+¿Qué funcionalidad o aspecto de la plataforma mejorarías para facilitar su uso durante las actividades diarias de gestión de una flota?
+
+
+## 5.4. Video About-the-Product.
+
+<p align="center">
+  <a href="https://youtu.be/c4vz6s9-QoQ">
+    https://youtu.be/c4vz6s9-QoQ
+  </a>
+</p>
+
 # Conclusiones
 Telemtrix propone una solución enfocada en centralizar la gestión de vehículos, checklists, incidencias, mantenimientos preventivos, kilometraje y consumo de combustible, permitiendo que la información técnica de la flota se encuentre organizada, unificada y sea más fácil de consultar por parte de los encargados y choferes.
 
@@ -1987,6 +2207,9 @@ El desarrollo del Sprint 1 permitió definir la base funcional y visual del prod
 Asimismo, la definición de la arquitectura basada en bounded contexts y el modelo de datos relacional permitió establecer una base sólida para escalar el producto, facilitar el mantenimiento del código y asegurar el aislamiento multi-tenant entre las empresas clientes.
 
 En el Sprint 2 se desplegó la primera versión del Frontend Web Application y una nueva versión del Landing Page, enlazadas entre sí. Trabajar con un Mock API permitió avanzar en las interfaces sin depender del backend, y aplicar GitFlow, Conventional Commits y despliegue automatizado dio trazabilidad al trabajo del equipo.
+
+En Sprint 3, estas User Stories son retomadas con un alcance técnico diferente. El trabajo se concentra en implementar los servicios backend utilizando Spring Boot (Java 25) y Spring Data JPA, organizando la solución de acuerdo con los Bounded Contexts definidos para Motus: Fleet Management, Inspection Management, Incident Management, Maintenance Management y Vehicle Operations Management.
+
 
 
 # Bibliografía
